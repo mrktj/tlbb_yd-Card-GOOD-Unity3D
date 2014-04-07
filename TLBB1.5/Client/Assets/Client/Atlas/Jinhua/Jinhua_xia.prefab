@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Jinhua_xia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 1c0033be4a865c249af723274eb6fe38, type: 2}
+  sprites:
+  - name: jingjin_xiao_17
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 146
+      width: 27
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 146
+      width: 27
+      height: 47
+    rotated: 0
+    paddingLeft: 2.03703713
+    paddingRight: 1.88888884
+    paddingTop: .255319148
+    paddingBottom: 1.25531912
+  - name: jingjin_xiao_15
+    outer:
+      serializedVersion: 2
+      x: 380
+      y: 199
+      width: 29
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 380
+      y: 199
+      width: 29
+      height: 57
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: .105263159
+    paddingBottom: .964912295
+  - name: jingjin_xiao_19
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 42
+      width: 18
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 42
+      width: 18
+      height: 53
+    rotated: 0
+    paddingLeft: 3.33333325
+    paddingRight: 3.05555558
+    paddingTop: 0
+    paddingBottom: 1.22641504
+  - name: jingjin_xiao_16
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 198
+      width: 28
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 198
+      width: 28
+      height: 58
+    rotated: 0
+    paddingLeft: 1.89285719
+    paddingRight: 1.85714281
+    paddingTop: .0517241396
+    paddingBottom: .982758641
+  - name: jingjin_xiao_09
+    outer:
+      serializedVersion: 2
+      x: 246
+      y: 194
+      width: 133
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 246
+      y: 194
+      width: 133
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .354838699
+    paddingBottom: .54838711
+  - name: jingjin_xiao_13
+    outer:
+      serializedVersion: 2
+      x: 61
+      y: 5
+      width: 29
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 61
+      y: 5
+      width: 29
+      height: 63
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: .0634920672
+    paddingBottom: .809523821
+  - name: jingjin_xiao_02
+    outer:
+      serializedVersion: 2
+      x: 126
+      y: 2
+      width: 72
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 126
+      y: 2
+      width: 72
+      height: 68
+    rotated: 0
+    paddingLeft: .416666657
+    paddingRight: .430555552
+    paddingTop: .5
+    paddingBottom: .235294119
+  - name: jingjin_xiao_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 7
+      width: 60
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 7
+      width: 60
+      height: 61
+    rotated: 0
+    paddingLeft: .600000024
+    paddingRight: .616666675
+    paddingTop: .622950792
+    paddingBottom: .311475396
+  - name: jingjin_xiao_14
+    outer:
+      serializedVersion: 2
+      x: 469
+      y: 203
+      width: 29
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 469
+      y: 203
+      width: 29
+      height: 53
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: .226415098
+    paddingBottom: 1
+  - name: jingjin_xiao_07
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 164
+      width: 125
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 164
+      width: 125
+      height: 92
+    rotated: 0
+    paddingLeft: .0399999991
+    paddingRight: .0240000002
+    paddingTop: .239130437
+    paddingBottom: .0434782617
+  - name: jingjin_xiao_05
+    outer:
+      serializedVersion: 2
+      x: 126
+      y: 71
+      width: 111
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 126
+      y: 71
+      width: 111
+      height: 89
+    rotated: 0
+    paddingLeft: .0990990996
+    paddingRight: .0990990996
+    paddingTop: .292134821
+    paddingBottom: .0337078646
+  - name: jingjin_xiao_08
+    outer:
+      serializedVersion: 2
+      x: 126
+      y: 161
+      width: 119
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 126
+      y: 161
+      width: 119
+      height: 95
+    rotated: 0
+    paddingLeft: .0588235296
+    paddingRight: .0588235296
+    paddingTop: .221052632
+    paddingBottom: .0210526325
+  - name: jingjin_xiao_10
+    outer:
+      serializedVersion: 2
+      x: 439
+      y: 202
+      width: 29
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 439
+      y: 202
+      width: 29
+      height: 54
+    rotated: 0
+    paddingLeft: 1.79310346
+    paddingRight: 1.79310346
+    paddingTop: .296296299
+    paddingBottom: .888888896
+  - name: jingjin_xiao_03
+    outer:
+      serializedVersion: 2
+      x: 246
+      y: 33
+      width: 92
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 246
+      y: 33
+      width: 92
+      height: 79
+    rotated: 0
+    paddingLeft: .217391297
+    paddingRight: .228260875
+    paddingTop: .367088616
+    paddingBottom: .12658228
+  - name: jingjin_xiao_06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 69
+      width: 122
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 69
+      width: 122
+      height: 94
+    rotated: 0
+    paddingLeft: .0409836061
+    paddingRight: .0491803288
+    paddingTop: .255319148
+    paddingBottom: 0
+  - name: jingjin_xiao_04
+    outer:
+      serializedVersion: 2
+      x: 246
+      y: 113
+      width: 96
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 246
+      y: 113
+      width: 96
+      height: 80
+    rotated: 0
+    paddingLeft: .1875
+    paddingRight: .197916672
+    paddingTop: .362500012
+    paddingBottom: .112499997
+  - name: jingjin_xiao_12
+    outer:
+      serializedVersion: 2
+      x: 91
+      y: 6
+      width: 29
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 91
+      y: 6
+      width: 29
+      height: 62
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: .129032254
+    paddingBottom: .774193525
+  - name: jingjin_xiao_18
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 96
+      width: 25
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 96
+      width: 25
+      height: 49
+    rotated: 0
+    paddingLeft: 2.20000005
+    paddingRight: 2.11999989
+    paddingTop: .142857149
+    paddingBottom: 1.26530612
+  - name: jingjin_xiao_11
+    outer:
+      serializedVersion: 2
+      x: 199
+      y: 9
+      width: 29
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 199
+      y: 9
+      width: 29
+      height: 61
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: .163934425
+    paddingBottom: .770491779
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

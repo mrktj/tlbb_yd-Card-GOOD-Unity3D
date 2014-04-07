@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: BattleUICollection7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: wuliangshan-1
+    boundsData:
+    - {x: 0, y: 512, z: 0}
+    - {x: 768, y: 1024, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 512, z: 0}
+    - {x: 768, y: 1024, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -384, y: 0, z: 0}
+    - {x: 384, y: 0, z: 0}
+    - {x: -384, y: 1024, z: 0}
+    - {x: 384, y: 1024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .001465332, y: .538574696}
+    - {x: .001465332, y: .913573742}
+    - {x: .501464367, y: .538574696}
+    - {x: .501464367, y: .913573742}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b3794899575837429a16c6e7a175097, type: 2}
+    materialId: 0
+    sourceTextureGUID: 04dd49c320d05ad44b468872d6f31765
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: wuliangshan-3
+    boundsData:
+    - {x: 0, y: 85, z: 0}
+    - {x: 768, y: 170, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 85, z: 0}
+    - {x: 768, y: 170, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -384, y: 0, z: 0}
+    - {x: 384, y: 0, z: 0}
+    - {x: -384, y: 170, z: 0}
+    - {x: 384, y: 170, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .379395008, y: .001465332}
+    - {x: .379395008, y: .376464367}
+    - {x: .462401867, y: .001465332}
+    - {x: .462401867, y: .376464367}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b3794899575837429a16c6e7a175097, type: 2}
+    materialId: 0
+    sourceTextureGUID: b25ce6fadbd22e644af98c2610df36d0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: wuliangshan-2
+    boundsData:
+    - {x: 0, y: 547, z: 0}
+    - {x: 768, y: 1094, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 547, z: 0}
+    - {x: 768, y: 1094, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -384, y: 0, z: 0}
+    - {x: 384, y: 0, z: 0}
+    - {x: -384, y: 1094, z: 0}
+    - {x: 384, y: 1094, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .001465332, y: .001465332}
+    - {x: .376464367, y: .001465332}
+    - {x: .001465332, y: .535644054}
+    - {x: .376464367, y: .535644054}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b3794899575837429a16c6e7a175097, type: 2}
+    materialId: 0
+    sourceTextureGUID: b4853e80023e3b645947969dcc088349
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 5b3794899575837429a16c6e7a175097, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 9662cbd8f729c894dba6c71e4b02b1cd, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: afc6fcd796d93be47a2d01d599c2647e
+  spriteCollectionName: BattleUICollection7
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 636199254
+  dataGuid: dc3f28976a91e9a40aba35e6fc87f889
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

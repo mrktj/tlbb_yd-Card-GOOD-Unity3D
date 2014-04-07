@@ -1,0 +1,408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: bullet_bingdu_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: bullet_bingdu_04
+    boundsData:
+    - {x: 0, y: 553, z: 0}
+    - {x: 218, y: 754, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -109, y: 176, z: 0}
+    - {x: 109, y: 176, z: 0}
+    - {x: -109, y: 930, z: 0}
+    - {x: 109, y: 930, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .214842767, y: .00195410149}
+    - {x: .00195410149, y: .738280296}
+    - {x: .214842767, y: .738280296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: c9a66312ba9fb9245be8f6b3fa853b79
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_bingdu_05
+    boundsData:
+    - {x: -3.81469727e-06, y: 634, z: 0}
+    - {x: 220, y: 592, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -110, y: 338, z: 0}
+    - {x: 109.999992, y: 338, z: 0}
+    - {x: -110, y: 930, z: 0}
+    - {x: 109.999992, y: 930, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .742188454}
+    - {x: .00195410149, y: .957030296}
+    - {x: .580077171, y: .742188454}
+    - {x: .580077171, y: .957030296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: 929c6e2458bade645a3909245b3fad71
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_bingdu_01
+    boundsData:
+    - {x: 3.49999619, y: 76, z: 0}
+    - {x: 185, y: 152, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -89, y: 0, z: 0}
+    - {x: 95.9999924, y: 0, z: 0}
+    - {x: -89, y: 152, z: 0}
+    - {x: 95.9999924, y: 152, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .786133766, y: .00195410149}
+    - {x: .966795921, y: .00195410149}
+    - {x: .786133766, y: .150389642}
+    - {x: .966795921, y: .150389642}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: e9e6113406d994c459e0ff36847a30f4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_bingdu_09
+    boundsData:
+    - {x: .499998093, y: 465.5, z: 0}
+    - {x: .999996185, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 0, y: 465, z: 0}
+    - {x: .999996185, y: 465, z: 0}
+    - {x: 0, y: 466, z: 0}
+    - {x: .999996185, y: 466, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .960938454}
+    - {x: -.000977539108, y: .960938454}
+    - {x: .00195410149, y: .958006859}
+    - {x: -.000977539108, y: .958006859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: a486b015122f27d439e7cbb03ed167af
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_bingdu_08
+    boundsData:
+    - {x: 0, y: 782, z: 0}
+    - {x: 224, y: 270, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -112, y: 647, z: 0}
+    - {x: 112, y: 647, z: 0}
+    - {x: -112, y: 917, z: 0}
+    - {x: 112, y: 917, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .218750983, y: .455079108}
+    - {x: .437499017, y: .455079108}
+    - {x: .218750983, y: .718749046}
+    - {x: .437499017, y: .718749046}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: 06c4912506d9eeb4b945720542358e1e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_bingdu_02
+    boundsData:
+    - {x: 1, y: 239.5, z: 0}
+    - {x: 200, y: 361, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -99, y: 59, z: 0}
+    - {x: 101, y: 59, z: 0}
+    - {x: -99, y: 420, z: 0}
+    - {x: 101, y: 420, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .583985329, y: .778321266}
+    - {x: .583985329, y: .973631859}
+    - {x: .936522484, y: .778321266}
+    - {x: .936522484, y: .973631859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: 12c977c7a5b02364399a0f13ddbff81a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_bingdu_06
+    boundsData:
+    - {x: -.500003815, y: 700, z: 0}
+    - {x: 221, y: 460, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -111, y: 470, z: 0}
+    - {x: 109.999992, y: 470, z: 0}
+    - {x: -111, y: 930, z: 0}
+    - {x: 109.999992, y: 930, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .218750983, y: .00195410149}
+    - {x: .434569329, y: .00195410149}
+    - {x: .218750983, y: .451170892}
+    - {x: .434569329, y: .451170892}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: 908ac05b9725dd848ab0bc4b4c118a57
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_bingdu_07
+    boundsData:
+    - {x: 2.5, y: 748.5, z: 0}
+    - {x: 217, y: 349, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -106, y: 574, z: 0}
+    - {x: 111, y: 574, z: 0}
+    - {x: -106, y: 923, z: 0}
+    - {x: 111, y: 923, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .583985329, y: .562500954}
+    - {x: .583985329, y: .774413109}
+    - {x: .924803734, y: .562500954}
+    - {x: .924803734, y: .774413109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: 20f015dbda032fa48a166de03800ec69
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_bingdu_03
+    boundsData:
+    - {x: 2.5, y: 403, z: 0}
+    - {x: 203, y: 570, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 465, z: 0}
+    - {x: 224, y: 930, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -99, y: 118, z: 0}
+    - {x: 104, y: 118, z: 0}
+    - {x: -99, y: 688, z: 0}
+    - {x: 104, y: 688, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .583985329, y: .00195410149}
+    - {x: .782225609, y: .00195410149}
+    - {x: .583985329, y: .558592796}
+    - {x: .782225609, y: .558592796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+    materialId: 0
+    sourceTextureGUID: b9bbcffc273e6564cad1b73f0cc3e544
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: a3e26e15e719ab745879f388dd793595, type: 2}
+  textures:
+  - {fileID: 2800000, guid: c44f012f109ae2949a656fd041b359d5, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: f86437b2f631e3548a7bc77efedc9d86
+  spriteCollectionName: bullet_bingdu_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 625714010
+  dataGuid: 038e42ffa65e06443900644b66a66abd
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

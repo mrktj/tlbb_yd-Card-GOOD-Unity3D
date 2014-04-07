@@ -1,0 +1,381 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: BattleUI_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: a7c4d41f389585b42a0a7a3de35d9f25, type: 2}
+  sprites:
+  - name: Text_er
+    outer:
+      serializedVersion: 2
+      x: 232
+      y: 44
+      width: 139
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 232
+      y: 44
+      width: 139
+      height: 113
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ink
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 803
+      width: 474
+      height: 221
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 803
+      width: 474
+      height: 221
+    rotated: 0
+    paddingLeft: .00210970454
+    paddingRight: 0
+    paddingTop: .00452488707
+    paddingBottom: .00452488707
+  - name: ink01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 158
+      width: 352
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 158
+      width: 352
+      height: 158
+    rotated: 0
+    paddingLeft: .00568181835
+    paddingRight: .00284090918
+    paddingTop: .0379746817
+    paddingBottom: 0
+  - name: Text_zhong
+    outer:
+      serializedVersion: 2
+      x: 627
+      y: 387
+      width: 125
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 627
+      y: 387
+      width: 125
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_shibai
+    outer:
+      serializedVersion: 2
+      x: 656
+      y: 660
+      width: 220
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 656
+      y: 660
+      width: 220
+      height: 142
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .119718313
+  - name: Text_zhan_jz
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 662
+      width: 135
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 877
+      y: 662
+      width: 135
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_chang
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 60
+      width: 125
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 402
+      y: 60
+      width: 125
+      height: 122
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ink02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 659
+      width: 655
+      height: 143
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 659
+      width: 655
+      height: 143
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .111888111
+    paddingBottom: .0349650346
+  - name: Text_zhandou
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 183
+      width: 199
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 402
+      y: 183
+      width: 199
+      height: 110
+    rotated: 0
+    paddingLeft: .0452261306
+    paddingRight: .0603015088
+    paddingTop: .227272734
+    paddingBottom: .218181819
+  - name: shadow
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 231
+      height: 153
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 231
+      height: 153
+    rotated: 0
+    paddingLeft: .012987013
+    paddingRight: .0259740259
+    paddingTop: 0
+    paddingBottom: .0196078438
+  - name: Light_back
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 317
+      width: 401
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 317
+      width: 401
+      height: 188
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Light_front
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 294
+      width: 224
+      height: 211
+    inner:
+      serializedVersion: 2
+      x: 402
+      y: 294
+      width: 224
+      height: 211
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_di
+    outer:
+      serializedVersion: 2
+      x: 627
+      y: 255
+      width: 111
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 627
+      y: 255
+      width: 111
+      height: 131
+    rotated: 0
+    paddingLeft: .0360360369
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shadow01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 506
+      width: 519
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 506
+      width: 519
+      height: 152
+    rotated: 0
+    paddingLeft: .0269749518
+    paddingRight: 0
+    paddingTop: .118421055
+    paddingBottom: .125
+  - name: Text_yi
+    outer:
+      serializedVersion: 2
+      x: 753
+      y: 420
+      width: 145
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 753
+      y: 420
+      width: 145
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0470588244
+    paddingBottom: .0117647061
+  - name: Text_zui
+    outer:
+      serializedVersion: 2
+      x: 739
+      y: 266
+      width: 118
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 739
+      y: 266
+      width: 118
+      height: 120
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text01
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 833
+      width: 510
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 833
+      width: 510
+      height: 191
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00980392192
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text02
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 509
+      width: 419
+      height: 149
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 509
+      width: 419
+      height: 149
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0334128886
+    paddingTop: .0335570462
+    paddingBottom: .0134228189
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

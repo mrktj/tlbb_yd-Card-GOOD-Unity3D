@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@android:id/background" android:drawable="@drawable/denglu_gengxin_beijingkuang">
+	</item>
+	<item android:id="@android:id/progress" android:left="30dp" android:right="30dp" android:top="29dp" android:bottom="27dp">
+		<clip android:drawable="@drawable/denglu_gengxin_jindutiao" />
+	</item>
+</layer-list>

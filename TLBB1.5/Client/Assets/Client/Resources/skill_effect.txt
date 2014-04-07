@@ -1,0 +1,4 @@
+10000	0	melee_hit	SkillEffect	None	None	-1	melee_behit	SkillEffect	None
+10001	0	melee_hit	SkillEffect	None	None	-1	range_behit	SkillEffect	None
+10002	1	None	None	range_hit	SkillEffect	1000	range_behit	SkillEffect	None
+10003	2	None	None	range_hit	SkillEffect	1000	melee_behit	SkillEffect	None

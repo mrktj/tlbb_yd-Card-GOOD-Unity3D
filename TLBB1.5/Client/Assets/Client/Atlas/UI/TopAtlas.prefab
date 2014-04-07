@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: TopAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 355318bac06854c4ab5f7820fc9e9f5b, type: 2}
+  sprites:
+  - name: zhongjiantubiao
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 185
+      width: 242
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 185
+      width: 242
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GGLCard-Bg
+    outer:
+      serializedVersion: 2
+      x: 559
+      y: 927
+      width: 98
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 559
+      y: 927
+      width: 98
+      height: 97
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kapai_xiao_hui
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 928
+      width: 93
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 928
+      width: 93
+      height: 96
+    rotated: 0
+    paddingLeft: .0537634417
+    paddingRight: 0
+    paddingTop: .010416667
+    paddingBottom: 0
+  - name: kapai_waikuang_xiao_hui
+    outer:
+      serializedVersion: 2
+      x: 752
+      y: 935
+      width: 90
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 752
+      y: 935
+      width: 90
+      height: 89
+    rotated: 0
+    paddingLeft: .0444444455
+    paddingRight: .0444444455
+    paddingTop: .0449438207
+    paddingBottom: .0449438207
+  - name: numBottom
+    outer:
+      serializedVersion: 2
+      x: 669
+      y: 879
+      width: 95
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 669
+      y: 879
+      width: 95
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: QxzbFirst
+    outer:
+      serializedVersion: 2
+      x: 843
+      y: 981
+      width: 123
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 843
+      y: 981
+      width: 123
+      height: 43
+    rotated: 0
+    paddingLeft: .024390243
+    paddingRight: .008130081
+    paddingTop: 0
+    paddingBottom: .0697674453
+  - name: QxzbThird
+    outer:
+      serializedVersion: 2
+      x: 843
+      y: 909
+      width: 99
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 843
+      y: 909
+      width: 99
+      height: 35
+    rotated: 0
+    paddingLeft: .0202020202
+    paddingRight: .0101010101
+    paddingTop: 0
+    paddingBottom: .0571428575
+  - name: QxzbSecond
+    outer:
+      serializedVersion: 2
+      x: 843
+      y: 945
+      width: 99
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 843
+      y: 945
+      width: 99
+      height: 35
+    rotated: 0
+    paddingLeft: .0202020202
+    paddingRight: .0101010101
+    paddingTop: 0
+    paddingBottom: .0571428575
+  - name: Rank
+    outer:
+      serializedVersion: 2
+      x: 669
+      y: 801
+      width: 26
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 669
+      y: 801
+      width: 26
+      height: 77
+    rotated: 0
+    paddingLeft: .0384615399
+    paddingRight: .0384615399
+    paddingTop: 0
+    paddingBottom: .0649350658
+  - name: firstTitle_lan
+    outer:
+      serializedVersion: 2
+      x: 943
+      y: 925
+      width: 54
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 943
+      y: 925
+      width: 54
+      height: 55
+    rotated: 0
+    paddingLeft: .055555556
+    paddingRight: .148148149
+    paddingTop: .0181818176
+    paddingBottom: .0363636352
+  - name: firstTitle_cheng
+    outer:
+      serializedVersion: 2
+      x: 559
+      y: 852
+      width: 54
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 559
+      y: 852
+      width: 54
+      height: 55
+    rotated: 0
+    paddingLeft: .055555556
+    paddingRight: .148148149
+    paddingTop: .0181818176
+    paddingBottom: .0363636352
+  - name: firstTitle_hong
+    outer:
+      serializedVersion: 2
+      x: 559
+      y: 796
+      width: 54
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 559
+      y: 796
+      width: 54
+      height: 55
+    rotated: 0
+    paddingLeft: .055555556
+    paddingRight: .148148149
+    paddingTop: .0181818176
+    paddingBottom: .0363636352
+  - name: firstTitle_zi
+    outer:
+      serializedVersion: 2
+      x: 614
+      y: 852
+      width: 54
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 614
+      y: 852
+      width: 54
+      height: 55
+    rotated: 0
+    paddingLeft: .055555556
+    paddingRight: .148148149
+    paddingTop: .0181818176
+    paddingBottom: .0363636352
+  - name: firstTitle_jin
+    outer:
+      serializedVersion: 2
+      x: 614
+      y: 796
+      width: 54
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 614
+      y: 796
+      width: 54
+      height: 55
+    rotated: 0
+    paddingLeft: .055555556
+    paddingRight: .148148149
+    paddingTop: .0181818176
+    paddingBottom: .0363636352
+  - name: rankBoard_huang
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 908
+      width: 558
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 908
+      width: 558
+      height: 116
+    rotated: 0
+    paddingLeft: .0179211479
+    paddingRight: .0340501778
+    paddingTop: .120689653
+    paddingBottom: .12931034
+  - name: rankBoard_cheng
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 791
+      width: 558
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 791
+      width: 558
+      height: 116
+    rotated: 0
+    paddingLeft: .0179211479
+    paddingRight: .0340501778
+    paddingTop: .120689653
+    paddingBottom: .12931034
+  - name: rankBoard_hong
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 674
+      width: 558
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 674
+      width: 558
+      height: 116
+    rotated: 0
+    paddingLeft: .0179211479
+    paddingRight: .0340501778
+    paddingTop: .120689653
+    paddingBottom: .12931034
+  - name: rankBoard_zi
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 557
+      width: 558
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 557
+      width: 558
+      height: 116
+    rotated: 0
+    paddingLeft: .0179211479
+    paddingRight: .0340501778
+    paddingTop: .120689653
+    paddingBottom: .12931034
+  - name: rankBoard_lan
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 440
+      width: 558
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 440
+      width: 558
+      height: 116
+    rotated: 0
+    paddingLeft: .0179211479
+    paddingRight: .0340501778
+    paddingTop: .120689653
+    paddingBottom: .12931034
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

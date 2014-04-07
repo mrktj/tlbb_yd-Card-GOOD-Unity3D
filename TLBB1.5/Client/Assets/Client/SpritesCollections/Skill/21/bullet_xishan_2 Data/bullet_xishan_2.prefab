@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: bullet_xishan_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: bullet_xishan_08
+    boundsData:
+    - {x: -.5, y: 4, z: 0}
+    - {x: 147, y: 154, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 164, y: 163, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -74, y: -73, z: 0}
+    - {x: 73, y: -73, z: 0}
+    - {x: -74, y: 81, z: 0}
+    - {x: 73, y: 81, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .396486342, y: .00390820298}
+    - {x: .683591783, y: .00390820298}
+    - {x: .396486342, y: .304685533}
+    - {x: .683591783, y: .304685533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 14fa59b1c2c5f484e959f03d28190b22, type: 2}
+    materialId: 0
+    sourceTextureGUID: 59f47f1385dff844ca59dead17f4462d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_xishan_07
+    boundsData:
+    - {x: -.5, y: 4, z: 0}
+    - {x: 191, y: 200, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 210, y: 209, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -96, y: -96, z: 0}
+    - {x: 95, y: -96, z: 0}
+    - {x: -96, y: 104, z: 0}
+    - {x: 95, y: 104, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .390626967, y: .408205092}
+    - {x: .763669908, y: .408205092}
+    - {x: .390626967, y: .798826158}
+    - {x: .763669908, y: .798826158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 14fa59b1c2c5f484e959f03d28190b22, type: 2}
+    materialId: 0
+    sourceTextureGUID: ef97f72400e2df74d9fe3ce883504b80
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_xishan_05
+    boundsData:
+    - {x: -.500003815, y: 2.5, z: 0}
+    - {x: 197, y: 203, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 210, y: 209, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -99, y: -99, z: 0}
+    - {x: 97.9999924, y: -99, z: 0}
+    - {x: -99, y: 104, z: 0}
+    - {x: 97.9999924, y: 104, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .388669908, y: .00390820298}
+    - {x: .00390820298, y: .400388658}
+    - {x: .388669908, y: .400388658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 14fa59b1c2c5f484e959f03d28190b22, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4a608985d737ff346900a74edd961d14
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_xishan_06
+    boundsData:
+    - {x: 0, y: 3.5, z: 0}
+    - {x: 194, y: 201, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 210, y: 209, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -97, z: 0}
+    - {x: 97, y: -97, z: 0}
+    - {x: -97, y: 104, z: 0}
+    - {x: 97, y: 104, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .408205092}
+    - {x: .382810533, y: .408205092}
+    - {x: .00390820298, y: .800779283}
+    - {x: .382810533, y: .800779283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 14fa59b1c2c5f484e959f03d28190b22, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2136682aed7c1a94e8df0eb5c9c5ba1c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 14fa59b1c2c5f484e959f03d28190b22, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 450c61640f6487b49a7d324d2a9c7621, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: bad2fb1589d991b4ca28b93cbaf9c20d
+  spriteCollectionName: bullet_xishan_2
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1731543673
+  dataGuid: 398bac62a5b70af4eac1b38fdafa93c9
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

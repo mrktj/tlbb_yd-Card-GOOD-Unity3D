@@ -1,0 +1,6 @@
+17	3	shangpu_bg4
+16	3	shangpu_bg4
+3	3	shangpu_bg3
+-1	2	shangpu_bg2
+4	3	shangpu_bg3
+-2	1	shangpu_bg1

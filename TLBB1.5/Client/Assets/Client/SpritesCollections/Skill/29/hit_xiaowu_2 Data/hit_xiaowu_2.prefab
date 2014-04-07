@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_xiaowu_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_xiaowu_09
+    boundsData:
+    - {x: 5.5, y: 10, z: 0}
+    - {x: 173, y: 246, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 184, y: 272, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -81, y: -113, z: 0}
+    - {x: 92, y: -113, z: 0}
+    - {x: -81, y: 133, z: 0}
+    - {x: 92, y: 133, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .353517592, y: .00390820298}
+    - {x: .691404283, y: .00390820298}
+    - {x: .353517592, y: .484373033}
+    - {x: .691404283, y: .484373033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f753a5451b53c004995dc257a396e524, type: 2}
+    materialId: 0
+    sourceTextureGUID: 599dfd009e5ab05408106ea0367941da
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_xiaowu_06
+    boundsData:
+    - {x: 6.49999619, y: 14, z: 0}
+    - {x: 165, y: 240, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 184, y: 272, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -76, y: -106, z: 0}
+    - {x: 88.9999924, y: -106, z: 0}
+    - {x: -76, y: 134, z: 0}
+    - {x: 88.9999924, y: 134, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .509767592, y: .492189467}
+    - {x: .509767592, y: .814451158}
+    - {x: .978513658, y: .492189467}
+    - {x: .978513658, y: .814451158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f753a5451b53c004995dc257a396e524, type: 2}
+    materialId: 0
+    sourceTextureGUID: f82a2ae1f1341394b8602d5e786f6fed
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_xiaowu_10
+    boundsData:
+    - {x: .500002623, y: .500000477, z: 0}
+    - {x: 1.00000525, y: 1.00000095, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 184, y: 272, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.00000525, y: 0, z: 0}
+    - {x: 0, y: 1.00000095, z: 0}
+    - {x: 1.00000525, y: 1.00000095, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .900392592}
+    - {x: -.00195507822, y: .900392592}
+    - {x: .00390820298, y: .894529283}
+    - {x: -.00195507822, y: .894529283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f753a5451b53c004995dc257a396e524, type: 2}
+    materialId: 0
+    sourceTextureGUID: 84c3e3f1b71362b43b717df8a1495e83
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_xiaowu_11
+    boundsData:
+    - {x: .500002623, y: .500000477, z: 0}
+    - {x: 1.00000525, y: 1.00000095, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 184, y: 272, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.00000525, y: 0, z: 0}
+    - {x: 0, y: 1.00000095, z: 0}
+    - {x: 1.00000525, y: 1.00000095, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .902345717}
+    - {x: -.00195507822, y: .902345717}
+    - {x: .00390820298, y: .896482408}
+    - {x: -.00195507822, y: .896482408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f753a5451b53c004995dc257a396e524, type: 2}
+    materialId: 0
+    sourceTextureGUID: 21fdd6124c74793448a4abb8c7f0dac8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_xiaowu_07
+    boundsData:
+    - {x: 1.49999619, y: 0, z: 0}
+    - {x: 175, y: 272, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 184, y: 272, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -86, y: -136, z: 0}
+    - {x: 88.9999924, y: -136, z: 0}
+    - {x: -86, y: 136, z: 0}
+    - {x: 88.9999924, y: 136, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .345701158, y: .00390820298}
+    - {x: .00390820298, y: .535154283}
+    - {x: .345701158, y: .535154283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f753a5451b53c004995dc257a396e524, type: 2}
+    materialId: 0
+    sourceTextureGUID: ef07ecac2132b8a43b3f62eb86a575a3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_xiaowu_08
+    boundsData:
+    - {x: -2.50000381, y: 2.5, z: 0}
+    - {x: 179, y: 255, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 184, y: 272, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -92, y: -125, z: 0}
+    - {x: 86.9999924, y: -125, z: 0}
+    - {x: -92, y: 130, z: 0}
+    - {x: 86.9999924, y: 130, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .542970717}
+    - {x: .00390820298, y: .892576158}
+    - {x: .501951158, y: .542970717}
+    - {x: .501951158, y: .892576158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f753a5451b53c004995dc257a396e524, type: 2}
+    materialId: 0
+    sourceTextureGUID: 00dc286ea1451704ca8f4f2fd1598269
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: f753a5451b53c004995dc257a396e524, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 048c24f19d7cb0f4b93d44fb39c4927a, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: aa17367a8c8530d41876a9eb413ff47c
+  spriteCollectionName: hit_xiaowu_2
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 326905357
+  dataGuid: 531d2a49d51a7eb48b65a00931b77e69
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

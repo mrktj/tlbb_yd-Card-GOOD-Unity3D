@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: behit_mifeng_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: behit_mifeng_12
+    boundsData:
+    - {x: 11.9999962, y: 6, z: 0}
+    - {x: 176, y: 154, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 204, y: 170, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -76, y: -71, z: 0}
+    - {x: 99.9999924, y: -71, z: 0}
+    - {x: -76, y: 83, z: 0}
+    - {x: 99.9999924, y: 83, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .322267592}
+    - {x: .347654283, y: .322267592}
+    - {x: .00390820298, y: .623044908}
+    - {x: .347654283, y: .623044908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1cb89d95aaacd94479447fc2c831eda1, type: 2}
+    materialId: 0
+    sourceTextureGUID: f16fc77068e3ed54facec3efd8a2d393
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_mifeng_11
+    boundsData:
+    - {x: 7.5, y: 5.5, z: 0}
+    - {x: 189, y: 159, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 204, y: 170, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -87, y: -74, z: 0}
+    - {x: 102, y: -74, z: 0}
+    - {x: -87, y: 85, z: 0}
+    - {x: 102, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .373044908, y: .00390820298}
+    - {x: .00390820298, y: .314451158}
+    - {x: .373044908, y: .314451158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1cb89d95aaacd94479447fc2c831eda1, type: 2}
+    materialId: 0
+    sourceTextureGUID: 47084a32f9c38a4439d1e0a8b4c7a17e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_mifeng_10
+    boundsData:
+    - {x: 4, y: 6.49999619, z: 0}
+    - {x: 190, y: 155, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 204, y: 170, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -91, y: -71, z: 0}
+    - {x: 99, y: -71, z: 0}
+    - {x: -91, y: 83.9999924, z: 0}
+    - {x: 99, y: 83.9999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .380861342, y: .00390820298}
+    - {x: .751951158, y: .00390820298}
+    - {x: .380861342, y: .306638658}
+    - {x: .751951158, y: .306638658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1cb89d95aaacd94479447fc2c831eda1, type: 2}
+    materialId: 0
+    sourceTextureGUID: 213e9be48eb025049bd9775869ab3ce6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_mifeng_15
+    boundsData:
+    - {x: 17.5000019, y: -18.5, z: 0}
+    - {x: 107, y: 85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 204, y: 170, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -35.9999962, y: -61, z: 0}
+    - {x: 71, y: -61, z: 0}
+    - {x: -35.9999962, y: 23.9999981, z: 0}
+    - {x: 71, y: 23.9999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .759767592, y: .302736342}
+    - {x: .968748033, y: .302736342}
+    - {x: .759767592, y: .468748033}
+    - {x: .968748033, y: .468748033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1cb89d95aaacd94479447fc2c831eda1, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1100a1c76280e4d4ea67f9343a897433
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_mifeng_13
+    boundsData:
+    - {x: 10.5, y: .499996185, z: 0}
+    - {x: 159, y: 143, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 204, y: 170, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -69, y: -71, z: 0}
+    - {x: 90, y: -71, z: 0}
+    - {x: -69, y: 71.9999924, z: 0}
+    - {x: 90, y: 71.9999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .355470717, y: .617189467}
+    - {x: .355470717, y: .927732408}
+    - {x: .634763658, y: .617189467}
+    - {x: .634763658, y: .927732408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1cb89d95aaacd94479447fc2c831eda1, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0f42a6582a898524397ce5fe605fdddf
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_mifeng_09
+    boundsData:
+    - {x: 2.99999619, y: 4.49999619, z: 0}
+    - {x: 186, y: 151, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 204, y: 170, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -90, y: -71, z: 0}
+    - {x: 95.9999924, y: -71, z: 0}
+    - {x: -90, y: 79.9999924, z: 0}
+    - {x: 95.9999924, y: 79.9999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .380861342, y: .314455092}
+    - {x: .744138658, y: .314455092}
+    - {x: .380861342, y: .609373033}
+    - {x: .744138658, y: .609373033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1cb89d95aaacd94479447fc2c831eda1, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8a437e2a361cf2148bbb1e3eb26a034a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_mifeng_14
+    boundsData:
+    - {x: 13.4999962, y: -19.4999981, z: 0}
+    - {x: 149, y: 109, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 204, y: 170, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -61, y: -74, z: 0}
+    - {x: 87.9999924, y: -74, z: 0}
+    - {x: -61, y: 35.0000038, z: 0}
+    - {x: 87.9999924, y: 35.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .759767592, y: .00390820298}
+    - {x: .759767592, y: .294919908}
+    - {x: .972654283, y: .00390820298}
+    - {x: .972654283, y: .294919908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1cb89d95aaacd94479447fc2c831eda1, type: 2}
+    materialId: 0
+    sourceTextureGUID: d7d650feb336616458bbe97b89f13866
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 1cb89d95aaacd94479447fc2c831eda1, type: 2}
+  textures:
+  - {fileID: 2800000, guid: ccf14e6e07d97c14bab9f5837c2727e3, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: aecf40e584d71174ea1c3396c6583fa4
+  spriteCollectionName: behit_mifeng_2
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 886833214
+  dataGuid: f34d497d7b8c7204e844faa750aafc6a
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

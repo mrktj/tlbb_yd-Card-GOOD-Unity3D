@@ -1,0 +1,519 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: behit_waigong_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: behit_waigong04
+    boundsData:
+    - {x: 3.99999237, y: -.499996185, z: 0}
+    - {x: 412, y: 169, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -202, y: -85, z: 0}
+    - {x: 209.999985, y: -85, z: 0}
+    - {x: -202, y: 84.0000076, z: 0}
+    - {x: 209.999985, y: 84.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .239258796, y: .253907233}
+    - {x: .239258796, y: .656249046}
+    - {x: .404295892, y: .253907233}
+    - {x: .404295892, y: .656249046}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1b200ac0e5e80834ab58ec270a18f2e9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong05
+    boundsData:
+    - {x: 3, y: 0, z: 0}
+    - {x: 316, y: 184, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -155, y: -92, z: 0}
+    - {x: 161, y: -92, z: 0}
+    - {x: -155, y: 92, z: 0}
+    - {x: 161, y: 92, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .408204108, y: .598633766}
+    - {x: .716795921, y: .598633766}
+    - {x: .408204108, y: .778319359}
+    - {x: .716795921, y: .778319359}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4e2f63a25c8dbc24ba9b0af810bbfd3f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong03
+    boundsData:
+    - {x: 1.49998474, y: -.5, z: 0}
+    - {x: 589, y: 239, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -293, y: -120, z: 0}
+    - {x: 295.999969, y: -120, z: 0}
+    - {x: -293, y: 119, z: 0}
+    - {x: 295.999969, y: 119, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .253907233}
+    - {x: .00195410149, y: .829100609}
+    - {x: .235350579, y: .253907233}
+    - {x: .235350579, y: .829100609}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0c7d8f64de2bff045a52f647cac40464
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong02
+    boundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -311, y: -127, z: 0}
+    - {x: 312, y: -127, z: 0}
+    - {x: -311, y: 127, z: 0}
+    - {x: 312, y: 127, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .610350609, y: .00195410149}
+    - {x: .00195410149, y: .249999017}
+    - {x: .610350609, y: .249999017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 75e4630a14851144e987aac3e8001183
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong01
+    boundsData:
+    - {x: 3.5, y: -1, z: 0}
+    - {x: 607, y: 248, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -300, y: -125, z: 0}
+    - {x: 307, y: -125, z: 0}
+    - {x: -300, y: 123, z: 0}
+    - {x: 307, y: 123, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .614258766, y: .00195410149}
+    - {x: .614258766, y: .594725609}
+    - {x: .856444359, y: .00195410149}
+    - {x: .856444359, y: .594725609}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 21bc174d244786f4e802efdda059a454
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong06
+    boundsData:
+    - {x: 3, y: -2, z: 0}
+    - {x: 282, y: 196, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -138, y: -100, z: 0}
+    - {x: 144, y: -100, z: 0}
+    - {x: -138, y: 96, z: 0}
+    - {x: 144, y: 96, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .408204108, y: .253907233}
+    - {x: .408204108, y: .529295921}
+    - {x: .599608421, y: .253907233}
+    - {x: .599608421, y: .529295921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8fcd0877e740d3f46ae054ba2bf1e271
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong09
+    boundsData:
+    - {x: 2.99999619, y: -.999999046, z: 0}
+    - {x: 130, y: 52.0000076, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -62, y: -27.0000019, z: 0}
+    - {x: 67.9999924, y: -27.0000019, z: 0}
+    - {x: -62, y: 25.0000038, z: 0}
+    - {x: 67.9999924, y: 25.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .408204108, y: .533204079}
+    - {x: .535155296, y: .533204079}
+    - {x: .408204108, y: .583983421}
+    - {x: .535155296, y: .583983421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8531021037f1d5b4ebcfe20069c200d7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong07
+    boundsData:
+    - {x: 3, y: -2.00000381, z: 0}
+    - {x: 243.999985, y: 222, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -118.999992, y: -113, z: 0}
+    - {x: 124.999992, y: -113, z: 0}
+    - {x: -118.999992, y: 108.999992, z: 0}
+    - {x: 124.999992, y: 108.999992, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .720704079, y: .598633766}
+    - {x: .720704079, y: .836913109}
+    - {x: .937499046, y: .598633766}
+    - {x: .937499046, y: .836913109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: fb1b7311f281a9744b0229df787d0df9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong08
+    boundsData:
+    - {x: -1.5, y: -1, z: 0}
+    - {x: 216.999985, y: 244, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -109.999992, y: -123, z: 0}
+    - {x: 106.999992, y: -123, z: 0}
+    - {x: -109.999992, y: 121, z: 0}
+    - {x: 106.999992, y: 121, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .278321296, y: .782227516}
+    - {x: .278321296, y: .994139671}
+    - {x: .516600609, y: .782227516}
+    - {x: .516600609, y: .994139671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1bb41fb6a9fcbaf429d9a4e31e8b96c6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong12
+    boundsData:
+    - {x: 4.49999523, y: -8.50000286, z: 0}
+    - {x: 52.9999771, y: 35, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -21.9999924, y: -26.0000019, z: 0}
+    - {x: 30.9999828, y: -26.0000019, z: 0}
+    - {x: -21.9999924, y: 8.99999619, z: 0}
+    - {x: 30.9999828, y: 8.99999619, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .539063454, y: .533204079}
+    - {x: .590819359, y: .533204079}
+    - {x: .539063454, y: .567381859}
+    - {x: .590819359, y: .567381859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6ecf1117a40da9a49b4f05bda805b29e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong11
+    boundsData:
+    - {x: 4.00000763, y: -5.00000095, z: 0}
+    - {x: 74.0000076, y: 35.9999924, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32.9999962, y: -22.9999962, z: 0}
+    - {x: 41.0000114, y: -22.9999962, z: 0}
+    - {x: -32.9999962, y: 12.9999943, z: 0}
+    - {x: 41.0000114, y: 12.9999943, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .239258796, y: .769532204}
+    - {x: .239258796, y: .841795921}
+    - {x: .274413079, y: .769532204}
+    - {x: .274413079, y: .841795921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6278da28fefc94947ab4f0ac14b0593c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_waigong10
+    boundsData:
+    - {x: 4, y: -.999995232, z: 0}
+    - {x: 108.000008, y: 42, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 623, y: 254, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -50.0000038, y: -21.9999962, z: 0}
+    - {x: 58.0000038, y: -21.9999962, z: 0}
+    - {x: -50.0000038, y: 20.0000057, z: 0}
+    - {x: 58.0000038, y: 20.0000057, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .239258796, y: .660157204}
+    - {x: .239258796, y: .765624046}
+    - {x: .280272454, y: .660157204}
+    - {x: .280272454, y: .765624046}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4816dd5b30739be4db9721277e8381f2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: ed141c5c688e1e745b7aa8883c745d2a, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 83325940695dc7c4ca1adcde17f1af47, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 95e9d18e51c347d4ab15fa6965694c61
+  spriteCollectionName: behit_waigong_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1869641507
+  dataGuid: eb83b3c3d11e3c841970c1f2710868a0
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

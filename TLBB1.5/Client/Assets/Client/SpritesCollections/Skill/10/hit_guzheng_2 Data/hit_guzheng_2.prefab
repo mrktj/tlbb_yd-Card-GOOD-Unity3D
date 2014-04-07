@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_guzheng_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_guzheng08
+    boundsData:
+    - {x: -32.5, y: -19.5, z: 0}
+    - {x: 189, y: 197, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 268, y: 236, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -127, y: -118, z: 0}
+    - {x: 61.9999962, y: -118, z: 0}
+    - {x: -127, y: 79, z: 0}
+    - {x: 61.9999962, y: 79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .453126967, y: .400392592}
+    - {x: .453126967, y: .769529283}
+    - {x: .837888658, y: .400392592}
+    - {x: .837888658, y: .769529283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 65cfd62b6f6b13a4f88ca59d300e557e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2bcbad80187461f4abfabdb9d7215d82
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_guzheng09
+    boundsData:
+    - {x: -23.9999962, y: -15.5000038, z: 0}
+    - {x: 206, y: 199, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 268, y: 236, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -127, y: -115, z: 0}
+    - {x: 79.0000076, y: -115, z: 0}
+    - {x: -127, y: 83.9999924, z: 0}
+    - {x: 79.0000076, y: 83.9999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .453126967, y: .00390820298}
+    - {x: .855466783, y: .00390820298}
+    - {x: .453126967, y: .392576158}
+    - {x: .855466783, y: .392576158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 65cfd62b6f6b13a4f88ca59d300e557e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 55ecd5e09cf59064e871dc1509f94a22
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_guzheng07
+    boundsData:
+    - {x: -32.5, y: -20.9999962, z: 0}
+    - {x: 189, y: 188, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 268, y: 236, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -127, y: -115, z: 0}
+    - {x: 61.9999962, y: -115, z: 0}
+    - {x: -127, y: 73.0000076, z: 0}
+    - {x: 61.9999962, y: 73.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .410158217}
+    - {x: .373044908, y: .410158217}
+    - {x: .00390820298, y: .777341783}
+    - {x: .373044908, y: .777341783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 65cfd62b6f6b13a4f88ca59d300e557e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2e57c209cbfaa3441b04bc212b062049
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_guzheng10
+    boundsData:
+    - {x: -13.9999962, y: -16, z: 0}
+    - {x: 226, y: 204, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 268, y: 236, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -127, y: -118, z: 0}
+    - {x: 99.0000076, y: -118, z: 0}
+    - {x: -127, y: 86, z: 0}
+    - {x: 99.0000076, y: 86, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .445310533, y: .00390820298}
+    - {x: .00390820298, y: .402341783}
+    - {x: .445310533, y: .402341783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 65cfd62b6f6b13a4f88ca59d300e557e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 272982998aaf05d4da8b64c70d186e4a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 65cfd62b6f6b13a4f88ca59d300e557e, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 6997412ed725f9b4b9ca46a774f1bf0e, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 6a50a70b425746e4dbb2f9a88149fe7d
+  spriteCollectionName: hit_guzheng_2
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1824499584
+  dataGuid: 7ca252751beba2a4ea01d1834dc3b044
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hecheng_xiao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: 622557ac52579bc4a9943acd0c93663a, type: 2}
+  sprites:
+  - name: hecheng_xiao_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 415
+      width: 100
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 415
+      width: 100
+      height: 97
+    rotated: 0
+    paddingLeft: .0199999996
+    paddingRight: .00999999978
+    paddingTop: .0206185561
+    paddingBottom: .0927835032
+  - name: hecheng_xiao_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 311
+      width: 93
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 311
+      width: 93
+      height: 103
+    rotated: 0
+    paddingLeft: .0537634417
+    paddingRight: .0537634417
+    paddingTop: 0
+    paddingBottom: .0485436879
+  - name: hecheng_xiao_03
+    outer:
+      serializedVersion: 2
+      x: 188
+      y: 332
+      width: 85
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 188
+      y: 332
+      width: 85
+      height: 82
+    rotated: 0
+    paddingLeft: .0941176489
+    paddingRight: .117647059
+    paddingTop: .292682916
+    paddingBottom: .024390243
+  - name: hecheng_xiao_04
+    outer:
+      serializedVersion: 2
+      x: 360
+      y: 335
+      width: 77
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 360
+      y: 335
+      width: 77
+      height: 79
+    rotated: 0
+    paddingLeft: .155844152
+    paddingRight: .181818187
+    paddingTop: .278481007
+    paddingBottom: .0886075944
+  - name: hecheng_xiao_05
+    outer:
+      serializedVersion: 2
+      x: 182
+      y: 143
+      width: 78
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 182
+      y: 143
+      width: 78
+      height: 89
+    rotated: 0
+    paddingLeft: .102564104
+    paddingRight: .21794872
+    paddingTop: .21348314
+    paddingBottom: 0
+  - name: hecheng_xiao_06
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 238
+      width: 87
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 94
+      y: 238
+      width: 87
+      height: 88
+    rotated: 0
+    paddingLeft: .0804597735
+    paddingRight: .103448279
+    paddingTop: .159090906
+    paddingBottom: .0681818202
+  - name: hecheng_xiao_07
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 29
+      width: 93
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 29
+      width: 93
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .107526883
+    paddingTop: .126436785
+    paddingBottom: .114942528
+  - name: hecheng_xiao_08
+    outer:
+      serializedVersion: 2
+      x: 394
+      y: 423
+      width: 92
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 394
+      y: 423
+      width: 92
+      height: 89
+    rotated: 0
+    paddingLeft: .0543478243
+    paddingRight: .0652173907
+    paddingTop: .0561797768
+    paddingBottom: .157303378
+  - name: hecheng_xiao_09
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 55
+      width: 78
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 94
+      y: 55
+      width: 78
+      height: 93
+    rotated: 0
+    paddingLeft: .0897435918
+    paddingRight: .230769232
+    paddingTop: .0322580636
+    paddingBottom: .129032254
+  - name: hecheng_xiao_10
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 418
+      width: 95
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 418
+      width: 95
+      height: 94
+    rotated: 0
+    paddingLeft: .0842105299
+    paddingRight: 0
+    paddingTop: .0319148935
+    paddingBottom: .117021278
+  - name: hecheng_xiao_11
+    outer:
+      serializedVersion: 2
+      x: 101
+      y: 415
+      width: 100
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 101
+      y: 415
+      width: 100
+      height: 97
+    rotated: 0
+    paddingLeft: .00999999978
+    paddingRight: .0199999996
+    paddingTop: .0206185561
+    paddingBottom: .0927835032
+  - name: hecheng_xiao_12
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 207
+      width: 93
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 207
+      width: 93
+      height: 103
+    rotated: 0
+    paddingLeft: .0537634417
+    paddingRight: .0537634417
+    paddingTop: 0
+    paddingBottom: .0485436879
+  - name: hecheng_xiao_13
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 332
+      width: 85
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 332
+      width: 85
+      height: 82
+    rotated: 0
+    paddingLeft: .117647059
+    paddingRight: .0941176489
+    paddingTop: .292682916
+    paddingBottom: .024390243
+  - name: hecheng_xiao_14
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 247
+      width: 77
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 247
+      width: 77
+      height: 79
+    rotated: 0
+    paddingLeft: .181818187
+    paddingRight: .155844152
+    paddingTop: .278481007
+    paddingBottom: .0886075944
+  - name: hecheng_xiao_15
+    outer:
+      serializedVersion: 2
+      x: 182
+      y: 53
+      width: 78
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 182
+      y: 53
+      width: 78
+      height: 89
+    rotated: 0
+    paddingLeft: .21794872
+    paddingRight: .102564104
+    paddingTop: .21348314
+    paddingBottom: 0
+  - name: hecheng_xiao_16
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 149
+      width: 87
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 94
+      y: 149
+      width: 87
+      height: 88
+    rotated: 0
+    paddingLeft: .103448279
+    paddingRight: .0804597735
+    paddingTop: .159090906
+    paddingBottom: .0681818202
+  - name: hecheng_xiao_17
+    outer:
+      serializedVersion: 2
+      x: 94
+      y: 327
+      width: 93
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 94
+      y: 327
+      width: 93
+      height: 87
+    rotated: 0
+    paddingLeft: .107526883
+    paddingRight: 0
+    paddingTop: .126436785
+    paddingBottom: .114942528
+  - name: hecheng_xiao_18
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 117
+      width: 92
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 117
+      width: 92
+      height: 89
+    rotated: 0
+    paddingLeft: .0652173907
+    paddingRight: .0543478243
+    paddingTop: .0561797768
+    paddingBottom: .157303378
+  - name: hecheng_xiao_19
+    outer:
+      serializedVersion: 2
+      x: 182
+      y: 233
+      width: 78
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 182
+      y: 233
+      width: 78
+      height: 93
+    rotated: 0
+    paddingLeft: .230769232
+    paddingRight: .0897435918
+    paddingTop: .0322580636
+    paddingBottom: .129032254
+  - name: hecheng_xiao_20
+    outer:
+      serializedVersion: 2
+      x: 202
+      y: 418
+      width: 95
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 202
+      y: 418
+      width: 95
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0842105299
+    paddingTop: .0319148935
+    paddingBottom: .117021278
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

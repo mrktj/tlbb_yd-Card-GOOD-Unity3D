@@ -1,0 +1,158 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="NoTitle" parent="AppBaseTheme">             
+       <item name="android:windowNoTitle">true</item>     
+    </style> 
+    
+    <style name="myDialogTheme" parent="android:Theme.Dialog" >
+        <item name="android:windowFrame">@null</item>
+       <item name="android:windowNoTitle">true</item>                             
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@color/dk_transparent</item>
+    </style>
+    
+    <style name="tabbar_top_style" >
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">@drawable/dk_bg_ab</item>
+    </style>
+    
+    <!-- The style of payment buttons -->
+    <style name="payment_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">@dimen/text_size_12_sp</item>
+        <item name="android:background">@drawable/dk_payment_btn_card_big_selector</item>
+    </style>
+    
+    <!-- The style of  payment scrollViews-->
+    <style name="payment_scrollview_style">
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:scrollbarSize">4dp</item>
+        <item name="android:scrollbarThumbVertical">@drawable/dk_scrollbar</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/dk_scrollbar</item>
+    </style>
+    
+    <!-- The style of payment activity dialog background -->
+    <style name="Theme.TransparentBgDialog" parent="android:style/Theme.Dialog">
+    	<item name="android:windowBackground">@drawable/dk_payment_activity_dialog_bg</item>
+	</style>
+	<style name="DK.Theme.NoBackGround" parent="android:style/Theme.NoTitleBar.Fullscreen">
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowBackground">@color/dk_transparent</item>
+	</style>
+	
+	<!-- The style of custom dialog -->
+	 <style name="payment_dialog_style" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/dk_bg_dialog</item>
+    </style>
+	
+	<style name="DK.Theme.NoBackGround.NoAnimation" parent="DK.Theme.NoBackGround">
+	    <item name="android:windowAnimationStyle">@null</item>  
+	</style>
+	
+	<!-- add by wenzutong, style of user edittext -->
+	<style name="dk_style_user_edittext">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">40dp</item>
+	    <item name="android:background">@drawable/dk_edittext_selector</item>
+	    <item name="android:singleLine">true</item>
+	    <item name="android:textSize">14sp</item>
+	    <item name="android:textColorHint">@color/dk_color_999999</item>
+	    <item name="android:gravity">center_vertical</item>
+	</style>
+    <!-- end -->
+	
+	<color name="com_facebook_blue">#3B5998</color>
+    
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+
+    <dimen name="com_facebook_loginview_padding_left">12dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12dp</dimen>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+	<!--add by liujianmin for google obb downloader-->
+	
+	    <style name="NotificationText">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="NotificationTextShadow" parent="NotificationText">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:shadowColor">@android:color/background_dark</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="NotificationTitle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonBackground">
+        <item name="android:background">@android:color/background_dark</item>
+    </style>
+
+	<!--google obb downloader end-->
+</resources>

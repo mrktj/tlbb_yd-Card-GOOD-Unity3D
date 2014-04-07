@@ -1,0 +1,4064 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 3
+  spriteAnimationIndex:
+  - assetGUID: 3147b221430c3724d8531d54bdfdbbe9
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 108b61e0df469a54ba33c8ad98045719
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 0380e0979070beb4ba1ffa18993e385f
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: e218971d19f4a6347a47647f2c8ef11f
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 7a689ccb3d27fac4d9e4186a99dd6ac3
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 971528a1037e3f248af4d61cc72c709c
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 73b4dd69010b268409d13fa3564a619b
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: d7cf9c3bb0e27464eab115c8bc906feb
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 81e70402194697244abef513d2d58d70
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: ab7802f1db1af9247b3879951316ae13
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 61fcc8becef42d9438b4e7f8c1e3538a
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: cf6fb2b89787c274690c7df76a2b2088
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 6ee462d9173680b46aeec21788c42dc1
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 8e49f2be5351bda4b82920b6b922f4a2
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 52d16436d94d34845986abe9aebe617a
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: a5615f968c375e244bdd62f9520e7bd6
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: caefca1cabb49fb48927d848912d2bdf
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 9331795207ae82e4988c0845b6f4bb67
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: ec39e4febd5c9924cb1979425464f6cb
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 93849e7d5b2f09643bbd3e6dc6ac28c5
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: dbe132289f27a1948b4d7e56aedb08de
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 6ee4261e859ac0047af0d9ad0ad28e35
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 9ec2d25e15c5ddf4dbe8e95f65e434a6
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: b11f3bebbd81dba46a6a1a4171fe117d
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: fae6c4381545c044499c77e0d3f1c3e6
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: d35efb0eebe5bd64490dc5846a8f5f53
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: a276004f54a38e245b4a6ad3ee6a0df2
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: ea0e5bbbbf55acc429ae1a19c7c439df
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 5d9bbd210059e3841977ab134b47e0d6
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 6290a450ee8ab084fbf597bcf550b6f2
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: cb78bda4b2f3dd94ba9f687215d8818a
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 3f260e989654ea54baf08c8324bb5900
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: cd50fb5c1cedc384e909ef2dda76b78a
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 50e54404d524a0746bbe21387e291fe2
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 82046589f01abad43ab6c6dc75805aff
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 510111e831adf954291d92c83aac0761
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: fe9de7e7041302246a46ffd8fe181f21
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: dd11837bc2ff5cd48959dc71ad8d2615
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: bed5394f74b18c142bef0f199ee84689
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 4c8428e6d27c1ef41ba3b79213e5d2b8
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: e229e6bfc78bbcf41a6f6cbeffd07270
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 52df9f960e0249c43b94fdc53fc19161
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 9351260cafb54e14f85381d72b989e57
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: d53e3d2f22141c949ba695a081ca27b1
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 41b60a01c5c9b5f43bccf6d7ce2d4630
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: b5b1c580ac7252242bf06c9b57755eed
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 62b138c4e4181404c9446a51a4b1dc17
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: f6fe3723acc143b439e1a024c13a6340
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 76db80b85da252548aac9aac969898d6
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 447e0e2772742a842ac025f4455f18b0
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 783b93cc82677cf46b25bb4edc26b45d
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 3db63e76064e5fc4c8022475b482d302
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 844cbb8552383a2459e003dd26623927
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 78678e81820eea34b9d76660e1629bca
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 600380c2c3fd569458f1b2396c45e806
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 26b1caa2e00a0724ca8e7a0bcd6e73ed
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 8e8809efc1fc5a74aa7f88d97e273706
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 441ba31c8a79acb478b14edb10f624af
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 1f8bedacc2965c0478295355f7392124
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 4f8aee44fdb3e9848936d834f074b23f
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: e8baee55fe2855341bbeb32245f0d501
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 03e7bb8de0c41d140984449372bb3440
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 729a07489a8ee8c4788e0d5deac93dbe
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: b9512553446483b41abf1379b22073ba
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: aa98de6783dffee4d8800546e7e53153
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 5a2083469b9b13c48a8afc1d5c95139d
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 58bf94734fd92754dae7226c6f503722
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 5600338d6115eaf448833f971d4c14ca
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 6710b8993915300408d1662aff46c3c9
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: d244d68ddadcebd4a89705023050bb9c
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 85b113cd3e9325246a68343d15b9cd8f
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: ba97fc9b782055240a6b19496e70e830
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 6384fb956fd3e964e95bcdba02bfd68b
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: d1056a8cb4dd01d4a835692ac9a48ba9
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 05fde6fea2009eb4e96b2bb4ec1ddd4f
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 2cb37a75a5ab90941aaf29d251c1ac88
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: c33e14247e2c62e418c79a5e9357c932
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: b319130bdf1b5ed4193eabc72674a6d5
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 73880571020d3264888d0cf65a8ed843
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 5c96ed5b494ee5b4b88d7f30da24b3b6
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 45d972720248b184aab35a85df50b3b0
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  fontIndex:
+  - assetGUID: e6debf7964b69204db7d45f77d70cf08
+    dataGUID: 67c13ea888d1d5a458024515f232d6ed
+    managed: 0
+    loadable: 0
+  - assetGUID: ad410e0b4b43f894cbc247d79f791159
+    dataGUID: 4d8477c544912be4886af53defd3ba1e
+    managed: 0
+    loadable: 0
+  spriteCollectionIndex:
+  - name: BattleUICollection2
+    spriteCollectionGUID: d4339a53297f5b94887a83fb0abad0a2
+    spriteCollectionDataGUID: dae9e56a68673ff4299d88fcbc2da452
+    spriteNames:
+    - zhennanwangfu-2
+    - zhennanwangfu-3
+    - zhennanwangfu-1
+    - digong-2
+    - digong-1
+    - digong-3
+    spriteTextureGUIDs:
+    - b646f2b0912784741b2ec58b50faa7f4
+    - cd8fd3304da929f439da60c63a5688c1
+    - ed4faece6f347914f8e827ec7f8815a7
+    - 65d11f4b9c8b1b3488aa73baf0fa414c
+    - 9d95283a0e035424e9d8b2808bd997d8
+    - c3d302b3b9737ea468eb72b57a225c8f
+    spriteTextureTimeStamps:
+    - 1395257064.65697
+    - 1395257064.68497
+    - 1395257064.58696
+    - 1395257065.16502
+    - 1395257065.11601
+    - 1395257065.18902
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BattleUICollection3
+    spriteCollectionGUID: d4e7e7b5b9a39db4998a2d33ae54d812
+    spriteCollectionDataGUID: 4e8665de13154bb4a94e6cfd0caecd68
+    spriteNames:
+    - huanggong-1
+    - huanggong-2
+    - huanggong-3
+    - wangfu-2
+    - wangfu-1
+    - wangfu-3
+    spriteTextureGUIDs:
+    - 5609cec4e446a6641b0fb2050d9cf7cc
+    - f512f4810a01e6e4c9ad973cd4dc3dc2
+    - ccd5b3deabd12a44abb9cb8c3c0b0f11
+    - 4b982feff640f7645b96f3a43a5c0f2e
+    - 8fda99bb3f4c8fc45a7967580a04c9e0
+    - 9c085c342612ffb448d2e6ca6c621351
+    spriteTextureTimeStamps:
+    - 1395257065.40004
+    - 1395257065.90209
+    - 1395257066.0161
+    - 1395257066.64917
+    - 1395257066.34914
+    - 1395257066.69917
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BattleUICollection4
+    spriteCollectionGUID: 9462933d4699acb48bdfc8be5ea6146a
+    spriteCollectionDataGUID: 16806e91f660f4b45a292bbaba953b67
+    spriteNames:
+    - heye-1
+    - heye-3
+    - heye-2
+    - wanjiegu-3
+    - wanjiegu-2
+    - wanjiegu-1
+    spriteTextureGUIDs:
+    - 35c6ea61ecdb74441a7363e6934cff81
+    - 606eaef4ea34412489d06e1c08733b66
+    - 054626becd294684b98caa6c4b9c4171
+    - 0b2bcdcc0a708f449aebfa7a35629512
+    - 9ad714ce217e72b438cb263ceb3a5805
+    - af6fc28c6ea0a294b9e103bd8d798ca6
+    spriteTextureTimeStamps:
+    - 1395257067.17422
+    - 1395257067.76028
+    - 1395257067.47025
+    - 1395257068.92939
+    - 1395257068.84839
+    - 1395257068.33633
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BattleUICollection5
+    spriteCollectionGUID: 6cad9526368f6bf42a542b1c4c3795fb
+    spriteCollectionDataGUID: b70e0106bd7f7504ba4a05a1bff4702a
+    spriteNames:
+    - juxianzhuang-3
+    - juxianzhuang-1
+    - juxianzhuang-2
+    - siyuan-3
+    - siyuan-1
+    - siyuan-2
+    spriteTextureGUIDs:
+    - 111c861b8efc77f4e8e71af05e6803c7
+    - c8d9cbda02ee2ff48a1b0020a62c7371
+    - ff96472c07d51554986378fc3615396e
+    - fcaaa671dba177d4f85873e9c8cc9bf7
+    - 2a2d15b7613afcd41a22e0d108d3b767
+    - fe9e46ed69ab41144ba86218525e8713
+    spriteTextureTimeStamps:
+    - 1395257069.38044
+    - 1395257069.10141
+    - 1395257069.15842
+    - 1395257069.9785
+    - 1395257069.79648
+    - 1395257069.91649
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BattleUICollection6
+    spriteCollectionGUID: 89adf62fd76fa1a42be536c4a7ff6a18
+    spriteCollectionDataGUID: da5f741c53c7592428e566b635d34168
+    spriteNames:
+    - xueshan-1
+    - xueshan-2
+    - xueshan-3
+    - lingjiugong-3
+    - lingjiugong-1
+    - lingjiugong-2
+    spriteTextureGUIDs:
+    - a5786ee0cd06abb42a4f8cb18611ee01
+    - 15bc4473c81f3f743b2df58e1c34d16e
+    - 8d6de5b63afd24a4ca64ac50cf59753a
+    - 760d7c486799262469b372037e95e62d
+    - 88fce17b713c0c44e8e628fac26f96d5
+    - 4ca901ce19e0c9642816bb57ca3537bd
+    spriteTextureTimeStamps:
+    - 1395257070.35254
+    - 1395257070.38754
+    - 1395257070.44955
+    - 1395257070.90459
+    - 1395257070.80058
+    - 1395257070.86359
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BattleUICollection7
+    spriteCollectionGUID: afc6fcd796d93be47a2d01d599c2647e
+    spriteCollectionDataGUID: dc3f28976a91e9a40aba35e6fc87f889
+    spriteNames:
+    - wuliangshan-1
+    - wuliangshan-3
+    - wuliangshan-2
+    spriteTextureGUIDs:
+    - 04dd49c320d05ad44b468872d6f31765
+    - b25ce6fadbd22e644af98c2610df36d0
+    - b4853e80023e3b645947969dcc088349
+    spriteTextureTimeStamps:
+    - 1395257064.85799
+    - 1395257064.91299
+    - 1395257064.88799
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BattleUICollectionChonglou
+    spriteCollectionGUID: d907f411f94c0b74991ed2fde5440847
+    spriteCollectionDataGUID: 6868615075b8f3c4a82791b94b2dcc15
+    spriteNames:
+    - qianchonglou
+    spriteTextureGUIDs:
+    - 34750295e72972542ba6a030e5d8022a
+    spriteTextureTimeStamps:
+    - 1388003705.74435
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BattleUIEffect2
+    spriteCollectionGUID: a98fc8a48e10b5b4299da9984f3291be
+    spriteCollectionDataGUID: 52b3a548b77422f41ba48aa2bd86decb
+    spriteNames:
+    - fuhuo_07
+    - fuhuo_21
+    - fuhuo_03
+    - fuhuo_01
+    - fuhuo_09
+    - fuhuo_17
+    - fuhuo_15
+    - fuhuo_27
+    - fuhuo_25
+    - fuhuo_05
+    - fuhuo_19
+    - fuhuo_13
+    - fuhuo_11
+    - fuhuo_23
+    spriteTextureGUIDs:
+    - 0c98208a00a6fea44b73750bff1d152f
+    - 2b872e02dffb6a740b21ef509dfdfe6b
+    - 38fae31bdbfc88048bf6205dc97aefe5
+    - 3a668b1a2b45b8d4985984e039b08af4
+    - 5c891e59d3a2a85409b949d152494c43
+    - 67fd414c1579740499944ca21afcb0f5
+    - 7fc85e2be9c6a21488520d7685ab1dde
+    - 86bb1a05479916c4e9982938a2489778
+    - 8964f70a62fbd2246a4d2b44063ec9ba
+    - 96232c387ed976142a3e0260ece8e48b
+    - dcfd70b76da45a04fa20a301a237f7d6
+    - ed1abe97ae13f384f8758fdc01931451
+    - f54fbe25d0135df45b76fb0c86174813
+    - f9d18f7f31fda454ba7d3c4caedd5822
+    spriteTextureTimeStamps:
+    - 1395257138.08531
+    - 1395257139.38444
+    - 1395257139.30843
+    - 1395257139.18342
+    - 1395257138.28033
+    - 1395257138.24132
+    - 1395257139.91949
+    - 1395257138.34333
+    - 1395257138.18632
+    - 1395257139.74348
+    - 1395257138.39934
+    - 1395257139.63646
+    - 1395257139.26043
+    - 1395257139.85249
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: weituochu
+    spriteCollectionGUID: 9d63747841898194dac12c44e6154baa
+    spriteCollectionDataGUID: 6792eb98c198b7c4d98113c66fab3704
+    spriteNames:
+    - bullet_weituochu_01
+    - behit_weituochu_06
+    - behit_weituochu_03
+    - behit_weituochu_01
+    - behit_weituochu_02
+    - behit_weituochu_05
+    - behit_weituochu_04
+    - 
+    - 
+    - hit_weituochu_04
+    - hit_weituochu_08
+    - hit_weituochu_06
+    - 
+    - hit_weituochu_01
+    - hit_weituochu_10
+    - hit_weituochu_09
+    spriteTextureGUIDs:
+    - 9185f4c8a76bf8c4b9c407c5d1c4e780
+    - 448ed010acd53ef4a8afd59d6ed583db
+    - dd44854265cdf614aaf7847af6c832e6
+    - 9cf81d8720004674d850c4b3520e47d2
+    - e5128649f5db80e4788fbff673d8fe14
+    - e9c3b459286e2b0429c9c045a11d847b
+    - 33126d4ed2d41134f9d85389b7d76144
+    - 
+    - 
+    - 9de9f32653a599b4195c4f87346d0a23
+    - d42070b624faca34aa1a760aa0cdd3de
+    - 1f3b092b67e3ca644abc12244eea712f
+    - 
+    - 957c6bad44287384bae385d843fbeffe
+    - 999bebcdfdde5cf42884d5a74f74d644
+    - cbf8733f3ddc8104fadc2434f8d9aa91
+    spriteTextureTimeStamps:
+    - 1388052863.62247
+    - 1388052863.77237
+    - 1388052863.78236
+    - 1388052863.78236
+    - 1388052863.78236
+    - 1388052863.78236
+    - 1388052863.78236
+    - 0
+    - 0
+    - 1388052863.5725
+    - 1388052863.5725
+    - 1388052863.5725
+    - 0
+    - 1388052863.56251
+    - 1388052863.56251
+    - 1388052863.5725
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: tianchangdijiu
+    spriteCollectionGUID: 8e64b30f33286984ba6ae5bc0589e230
+    spriteCollectionDataGUID: b260a5d29fd1b0849ab371b18aff502f
+    spriteNames:
+    - tianchangdijiu02_0
+    - xishouguang_03
+    - xishouguang_05
+    - xishouguang_08
+    - xishouguang_07
+    - xishouguang_04
+    - xishouguang_01
+    - xishouguang_06
+    - tianchangdijiu02_08
+    - tianchangdijiu02_09
+    - tianchangdijiu02_06
+    - tianchangdijiu02_04
+    - tianchangdijiu02_02
+    - tianchangdijiu02_05
+    - tianchangdijiu02_01
+    - tianchangdijiu02_07
+    - tianchangdijiu02_03
+    - tianchangdijiu02_10
+    - xishouguang_02
+    spriteTextureGUIDs:
+    - 424c3dbf14df0f342bcff5be96bd5f2a
+    - 0a31f59125fb10946821bd0916e49320
+    - 45f0ce22d54b80d4da0d5f1b75fa0f4d
+    - 49644c997f92ae14895a5ddedebec228
+    - 6b399d087d37fb844b01ccc3e6573200
+    - 9157ea6405ebb174b8ee4fed7a651233
+    - 9cf591a00831c3a488f1e27733af805a
+    - f390e72fe7c0c064c8f9a5c55e2347db
+    - 2c66937eba11b4041a05dc5894c11ec4
+    - 3d81de54ab95271429896c712cdf0a4c
+    - 450db2ccab9dc254ea980a9cdf870b83
+    - 4ecc96c75d209db40aa0541cff43be6a
+    - 4ed7d67da34162849afe5271e2d86752
+    - 75e200693d87ff3489005c0dae5a4cbc
+    - 79920120f52e8dd45b83c515ed3d2bc1
+    - b5ef544c90704054f9d4565781c3fb82
+    - d4d689d2ba285f640829500f04cf86ba
+    - edebd6be62670394ea9879a97ad5253c
+    - 08d2d425bd8d92f4aa437b9593921688
+    spriteTextureTimeStamps:
+    - 1389195203.5472
+    - 1389195135.48139
+    - 1389195108.35668
+    - 1389195078.44769
+    - 1389195169.37278
+    - 1389195124.00124
+    - 1389195157.42259
+    - 1389195097.60861
+    - 1389195256.5735
+    - 1389195248.5967
+    - 1389195277.05555
+    - 1389195298.29667
+    - 1389195320.32187
+    - 1389195286.69051
+    - 1389195329.47979
+    - 1389195265.29037
+    - 1389195311.10495
+    - 1389195341.32998
+    - 1389195146.48949
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_shanbi_1
+    spriteCollectionGUID: 7b8458a4ee6655c4e9c7092163891ade
+    spriteCollectionDataGUID: 558d1ffbb656e784db50056a927c64f8
+    spriteNames:
+    - shanbi_06
+    - shanbi_04
+    - shanbi_03
+    - shanbi_07
+    - shanbi_01
+    - shanbi_05
+    - shanbi_02
+    - shanbi_08
+    spriteTextureGUIDs:
+    - 22c68b141d0bdac41916af21f2b007cd
+    - 2b0617f25d6688744ab873a44b71872e
+    - 647e7d1a9ed2ec446832b016d75aa093
+    - 998bd58bfc66938449cba1cc7757efdd
+    - d460787a37ae42645924575e4686c368
+    - e776bf910ccbdf846a56e3db89a9e5d9
+    - f65acc9fc2956be47a5d4b30919f621f
+    - f838297062113474d94a5675155d89d5
+    spriteTextureTimeStamps:
+    - 1396020063.97824
+    - 1396020147.88863
+    - 1396018013.06517
+    - 1394791672.2763
+    - 1396020429.08775
+    - 1396019600.85293
+    - 1396020491.21596
+    - 1394791672.2763
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: liumaishenji
+    spriteCollectionGUID: 4ac5412f28920624b935a1c1fe9d826f
+    spriteCollectionDataGUID: 80baf670daafca1458f5bc2e03ffb9d0
+    spriteNames:
+    - bullet_003
+    - bullet_002
+    - bullet_006
+    - bullet_005
+    - bullet_001
+    - bullet_004
+    - behit_002
+    - behit_004
+    - behit_001
+    - behit_003
+    - 001
+    - 007
+    - 008
+    - 005
+    - 003
+    - 002
+    - 004
+    - 006
+    spriteTextureGUIDs:
+    - 010ca617ffb26d2449521fed22ea99ce
+    - 0d4caf1a76bb68c438134c1e737b3604
+    - 4731d98cdad255b4faf5323bc0b7b568
+    - 8d1e52cdb0f84ec4db2d6a5e5311f663
+    - 993df5dc1f191c6409c8f3d4d945075d
+    - e527cfd73ad847d4899e7bc7655e6831
+    - 2559ef22597d37e4097ecdf145107e79
+    - 4d1ec425321bff2469c7be2007257d08
+    - 4f46072a92d924545b39c1225ea62a52
+    - ed91c0aa3fb00cd4894f313b4c24163d
+    - 07b8f7f1943fb8a459e96268aeb4c8a5
+    - 0bc5fbc19179d8f4eafa585db063232d
+    - 17a1cc90586d1db4381b5ee69973048d
+    - 5fc6a0535c5a193459fb407645c28e8b
+    - 76f7a279bcfc47e4489a9fb557eef24e
+    - 91c4070da11e10740b1691fbe88ec5fa
+    - abc937034b5d4444996a54f8d567b63e
+    - c2bacf00f7ca0574b98ba2d7c06f54e3
+    spriteTextureTimeStamps:
+    - 1389209706.8214
+    - 1389209697.94651
+    - 1389209737.05539
+    - 1389209727.08677
+    - 1389209683.04045
+    - 1389209716.66502
+    - 1387981726.35646
+    - 1387981726.35846
+    - 1387981726.35546
+    - 1387981726.35746
+    - 1389895247.26912
+    - 1389897678.30083
+    - 1389288582.23271
+    - 1389897432.99903
+    - 1389895739.82422
+    - 1389895383.25175
+    - 1389897210.33594
+    - 1389897577.01193
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: jimiezhua
+    spriteCollectionGUID: c491c592a5bd7b741b479e82511baecd
+    spriteCollectionDataGUID: 5e947340879a8e64a87ccaa64b1b284d
+    spriteNames:
+    - hit_jinmiezhua_06
+    - hit_jinmiezhua_01
+    - 
+    - hit_jinmiezhua_03
+    - 
+    - hit_jinmiezhua_05
+    - hit_jinmiezhua_07
+    - behit_jinmiezhua_06
+    - behit_jinmiezhua_08
+    - behit_jinmiezhua_07
+    - behit_jinmiezhua_02
+    - behit_jinmiezhua_01
+    - behit_jinmiezhua_03
+    - behit_jinmiezhua_09
+    - behit_jinmiezhua_05
+    - behit_jinmiezhua_04
+    spriteTextureGUIDs:
+    - 210e262732f11db4c9788cde123f093d
+    - 280aa99e149a7f14da284c02096f6dc1
+    - 
+    - 2f140340e1de8714a8548adf02d4ff3a
+    - 
+    - b40cf8fab17256d428cc51a888e0c22a
+    - e7489d7f6303c5145b85f0b3b0973fb3
+    - 2667f34447c835649a2c1d9830ceee96
+    - 3d472e67a38d79641a06458d8440d21c
+    - 490ff1c26e25e1c409d374229ff7ae73
+    - 4ed21d8d85211684b85f3afc08d88bce
+    - 6179a52b957cc7c409258071dae088af
+    - 729e2bce2d977fc4a902450d8f917d3e
+    - 96a3ce64c55d89e4692b1cf51e10ec35
+    - b8ed72cf1ee023142a1f40bfeb6b1d30
+    - c06a3df875a50ca4ea421d4b1d6a826b
+    spriteTextureTimeStamps:
+    - 1387981727.84661
+    - 1387981727.85861
+    - 0
+    - 1387981727.86061
+    - 0
+    - 1387981727.86261
+    - 1387981727.84761
+    - 1387981727.95762
+    - 1387981727.95962
+    - 1387981727.95862
+    - 1387981727.94362
+    - 1387981727.94262
+    - 1387981727.94462
+    - 1387981727.96062
+    - 1387981727.95562
+    - 1387981727.95462
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: jinmiezhua
+    spriteCollectionGUID: c491c592a5bd7b741b479e82511baecd
+    spriteCollectionDataGUID: 1ca550c73b57467458acc2442af137f4
+    spriteNames:
+    - hit_jinmiezhua_06
+    - hit_jinmiezhua_01
+    - 
+    - hit_jinmiezhua_03
+    - 
+    - hit_jinmiezhua_05
+    - hit_jinmiezhua_07
+    - behit_jinmiezhua_06
+    - behit_jinmiezhua_08
+    - behit_jinmiezhua_07
+    - behit_jinmiezhua_02
+    - behit_jinmiezhua_01
+    - behit_jinmiezhua_03
+    - behit_jinmiezhua_09
+    - behit_jinmiezhua_05
+    - behit_jinmiezhua_04
+    spriteTextureGUIDs:
+    - 210e262732f11db4c9788cde123f093d
+    - 280aa99e149a7f14da284c02096f6dc1
+    - 
+    - 2f140340e1de8714a8548adf02d4ff3a
+    - 
+    - b40cf8fab17256d428cc51a888e0c22a
+    - e7489d7f6303c5145b85f0b3b0973fb3
+    - 2667f34447c835649a2c1d9830ceee96
+    - 3d472e67a38d79641a06458d8440d21c
+    - 490ff1c26e25e1c409d374229ff7ae73
+    - 4ed21d8d85211684b85f3afc08d88bce
+    - 6179a52b957cc7c409258071dae088af
+    - 729e2bce2d977fc4a902450d8f917d3e
+    - 96a3ce64c55d89e4692b1cf51e10ec35
+    - b8ed72cf1ee023142a1f40bfeb6b1d30
+    - c06a3df875a50ca4ea421d4b1d6a826b
+    spriteTextureTimeStamps:
+    - 1389175873.44717
+    - 1389175873.42416
+    - 0
+    - 1389175873.42916
+    - 0
+    - 1389175873.44417
+    - 1389175873.44917
+    - 1389175874.52827
+    - 1389175874.53427
+    - 1389175874.53127
+    - 1389175874.49027
+    - 1389175874.48727
+    - 1389175874.49527
+    - 1389175874.53627
+    - 1389175874.50127
+    - 1389175874.49827
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_hudun_1
+    spriteCollectionGUID: 581f301482912ce41a3f89a887b599db
+    spriteCollectionDataGUID: 4fe72cd8bbbb4674ab5b7a6db6ecb1f8
+    spriteNames:
+    - hudun_03
+    - hudun_14
+    - hudun_15
+    - hudun_02
+    - hudun_01
+    - hudun_09
+    - hudun_11
+    - hudun_10
+    - hudun_12
+    - hudun_08
+    - hudun_07
+    - hudun_04
+    - hudun_05
+    - hudun_06
+    - hudun_13
+    spriteTextureGUIDs:
+    - aa1a5851e48e1c8499b00a6e2ae19450
+    - 11c52cb293d79e244bbc2422ae458ac6
+    - d7230ad24f3ac85469b01a98152f0229
+    - b9439f6357d3c2e4c9f08b90e5fd448e
+    - 43367eb7cc85d0a4fa71391807c76660
+    - 5eac9d28cfb648043b0ee3aa520e8703
+    - 8fecfdd8dcd189e4993f8b28ae46716f
+    - c965755a5dfdb88409762eb8d24652a6
+    - cc74aeba205dffe42b7646235e56d55a
+    - ef20535bee43e1b44bf80f2d8afb4580
+    - e4d084bc00eb61946a5a5858426bd369
+    - 1063002de1b700f4e905d899f6ca628b
+    - bbee1e7d992a5ce4883dcd52f5515941
+    - 683d1f1eab50255419785774e67a7e54
+    - 05ccc57eaa82b3244b6453837c4ed317
+    spriteTextureTimeStamps:
+    - 1388052861.4839
+    - 1388052861.49389
+    - 1388052861.49389
+    - 1388052861.4839
+    - 1388052861.4839
+    - 1388052861.50389
+    - 1388052861.4839
+    - 1388052861.4839
+    - 1388052861.49389
+    - 1388052861.50389
+    - 1388052861.49389
+    - 1388052861.49389
+    - 1388052861.49389
+    - 1388052861.49389
+    - 1388052861.49389
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: dalijingangzhi
+    spriteCollectionGUID: acd19363575edcf498050730c111a75d
+    spriteCollectionDataGUID: 497f1e5fee5e8c94eb8b725eddf38236
+    spriteNames:
+    - hit_dalijingangzhi_04
+    - hit_dalijingangzhi_03
+    - hit_dalijingangzhi_05
+    - hit_dalijingangzhi_02
+    - hit_dalijingangzhi_06
+    - hit_dalijingangzhi_01
+    - bullet_dalijinangzhi_01
+    - behit_dalijingangzhi_06
+    - behit_dalijingangzhi_03
+    - behit_dalijingangzhi_11
+    - behit_dalijingangzhi_05
+    - behit_dalijingangzhi_12
+    - behit_dalijingangzhi_04
+    - behit_dalijingangzhi_01
+    - behit_dalijingangzhi_08
+    - behit_dalijingangzhi_10
+    - behit_dalijingangzhi_02
+    - behit_dalijingangzhi_09
+    - behit_dalijingangzhi_07
+    spriteTextureGUIDs:
+    - bf1bf5d288159604094dfd6b7275c4ad
+    - dc74af0581a15f84c80992f125526393
+    - bfb590b5b204cdb4587bfe90f7a00eb1
+    - ec5eee3637aeede46826e31c4a7a0116
+    - ad6415a75573f3e48abb5109e072fbd0
+    - 9b345e5b6d2e0414aa1937847eeb43c9
+    - 4b3efa586876edd439928c9814e5d7e2
+    - ef46dce16afe1464db8f3b5697b08064
+    - ef889925e1f26f7409200dd63dd07959
+    - 5367c5f6434695e408d9e16cd74e0687
+    - 4f995607338e4e042aa32b83db0f20b7
+    - 4ef61368bd413404aa5174b169a15761
+    - d090fac8360afa1418127866494e2efd
+    - fa8319e96962ee845acf046e9b9419c8
+    - e590036bf6899bd41900ad1b694fd7f4
+    - 21cf896c007bcd04398762d975f7c9e3
+    - 5e95ecbe6b365e14aa0f17b773b476ce
+    - ab3bbafe11f48a846ba7888208becaae
+    - ff91ae5fc5509334da3821ec4e94b57f
+    spriteTextureTimeStamps:
+    - 1388052862.99289
+    - 1388052862.99289
+    - 1388052862.99289
+    - 1388052862.9829
+    - 1388052862.99289
+    - 1388052862.9829
+    - 1388052862.18343
+    - 1388052863.33266
+    - 1388052863.32267
+    - 1388052863.32267
+    - 1388052863.33266
+    - 1388052863.32267
+    - 1388052863.32267
+    - 1388052863.32267
+    - 1388052863.33266
+    - 1388052863.32267
+    - 1388052863.32267
+    - 1388052863.33266
+    - 1388052863.33266
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: chongxuyangqi
+    spriteCollectionGUID: ca07380aeb8bf94419a89bb987c8c189
+    spriteCollectionDataGUID: a02a5356695d4484b98d821513c97744
+    spriteNames:
+    - chongxuyangqi_07
+    - chongxuyangqi_13
+    - chongxuyangqi_15
+    - chongxuyangqi_14
+    - chongxuyangqi_08
+    - chongxuyangqi_09
+    - chongxuyangqi_04
+    - chongxuyangqi_12
+    - chongxuyangqi_01
+    - chongxuyangqi_02
+    - chongxuyangqi_06
+    - chongxuyangqi_10
+    - chongxuyangqi_05
+    - chongxuyangqi_11
+    - chongxuyangqi_03
+    spriteTextureGUIDs:
+    - 0b244d7e504e0dc4ba4ca16e68ddce4f
+    - 312ad5b5f384821478c0b2ab77919172
+    - 673827223c7847e4ebc20e146d7bfaf1
+    - 7311ddf63c3faf9438c0f27423506b84
+    - 77f2c89767228184ebb4b6a85b46caec
+    - a1c0dc4538de0ed4f818d6c758705db6
+    - afc9e1bb95b07344ab667e622dd5f548
+    - b418491847dd1a347a135d2680a76ea0
+    - c0c1c9ea923f0c74f99271e08360dc95
+    - cf81ec95dcad2f9409f4c5271de41b0b
+    - cfa821ec33b4b6a40a1be767c46aaf87
+    - d14b17274d4373a4aaeab1045242c086
+    - dac7848dff240d8468410ba116ac890b
+    - f6cb64be66adf9448b45e52b005d6613
+    - f9f97cf8805b4b04cb73b4760932d8cc
+    spriteTextureTimeStamps:
+    - 1389002637.22021
+    - 1389002637.22021
+    - 1389002637.22021
+    - 1389002637.22021
+    - 1389002637.23021
+    - 1389002637.2102
+    - 1389002637.22021
+    - 1389002637.22021
+    - 1389002637.2102
+    - 1389002637.2102
+    - 1389002637.22021
+    - 1389002637.2102
+    - 1389002637.22021
+    - 1389002637.22021
+    - 1389002637.22021
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_bingsui_1
+    spriteCollectionGUID: 382b7e241639aed4eb71b3cd00da27f9
+    spriteCollectionDataGUID: 78a3a67b5f79a8741b7ba19f5bc771a8
+    spriteNames:
+    - behit_bingsui_03
+    - behit_bingsui_02
+    - behit_bingsui_01
+    - behit_bingsui_05
+    spriteTextureGUIDs:
+    - b5ef0b80edcd0ec48bf1f0dcf4f84ae5
+    - d0fc8161e1d54d446869e403de08ad3d
+    - 7a270b53bb5249f48b3981efeb1c3750
+    - 8ab74f15e1c772c449ff17eaf6fb14ab
+    spriteTextureTimeStamps:
+    - 1395257162.79178
+    - 1395257162.74678
+    - 1395257162.72077
+    - 1395257162.86679
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_bingsui_2
+    spriteCollectionGUID: be3f5188534c20148a8b93ade176e1c8
+    spriteCollectionDataGUID: 41940d9ff59079140a29ddf8fb175fcf
+    spriteNames:
+    - behit_bingsui_06
+    spriteTextureGUIDs:
+    - ac3f1dcd1f0725445a811abfd8cefa35
+    spriteTextureTimeStamps:
+    - 1395257162.93179
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_bingsui_3
+    spriteCollectionGUID: 3ca3a3a2b392b30449141519b3a5e6af
+    spriteCollectionDataGUID: 5ef0bdf0c8dd7f7408f0e5b6f2c05eff
+    spriteNames:
+    - behit_bingsui_04
+    spriteTextureGUIDs:
+    - 0e9b9e4be63766542ba59f50a9ecd429
+    spriteTextureTimeStamps:
+    - 1395257162.83578
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_danzhang_1
+    spriteCollectionGUID: 1c0e4dacb7568624c9a7d79f1c75f3b2
+    spriteCollectionDataGUID: d382c5182f339114daedf9255bd522c0
+    spriteNames:
+    - hit_danzhang_02
+    - hit_danzhang_06
+    - hit_danzhang_03
+    - hit_danzhang_05
+    - hit_danzhang_04
+    - hit_danzhang_01
+    spriteTextureGUIDs:
+    - d43da02526459384184472621ac20807
+    - 99e91e65ba27cdf4ab9e9190fa8f79c9
+    - 53a07fda898b42740928cb755bf6745c
+    - 8018b06cadf5b1a4aaed5d642a716add
+    - 7af6ab0d2a759a7408587ee9c04a136e
+    - 96520a1f799da254f893043da18d6068
+    spriteTextureTimeStamps:
+    - 1395257163.18882
+    - 1395257163.31283
+    - 1395257163.20982
+    - 1395257163.28883
+    - 1395257163.24583
+    - 1395257163.16982
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_danzhang_2
+    spriteCollectionGUID: b786e5319da14df428b0e1f24324ec61
+    spriteCollectionDataGUID: bc9a87e7a0030714aa6f07cd8b091ac5
+    spriteNames:
+    - hit_danzhang_07
+    - hit_danzhang_08
+    - hit_danzhang_09
+    spriteTextureGUIDs:
+    - 98065bd1270d3af49928b08ac13160af
+    - bd3abf0795e407e41a81d0789a0d7170
+    - a883043fee6c6a345b61365007544211
+    spriteTextureTimeStamps:
+    - 1395257163.33483
+    - 1395257163.36284
+    - 1395257163.37584
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_xingxiu_1
+    spriteCollectionGUID: 2018fb6326c6e06419a4ee3ab2905bbc
+    spriteCollectionDataGUID: 1600a9c121704ab448644ef9dfb77b1e
+    spriteNames:
+    - behit_xingxiu_04
+    - behit_xingxiu_03
+    - behit_xingxiu_01
+    - behit_xingxiu_02
+    - behit_xingxiu_05
+    - behit_xingxiu_06
+    - behit_xingxiu_07
+    - behit_xingxiu_08
+    spriteTextureGUIDs:
+    - 1fb436d4f4e68d9408ae4c5b3fcc70fe
+    - 8b222ed7ef31a2b4da2a2f5dce38dbb8
+    - 15a948083fa6e794a98b84698c97412f
+    - e536f73d49b05494ab842c0fe2c6ad2f
+    - 71c2065d76f08774892cafc5018ff219
+    - 845188e11e09f4d45b5af175055353c8
+    - 887a7923f4440434b90a87abcbb998c2
+    - 93c8d8f99321f4f488b0446431060be5
+    spriteTextureTimeStamps:
+    - 1395257168.19132
+    - 1395257168.12831
+    - 1395257168.0293
+    - 1395257168.06531
+    - 1395257168.22932
+    - 1395257168.28733
+    - 1395257168.31933
+    - 1395257168.34734
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_xingxiu_2
+    spriteCollectionGUID: 51734523c8fa7514f901f54f18ecf84e
+    spriteCollectionDataGUID: 741cabb12b2090b41a4bb5b01c103cb7
+    spriteNames:
+    - behit_xingxiu_09
+    spriteTextureGUIDs:
+    - df0ae74c0fbb2bd40908d110816cdc6c
+    spriteTextureTimeStamps:
+    - 1395257168.37534
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_xingxiu_1
+    spriteCollectionGUID: 3c926826e594ac244a0d7a53a19a8b47
+    spriteCollectionDataGUID: 9b85f6f401a023c41b0fd3152c9443d0
+    spriteNames:
+    - bullet_xingxiu_01
+    spriteTextureGUIDs:
+    - 980fe1a74395bf2478bf3c0bbf0e9a5e
+    spriteTextureTimeStamps:
+    - 1395257167.84028
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xingxiu_1
+    spriteCollectionGUID: 8176b6e9f95753d48a3c7c6f3e1b8689
+    spriteCollectionDataGUID: 7ab922568aee3d5438d3a6a42be95f73
+    spriteNames:
+    - hit_xingxiu_01
+    - hit_xingxiu_02
+    - hit_xingxiu_03
+    spriteTextureGUIDs:
+    - 984f972918b808949ab86f0107edb8b9
+    - 7886550b291bfec46b908b25c6f96f2c
+    - 7b972b5dcf80364498986b2b69bce415
+    spriteTextureTimeStamps:
+    - 1395257169.0184
+    - 1395257169.0414
+    - 1395257169.06341
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xingxiu_2
+    spriteCollectionGUID: d0cb65b8a0b5b2b43b1fac8882ce640a
+    spriteCollectionDataGUID: 8b3171e8f81bff947b5fba7eb6d8f736
+    spriteNames:
+    - hit_xingxiu_04
+    - hit_xingxiu_06
+    - hit_xingxiu_05
+    - hit_xingxiu_07
+    spriteTextureGUIDs:
+    - d44f67a0605bedd45a0943807718c7f8
+    - d981c484245f9ca4ea4f4a026ac04f67
+    - ad82bf08d5f6ac64b9e11d23a94ec04c
+    - 66de7dcd3f148ce4897d65314ee56191
+    spriteTextureTimeStamps:
+    - 1395257168.70437
+    - 1395257168.78838
+    - 1395257168.72637
+    - 1395257168.90539
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_tianshan_1
+    spriteCollectionGUID: 9e6baebb1e7fff14dbe87aa09df63f59
+    spriteCollectionDataGUID: b19e9c7f9deb092449f83a3e9caebe2b
+    spriteNames:
+    - hit_tianshan_01
+    - hit_tianshan_11
+    - hit_tianshan_05
+    - hit_tianshan_07
+    - hit_tianshan_09
+    - hit_tianshan_03
+    spriteTextureGUIDs:
+    - ef8e0044732ed7e4dbef721ee5e992c7
+    - dcd0f905fe3d9da459a309c2d89f6620
+    - 7f0340171d87eee4daa4c7db3e90e4bd
+    - 694303995480547448c5f5308610032f
+    - cef1f0ddac95f574baac6ea0598c43e4
+    - f65de44e7983b9847a58e01d2c432376
+    spriteTextureTimeStamps:
+    - 1395257155.49305
+    - 1395257155.80108
+    - 1395257156.19612
+    - 1395257154.57496
+    - 1395257154.74898
+    - 1395257156.0191
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_tianshan_2
+    spriteCollectionGUID: 72857da2c291d414cb5f4d5bede698e1
+    spriteCollectionDataGUID: 78f9eaad2e2da6b488de762c20af66d7
+    spriteNames:
+    - hit_tianshan_08
+    - hit_tianshan_02
+    - hit_tianshan_04
+    - hit_tianshan_12
+    - hit_tianshan_10
+    - hit_tianshan_06
+    spriteTextureGUIDs:
+    - b86d23d1587c0df458a04d802cd9bfad
+    - a19ec5438684bb74bbf5fe69259723aa
+    - 733ab5f44206f0a4fac08386c9749865
+    - 6af8b4250896eb94b90b6953645a054b
+    - b6965695019a8ac4489abfaa5746cf99
+    - 80f48bc5f698cf849933721ea3719125
+    spriteTextureTimeStamps:
+    - 1395257154.66797
+    - 1395257155.56106
+    - 1395257156.18412
+    - 1395257156.05311
+    - 1395257155.51805
+    - 1395257156.22212
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_quan_1
+    spriteCollectionGUID: 847134d354fcd844da793fed9203af16
+    spriteCollectionDataGUID: a70c20bb40f6b6b4e94bbbba1dcd0a57
+    spriteNames:
+    - bullet_quan_01
+    spriteTextureGUIDs:
+    - 9702117c99bd43e48ad44a3f5cc7ae70
+    spriteTextureTimeStamps:
+    - 1395257145.06101
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_quan_1
+    spriteCollectionGUID: d9f3b4de775c0e2488bc41d5036ba3e0
+    spriteCollectionDataGUID: bab658d332b92b84fb8e6432c7e160bd
+    spriteNames:
+    - hit_quan_01
+    spriteTextureGUIDs:
+    - 08c75e44751a27b4ea3c704857e09a5a
+    spriteTextureTimeStamps:
+    - 1395257144.73897
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_quan_2
+    spriteCollectionGUID: 46839ecc1fb5c454a82e449245c84723
+    spriteCollectionDataGUID: 6d6f53fe6a807344492293e49eca9eb6
+    spriteNames:
+    - hit_quan_06
+    spriteTextureGUIDs:
+    - 0e20458d27ea2b84ca754e3505bcc167
+    spriteTextureTimeStamps:
+    - 1395257144.88999
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_quan_3
+    spriteCollectionGUID: 462198691b3c12e40aaf80a1769d324e
+    spriteCollectionDataGUID: 0a6a6588517861e44b0f2e4126110825
+    spriteNames:
+    - hit_quan_13
+    spriteTextureGUIDs:
+    - f381eaf8e0733c44b9bcb338e560e82b
+    spriteTextureTimeStamps:
+    - 1381934208.74359
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_shuangzhang_1
+    spriteCollectionGUID: 7f8f42a356916e141b36d1941f0e21ad
+    spriteCollectionDataGUID: cdb0ef07b28326d4691ad4b365fc5362
+    spriteNames:
+    - hit_shuangzhang_06
+    - hit_shuangzhang_04
+    - hit_shuangzhang_08
+    - hit_shuangzhang_02
+    spriteTextureGUIDs:
+    - 9bff8ad0f2029f047b69ad5356039c30
+    - d728a8415e33c6144b6eac9d175fd74c
+    - db4268b5cf34a244ead74dd6786aa0cf
+    - 2b3e12bc003771d43be1fc1ea10f4ea1
+    spriteTextureTimeStamps:
+    - 1395257167.47725
+    - 1395257167.42424
+    - 1395257167.57926
+    - 1395257167.38724
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_shuangzhang_2
+    spriteCollectionGUID: 475eddae066313a4c92608c42d6aa660
+    spriteCollectionDataGUID: 6a0fcdc00f7cd38468826d4d290b99d9
+    spriteNames:
+    - hit_shuangzhang_09
+    - hit_shuangzhang_05
+    - hit_shuangzhang_07
+    - hit_shuangzhang_03
+    spriteTextureGUIDs:
+    - f132ad40b40f41141b516618d0791d55
+    - beacf2242ae1f244e8fe1edf29df7db7
+    - 378456d78aa04414baef55344d11c356
+    - 2b5fc06eb4daf1045ad978898a5df02e
+    spriteTextureTimeStamps:
+    - 1395257167.66327
+    - 1395257167.44124
+    - 1395257167.54125
+    - 1395257167.40224
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_shuangzhang_3
+    spriteCollectionGUID: ab773a57de8c3b54c9a854b106c34489
+    spriteCollectionDataGUID: 9944ddc60fb6e0b4cb02b57054563a20
+    spriteNames:
+    - hit_shuangzhang_01
+    spriteTextureGUIDs:
+    - 16571c86f611062489d60e49cd582ff0
+    spriteTextureTimeStamps:
+    - 1395257167.37724
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_lianhuazhang_1
+    spriteCollectionGUID: 0c4b8919e9fd536409f70fa5b33d78bb
+    spriteCollectionDataGUID: cb91df43362ea7145a7538fb95f9ebab
+    spriteNames:
+    - behit_lianhuazhang_05
+    - behit_lianhuazhang_07
+    - behit_lianhuazhang_01
+    - behit_lianhuazhang_02
+    - behit_lianhuazhang_03
+    - behit_lianhuazhang_06
+    - behit_lianhuazhang_04
+    spriteTextureGUIDs:
+    - 0b93b0e03f986fc4cac95be27d3cef91
+    - 4264f2234089c3c4d9e9515a7938ecdf
+    - 8fbc0d5360d3d1f4cb90e7fd969755bf
+    - 713532971ed685d4db626d425f0e9be4
+    - 70e48faa9b6e45741b6c35b891dbe236
+    - 4593defd018111b40874824799632f01
+    - 8942467e97af0d24ca3b5825ce1770c1
+    spriteTextureTimeStamps:
+    - 1381934226.33335
+    - 1381934226.34835
+    - 1381934226.31735
+    - 1381934226.32135
+    - 1381934226.32535
+    - 1381934226.34035
+    - 1381934226.32935
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_lianhuazhang_1
+    spriteCollectionGUID: 96eb99046088ffa4d82ebe93c5f513a5
+    spriteCollectionDataGUID: 313c5f470d3d6434bae3e9730c71073f
+    spriteNames:
+    - bullet_lianhuazhang_03
+    - bullet_lianhuazhang_02
+    - bullet_lianhuazhang_01
+    - bullet_lianhuazhang_04
+    spriteTextureGUIDs:
+    - 0bc51dc3ebd33f841a645858c8b791f7
+    - 4d0fe20c421555141a8a41ae663e4e87
+    - dbc3661d3b24ffc46a1c3e5e4ce593e8
+    - 36be841edcaa37540a02f74501ce7323
+    spriteTextureTimeStamps:
+    - 1395257178.47835
+    - 1395257178.89039
+    - 1395257178.81538
+    - 1395257178.49535
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_lianhuazhang_2
+    spriteCollectionGUID: 201dd0dbbf3e64842a5c4ad56cb7c4c1
+    spriteCollectionDataGUID: 036443b139db50a41b4889c137348ed8
+    spriteNames:
+    - bullet_lianhuazhang_06
+    - bullet_lianhuazhang_08
+    - bullet_lianhuazhang_07
+    - bullet_lianhuazhang_05
+    spriteTextureGUIDs:
+    - 726d1215fb5cd734eb784e4e431d722c
+    - f996e45539d017644aeae087e9392afa
+    - f354e4668a0750843a674da9c974ab9b
+    - 6bad292fe15d8af428935051b414ce72
+    spriteTextureTimeStamps:
+    - 1395257178.57636
+    - 1395257178.65937
+    - 1395257178.61236
+    - 1395257178.52035
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_lianhuazhang_1
+    spriteCollectionGUID: 797ab8ae8594ee348a385ea4d6114088
+    spriteCollectionDataGUID: 0cba75d5cdff48c45ba6eec3992a0a52
+    spriteNames:
+    - hit_lianhuazhang_05
+    - hit_lianhuazhang_11
+    - hit_lianhuazhang_03
+    - hit_lianhuazhang_09
+    - hit_lianhuazhang_01
+    - hit_lianhuazhang_07
+    spriteTextureGUIDs:
+    - 6b0b68893d95e3547a63ee4a689c70f8
+    - 4464c16c3acde684eaae580a08595fe0
+    - 3fd9488d5aedba540b93fc2cd55d1674
+    - 4193f2cdf0cd9484183152c387f05384
+    - 562b756f26c8a5444b576372e2b0b187
+    - 4909dedf5ecd9e44a81ff702819365dd
+    spriteTextureTimeStamps:
+    - 1395257178.33433
+    - 1395257178.25733
+    - 1395257178.27933
+    - 1395257178.42234
+    - 1395257178.15432
+    - 1395257178.37234
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_lianhuazhang_2
+    spriteCollectionGUID: 24b3b715321a7f9489cea036e5658637
+    spriteCollectionDataGUID: d27fb886b75e2fe41bb0ab6e0e06cf63
+    spriteNames:
+    - hit_lianhuazhang_02
+    - hit_lianhuazhang_10
+    - hit_lianhuazhang_04
+    - hit_lianhuazhang_06
+    - hit_lianhuazhang_08
+    - hit_lianhuazhang_12
+    spriteTextureGUIDs:
+    - 03080d948622ea04e8b4b63655757862
+    - d7b7c50afb2ba2943a673d21ccdf7f9c
+    - 144fcc0bd4984c24792bbb5eb2a6f03f
+    - 56b1911d88f29d4448362c779295a843
+    - dea8916f102d22444857efab2a52dd96
+    - 8ed3e8ef3412b634cb0ce308d5afeb54
+    spriteTextureTimeStamps:
+    - 1395257178.19932
+    - 1395257178.17632
+    - 1395257178.31233
+    - 1395257178.35034
+    - 1395257178.39834
+    - 1395257178.28933
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_waigong_1
+    spriteCollectionGUID: 95e9d18e51c347d4ab15fa6965694c61
+    spriteCollectionDataGUID: eb83b3c3d11e3c841970c1f2710868a0
+    spriteNames:
+    - behit_waigong04
+    - behit_waigong05
+    - behit_waigong03
+    - behit_waigong02
+    - behit_waigong01
+    - behit_waigong06
+    - behit_waigong09
+    - behit_waigong07
+    - behit_waigong08
+    - behit_waigong12
+    - behit_waigong11
+    - behit_waigong10
+    spriteTextureGUIDs:
+    - 1b200ac0e5e80834ab58ec270a18f2e9
+    - 4e2f63a25c8dbc24ba9b0af810bbfd3f
+    - 0c7d8f64de2bff045a52f647cac40464
+    - 75e4630a14851144e987aac3e8001183
+    - 21bc174d244786f4e802efdda059a454
+    - 8fcd0877e740d3f46ae054ba2bf1e271
+    - 8531021037f1d5b4ebcfe20069c200d7
+    - fb1b7311f281a9744b0229df787d0df9
+    - 1bb41fb6a9fcbaf429d9a4e31e8b96c6
+    - 6ecf1117a40da9a49b4f05bda805b29e
+    - 6278da28fefc94947ab4f0ac14b0593c
+    - 4816dd5b30739be4db9721277e8381f2
+    spriteTextureTimeStamps:
+    - 1395257171.91069
+    - 1395257171.9537
+    - 1395257171.84468
+    - 1395257171.74868
+    - 1395257171.68067
+    - 1395257172.04871
+    - 1395257172.20572
+    - 1395257172.11771
+    - 1395257172.13771
+    - 1395257171.88969
+    - 1395257171.80668
+    - 1395257171.72267
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_dao_1
+    spriteCollectionGUID: 596cf5c218d7d5f4dbfc536b2bea91df
+    spriteCollectionDataGUID: 645050728c1012b458cfa6f5b05f1c0f
+    spriteNames:
+    - hit_dao_09
+    - hit_dao_08
+    - hit_dao_03
+    - hit_dao_06
+    - hit_dao_04
+    - hit_dao_02
+    - hit_dao_01
+    - hit_dao_05
+    - hit_dao_07
+    spriteTextureGUIDs:
+    - bca15fb013eba4941a9ccfd1cef2fbdd
+    - 94ecdf02bc0ad7f49bebf7639758626f
+    - 54f79e328c5a83a46b236e50232ef3fb
+    - 9f873172fb08bcd47a189140727dbb14
+    - 74b9ce47eda56ca4fa95caac048cd03d
+    - 87780f58f5fed434d9380d62004698a0
+    - 94275899f7846bb4b87ce4b994a30675
+    - fa63d84d22411b943aa2dfd3cd69d82b
+    - 327d7b6e9ee53da4a90336e97c241714
+    spriteTextureTimeStamps:
+    - 1395257172.45275
+    - 1395257172.41474
+    - 1395257172.86879
+    - 1395257172.36274
+    - 1395257172.88679
+    - 1395257172.81878
+    - 1395257172.78578
+    - 1395257172.26673
+    - 1395257172.38874
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xiaowu_1
+    spriteCollectionGUID: bbd756f8250770444b87eafb0a929dbe
+    spriteCollectionDataGUID: a3c851dcf02d23c468c21174919b6055
+    spriteNames:
+    - hit_xiaowu_04
+    - hit_xiaowu_02
+    - hit_xiaowu_01
+    - hit_xiaowu_05
+    - hit_xiaowu_03
+    spriteTextureGUIDs:
+    - 623a8b0002c42a34aa5c0934b92e5073
+    - e7996f81444d8c34eab7729e9ecd0ff9
+    - 6b415836d56b8eb419bff9cd69cb394f
+    - 804efbf6614eb5e4dae4e458f5a6c5b0
+    - d3296b392e5ba5f448983d85b40d31af
+    spriteTextureTimeStamps:
+    - 1395257153.9789
+    - 1395257153.88289
+    - 1395257153.80188
+    - 1395257154.0089
+    - 1395257153.9449
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xiaowu_2
+    spriteCollectionGUID: aa17367a8c8530d41876a9eb413ff47c
+    spriteCollectionDataGUID: 531d2a49d51a7eb48b65a00931b77e69
+    spriteNames:
+    - hit_xiaowu_09
+    - hit_xiaowu_06
+    - hit_xiaowu_10
+    - hit_xiaowu_11
+    - hit_xiaowu_07
+    - hit_xiaowu_08
+    spriteTextureGUIDs:
+    - 599dfd009e5ab05408106ea0367941da
+    - f82a2ae1f1341394b8602d5e786f6fed
+    - 84c3e3f1b71362b43b717df8a1495e83
+    - 21fdd6124c74793448a4abb8c7f0dac8
+    - ef07ecac2132b8a43b3f62eb86a575a3
+    - 00dc286ea1451704ca8f4f2fd1598269
+    spriteTextureTimeStamps:
+    - 1395257154.12791
+    - 1395257154.0259
+    - 1395257153.84388
+    - 1395257153.90689
+    - 1395257154.0369
+    - 1395257154.08591
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_nianhuazhi_1
+    spriteCollectionGUID: 27d3c3b331c96a1428e93279167052d2
+    spriteCollectionDataGUID: 885308a845ede5a46bc0981f3af35f76
+    spriteNames:
+    - hit_nianhuazhi_12
+    - hit_nianhuazhi_10
+    - hit_nianhuazhi_11
+    - hit_nianhuazhi_03
+    - hit_nianhuazhi_05
+    - hit_nianhuazhi_07
+    - hit_nianhuazhi_02
+    - hit_nianhuazhi_01
+    - hit_nianhuazhi_06
+    - hit_nianhuazhi_09
+    - hit_nianhuazhi_08
+    - hit_nianhuazhi_04
+    spriteTextureGUIDs:
+    - dd6b8ba0dc0350a438631a8cb477affd
+    - 0bdad9b013275c849a2a94329aad1f93
+    - 275315127a8a11648b5fb7d730e26065
+    - 5c056382876422b4fb2dfdccca699b08
+    - fca667c2ebc8b104e8928a87b213e870
+    - 373cd044512431c48b58e493f23bf060
+    - 0e270195ce9e10340b6850dffab3b27c
+    - e721f3f7aa9a0e44991ca7aae523a5c3
+    - 424785f8cedc3964ebdc1864e8756c65
+    - f17476f8286553a48aa06ca962710035
+    - 9c4d0cd908ac72d4e91abf6a4ec0d70e
+    - ad022c7def393f5488b3a819c2e95c99
+    spriteTextureTimeStamps:
+    - 1395257185.90209
+    - 1395257185.68207
+    - 1395257185.80808
+    - 1395257185.86509
+    - 1395257186.0381
+    - 1395257185.014
+    - 1395257185.76208
+    - 1395257185.65107
+    - 1395257186.10111
+    - 1395257185.06401
+    - 1395257185.042
+    - 1395257185.9541
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_nianhuazhi_2
+    spriteCollectionGUID: 2d678726c27f41541b2a3f693544d039
+    spriteCollectionDataGUID: 8aa39fc2f6207614e9a56d757fd12bd1
+    spriteNames:
+    - hit_nianhuazhi_13
+    - hit_nianhuazhi_14
+    spriteTextureGUIDs:
+    - 317469ea5f4b573449ec276aa391b688
+    - c025d0eca39722341b6bce9006839484
+    spriteTextureTimeStamps:
+    - 1395257185.9921
+    - 1395257186.06311
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_nianhuazhi_3
+    spriteCollectionGUID: dc10d971830960e47a3de861401e3377
+    spriteCollectionDataGUID: be60c38d1afdcd445adf8716d30491fd
+    spriteNames:
+    - hit_nianhuazhi_15
+    spriteTextureGUIDs:
+    - 50d741c3cbe38ac4fb02ea916b0a0144
+    spriteTextureTimeStamps:
+    - 1395257186.13011
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_douzhuan_1
+    spriteCollectionGUID: e158a3aeae9f2004c822fdb38044edaa
+    spriteCollectionDataGUID: 2d2ff6a442a095b41a657958eacc98e9
+    spriteNames:
+    - bullet_douzhuan_03
+    - bullet_douzhuan_02
+    - bullet_douzhuan_01
+    - bullet_douzhuan_04
+    spriteTextureGUIDs:
+    - e6f64033a560d4348a36a301a244576d
+    - ebd24483104137042b0438a779dc5769
+    - 68fa2f55b8b629242b22308e4b091b1c
+    - 625a8fbd71818734b99596fea0a41e94
+    spriteTextureTimeStamps:
+    - 1395257181.34263
+    - 1395257181.29363
+    - 1395257181.26463
+    - 1395257181.36764
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_douzhuan_1
+    spriteCollectionGUID: 31a769312112ca4478904f10bb5eff27
+    spriteCollectionDataGUID: 96f2c4cb5f88a894a83b0b4f8aeada58
+    spriteNames:
+    - hit_douzhuan_01
+    - hit_douzhuan_07
+    - hit_douzhuan_04
+    - hit_douzhuan_03
+    - hit_douzhuan_06
+    - hit_douzhuan_02
+    - hit_douzhuan_05
+    spriteTextureGUIDs:
+    - 98a05b11430fc914da6859cdf39765c9
+    - 99ad0e5179e46aa409d9bbb27f803008
+    - a60c3163e43d6d14086412b5e6282724
+    - 2e1f03f33563a6145bf9078f73931be3
+    - 690764042699dcb4ba14be246ba52915
+    - f0785479ae294484fae25b8be6034705
+    - 0b418dcb39454714aa38a4061cad5330
+    spriteTextureTimeStamps:
+    - 1395257180.82958
+    - 1395257181.0096
+    - 1395257180.90659
+    - 1395257180.88359
+    - 1395257180.9716
+    - 1395257180.86059
+    - 1395257180.92559
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_dagoubang_1
+    spriteCollectionGUID: 1533f917383615a4c9fc3a91285c9d1d
+    spriteCollectionDataGUID: cabc63d63c3c0474c855079153b83899
+    spriteNames:
+    - behit_dagoubang_10
+    - behit_dagoubang_11
+    - behit_dagoubang_06
+    - behit_dagoubang_05
+    - behit_dagoubang_13
+    - behit_dagoubang_12
+    - behit_dagoubang_07
+    - behit_dagoubang_04
+    - behit_dagoubang_03
+    - behit_dagoubang_01
+    - behit_dagoubang_02
+    - behit_dagoubang_15
+    - behit_dagoubang_08
+    - behit_dagoubang_14
+    - behit_dagoubang_09
+    spriteTextureGUIDs:
+    - 63a60141cc04edf4996f95e22c6f4cef
+    - 99c94c0298985c149b24283a639a6f7b
+    - 51fbc0528c5e78242ae0975ad33cf188
+    - f3b89f33db0be6545bbd4b1feebbf0d4
+    - a5080644d0eb44144afcb8595e695303
+    - 34a64086a7dad2b44a683e444a2ab07c
+    - 808e6686e80a5da46bc45d2fc6226507
+    - 4c7f7737f3c5ab54ebea04379d1d1518
+    - 91000cf7a4d3eca4cae37d9768952702
+    - 08f58148d2c6b564caeab8fd947467ed
+    - c146fd09b00a44e439c418f2023400b0
+    - dcef71fc58fb2344ab7d4e8a20616382
+    - d447d52eaefbdfa4fa9412e15ce010b3
+    - a2795f6e84f2b2045803b703c94d5c60
+    - f2761b7ffab8c524a94003ae587b5c13
+    spriteTextureTimeStamps:
+    - 1395257183.94289
+    - 1395257183.9959
+    - 1395257184.31693
+    - 1395257184.18892
+    - 1395257184.14191
+    - 1395257184.0359
+    - 1395257184.36794
+    - 1395257184.06891
+    - 1395257184.0149
+    - 1395257183.90489
+    - 1395257183.9689
+    - 1395257184.34393
+    - 1395257184.43094
+    - 1395257184.27093
+    - 1395257184.51995
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_dagoubang_1
+    spriteCollectionGUID: 0a9370ff1d400794389d6224c1a61656
+    spriteCollectionDataGUID: ff24576e5c63bbb409d1657aec912230
+    spriteNames:
+    - hit_dagoubang_05
+    - hit_dagoubang_01
+    - hit_dagoubang_07
+    - hit_dagoubang_06
+    - hit_dagoubang_03
+    - hit_dagoubang_02
+    - hit_dagoubang_04
+    spriteTextureGUIDs:
+    - 1633c866f1a307d4bb84edfce675c869
+    - 95d63b67916843049983d8666c6179ef
+    - 660b5198ebc70a74abcbd003c40b0554
+    - ae6bed29d216d4044a23ed8c00f061b4
+    - 890eac3bf27a2ca4eb33124198c532fa
+    - 2f8fdaed3a9daa4408264c1d863fa383
+    - b6ce90ffdf08e2e4d91457886b2032fd
+    spriteTextureTimeStamps:
+    - 1395257183.57486
+    - 1395257183.32183
+    - 1395257183.67387
+    - 1395257183.63686
+    - 1395257183.42984
+    - 1395257183.38484
+    - 1395257183.46185
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_dagoubang_2
+    spriteCollectionGUID: 867be37777d58a54a9ff038d3707ef57
+    spriteCollectionDataGUID: 131df0add8940cf4cb089ea4a2e2163e
+    spriteNames:
+    - hit_dagoubang_10
+    - hit_dagoubang_08
+    - hit_dagoubang_09
+    spriteTextureGUIDs:
+    - 601946313f4288e44ac09f7426a6f9b6
+    - 78d7df8e95cbf1447aaf7604b89b0df5
+    - a6ade8cf64811f749bc753cde1163d40
+    spriteTextureTimeStamps:
+    - 1395257183.35284
+    - 1395257183.72287
+    - 1395257183.78188
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_qimendunjia_1
+    spriteCollectionGUID: f3775e030fb75a04da5cbf55450defe8
+    spriteCollectionDataGUID: b23a51faab6373945bb76815eb84bfef
+    spriteNames:
+    - hit_qimendunjia_05
+    - hit_qimendunjia_10
+    - hit_qimendunjia_08
+    - hit_qimendunjia_09
+    - hit_qimendunjia_01
+    - hit_qimendunjia_12
+    - hit_qimendunjia_13
+    - hit_qimendunjia_06
+    - hit_qimendunjia_14
+    - hit_qimendunjia_04
+    - hit_qimendunjia_07
+    - hit_qimendunjia_11
+    - hit_qimendunjia_03
+    - hit_qimendunjia_02
+    spriteTextureGUIDs:
+    - 7f7e710271ab1594c91f85652f78f22d
+    - 7051a8d29780621428349f0cb301f3c8
+    - b28a9d3352d08244b9ffe55cdf47340b
+    - 349195738201b2a40b724a47700e33e4
+    - e4adfde3303c32346a905ab04d0d672b
+    - bc49d2658890d0c41b935e583ae646b0
+    - 6fe4e81794f437c40945285e851d87b4
+    - f6556427313976f4bb2e64d5653e8f07
+    - ce3931987d0b8e34fb4b2187966a6eaf
+    - f5b4356903a41d54a9bb5b46b6eb8794
+    - 70c8a84aba24ce54e8a14f417f68adaa
+    - a5913e1e7dfc4ba4394ca8e028c66ace
+    - 72f4db4edae27cd4f946395013256905
+    - 2b6351af06c44e64595f60b4e8d96efa
+    spriteTextureTimeStamps:
+    - 1395257192.62176
+    - 1395257192.43974
+    - 1395257192.71577
+    - 1395257192.74177
+    - 1395257192.42074
+    - 1395257192.52575
+    - 1395257192.60876
+    - 1395257192.65177
+    - 1395257192.63176
+    - 1395257192.55176
+    - 1395257192.67877
+    - 1395257192.47575
+    - 1395257192.50575
+    - 1395257192.45575
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_hanmei_1
+    spriteCollectionGUID: ed0982020b887444f9119dafb99c4bcf
+    spriteCollectionDataGUID: e5a50c89fc8e377469f038aa007cc622
+    spriteNames:
+    - hit_hanmei_17
+    - hit_hanmei_06
+    - hit_hanmei_01
+    - hit_hanmei_16
+    - hit_hanmei_12
+    - hit_hanmei_02
+    - hit_hanmei_04
+    - hit_hanmei_07
+    - hit_hanmei_09
+    - hit_hanmei_03
+    - hit_hanmei_15
+    - hit_hanmei_11
+    - hit_hanmei_08
+    - hit_hanmei_05
+    - hit_hanmei_13
+    - hit_hanmei_14
+    - hit_hanmei_10
+    spriteTextureGUIDs:
+    - b3a0e3a112f61a24789f62bd28687a21
+    - 8072bf12277cdd14e89962975e76e7f4
+    - fa357362e351fb341852ab9d07b90df4
+    - cda797a2b2f3d314a9c2ebe423e652a6
+    - 766529f24613f5042b95bb47b24f58c4
+    - 30aaf3145826acf4295fa15b7565f6ae
+    - 78a16575d7305504cb98cc23f979a5b7
+    - cbe305084684027428cea511e520ca99
+    - 6d4c694adb1a9b74c820593633a53330
+    - eefb70ab7238b7e4d80a5b9a99b6864e
+    - fd08f1bc9d1b11f4e85f49f1ee4dc5fa
+    - 692d952d2df8f5143a9f9b3a5878b47b
+    - 993577dde5370354b88f4884831f8779
+    - 4bc2463f09b315c4793ec48952911b33
+    - 2ab3547fb741daf418d7a4a9a7d464b7
+    - 3b47278f08b02d646b672a2516f06779
+    - 07853bdf81171bb419d1b18b18d77552
+    spriteTextureTimeStamps:
+    - 1395257188.59136
+    - 1395257188.88339
+    - 1395257188.76238
+    - 1395257188.57536
+    - 1395257188.42534
+    - 1395257188.77938
+    - 1395257188.86339
+    - 1395257188.93539
+    - 1395257188.9954
+    - 1395257188.81438
+    - 1395257188.55536
+    - 1395257188.40534
+    - 1395257188.9784
+    - 1395257188.87439
+    - 1395257188.47935
+    - 1395257188.49835
+    - 1395257188.37134
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_beiming_1
+    spriteCollectionGUID: 57b3931b1866fd94bbeed9b419e1b7df
+    spriteCollectionDataGUID: 9e772408d79747d44aa1cff34b51c91b
+    spriteNames:
+    - behit_beiming_05
+    - behit_beiming_02
+    - behit_beiming_01
+    - behit_beiming_14
+    - behit_beiming_06
+    - behit_beiming_08
+    - behit_beiming_13
+    - behit_beiming_09
+    - behit_beiming_07
+    - behit_beiming_04
+    - behit_beiming_03
+    - behit_beiming_11
+    - behit_beiming_12
+    - behit_beiming_10
+    spriteTextureGUIDs:
+    - 45fd067090c463a4fab9ee442726f885
+    - a3eb4ad0751fc9844bdbe5715af51384
+    - badee821d3d53f640b675dce09ed1c51
+    - 357afd31299d8c5419ceb97cfc8e87eb
+    - 3f11a872de51ece44bbe6b323f2507eb
+    - f71db3447c6a29c4190b99cf43e65826
+    - bbb1f6a47314757478de2b403f246972
+    - 6c9601a6ace3bf1439a2a178229bafc7
+    - 08f480c76668851419dbd7c0aec06f9c
+    - e713f35b6e46e044ea76a1da90d64940
+    - 35871a6b78684704aa5a81157325c672
+    - f0c166ec1352fac438b5af19af60e25c
+    - 34c1089dfdc708e4d907179a8b1331ac
+    - cd03f54e24726c244a96703aa764ba3d
+    spriteTextureTimeStamps:
+    - 1395257165.91409
+    - 1395257165.68507
+    - 1395257166.80118
+    - 1395257165.9571
+    - 1395257166.05711
+    - 1395257166.20312
+    - 1395257165.86909
+    - 1395257166.23012
+    - 1395257166.14511
+    - 1395257165.83308
+    - 1395257165.71607
+    - 1395257165.67307
+    - 1395257165.79708
+    - 1395257166.77718
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_beiming_1
+    spriteCollectionGUID: c54d35345e070784495585833ec971f8
+    spriteCollectionDataGUID: 1b3d504552ec8d74daf99353eb00ea67
+    spriteNames:
+    - bullet_beiming.png
+    spriteTextureGUIDs:
+    - 750777aee9644a04dbfefec55f4bcf00
+    spriteTextureTimeStamps:
+    - 1395257165.57806
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_beiming_1
+    spriteCollectionGUID: 8288faf10b768a844a64e51706b59594
+    spriteCollectionDataGUID: dca68c73e6f11a04aa8b5cdebee486b2
+    spriteNames:
+    - hit_beiming_02
+    - hit_beiming_05
+    - hit_beiming_03
+    - hit_beiming_07
+    - hit_beiming_06
+    - hit_beiming_04
+    - hit_beiming_01
+    spriteTextureGUIDs:
+    - ca103aa04fa78244d904e7db8295ee27
+    - fb7d23f0a9d927d41a7bb12f61738bd7
+    - 0f72d7c6bb632d34f9717d6b23811778
+    - fc511949029b14f47a389713e34d2057
+    - 6dbcfc2b72c6b03479e93e30011e8478
+    - 7aef41dcd5ee7284e95b1675017063f6
+    - a7c9c8bff08b81447a180ea2f44eee74
+    spriteTextureTimeStamps:
+    - 1395257165.15402
+    - 1395257165.26703
+    - 1395257165.21902
+    - 1395257165.35604
+    - 1395257165.30503
+    - 1395257165.24402
+    - 1395257165.08601
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_beisu_1
+    spriteCollectionGUID: dc4ab1018af79de41bf0b80f7eb21e12
+    spriteCollectionDataGUID: 635403d4280cace46b6496ec669bac39
+    spriteNames:
+    - hit_beisu_01
+    - hit_beisu_02
+    - hit_beisu_13
+    - hit_beisu_04
+    - hit_beisu_08
+    - hit_beisu_11
+    - hit_beisu_14
+    - hit_beisu_07
+    - hit_beisu_10
+    - hit_beisu_06
+    - hit_beisu_03
+    - hit_beisu_15
+    - hit_beisu_05
+    - hit_beisu_09
+    - hit_beisu_12
+    spriteTextureGUIDs:
+    - 0a460641213b290429aa6495780bea8f
+    - 43b123f1a43a5474989a3e061cee9f75
+    - 0e2a0553fc89bee4bb446704ee1b1328
+    - eb638e642e8d9f84bb636022c6ec3ea7
+    - 595efc74a9bda2c4b9ea5d6ede665d03
+    - be1da286a8f2cfc428e05632955a99a2
+    - 01bef6962de84b341817325c4eaa429d
+    - 0ad615677d255194da11d26ad2dbd9f1
+    - 2139c569c9e5c824bab019ff21cd4b2d
+    - 3065c4793f38e48458fe0b76c71753e5
+    - c12d40895d7b7824b96fc72d6237b13f
+    - f3dc57dac31e7e14882ca4e9dd6000e8
+    - b3e33e8c51f20f341a53c9d121c12c17
+    - 9cf1b44d9143ef14ba5ed405cc903c9d
+    - efdb3e3f607613742aa36d36a40f01bc
+    spriteTextureTimeStamps:
+    - 1395257164.69797
+    - 1395257164.75098
+    - 1395257164.09191
+    - 1395257164.0359
+    - 1395257164.26093
+    - 1395257164.78898
+    - 1395257164.11291
+    - 1395257164.23192
+    - 1395257164.72897
+    - 1395257164.15792
+    - 1395257164.83498
+    - 1395257164.20792
+    - 1395257164.13391
+    - 1395257164.29793
+    - 1395257164.84598
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_xishan_1
+    spriteCollectionGUID: d635c4191ac17aa40804d1e4f4e2e8ac
+    spriteCollectionDataGUID: 162fb1c17b8235446932f2c7c026907b
+    spriteNames:
+    - bullet_xishan_01
+    - bullet_xishan_04
+    - bullet_xishan_03
+    - bullet_xishan_02
+    spriteTextureGUIDs:
+    - 6ca9fd41c6947e14b921f996546bd2fa
+    - 798e17c2ef552a54a8d9eae2442be0d7
+    - 83e7704d126162444ba32252ab7b6c80
+    - 293f806d7ba0a6f4a9f227e3629330dc
+    spriteTextureTimeStamps:
+    - 1395257190.28553
+    - 1395257190.46355
+    - 1395257190.36854
+    - 1395257190.31553
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_xishan_2
+    spriteCollectionGUID: bad2fb1589d991b4ca28b93cbaf9c20d
+    spriteCollectionDataGUID: 398bac62a5b70af4eac1b38fdafa93c9
+    spriteNames:
+    - bullet_xishan_08
+    - bullet_xishan_07
+    - bullet_xishan_05
+    - bullet_xishan_06
+    spriteTextureGUIDs:
+    - 59f47f1385dff844ca59dead17f4462d
+    - ef97f72400e2df74d9fe3ce883504b80
+    - 4a608985d737ff346900a74edd961d14
+    - 2136682aed7c1a94e8df0eb5c9c5ba1c
+    spriteTextureTimeStamps:
+    - 1395257190.09151
+    - 1395257190.55456
+    - 1395257190.48155
+    - 1395257190.50755
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xishan_1
+    spriteCollectionGUID: 3c55377b6a6d28c429c544bfb5973793
+    spriteCollectionDataGUID: be09808258541064bb8e5c07f1e269ae
+    spriteNames:
+    - hit_xishan_10
+    - hit_xishan_01
+    - hit_xishan_05
+    - hit_xishan_09
+    - hit_xishan_06
+    - hit_xishan_07
+    - hit_xishan_02
+    spriteTextureGUIDs:
+    - 5bfa7a2019db42a4ca8c59bbaa5cf2d8
+    - 43a9a2c42f9f960438eb1359cf7020e8
+    - 95b128685a3552444b9ee0186d28a4a1
+    - d21fa9e9e65882343b9428156f2876fd
+    - 3edbf2f9326748f4ba2f4551b795ca0e
+    - 81f9e70b389653a44a4fd23e537dcad1
+    - c542941b0125167469b08425cdd166ad
+    spriteTextureTimeStamps:
+    - 1395257189.30343
+    - 1395257189.26943
+    - 1395257189.60746
+    - 1395257189.80348
+    - 1395257189.68247
+    - 1395257189.72747
+    - 1395257189.39244
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xishan_2
+    spriteCollectionGUID: ebbf141a89e02204fba8244d7836c482
+    spriteCollectionDataGUID: 8b8875e10216d1649b81798ec7493497
+    spriteNames:
+    - hit_xishan_03
+    - hit_xishan_04
+    - hit_xishan_08
+    spriteTextureGUIDs:
+    - 52a94cb18a397b648aabe5061bcb278b
+    - a88047bc5ec5b7b448202ba327b1a1dc
+    - c6661caf064b8c34ab88da3ba1cfe46e
+    spriteTextureTimeStamps:
+    - 1395257189.47445
+    - 1395257189.57346
+    - 1395257189.76548
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_shengsifu_1
+    spriteCollectionGUID: 0d05ef413bd0e0649885cd239423b03d
+    spriteCollectionDataGUID: 66d658528d87a4f418203592af503673
+    spriteNames:
+    - behit_shengsifu_05
+    - behit_shengsifu_02
+    - behit_shengsifu_01
+    - behit_shengsifu_04
+    - behit_shengsifu_03
+    spriteTextureGUIDs:
+    - ec8d05d0b7e6f9442a3386b37204b1a0
+    - 62328fc50495eb5429bd268c417039c5
+    - ef2eecb8f92cef642bea8f3c2b73c2ab
+    - 83c6707af0f6d084293be3153c13220e
+    - 97f481dc527955c4ebf0ca99a666ddbf
+    spriteTextureTimeStamps:
+    - 1395257174.23192
+    - 1395257174.78798
+    - 1395257174.70597
+    - 1395257174.14391
+    - 1395257174.06091
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_shengsifu_2
+    spriteCollectionGUID: 6b5df186e239cac4da02789cf3826c85
+    spriteCollectionDataGUID: e139bacc186aca949ad198c949ff85f6
+    spriteNames:
+    - behit_shengsifu_06
+    - behit_shengsifu_07
+    - behit_shengsifu_09
+    - behit_shengsifu_08
+    spriteTextureGUIDs:
+    - f320fc25a5a46f646b571755c3ab69ca
+    - 88edc63928c080e468bb5fcd2410138f
+    - a1e68b8ca05c83c438d3d28137fcf3c9
+    - 669d890f1c53c404dbc24d27f6bafc2f
+    spriteTextureTimeStamps:
+    - 1395257174.26993
+    - 1395257174.33093
+    - 1395257174.40094
+    - 1395257174.36194
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_shengsifu_3
+    spriteCollectionGUID: 6efc33a5a65ed8d41843552ae99f925c
+    spriteCollectionDataGUID: c5e841f60b869964eaee0d10c355472d
+    spriteNames:
+    - behit_shengsifu_10
+    spriteTextureGUIDs:
+    - 3b4853353660cb448a9086b3d3cb174d
+    spriteTextureTimeStamps:
+    - 1395257174.72797
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_shengsifu_1
+    spriteCollectionGUID: 240fcc2ea27d97e4794aa08d174f4fac
+    spriteCollectionDataGUID: 91fef29a56efc6844b2088de4c9bde9d
+    spriteNames:
+    - bullet_shengsifu
+    spriteTextureGUIDs:
+    - 69579a7bb78f2ec4a8f010e930b6313d
+    spriteTextureTimeStamps:
+    - 1395257173.90089
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_shengsifu_1
+    spriteCollectionGUID: 19c9c3eb9d8fd0e47beb28e78534f5eb
+    spriteCollectionDataGUID: 554f36bcc1fcc574f82c8d33d0967b89
+    spriteNames:
+    - hit_shengsifu_05
+    - hit_shengsifu_02
+    - hit_shengsifu_01
+    - hit_shengsifu_04
+    - hit_shengsifu_06
+    - hit_shengsifu_03
+    spriteTextureGUIDs:
+    - 7059198502a11e34ca3295360389e667
+    - 3b30e36627c3e3344bc9bf8abc0be3d2
+    - 26394147ac1c1034691b92c55bae586a
+    - 4ec91d59fc3ab8249a3e33a74d8cac66
+    - a55a210a445d0cf4794dc69bc470d097
+    - cdfc4d8e7064d5c40a0b9d6f9f1fafde
+    spriteTextureTimeStamps:
+    - 1395257173.73487
+    - 1395257173.58786
+    - 1395257173.45385
+    - 1395257173.71887
+    - 1395257173.77588
+    - 1395257173.65687
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_shengsifu_2
+    spriteCollectionGUID: 0adcee67de92605448e0885ef9f45a37
+    spriteCollectionDataGUID: 0341e4b2418868e4c81701ad5a469e4f
+    spriteNames:
+    - hit_shengsifu_10
+    - hit_shengsifu_08
+    - hit_shengsifu_07
+    - hit_shengsifu_09
+    - hit_shengsifu_12
+    - hit_shengsifu_11
+    spriteTextureGUIDs:
+    - c145832232636114cbad7e91d22bab8e
+    - cfdcb2e2bba843d44b3fe595d5b15adf
+    - 46f8b7455af058a43b2c355eabdd9611
+    - c8813ff95ca287845acf74c9911b4732
+    - e641880fbbab35143aec0e494e0b6f24
+    - 0eaea77f818e9d042a1f3f1fa7628441
+    spriteTextureTimeStamps:
+    - 1395257173.54185
+    - 1395257173.85289
+    - 1395257173.81488
+    - 1395257173.89389
+    - 1395257173.68387
+    - 1395257173.59986
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_neigong_1
+    spriteCollectionGUID: 1821726fe9f7635469de6d8fb03fa3a2
+    spriteCollectionDataGUID: 4ef78163097adae498b9c3abba3afd22
+    spriteNames:
+    - behit_neigong14
+    - behit_neigong07
+    - behit_neigong02
+    - behit_neigong15
+    - behit_neigong04
+    - behit_neigong10
+    - behit_neigong08
+    - behit_neigong03
+    - behit_neigong09
+    - behit_neigong06
+    - behit_neigong11
+    - behit_neigong01
+    - behit_neigong12
+    - behit_neigong13
+    - behit_neigong16
+    - behit_neigong05
+    spriteTextureGUIDs:
+    - b7ea907089234c249a516e7add6e70ed
+    - 4d7ce412e1462e743a33b51b33fc2e92
+    - 3cd2ca22bf24c244a9a14da758f93ddc
+    - 13b558e2748b256469a97d76e0f426a9
+    - 65f1c5256328f014bb7b357db68a557a
+    - fe2f5eb512d516d44a50c135d7275545
+    - 76104ad561cc82544bae7a038324f9be
+    - d3a65649c289484418ce2755e48de906
+    - deb2f13ada36022408d7be7ad350b2c2
+    - cb2c7bbab8a8fbf4f9d8b48fbe838a04
+    - d0ac0eda7cdc7e84d96ecb0392f9984f
+    - d9b7eddd270963c40b9e9336b27654f0
+    - 2bd70d3ed632e6f4aa7ef280504e3e45
+    - afefbacef050dcc40b0fc83d7e22a4fb
+    - bfaea99f81382164bbe6a5c9d6446467
+    - 71c3c5ff250173b4aaf29d5fbd086fc1
+    spriteTextureTimeStamps:
+    - 1395257159.94249
+    - 1395257160.38854
+    - 1395257160.23952
+    - 1395257159.9635
+    - 1395257160.32953
+    - 1395257160.80258
+    - 1395257160.49055
+    - 1395257160.27853
+    - 1395257160.54155
+    - 1395257160.36554
+    - 1395257160.81558
+    - 1395257160.19252
+    - 1395257160.82358
+    - 1395257160.85359
+    - 1395257159.9785
+    - 1395257160.35054
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_common_1
+    spriteCollectionGUID: 7c8459c5afdd0ef46a87577d8ffaa188
+    spriteCollectionDataGUID: 24aa6b8941c04c54a9339b6f52816ae1
+    spriteNames:
+    - hit_common_01
+    - hit_common_03
+    - hit_common_04
+    - hit_common_02
+    spriteTextureGUIDs:
+    - c1e68030132f31f4ab438c16a0ff09f5
+    - 801d7cb340cd08245a6db15476effcfd
+    - a4287e941933f2b42ab81ce361ca6ea9
+    - 2702072d2684c2746bdd044c54f4f992
+    spriteTextureTimeStamps:
+    - 1395257158.11631
+    - 1395257158.19232
+    - 1395257158.23732
+    - 1395257158.14231
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_common_2
+    spriteCollectionGUID: c879cd235796e914cac3cb6ce45dfce6
+    spriteCollectionDataGUID: 273fa6e4354d65344a3d0c6f1a108c27
+    spriteNames:
+    - hit_common_05
+    - hit_common_07
+    - hit_common_06
+    spriteTextureGUIDs:
+    - 74df03d21094d1747a70b4398ac138d7
+    - 04909867b6a53c74eaf1c6502843b662
+    - 437cf3ab22454de49a0177463bb0c5bd
+    spriteTextureTimeStamps:
+    - 1395257158.31333
+    - 1395257159.59346
+    - 1395257158.36234
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_zhang_1
+    spriteCollectionGUID: 7847a1dd52b629f4584ae100f85fc723
+    spriteCollectionDataGUID: 343d4d9e25071e54da607dd9673ef244
+    spriteNames:
+    - behit_zhang_02
+    - behit_zhang_01
+    - behit_zhang_03
+    - behit_zhang_04
+    spriteTextureGUIDs:
+    - 82a284f5f7a89b4479a1ee1d704e3ce2
+    - efe964ea37a62e447ac825318f2a7870
+    - 576f893c34577a74f8d22870a552a834
+    - 683ebb3f697a660408618c8cff1684c2
+    spriteTextureTimeStamps:
+    - 1395257143.33783
+    - 1395257143.24583
+    - 1395257143.46285
+    - 1395257143.73487
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_zhang_2
+    spriteCollectionGUID: 85b1b9d853ac6f447a32da90267b4b67
+    spriteCollectionDataGUID: 3063de6ec052c6949a68898d81975b09
+    spriteNames:
+    - behit_zhang_05
+    spriteTextureGUIDs:
+    - 8282741056c20b748979ec9f459815cd
+    spriteTextureTimeStamps:
+    - 1395257143.75288
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_zhang_1
+    spriteCollectionGUID: 6d2fd7c43f971244fb95102975b42d8f
+    spriteCollectionDataGUID: 774a6db1f17ba12458158df222a29afe
+    spriteNames:
+    - bullet_zhang_02
+    - bullet_zhang_04
+    - bullet_zhang_01
+    - bullet_zhang_03
+    spriteTextureGUIDs:
+    - 41232df1c5841f14fa81ec7e5cc54538
+    - b03118f37d1ec1046a2fcd828e0624c8
+    - 3ab7a60a30a5ec34cb8ab2f2da4201b9
+    - 1072308b332b62541a58d986d409fbc5
+    spriteTextureTimeStamps:
+    - 1395257142.12871
+    - 1395257142.21672
+    - 1395257142.0227
+    - 1395257142.14972
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_zhang_2
+    spriteCollectionGUID: 832d88dd502f74b45892fb2cf1933f44
+    spriteCollectionDataGUID: c2655e893b733c14f8744ca53d8bcfd4
+    spriteNames:
+    - bullet_zhang_06
+    - bullet_zhang_05
+    - bullet_zhang_07
+    spriteTextureGUIDs:
+    - 0e785c4403d5e8341a6722b3d2f70a19
+    - a481ac68d77af4b40924e85aea021b01
+    - 226933dc8a9e39746863ff4f9c907cc7
+    spriteTextureTimeStamps:
+    - 1395257142.61476
+    - 1395257142.45175
+    - 1395257142.77578
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_zhang_1
+    spriteCollectionGUID: 43fd58dd55d8829449acd988b08f914f
+    spriteCollectionDataGUID: 7fff3fa45c0640e4eba4c47008b6a482
+    spriteNames:
+    - hit_zhang_11
+    - hit_zhang_03
+    - hit_zhang_04
+    - hit_zhang_06
+    - hit_zhang_09
+    - hit_zhang_01
+    - hit_zhang_08
+    - hit_zhang_10
+    - hit_zhang_07
+    - hit_zhang_05
+    - hit_zhang_02
+    spriteTextureGUIDs:
+    - 8638dc905dfc1634982c5a2250f28b88
+    - f1f007e04d7c3444fa1ef7aa8c671cd6
+    - 09a894e28a816064c857f4c81769927a
+    - eacc8be3523a45b4d9b770a27e5eb4d2
+    - 7946e62476c16494292c492e242841cd
+    - 57432f64e5f440448add28737b200de0
+    - 964152d965203de448c08d2f7e957771
+    - ca9b475b7c4d18b47ba78344a5938b3a
+    - 331899fb3b75665458cd41419308bad0
+    - f70bfe2c2de98984e802604ba67db425
+    - 509980ae62cb52f44b6e1b7f357ebfaa
+    spriteTextureTimeStamps:
+    - 1395257140.94259
+    - 1395257141.05861
+    - 1395257141.25563
+    - 1395257141.39064
+    - 1395257141.57666
+    - 1395257140.73457
+    - 1395257141.53165
+    - 1395257140.77758
+    - 1395257141.46365
+    - 1395257141.28963
+    - 1395257140.93159
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_bingdu_1
+    spriteCollectionGUID: ee8dc18a87df7714faa7fbc1078295a7
+    spriteCollectionDataGUID: ee0dd781cec75cb4ab5094acf1e94f1b
+    spriteNames:
+    - behit_bingdu_01
+    - behit_bingdu_02
+    - behit_bingdu_04
+    - behit_bingdu_12
+    - behit_bingdu_03
+    - behit_bingdu_15
+    - behit_bingdu_08
+    - behit_bingdu_09
+    - behit_bingdu_05
+    - behit_bingdu_10
+    - behit_bingdu_07
+    - behit_bingdu_14
+    - behit_bingdu_11
+    - behit_bingdu_17
+    - behit_bingdu_16
+    - behit_bingdu_06
+    - behit_bingdu_13
+    spriteTextureGUIDs:
+    - a2a0d950411faa14fb8a0b7d6950f6f9
+    - 0c967890e01ef4541b08fe457c2ce87f
+    - a84542d1db4b5da409ea09754129141f
+    - 7c9a17d1bcfe848448d1b0d87d116b60
+    - eda07a521da27034588c633094d9eeaa
+    - 1210c874e7744fa45881382c745054e5
+    - d8f948477f9307f46b08360f2e1e8cd3
+    - 872de2889f5d0934cba6f23962e9c5bd
+    - c8fa154a3d891e441a611bec6ae2205c
+    - 567d3c9ab3bb89342a7cf9c0e8dfc13c
+    - a48cdf4b2bb25c54784b2f6ac176c163
+    - b3590b6b628638d488f49fd30eb8a51c
+    - ae66781daecd0314ba87492fca5b902e
+    - 3f3350ad49e24f6418332ec5b6a0b4b9
+    - e7a2f9cdec38e0f41a2b1995953a6bbf
+    - 8aff11aff6627af42aba3ee30e1a4b6c
+    - 0491b6efa70e11642838433c8d4a3e2f
+    spriteTextureTimeStamps:
+    - 1395257187.80928
+    - 1395257187.83928
+    - 1395257187.87729
+    - 1395257187.17322
+    - 1395257187.85829
+    - 1395257187.23322
+    - 1395257188.0353
+    - 1395257188.05831
+    - 1395257187.93829
+    - 1395257187.12621
+    - 1395257188.0103
+    - 1395257187.20722
+    - 1395257187.15322
+    - 1395257187.32123
+    - 1395257187.27423
+    - 1395257187.9853
+    - 1395257187.19022
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_bingdu_2
+    spriteCollectionGUID: 1010705de263b7445a00f3cb0ffd35cc
+    spriteCollectionDataGUID: 8ef459f39897f624ea724787708d4490
+    spriteNames:
+    - behit_bingdu_18
+    spriteTextureGUIDs:
+    - c6d52633b8fd1b04aaa3d0dd0b3b6dde
+    spriteTextureTimeStamps:
+    - 1395257187.41524
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_bingdu_1
+    spriteCollectionGUID: f86437b2f631e3548a7bc77efedc9d86
+    spriteCollectionDataGUID: 038e42ffa65e06443900644b66a66abd
+    spriteNames:
+    - bullet_bingdu_04
+    - bullet_bingdu_05
+    - bullet_bingdu_01
+    - bullet_bingdu_09
+    - bullet_bingdu_08
+    - bullet_bingdu_02
+    - bullet_bingdu_06
+    - bullet_bingdu_07
+    - bullet_bingdu_03
+    spriteTextureGUIDs:
+    - c9a66312ba9fb9245be8f6b3fa853b79
+    - 929c6e2458bade645a3909245b3fad71
+    - e9e6113406d994c459e0ff36847a30f4
+    - a486b015122f27d439e7cbb03ed167af
+    - 06c4912506d9eeb4b945720542358e1e
+    - 12c977c7a5b02364399a0f13ddbff81a
+    - 908ac05b9725dd848ab0bc4b4c118a57
+    - 20f015dbda032fa48a166de03800ec69
+    - b9bbcffc273e6564cad1b73f0cc3e544
+    spriteTextureTimeStamps:
+    - 1395257186.60416
+    - 1395257186.63916
+    - 1395257186.46715
+    - 1395257186.77218
+    - 1395257186.76018
+    - 1395257186.49115
+    - 1395257186.68117
+    - 1395257186.71217
+    - 1395257186.58116
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_mifeng_1
+    spriteCollectionGUID: f909db38e716b1b40b392dea76d3fc64
+    spriteCollectionDataGUID: c758d692fc07da44f93d67cbbea23123
+    spriteNames:
+    - behit_mifeng_02
+    - behit_mifeng_07
+    - behit_mifeng_01
+    - behit_mifeng_08
+    - behit_mifeng_05
+    - behit_mifeng_03
+    - behit_mifeng_06
+    - behit_mifeng_04
+    spriteTextureGUIDs:
+    - 94a269832b8a75242871602706b04652
+    - 7e0ceef492a24ac48833424ede7c2bae
+    - 33e370f575c8479428dc822a4a1eb1a4
+    - a5898e787df4e634294edcd91088b38d
+    - ed369af83196be5469ba4134f5bad1b9
+    - 8553dd6957f6c194fab5ff85ccd3fadc
+    - 9daf7aba537f3db46b4ba2deb879a072
+    - f0122b3c448fbc5498a4de00c9e1047b
+    spriteTextureTimeStamps:
+    - 1395257182.51675
+    - 1395257182.80478
+    - 1395257182.46275
+    - 1395257181.73567
+    - 1395257182.74677
+    - 1395257182.56376
+    - 1395257182.77878
+    - 1395257182.68877
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_mifeng_2
+    spriteCollectionGUID: aecf40e584d71174ea1c3396c6583fa4
+    spriteCollectionDataGUID: f34d497d7b8c7204e844faa750aafc6a
+    spriteNames:
+    - behit_mifeng_12
+    - behit_mifeng_11
+    - behit_mifeng_10
+    - behit_mifeng_15
+    - behit_mifeng_13
+    - behit_mifeng_09
+    - behit_mifeng_14
+    spriteTextureGUIDs:
+    - f16fc77068e3ed54facec3efd8a2d393
+    - 47084a32f9c38a4439d1e0a8b4c7a17e
+    - 213e9be48eb025049bd9775869ab3ce6
+    - 1100a1c76280e4d4ea67f9343a897433
+    - 0f42a6582a898524397ce5fe605fdddf
+    - 8a437e2a361cf2148bbb1e3eb26a034a
+    - d7d650feb336616458bbe97b89f13866
+    spriteTextureTimeStamps:
+    - 1395257182.63276
+    - 1395257182.53275
+    - 1395257182.49575
+    - 1395257182.78978
+    - 1395257182.71577
+    - 1395257181.76668
+    - 1395257182.76178
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_mifeng_1
+    spriteCollectionGUID: dcaf4bd48a217774ca7571192b871627
+    spriteCollectionDataGUID: 5230e23a8cb8e3a429cc78cbf4a1eb29
+    spriteNames:
+    - bullet_mifeng
+    spriteTextureGUIDs:
+    - 0376b7590cae7464380fdea19e541dd0
+    spriteTextureTimeStamps:
+    - 1395257181.56766
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_yiyangzhi_1
+    spriteCollectionGUID: 42b58b2ae98b60848a5aad0504fedcf0
+    spriteCollectionDataGUID: d1f78b6ed86863d4b97b1b8c40a0bf37
+    spriteNames:
+    - bullet_yiyangzhi_04
+    - bullet_yiyangzhi_05
+    - bullet_yiyangzhi_02
+    - bullet_yiyangzhi_06
+    - bullet_yiyangzhi_01
+    - bullet_yiyangzhi_03
+    spriteTextureGUIDs:
+    - db69ada0c31c4604cae2ba498d0de024
+    - 3fb681b263f3f884c81fc6975bbfafaa
+    - 796de873931ae37448d9386062c0ab91
+    - a5a88d16ff1e6bd4ca864b257e38dc65
+    - 6778fed9c645b9448b39eac9cbe8768f
+    - 5f5664f98c68f4f43b672a270cd017f0
+    spriteTextureTimeStamps:
+    - 1395257190.9666
+    - 1395257190.9826
+    - 1395257190.91559
+    - 1395257190.75658
+    - 1395257190.89959
+    - 1395257190.93459
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_yiyangzhi_1
+    spriteCollectionGUID: b3500c4152e6ee5499143d6e9bf2bb10
+    spriteCollectionDataGUID: 3c8fc5415b532a54c8101b723196a2ff
+    spriteNames:
+    - hit_yiyangzhi_02
+    - hit_yiyangzhi_09
+    - hit_yiyangzhi_04
+    - hit_yiyangzhi_01
+    - hit_yiyangzhi_08
+    - hit_yiyangzhi_10
+    - hit_yiyangzhi_07
+    - hit_yiyangzhi_05
+    - hit_yiyangzhi_12
+    - hit_yiyangzhi_06
+    - hit_yiyangzhi_03
+    - hit_yiyangzhi_11
+    spriteTextureGUIDs:
+    - 107d0a003cf9c524d8e7b9189074df7b
+    - 061021c25aae37a4cb4bbe81b9af1c99
+    - 046c03d32a2f83141b864169699e3125
+    - 879c6ec4b92f7a64e8e3c89fce6868fb
+    - 1e3960e457465a142b276ad329fc9c59
+    - 40096f65d2356a94ab9d1d7efa7d0650
+    - fcaf0c9675cb08c42b0cbc17342c3763
+    - a1ae655bd8eb86d46a23893144217a76
+    - b757d10cf7386054380c453a4fddea9e
+    - 8fa231cc05921ae4f88a1b735361ebf7
+    - 55dff79d32084be4d9ec69ec56e79883
+    - 1b9374cf1796d554f856f78fdb3034a2
+    spriteTextureTimeStamps:
+    - 1395257191.74968
+    - 1395257192.10471
+    - 1395257191.91569
+    - 1395257191.69867
+    - 1395257192.05571
+    - 1395257191.71967
+    - 1395257192.0407
+    - 1395257191.9677
+    - 1395257191.88269
+    - 1395257192.0137
+    - 1395257191.85469
+    - 1395257191.76368
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_gaizhang_1
+    spriteCollectionGUID: 89bd805008c7bae439510b313998ab1a
+    spriteCollectionDataGUID: 7771c22c560eaf245a758a256f9688f6
+    spriteNames:
+    - behit_gaizhang_05
+    - behit_gaizhang_08
+    - behit_gaizhang_07
+    - behit_gaizhang_01
+    - behit_gaizhang_03
+    - behit_gaizhang_02
+    - behit_gaizhang_06
+    - behit_gaizhang_04
+    spriteTextureGUIDs:
+    - 1da16b003cabd944fb1c5669a0095bae
+    - d3b40d6098acae94090c12b7d53c67fa
+    - 31639dc28d2c3ce42afb54cb480c4b41
+    - 77e477c4938cf1e4a81ce77e5fcca39d
+    - 39cd30f49ed5a5043a068cd43c12ca99
+    - 428f4cd52a1acdd489104c8f392c14b9
+    - 0c50430b8b4769b4bbd539ff8ce363f3
+    - 700934eeb34381c4388b77e3a1f0c7c6
+    spriteTextureTimeStamps:
+    - 1395257176.26313
+    - 1395257176.44214
+    - 1395257176.41714
+    - 1395257175.92309
+    - 1395257176.12611
+    - 1395257175.9781
+    - 1395257176.32713
+    - 1395257176.19012
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_gaizhang_2
+    spriteCollectionGUID: 23edb33511a53a04f8dc6771ca76330d
+    spriteCollectionDataGUID: 647bcc5e5e3fd444f9e815a8189bfda8
+    spriteNames:
+    - behit_gaizhang_13
+    - behit_gaizhang_12
+    - behit_gaizhang_14
+    - behit_gaizhang_10
+    - behit_gaizhang_09
+    - behit_gaizhang_11
+    spriteTextureGUIDs:
+    - bd5afc828e5837b4694041a99ef2973b
+    - 11f15f643ae6b6b42900fc850bd315ae
+    - c7d8d6b4dcfd5f94c9814700f23306e8
+    - dd72e616e38f0ac408195f042a03bbf5
+    - 839cd0f851d4ea84485503312e4b4be2
+    - dd79413da03559440aa0ebf1ae6c6de3
+    spriteTextureTimeStamps:
+    - 1395257176.21812
+    - 1395257176.15812
+    - 1395257176.29913
+    - 1395257175.9661
+    - 1395257176.48215
+    - 1395257176.0121
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_gaizhang_1
+    spriteCollectionGUID: ae2eefae304d739428c7da56bd82a81c
+    spriteCollectionDataGUID: 46d6d3a866dc18e4e80429cd6e874b53
+    spriteNames:
+    - 
+    - 
+    - bullet_gaizhang_01
+    spriteTextureGUIDs:
+    - 
+    - 
+    - cc0c2495382ad684c98d90694a4992cd
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 1395257175.64506
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_gaizhang_1
+    spriteCollectionGUID: dda8383cdc83ee043824a38a4845fa0c
+    spriteCollectionDataGUID: ee6ec0858b254854abf6b0658c6e0909
+    spriteNames:
+    - hit_gaizhang_02
+    - hit_gaizhang_04
+    - hit_gaizhang_06
+    - hit_gaizhang_01
+    - hit_gaizhang_09
+    - hit_gaizhang_08
+    - hit_gaizhang_03
+    - hit_gaizhang_1o
+    - hit_gaizhang_05
+    - hit_gaizhang_07
+    spriteTextureGUIDs:
+    - e059bf6072462f741a00d2fffb3823ae
+    - 03777e9025c6b6246b0519cd7116584f
+    - 92d8bc61634b75848a9096c289d354f4
+    - a15287d1bdc00dc4abb871fb8fe2ce23
+    - f2613c125f872d3489bd16208b00c01b
+    - da3dbad2bb669344a846c6be6da03721
+    - ea124e6792351ba4ba886e8c7f5fbf3d
+    - dd9a2dd77dea8a94fac30974a2964deb
+    - 7f63988de9c528542bbae8c21491784d
+    - a8ac13dd4b99abe489a71a1a64709f5a
+    spriteTextureTimeStamps:
+    - 1395257175.28003
+    - 1395257175.32603
+    - 1395257175.39604
+    - 1395257175.25503
+    - 1395257175.55606
+    - 1395257175.52605
+    - 1395257175.29403
+    - 1395257175.23902
+    - 1395257175.35104
+    - 1395257175.46005
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_gaigun_1
+    spriteCollectionGUID: fe9c31368cc1636499634f90636237ff
+    spriteCollectionDataGUID: 8e5365a3cdded604bb0c555d29fec108
+    spriteNames:
+    - behit_gaigun_07
+    - behit_gaigun_05
+    - behit_gaigun_04
+    - behit_gaigun_01
+    - behit_gaigun_06
+    - behit_gaigun_02
+    - behit_gaigun_03
+    spriteTextureGUIDs:
+    - 6893a8f0344162345b370a7699e5b58c
+    - 9f0ec87358ccb2d48b7a2514a9bf806e
+    - 38cb6ea4065837343a589959b0ff0a9b
+    - 43e27865b87c621468e312a91422a54f
+    - 3e65467854d426f41a6f656459d80ec2
+    - 80dc0898615b659459163df1dcb44cad
+    - 2314cfcc3b6f4a34481919aeee3e8b06
+    spriteTextureTimeStamps:
+    - 1395257157.72227
+    - 1395257157.41224
+    - 1395257157.39024
+    - 1395257157.27623
+    - 1395257157.60926
+    - 1395257157.30423
+    - 1395257157.36524
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_gaigun_1
+    spriteCollectionGUID: 6377e6f5937ef034f98dbfd8253f0f50
+    spriteCollectionDataGUID: 43dc40c2f6830924c9ee0a432c1a1c77
+    spriteNames:
+    - hit_gaigun_04
+    - hit_gaigun_03
+    - hit_gaigun_07
+    - hit_gaigun_02
+    - hit_gaigun_06
+    - hit_gaigun_01
+    - hit_gaigun_05
+    spriteTextureGUIDs:
+    - e623a8405aab4aa46bb2aa7612475f4f
+    - ba7933911177b1745bc41791ffd0021f
+    - bad03617f4842454aa5362d9e4b82ba3
+    - 0622d118a3b332f4e9b1b704538a5e45
+    - 247f6678a15eb924e8e1bca93241fc89
+    - 420a3c4d880848a419f63ebb7a8bca3e
+    - 463273bdc8ff99243af83cdbd159e7de
+    spriteTextureTimeStamps:
+    - 1395257156.53915
+    - 1395257156.51415
+    - 1395257156.65917
+    - 1395257156.49115
+    - 1395257156.58916
+    - 1395257156.42714
+    - 1395257156.56216
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_gaigun_2
+    spriteCollectionGUID: a3e30d238a663f846a3a05885d0076ae
+    spriteCollectionDataGUID: 1ff4392948097644e83fcee3ab95dcf0
+    spriteNames:
+    - hit_gaigun_09
+    - hit_gaigun_10
+    - hit_gaigun_08
+    spriteTextureGUIDs:
+    - e3d78cd5343f3eb47ab18d5357a167cc
+    - 5c9eade65a4a6144fa605a7874030c95
+    - 3512ebc8924b7eb47b28fb8603ce98ef
+    spriteTextureTimeStamps:
+    - 1395257156.88419
+    - 1395257156.44014
+    - 1395257156.75418
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_xiujian_1
+    spriteCollectionGUID: 1aff796d39e79e74eb54bdeb9d867f75
+    spriteCollectionDataGUID: 5afdc0dbd200a804fa35ffd9d88ba806
+    spriteNames:
+    - behit_xiujian_04
+    - behit_xiujian_02
+    - behit_xiujian_03
+    - behit_xiujian_01
+    spriteTextureGUIDs:
+    - 3dbdde000a3c45948aac4777de530f9a
+    - 542900207c780de44a38a4d52e5ea152
+    - 3dc54e64be383fa478e6bd60bfac4181
+    - 972f995eed7846f438376d791fbe778d
+    spriteTextureTimeStamps:
+    - 1395257162.16972
+    - 1395257162.04671
+    - 1395257162.09571
+    - 1395257161.9967
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_xiujian_2
+    spriteCollectionGUID: 986e1d76f2fcc7e4cb21f98b5d9b6447
+    spriteCollectionDataGUID: fbc527d98f0604d4a81ef4990149a4d0
+    spriteNames:
+    - behit_xiujian_05
+    - behit_xiujian_06
+    - behit_xiujian_08
+    - behit_xiujian_07
+    - behit_xiujian_09
+    - behit_xiujian_10
+    - behit_xiujian_11
+    spriteTextureGUIDs:
+    - 570c4082782d2e74fb7f2b52f10a83cd
+    - e1cd54394c37b0c4ebb72992d336a702
+    - a9496bf9d22fa2e469d6023ae6e5fffd
+    - 41e20caff2cad8c45b9971bb1d9fa05c
+    - 2764cb43636ceb64a904e7a1546b4cfb
+    - 64567298ef733884b94fc1169b2c9d15
+    - bce912435b6327a468f6413dfcb5ee5a
+    spriteTextureTimeStamps:
+    - 1395257162.20372
+    - 1395257162.25073
+    - 1395257162.36374
+    - 1395257162.29173
+    - 1395257162.37374
+    - 1395257162.0287
+    - 1395257162.07071
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_xiujian_1
+    spriteCollectionGUID: 002d7258974d23d4380321ea9174dd12
+    spriteCollectionDataGUID: 7927a7a03517ea84bb512a9d568303ff
+    spriteNames:
+    - bullet_xiujian_01
+    spriteTextureGUIDs:
+    - 07d7368e2786b1b48954f5a106569cd3
+    spriteTextureTimeStamps:
+    - 1395257161.90069
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xiujian_1
+    spriteCollectionGUID: 6c4470cdaca64a94da6a212edcfa770d
+    spriteCollectionDataGUID: d0741d82ec5c5764ea7ef0a3f3b377d4
+    spriteNames:
+    - hit_xiujian_02
+    - hit_xiujian_05
+    - hit_xiujian_03
+    - hit_xiujian_01
+    - hit_xiujian_06
+    - hit_xiujian_04
+    spriteTextureGUIDs:
+    - 0f3a7ef1ab9e1d8408002036a51e4af0
+    - 78b32f724b69de945823f37c1547fed1
+    - 5d9e3574db393e848bde570f60b38f92
+    - d4972b56ad9c6b543a3387883c685486
+    - ba25403882cbd0141a182f3a3d0c4bb0
+    - 87d00b9908ed0f7468926c3c2108404a
+    spriteTextureTimeStamps:
+    - 1395257161.32563
+    - 1395257161.58566
+    - 1395257161.42364
+    - 1395257161.28363
+    - 1395257161.73867
+    - 1395257161.49665
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xiujian_2
+    spriteCollectionGUID: 9674236bcfba36c43a9ed98ef0a55070
+    spriteCollectionDataGUID: 4cafb350b2308604d9bb4a2ab3dcff86
+    spriteNames:
+    - hit_xiujian_09
+    - hit_xiujian_07
+    - hit_xiujian_10
+    - hit_xiujian_08
+    spriteTextureGUIDs:
+    - 5afa79d04cb75734883210cc9275d910
+    - c7551515c2e1c884aac185b2ed234de9
+    - 5cdc16b8d63d0b14bb5ace27f6703e63
+    - d3cd46aa41b57504fb8ecbd6d911c688
+    spriteTextureTimeStamps:
+    - 1395257161.79468
+    - 1395257161.75968
+    - 1395257161.29963
+    - 1395257161.78268
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_xiujian_3
+    spriteCollectionGUID: 68e926791446ea6479320d528864bdb1
+    spriteCollectionDataGUID: da4b2655dfc1d594885de19558bdb2f2
+    spriteNames:
+    - hit_xiujian_11
+    - hit_xiujian_14
+    - hit_xiujian_12
+    - hit_xiujian_13
+    spriteTextureGUIDs:
+    - 4278bec38e3c9664f866610892abc1c6
+    - 35dbd2b601ceca840a6689ac74efb71b
+    - c7111bb76d4888c4a97021037f0c31f1
+    - 9e2c1e2a41c9d95429b89a889fb1a004
+    spriteTextureTimeStamps:
+    - 1395257161.36664
+    - 1395257161.66767
+    - 1395257161.44665
+    - 1395257161.53965
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_huoyandao_1
+    spriteCollectionGUID: 0f47865fdbca2b148ae97379178a556d
+    spriteCollectionDataGUID: d12848adb5d009f4cad4e1632238d464
+    spriteNames:
+    - behit_huoyandao_13
+    - behit_huoyandao_03
+    - behit_huoyandao_10
+    - behit_huoyandao_02
+    - behit_huoyandao_06
+    - behit_huoyandao_05
+    - behit_huoyandao_09
+    - behit_huoyandao_08
+    - behit_huoyandao_12
+    - behit_huoyandao_01
+    - behit_huoyandao_04
+    - behit_huoyandao_07
+    - behit_huoyandao_11
+    spriteTextureGUIDs:
+    - 04c3da6016b885a4a9191ce2ef399cff
+    - 87d4f3a2799d38c4ca2b5865667c43bd
+    - 69234034023ef2542831fda86d28bc1a
+    - 6fd59c5418e5dfa448fbe8392d943b63
+    - 05a6c9d512ed7d64c8a4b8021beff7c7
+    - dd1f805701b33b34ab192cdefccdf012
+    - 3e35845705dee074081b59e806664bfa
+    - 05863a48a86e38348942939b4e11197e
+    - 1a40d9e8191470b46befbd8bf5711601
+    - 9a5dd3faa257c644dac12f51dd13aba7
+    - 4fd32c4d598d18841b8cbc5047994615
+    - f0cd6f8dbfaa65f49977e4fd4b5bfab8
+    - b10ac77e9ab39974d860b6c1bfe1bf35
+    spriteTextureTimeStamps:
+    - 1395257170.29053
+    - 1395257170.15752
+    - 1395257170.0255
+    - 1395257170.06851
+    - 1395257169.26743
+    - 1395257169.24743
+    - 1395257169.34543
+    - 1395257169.32543
+    - 1395257170.19552
+    - 1395257169.9485
+    - 1395257170.21652
+    - 1395257169.29943
+    - 1395257170.11451
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_huoyandao_1
+    spriteCollectionGUID: 297caa5deade5bb418713b0f5695b836
+    spriteCollectionDataGUID: da658ae7d47da5a448eb3e0c026eabe5
+    spriteNames:
+    - bullet_huoyandao
+    spriteTextureGUIDs:
+    - 5dd33c0df1278fd4ca7f1e5dfa1d7831
+    spriteTextureTimeStamps:
+    - 1395257169.13741
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_huoyandao_1
+    spriteCollectionGUID: 47b27bac51727fd478dccbccd7b72eda
+    spriteCollectionDataGUID: fcd3a54f9584e774a80ca8c6f77fecc9
+    spriteNames:
+    - hit_huoyandao_03
+    - hit_huoyandao_02
+    - hit_huoyandao_04
+    - hit_huoyandao_01
+    - hit_huoyandao_05
+    - hit_huoyandao_11
+    spriteTextureGUIDs:
+    - 50ffc9d15dbb8134fbb0c6e9313f766a
+    - beb9d3f6e63e926428a932090979c8dc
+    - 64ac43973da62e143a9382fd5b404d19
+    - 3c813999b601a974f8bb6ce6b6fa93c7
+    - 4ef3eb47b900aea479367d23e938fdd2
+    - 67b47127156307f458e8841f4799ae5a
+    spriteTextureTimeStamps:
+    - 1395257170.84458
+    - 1395257170.70157
+    - 1395257170.87659
+    - 1395257170.65957
+    - 1395257170.89559
+    - 1395257170.79958
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_huoyandao_2
+    spriteCollectionGUID: 7f52898b03c1ec246805cf0de19401c7
+    spriteCollectionDataGUID: d6154e804a45e4d42895dc29ca8297ba
+    spriteNames:
+    - hit_huoyandao_09
+    - hit_huoyandao_07
+    - hit_huoyandao_08
+    - hit_huoyandao_06
+    spriteTextureGUIDs:
+    - 450dd68850c103349b94ed1d85628567
+    - ecc1da2a82adb334db4969d6fedb3aea
+    - 70ad079c12c5347439b22dca80dc0653
+    - 04fd266d49db4994f84f1707483c6903
+    spriteTextureTimeStamps:
+    - 1395257171.10561
+    - 1395257170.9896
+    - 1395257171.0176
+    - 1395257170.92059
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_huoyandao_3
+    spriteCollectionGUID: 73e91708d47c29844a2c65aa67195be7
+    spriteCollectionDataGUID: 529c2c1128004ef499a8974da5709552
+    spriteNames:
+    - hit_huoyandao_10
+    spriteTextureGUIDs:
+    - 1329956cc68a9c44b868191b59f870ea
+    spriteTextureTimeStamps:
+    - 1395257170.68557
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_long_1
+    spriteCollectionGUID: 562e50380a9c3df49bf7a6133397edfc
+    spriteCollectionDataGUID: 8a90c7dd7767b564ebca501906a555de
+    spriteNames:
+    - bullet_long
+    spriteTextureGUIDs:
+    - c1f41fba122fd8d42a37d16ba9af6d28
+    spriteTextureTimeStamps:
+    - 1395257166.85619
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_guzheng_1
+    spriteCollectionGUID: c52b3ae51e8f2f8479853bda6aedf30e
+    spriteCollectionDataGUID: 5e12df8eaa339d443a8bd8244a4777b6
+    spriteNames:
+    - bullet_guzheng_06
+    - bullet_guzheng_08
+    - bullet_guzheng_04
+    - bullet_guzheng_03
+    - bullet_guzheng_01
+    - bullet_guzheng_07
+    - bullet_guzheng_09
+    - bullet_guzheng_05
+    - bullet_guzheng_02
+    spriteTextureGUIDs:
+    - 65b26e43ca9dba5468c2692e003d54c2
+    - f5910793350121c47afca6a0a6356b49
+    - d4659ed42b7aaec449abdc6b34b23135
+    - cddf2a8683769c14680a616dff6ee35d
+    - 28cda338a6414b6459e9f4bf492bdbed
+    - 2bd7a98d97b8bb049a45d6a916679365
+    - 5d39b83fe031a7e46bdebaa93b8e0521
+    - 59b1228f3cc3e34449e9cae44bd5f8e2
+    - b22d79df57e2e4342878abb9f5d425c9
+    spriteTextureTimeStamps:
+    - 1395257180.57356
+    - 1395257180.62156
+    - 1395257180.53155
+    - 1395257180.50855
+    - 1395257180.35754
+    - 1395257180.58856
+    - 1395257180.64156
+    - 1395257180.55256
+    - 1395257180.45755
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bullet_guzheng_2
+    spriteCollectionGUID: 5ac082477acd04145a005c62163d7365
+    spriteCollectionDataGUID: bc1ed8814e01eb942972584472a47e6e
+    spriteNames:
+    - bullet_guzheng_10
+    spriteTextureGUIDs:
+    - 63a07f3b183c588489f9288317841ddb
+    spriteTextureTimeStamps:
+    - 1395257180.37854
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_guzheng_1
+    spriteCollectionGUID: c6a40d0127dbe014e8eb356b867f1584
+    spriteCollectionDataGUID: 41d3bb04bde5a964e9389dd9df16020e
+    spriteNames:
+    - hit_guzheng02
+    - hit_guzheng01
+    - hit_guzheng04
+    - hit_guzheng06
+    - hit_guzheng05
+    - hit_guzheng03
+    spriteTextureGUIDs:
+    - cc3a3ca118d00c442ab3cafdc26a23aa
+    - 2768e672a5e952740b2c1b94129ddc76
+    - ebf6a24cfa79f0641b3dd880268495f8
+    - 9157b74c467f064429842f2d00139cb0
+    - 879cbabc29890344e91d5ce23541b5b0
+    - d22e5edd595ff1a40a9627a76a3fff30
+    spriteTextureTimeStamps:
+    - 1395257179.77248
+    - 1395257179.69947
+    - 1395257178.9484
+    - 1395257179.16842
+    - 1395257178.9844
+    - 1395257179.92449
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_guzheng_2
+    spriteCollectionGUID: 6a50a70b425746e4dbb2f9a88149fe7d
+    spriteCollectionDataGUID: 7ca252751beba2a4ea01d1834dc3b044
+    spriteNames:
+    - hit_guzheng08
+    - hit_guzheng09
+    - hit_guzheng07
+    - hit_guzheng10
+    spriteTextureGUIDs:
+    - 2bcbad80187461f4abfabdb9d7215d82
+    - 55ecd5e09cf59064e871dc1509f94a22
+    - 2e57c209cbfaa3441b04bc212b062049
+    - 272982998aaf05d4da8b64c70d186e4a
+    spriteTextureTimeStamps:
+    - 1395257179.22742
+    - 1395257179.28543
+    - 1395257179.19742
+    - 1395257179.74047
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_guzheng_3
+    spriteCollectionGUID: cf9ebd47f96481b4b821f950ef02c4bd
+    spriteCollectionDataGUID: e36eaf7b5d400f243a4cd7b06f854ac1
+    spriteNames:
+    - hit_guzheng13
+    - hit_guzheng12
+    - hit_guzheng11
+    - hit_guzheng14
+    spriteTextureGUIDs:
+    - 81c52eb044d951f45ad6321eedded1a3
+    - b1e7ef69fd2603a47a160f2e14f0827d
+    - e239be6c97befdf479aa60a855749b41
+    - c3442ebc8342b704e8d99aa18b36415f
+    spriteTextureTimeStamps:
+    - 1395257178.9704
+    - 1395257179.9565
+    - 1395257179.86249
+    - 1395257179.05941
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_jiaxue_1
+    spriteCollectionGUID: 44721e02e16c82144b32de86e0688f6f
+    spriteCollectionDataGUID: 1b37650f54f24c44d9c0217152174fb8
+    spriteNames:
+    - behit_jaixue04
+    - behit_jaixue01
+    - behit_jaixue02
+    - behit_jaixue03
+    spriteTextureGUIDs:
+    - 1422d03253080dc4fb94e280b20fcab8
+    - c568fba2bd78ef445a0610392437d5f2
+    - 4f01029add28d3244b1554b9b873f317
+    - 7a848cdbbcf56b94491ce39eec5c1573
+    spriteTextureTimeStamps:
+    - 1395257145.9791
+    - 1395257145.78508
+    - 1395257145.89609
+    - 1395257145.93009
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: behit_jiaxue_2
+    spriteCollectionGUID: f4c46a25183534c4b8ca2163436813f9
+    spriteCollectionDataGUID: b446264b877ce254395eeac0fef64be9
+    spriteNames:
+    - behit_jaixue08
+    - behit_jaixue06
+    - behit_jaixue05
+    - behit_jaixue07
+    spriteTextureGUIDs:
+    - 4dd92252f39af564699ba7bba3f972cb
+    - 75349f87bcad8234a815749c6810855f
+    - 44f8b89ae22f98449ba95a8be857e1df
+    - 3098b08d1e651a545814c2aa83bab47f
+    spriteTextureTimeStamps:
+    - 1395257146.64617
+    - 1395257146.42614
+    - 1395257146.09611
+    - 1395257146.50615
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: hit_jiaxue_1
+    spriteCollectionGUID: 74b361e6039fc224abdfd18fcd3e3d7b
+    spriteCollectionDataGUID: c4b11c7bc30b0d548980351870003ac9
+    spriteNames:
+    - hit_jiaxue_09
+    - hit_jiaxue_03
+    - hit_jiaxue_07
+    - hit_jiaxue_16
+    - hit_jiaxue_04
+    - hit_jiaxue_11
+    - hit_jiaxue_01
+    - hit_jiaxue_02
+    - hit_jiaxue_10
+    - hit_jiaxue_13
+    - hit_jiaxue_17
+    - hit_jiaxue_14
+    - hit_jiaxue_12
+    - hit_jiaxue_08
+    - hit_jiaxue_05
+    - hit_jiaxue_06
+    - hit_jiaxue_15
+    spriteTextureGUIDs:
+    - 05818840964c5c24393f9463f846f599
+    - 64dca5807aced824e859cb9c6c719d25
+    - a72c746101599d54fb98f385859dc127
+    - a45e0203b47cbb24282dec2be7446459
+    - 7ae6256566f20a34593f02b66e075a0d
+    - f0f6c695b98ec8c458f0af85f56f1656
+    - 47069cb538a2c234d85800e8a0f8f887
+    - d754e956b4bcad342929cd5eac9ee05c
+    - 3ed07228ea6cd164e97fb39b274de6b7
+    - 07f47499497e1db4aa5bbce92617216b
+    - 81fb4ea983a0c7f4995e003eb24c3ebd
+    - 2e74b21a9b4b58b4ea590797224b6e84
+    - aec3141ac829e9047b0999cf97095add
+    - 8ef3df9af7605294b8392f670ba2e493
+    - bdfe5b7cf75c77e44a27565c25d13167
+    - 5a75d2ac0ad6375448f24842f48cd75a
+    - ca0a34cd515178a4493a58e4b5dfe716
+    spriteTextureTimeStamps:
+    - 1395257147.72127
+    - 1395257147.40924
+    - 1395257147.63126
+    - 1395257148.42734
+    - 1395257147.46525
+    - 1395257148.18132
+    - 1395257147.24222
+    - 1395257147.29823
+    - 1395257148.11631
+    - 1395257148.30533
+    - 1395257148.50135
+    - 1395257148.35734
+    - 1395257148.29833
+    - 1395257147.67027
+    - 1395257147.58626
+    - 1395257147.59826
+    - 1395257148.38934
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: HetiWengziBg_1
+    spriteCollectionGUID: fa23d554854c71f49bd898d08b22ef8e
+    spriteCollectionDataGUID: ca834686ab5b8dd43a5253389e8d7525
+    spriteNames:
+    - hetiguang_22
+    - hetiguang_01
+    - hetiguang_19
+    - hetiguang_16
+    - hetiguang_13
+    - hetiguang_10
+    - hetiguang_07
+    spriteTextureGUIDs:
+    - 1a639a0677c722f49b855173389af914
+    - 1f9009c314e9da54f942e565cd4b2301
+    - 85a6e57b147dcf744ac91162921c6906
+    - afd90c4ad8c3e1448bbefafc8cf9beee
+    - f333c33ff612170479fbb3b9359202ec
+    - f659d10e755b7ae4fadf3b9e04db6fb1
+    - e5a11536507049247a0bd8f491f59948
+    spriteTextureTimeStamps:
+    - 1387383245.62484
+    - 1387383245.65604
+    - 1387383245.65604
+    - 1387383245.65604
+    - 1387383245.62484
+    - 1387383245.65604
+    - 1387383245.65604
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: HeTi_Common
+    spriteCollectionGUID: a4108376de09d6b4ea93400b41af6ed1
+    spriteCollectionDataGUID: c0645eab523a70a44ac7506a0dc016e4
+    spriteNames:
+    - renwu_dekuang
+    - chong_ci_xian
+    spriteTextureGUIDs:
+    - 51868e3c794881948b375e150ed40c64
+    - e90ef7e4ec5e249479cd5c04a8e89a7a
+    spriteTextureTimeStamps:
+    - 1395257128.81738
+    - 1395257128.76738
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Buff_1
+    spriteCollectionGUID: 0c0411bb2b087f2419768c48b418b296
+    spriteCollectionDataGUID: e988c19570bd91142b285523469a6ff3
+    spriteNames:
+    - buff_add_05
+    - buff_add_04
+    - buff_add_03
+    - buff_add_01
+    - buff_add_02
+    - buff_add_06
+    - buff_add_07
+    - 
+    - buff_du_01
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - buff_xixue_05
+    - buff_xixue_01
+    - buff_xixue_02
+    - buff_xixue_06
+    - buff_xixue_09
+    - buff_xixue_04
+    - buff_xixue_07
+    - buff_xixue_08
+    - buff_xixue_03
+    - buff_yun_05
+    - buff_yun_02
+    - buff_yun_03
+    - buff_yun_06
+    - buff_yun_07
+    - buff_yun_08
+    - buff_yun_01
+    - buff_yun_04
+    spriteTextureGUIDs:
+    - 0455a3b16482cab4483b2216597d0aff
+    - 7cb102acf14051042b7caf0b719f0721
+    - 924f8b75e9ccf5c4ea97f52e2bb119b2
+    - 98618c0e1bb64d241aa2f096c1e46090
+    - cbb569f0bc936a74dbd958a2f01f59a3
+    - cf4ec4c065d64424da2bbc9535195cfd
+    - dbfd884cf64917b48b95418451e460ec
+    - 
+    - c9603c4efa7ab784e89b3961d2c75c07
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 01813a250f6ea2f49a674ed80bc7c72a
+    - 2171b5d441b772c4a8906f848bfb8071
+    - 2863612d2c8279742b9910c333894ae9
+    - 3dc9c7ba68773ae408ce6192a9b39209
+    - 58fa8916970a40847a173f551c0bcf70
+    - 5dda8b408eb7a7841a54c8862d5363c6
+    - 610479442d1670840bbb7e0ab87296ab
+    - 6d5c1dc7deb4e1f46b81ffc03907878f
+    - cc34f1b3ca05d7b49a626fbe1e6af518
+    - 07cd179fbccec5946ade7f355f659afd
+    - 63e73d536aed42647ae707e575610ef5
+    - 88fbced1d807c814eaae1c4c9283a8b9
+    - 94b104a539118e24a9f531aed7678da9
+    - a77e1ad059373b9428fff5266ca3553c
+    - c1fe42037d4fb5f40a1287e0e661c9ea
+    - deedfcf201cc2e64fa6473fdeee43d68
+    - fe7bce73c5de59342b109d1524aa6665
+    spriteTextureTimeStamps:
+    - 1395257151.12161
+    - 1395257151.0436
+    - 1395257150.93359
+    - 1395257152.0347
+    - 1395257152.10971
+    - 1395257151.30763
+    - 1395257151.48465
+    - 0
+    - 1395257152.25173
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1395257149.77848
+    - 1395257150.58056
+    - 1395257150.62056
+    - 1395257149.82448
+    - 1395257149.9755
+    - 1395257150.83058
+    - 1395257149.87849
+    - 1395257149.93249
+    - 1395257150.71457
+    - 1395257149.32643
+    - 1395257149.23642
+    - 1395257149.28443
+    - 1395257149.33743
+    - 1395257149.34744
+    - 1395257148.59236
+    - 1395257149.19642
+    - 1395257149.29643
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Buff_2
+    spriteCollectionGUID: fffdec0afc85fa0448c392d3cc2ea014
+    spriteCollectionDataGUID: 3ac4a337636767349a9f3ae963498c00
+    spriteNames:
+    - 
+    - buff_du_02
+    - 
+    - 
+    - 
+    - 
+    - buff_du_07
+    - buff_du_06
+    - 
+    - buff_du_03
+    - 
+    - buff_du_04
+    - 
+    - 
+    - buff_du_05
+    spriteTextureGUIDs:
+    - 
+    - 2a486cda927ea2347be248ecdab1d2a7
+    - 
+    - 
+    - 
+    - 
+    - 7599e0526ea4bb5418d9b2d66ba4afb6
+    - 789f08fa0dee8434991c41968817788e
+    - 
+    - ae1d48d3479fc584889e42d65270bb22
+    - 
+    - cf9111052fb587f43814c3d072fa0cab
+    - 
+    - 
+    - eda6f72c4eda3d74091b7357509b8fe1
+    spriteTextureTimeStamps:
+    - 0
+    - 1395257152.30173
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1395257152.9618
+    - 1395257152.77978
+    - 0
+    - 1395257152.38474
+    - 0
+    - 1395257152.47075
+    - 0
+    - 0
+    - 1395257152.56276
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: buff_fanshang
+    spriteCollectionGUID: aea0cfdb3da394b48aa8a33342f059a3
+    spriteCollectionDataGUID: 880ad9db2723c1d4691535a9058df997
+    spriteNames:
+    - fanshang_08
+    - fanshang_13
+    - fanshang_06
+    - fanshang_11
+    - fanshang_12
+    - fanshang_04
+    - fanshang_09
+    - fanshang_07
+    - fanshang_10
+    - fanshang_03
+    - fanshang_14
+    - fanshang_15
+    - fanshang_01
+    - fanshang_05
+    - fanshang_02
+    spriteTextureGUIDs:
+    - d5b771a0d65c3d24f98c6eb373df07a1
+    - 3b94cfb1cdddcf548889666e2da12fcf
+    - ff3808a2a9be9dd41a63aedcc9a60b27
+    - 3623e3557906bd5489c68b831880cdb9
+    - 39f0ab06d411ca745bf4263f38a09c3d
+    - 14552367d750a8d4492f17a4ff1e497e
+    - 1042017aebfa97e429a0ca15969a8e87
+    - 233acfab7923ca54eb96b4fb98c6ab2c
+    - a82dcf3c9f8d3bc4fbed3771d29c40f6
+    - 42a0a7dcff361b7478b73e1f9638f2ed
+    - d664c28e2ecfc2a46907866c0bc836e1
+    - d88e519e271541d4d8990edc11a5bfa7
+    - d1b475ee62f607f4e99add96e8e5a7d9
+    - 8a42050fb62294a449b2b1aa613a4fac
+    - b60feb0fee717d340af71e21626c7e4f
+    spriteTextureTimeStamps:
+    - 1388511362.14864
+    - 1388511362.17864
+    - 1388511362.17864
+    - 1388511362.16864
+    - 1388511362.17864
+    - 1388511362.17864
+    - 1388511362.14864
+    - 1388511362.17864
+    - 1388511362.16864
+    - 1388511362.16864
+    - 1388511362.17864
+    - 1388511362.17864
+    - 1388511362.16864
+    - 1388511362.17864
+    - 1388511362.16864
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: buff_icon
+    spriteCollectionGUID: 718d3adb87b89c44994eb6634dd570d0
+    spriteCollectionDataGUID: d44d4777efb99f940a39088e7188e2ab
+    spriteNames:
+    - shan_dec
+    - ren_add
+    - ren_dec
+    - bao_ji_dec
+    - gong_dec
+    - fang_add
+    - ming_zhong_add
+    - gong_add
+    - fang_dec
+    - bao_ji_add
+    - shan_add
+    - kang_add
+    - ming_zhong_dec
+    - dun
+    - kang_dec
+    spriteTextureGUIDs:
+    - 179228a065c1f994e8b58d4204bc6923
+    - ac989a42863eedb4fae961a4f210dfd0
+    - 9fa9161569265b6438e400301a8cb145
+    - fb278ce575bee3246b0df3202fed8cc9
+    - 92d4a5863170e8a4ca52cd10f1230233
+    - d2ca20c6cf189fc4bbe672e386821022
+    - f6506077535e1574d94d2b596705fc3c
+    - 7495944a395660448b6ff55626f5bd4e
+    - ee540d5afcf52c347a8cf774c635bc0e
+    - 9d71a7ccecfa13d4bad66dfd71fdbd6f
+    - 2bc3640de7ae94649a3593b423149559
+    - c825017d8a005084987ca1a77cc193f6
+    - d6b6b6bdfaff1d04ba51a8d191a48d77
+    - 455ff07f9ae5e3947b406c207d131372
+    - 9c2f6bcf7be72134f993b6072a848bab
+    spriteTextureTimeStamps:
+    - 1396003587.38763
+    - 1396003318.52563
+    - 1396003284.00863
+    - 1394791681.8859
+    - 1394791681.9015
+    - 1394791681.9639
+    - 1394791681.9015
+    - 1394791681.9015
+    - 1394791681.9639
+    - 1394791681.9951
+    - 1396003531.63463
+    - 1394791681.9795
+    - 1394791681.9171
+    - 1394791681.9795
+    - 1394791681.9951
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: buff_kuangbao
+    spriteCollectionGUID: 72110bc8a29cd2941bdcd62903f4a104
+    spriteCollectionDataGUID: dd0ed52dcc7a5644cb2a8b4113d865b3
+    spriteNames:
+    - kuangbao__13
+    - kuangbao__06
+    - kuangbao__04
+    - kuangbao__05
+    - kuangbao__03
+    - kuangbao__09
+    - kuangbao__10
+    - kuangbao__02
+    - kuangbao__12
+    - kuangbao__07
+    - kuangbao__08
+    - kuangbao__01
+    - kuangbao__14
+    - kuangbao__15
+    - kuangbao__11
+    spriteTextureGUIDs:
+    - 127d652107f98f5478d4f3acfccbbd5f
+    - 1e118f9f2ceb61e4f8bdd7f889fe864f
+    - 395fe5e94ec9f4249b08a6cbb94caee5
+    - 3b21565129ca2cd47bdcd97553cb9fc2
+    - 5a479e915e3d3f641aa11ff1c5d7f720
+    - 8b149fe562b703548bd16523a56d332c
+    - 9cf0f82e957163e43b1524b22fc88437
+    - a87068cb04f008d4bafa9b20332cf683
+    - abab14aeab3b0d44ab3e6080f6af3b21
+    - b564319024ab1de4697d9997077b0dbd
+    - c42d51f55dbedc94780bcece4a2fbb0c
+    - c470f80bb417bc34985c8d675eef62f0
+    - d372a1b11fed36f47b3ad3b71f226e1d
+    - f11edcd978bb0234db96020330ce8a3d
+    - ff8a4d2a11b98e54088e658bbf0be498
+    spriteTextureTimeStamps:
+    - 1388052860.8843
+    - 1388052860.8843
+    - 1388052860.87431
+    - 1388052860.8843
+    - 1388052860.87431
+    - 1388052860.85432
+    - 1388052860.87431
+    - 1388052860.87431
+    - 1388052860.87431
+    - 1388052860.85432
+    - 1388052860.85432
+    - 1388052860.87431
+    - 1388052860.8843
+    - 1388052860.8843
+    - 1388052860.87431
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: buff_yinshen
+    spriteCollectionGUID: a9829a0343c03d24a8516bc380fdc99d
+    spriteCollectionDataGUID: c85888979ed0d83478306a90041a0f48
+    spriteNames:
+    - buff_yinshen_001
+    spriteTextureGUIDs:
+    - 5f8bf9d2e6b1f6f49b523a0f95367acd
+    spriteTextureTimeStamps:
+    - 1396006014.6662
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: lmsjHit
+    spriteCollectionGUID: 25e811eed4e658f4baafbf018bf01a38
+    spriteCollectionDataGUID: 282e46a54dae177458b955fcbeb5ffef
+    spriteNames:
+    - 001
+    - 007
+    - 008
+    - 005
+    - 003
+    - 002
+    - 004
+    - 006
+    spriteTextureGUIDs:
+    - 07b8f7f1943fb8a459e96268aeb4c8a5
+    - 0bc5fbc19179d8f4eafa585db063232d
+    - 17a1cc90586d1db4381b5ee69973048d
+    - 5fc6a0535c5a193459fb407645c28e8b
+    - 76f7a279bcfc47e4489a9fb557eef24e
+    - 91c4070da11e10740b1691fbe88ec5fa
+    - abc937034b5d4444996a54f8d567b63e
+    - c2bacf00f7ca0574b98ba2d7c06f54e3
+    spriteTextureTimeStamps:
+    - 1389288422.29623
+    - 1389288540.57673
+    - 1389288582.23271
+    - 1389288467.37407
+    - 1389288445.92108
+    - 1389288434.48365
+    - 1389288457.42101
+    - 1389288518.82687
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

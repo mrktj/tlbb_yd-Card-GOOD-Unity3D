@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plist>
+  <!--Inner descript ${N} =\n ${L} =< ${R} = '>' ${C} =>'&'-->
+
+  <descript>//This code create by CodeEngine mrd.cyou.com ,don't modify</descript>
+
+  <import>
+    using System;${N}
+    using System.Collections.Generic;${N}
+    using System.Collections;${N}
+  </import>
+
+  <namespace>namespace  GCGame.Table{ </namespace>
+  <classhead>
+
+    ${N}[Serializable]${N}
+    public  class Tab_${CodeName} : ITableOperate${N}{
+    private const string TAB_FILE_DATA = "${FileName}";${N}
+    public enum _ID${N}
+    {${N}
+    ${FULLENUM}
+    }${N}
+    public string GetInstanceFile(){return TAB_FILE_DATA; }${N}
+  </classhead>
+
+  <!--This below is Body-->
+  <single>
+    private  ${type}  m_${Variable};${N}
+    public   ${type} ${Variable} { get{ return m_${Variable};}}${N}
+  </single>
+  <repeat>
+    private   ${type}[]  m_${Variable} = new ${type}[${COUNT}];${N}
+    public    ${type} Get${Variable}byIndex(int idx)
+    {${N}
+    if(idx${R}=0 ${C}${C} idx${L}${COUNT}) return m_${Variable}[idx];${N}
+    return ${defaultvalue};${N}
+    }${N}
+  </repeat>
+
+
+  <inittable>
+    public  bool LoadTable(Hashtable _tab)${N}
+    {${N}
+    if(!TableManager.ReaderPList(GetInstanceFile(),SerializableTable,_tab))${N}
+    {${N}
+    throw  TableException.ErrorReader("Load File{0} Fail!!!",GetInstanceFile());${N}
+    }${N}
+    return true;${N}
+    }${N}
+    public void SerializableTable(ArrayList valuesList,string skey,Hashtable _hash)${N}
+    {${N}
+    if (string.IsNullOrEmpty(skey))${N}
+    {${N}
+    throw TableException.ErrorReader("Read File{0}  as key is Empty Fail!!!", GetInstanceFile());${N}
+    }${N}${N}
+    if ((int)_ID.MAX_RECORD!=valuesList.Count)${N}
+    {${N}
+    throw TableException.ErrorReader("Load {0}  error as CodeSize:{1} not Equal DataSize:{2}", GetInstanceFile(),_ID.MAX_RECORD,valuesList.Count);${N}
+    }${N}
+    Int32 nKey = Convert.ToInt32(skey);${N}
+    Tab_${CodeName} _values = new Tab_${CodeName}();${N}
+    ${FULLREADER}${N}
+    _hash.Add(nKey,_values);
+    }${N}
+  </inittable>
+
+  
+
+  <tail>${N}}${N}}${N}</tail>
+</plist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="zsht_pay_cancel">取消PP支付！</string>
+    <string name="zsht_pay_back">返回</string>
+    <string name="zsht_ok">确定</string>
+    <string name="zsht_360pay">360支付</string>
+    <string name="zsht_password_safe_keyboard">密码安全键盘</string>
+    <string name="zsht_checkout_counter">银行卡支付</string>
+    <string name="zsht_back">后退</string>
+    <string name="zsht_bt_get_authcode">获取</string>
+    <string name="zsht_agreement_title">银行卡支付业务客户服务协议</string>
+    <string name="zsht_hint_id_number_input">请输入开户身份证号</string>
+    <string name="zsht_id_number">身\u0020份\u0020\u0020证\u0020号</string>
+    <string name="zsht_real_name">姓\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020名</string>
+    <string name="zsht_real_name_input">请输入开户姓名</string>
+    <string name="zsht_user_name">姓\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020名</string>
+    <string name="zsht_validity">有\u0020\u0020效\u0020\u0020期</string>
+    <string name="zsht_security_code">安\u0020\u0020全\u0020\u0020码</string>
+    <string name="zsht_phone_number_xml">手\u0020机\u0020\u0020号\u0020码</string>
+    <string name="zsht_phone_input">请输入手机号码</string>
+    <string name="zsht_authcode">短信验证码</string>
+    <string name="zsht_authcode_six">数字验证码</string>
+    <string name="zsht_bankcard_message_input">请输入支付必填信息</string>
+    <string name="zsht_hint_bankcard_number">银\u0020行\u0020\u0020卡\u0020号</string>
+    <string name="zsht_bankcard_number_input">请输入银行卡号</string>
+    <string name="zsht_pay_bankcard_number">银行卡号</string>
+    <string name="zsht_pay_password_six">6位取款密码</string>
+    <string name="zsht_pay_password">密\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020码</string>
+    <string name="zsht_hint_validity">4位有效期，月月年年</string>
+    <string name="zsht_hint_security_code">卡背面后3位数字</string>
+    <string name="zsht_pointout_title">提示：</string>
+    <string name="zsht_usermessage_pointout_text">1.借记卡支付使用开卡预留手机号，支付更加安全快捷。</string>
+    <string name="zsht_credit_pointout_text">有效期为4位数字，如09/14就输入0914</string>
+    <string name="zsht_read_agree">我已经阅读并同意</string>
+    <string name="zsht_not_send_authcode">200元以下支付免发短信验证码</string>
+    <string name="zsht_support_banks">支持银行（借记卡）</string>
+    <string name="zsht_agreement">《银行卡支付协议》</string>
+
+</resources>

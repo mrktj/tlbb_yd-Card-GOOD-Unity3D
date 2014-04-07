@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_shuangzhang_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_shuangzhang_09
+    boundsData:
+    - {x: 0, y: 75, z: 0}
+    - {x: 290, y: 168, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 317, y: 318, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -145, y: -9.00000286, z: 0}
+    - {x: 145, y: -9.00000286, z: 0}
+    - {x: -145, y: 159, z: 0}
+    - {x: 145, y: 159, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .408205092}
+    - {x: .00390820298, y: .974607408}
+    - {x: .332029283, y: .408205092}
+    - {x: .332029283, y: .974607408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6b1a2bb78e77dcc489b514fc9be53826, type: 2}
+    materialId: 0
+    sourceTextureGUID: f132ad40b40f41141b516618d0791d55
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_shuangzhang_05
+    boundsData:
+    - {x: .5, y: -39.4999962, z: 0}
+    - {x: 303, y: 203, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 317, y: 318, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -151, y: -141, z: 0}
+    - {x: 152, y: -141, z: 0}
+    - {x: -151, y: 62.0000076, z: 0}
+    - {x: 152, y: 62.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .595701158, y: .00390820298}
+    - {x: .00390820298, y: .400388658}
+    - {x: .595701158, y: .400388658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6b1a2bb78e77dcc489b514fc9be53826, type: 2}
+    materialId: 0
+    sourceTextureGUID: beacf2242ae1f244e8fe1edf29df7db7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_shuangzhang_07
+    boundsData:
+    - {x: 0, y: 20.5000038, z: 0}
+    - {x: 308, y: 199, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 317, y: 318, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -154, y: -78.9999924, z: 0}
+    - {x: 154, y: -78.9999924, z: 0}
+    - {x: -154, y: 120, z: 0}
+    - {x: 154, y: 120, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .603517592, y: .00390820298}
+    - {x: .603517592, y: .605466783}
+    - {x: .992185533, y: .00390820298}
+    - {x: .992185533, y: .605466783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6b1a2bb78e77dcc489b514fc9be53826, type: 2}
+    materialId: 0
+    sourceTextureGUID: 378456d78aa04414baef55344d11c356
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_shuangzhang_03
+    boundsData:
+    - {x: .500007629, y: -30.9999981, z: 0}
+    - {x: 281, y: 172, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 317, y: 318, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -140, y: -117, z: 0}
+    - {x: 141.000015, y: -117, z: 0}
+    - {x: -140, y: 55.0000038, z: 0}
+    - {x: 141.000015, y: 55.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .339845717, y: .613283217}
+    - {x: .888669908, y: .613283217}
+    - {x: .339845717, y: .949216783}
+    - {x: .888669908, y: .949216783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6b1a2bb78e77dcc489b514fc9be53826, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2b5fc06eb4daf1045ad978898a5df02e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 6b1a2bb78e77dcc489b514fc9be53826, type: 2}
+  textures:
+  - {fileID: 2800000, guid: f2d006251edc6934f8e380cee9045ced, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 475eddae066313a4c92608c42d6aa660
+  spriteCollectionName: hit_shuangzhang_2
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1000943752
+  dataGuid: 6a0fcdc00f7cd38468826d4d290b99d9
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

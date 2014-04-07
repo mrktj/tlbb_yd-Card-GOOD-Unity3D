@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_beiming_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_beiming_02
+    boundsData:
+    - {x: 3.5, y: -19.9999981, z: 0}
+    - {x: 123, y: 146, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 130, y: 186, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -58, y: -93, z: 0}
+    - {x: 65, y: -93, z: 0}
+    - {x: -58, y: 53.0000038, z: 0}
+    - {x: 65, y: 53.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .244138673, y: .00390820298}
+    - {x: .00390820298, y: .289060533}
+    - {x: .244138673, y: .289060533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bd1a857b9ccc41a46a29407f6c00882d, type: 2}
+    materialId: 0
+    sourceTextureGUID: ca103aa04fa78244d904e7db8295ee27
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_beiming_05
+    boundsData:
+    - {x: 1.49999809, y: -17.0000019, z: 0}
+    - {x: 85, y: 138, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 130, y: 186, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -41, y: -86, z: 0}
+    - {x: 43.9999962, y: -86, z: 0}
+    - {x: -41, y: 51.9999962, z: 0}
+    - {x: 43.9999962, y: 51.9999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .410158217, y: .00390820298}
+    - {x: .576169908, y: .00390820298}
+    - {x: .410158217, y: .273435533}
+    - {x: .576169908, y: .273435533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bd1a857b9ccc41a46a29407f6c00882d, type: 2}
+    materialId: 0
+    sourceTextureGUID: fb7d23f0a9d927d41a7bb12f61738bd7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_beiming_03
+    boundsData:
+    - {x: -3.5, y: -13.4999962, z: 0}
+    - {x: 109, y: 155, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 130, y: 186, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -58, y: -91, z: 0}
+    - {x: 51, y: -91, z: 0}
+    - {x: -58, y: 64.0000076, z: 0}
+    - {x: 51, y: 64.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .589845717}
+    - {x: .216794923, y: .589845717}
+    - {x: .00390820298, y: .892576158}
+    - {x: .216794923, y: .892576158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bd1a857b9ccc41a46a29407f6c00882d, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0f72d7c6bb632d34f9717d6b23811778
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_beiming_07
+    boundsData:
+    - {x: -1.5, y: 4, z: 0}
+    - {x: 77, y: 178, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 130, y: 186, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -40, y: -85, z: 0}
+    - {x: 37, y: -85, z: 0}
+    - {x: -40, y: 93, z: 0}
+    - {x: 37, y: 93, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .251955092, y: .00390820298}
+    - {x: .402341783, y: .00390820298}
+    - {x: .251955092, y: .351560533}
+    - {x: .402341783, y: .351560533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bd1a857b9ccc41a46a29407f6c00882d, type: 2}
+    materialId: 0
+    sourceTextureGUID: fc511949029b14f47a389713e34d2057
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_beiming_06
+    boundsData:
+    - {x: 2.5, y: -10.4999962, z: 0}
+    - {x: 105, y: 149, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 130, y: 186, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -50, y: -85, z: 0}
+    - {x: 55, y: -85, z: 0}
+    - {x: -50, y: 64.0000076, z: 0}
+    - {x: 55, y: 64.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .224611327, y: .589845717}
+    - {x: .429685533, y: .589845717}
+    - {x: .224611327, y: .880857408}
+    - {x: .429685533, y: .880857408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bd1a857b9ccc41a46a29407f6c00882d, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6dbcfc2b72c6b03479e93e30011e8478
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_beiming_04
+    boundsData:
+    - {x: -3.50000191, y: -19.9999981, z: 0}
+    - {x: 123, y: 146, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 130, y: 186, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -65, y: -93, z: 0}
+    - {x: 57.9999962, y: -93, z: 0}
+    - {x: -65, y: 53.0000038, z: 0}
+    - {x: 57.9999962, y: 53.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .296876967}
+    - {x: .244138673, y: .296876967}
+    - {x: .00390820298, y: .582029283}
+    - {x: .244138673, y: .582029283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bd1a857b9ccc41a46a29407f6c00882d, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7aef41dcd5ee7284e95b1675017063f6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_beiming_01
+    boundsData:
+    - {x: 3.5, y: -21, z: 0}
+    - {x: 91, y: 136, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 130, y: 186, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -89, z: 0}
+    - {x: 49, y: -89, z: 0}
+    - {x: -42, y: 47, z: 0}
+    - {x: 49, y: 47, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .251955092, y: .359376967}
+    - {x: .251955092, y: .537107408}
+    - {x: .517576158, y: .359376967}
+    - {x: .517576158, y: .537107408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bd1a857b9ccc41a46a29407f6c00882d, type: 2}
+    materialId: 0
+    sourceTextureGUID: a7c9c8bff08b81447a180ea2f44eee74
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: bd1a857b9ccc41a46a29407f6c00882d, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 3c7374a7f155dae4a8c89f5021046b4f, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 8288faf10b768a844a64e51706b59594
+  spriteCollectionName: hit_beiming_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1760171754
+  dataGuid: dca68c73e6f11a04aa8b5cdebee486b2
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

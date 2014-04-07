@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: jingjinxiao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ff9f9211b2e983b4f9311bb321e41134, type: 2}
+  sprites:
+  - name: jingjinxiao_11
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 138
+      width: 27
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 138
+      width: 27
+      height: 48
+    rotated: 0
+    paddingLeft: 2.03703713
+    paddingRight: 1.88888884
+    paddingTop: .125
+    paddingBottom: 1.22916663
+  - name: jingjinxiao_01
+    outer:
+      serializedVersion: 2
+      x: 93
+      y: 253
+      width: 72
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 93
+      y: 253
+      width: 72
+      height: 68
+    rotated: 0
+    paddingLeft: .416666657
+    paddingRight: .430555552
+    paddingTop: .426470578
+    paddingBottom: .235294119
+  - name: jingjinxiao_05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 322
+      width: 119
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 322
+      width: 119
+      height: 95
+    rotated: 0
+    paddingLeft: .0588235296
+    paddingRight: .0588235296
+    paddingTop: .16842106
+    paddingBottom: .0210526325
+  - name: jingjinxiao_08
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 259
+      width: 29
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 259
+      width: 29
+      height: 62
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: .0483870953
+    paddingBottom: .774193525
+  - name: jingjinxiao_12
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 87
+      width: 25
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 87
+      width: 25
+      height: 50
+    rotated: 0
+    paddingLeft: 2.20000005
+    paddingRight: 2.11999989
+    paddingTop: .0199999996
+    paddingBottom: 1.24000001
+  - name: jingjinxiao_03
+    outer:
+      serializedVersion: 2
+      x: 123
+      y: 423
+      width: 111
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 123
+      y: 423
+      width: 111
+      height: 89
+    rotated: 0
+    paddingLeft: .0990990996
+    paddingRight: .0990990996
+    paddingTop: .23595506
+    paddingBottom: .0337078646
+  - name: jingjinxiao_07
+    outer:
+      serializedVersion: 2
+      x: 196
+      y: 260
+      width: 29
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 196
+      y: 260
+      width: 29
+      height: 61
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: .0819672123
+    paddingBottom: .770491779
+  - name: jingjinxiao_04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 418
+      width: 122
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 418
+      width: 122
+      height: 94
+    rotated: 0
+    paddingLeft: .0409836061
+    paddingRight: .0491803288
+    paddingTop: .202127665
+    paddingBottom: 0
+  - name: jingjinxiao_09
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 187
+      width: 29
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 187
+      width: 29
+      height: 54
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: .111111112
+    paddingBottom: .981481493
+  - name: jingjinxiao_10
+    outer:
+      serializedVersion: 2
+      x: 226
+      y: 263
+      width: 29
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 226
+      y: 263
+      width: 29
+      height: 58
+    rotated: 0
+    paddingLeft: 1.82758617
+    paddingRight: 1.75862074
+    paddingTop: 0
+    paddingBottom: .948275864
+  - name: jingjinxiao_06
+    outer:
+      serializedVersion: 2
+      x: 120
+      y: 354
+      width: 133
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 354
+      width: 133
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .253968269
+    paddingBottom: .539682567
+  - name: jingjinxiao_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 242
+      width: 92
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 242
+      width: 92
+      height: 79
+    rotated: 0
+    paddingLeft: .217391297
+    paddingRight: .228260875
+    paddingTop: .303797454
+    paddingBottom: .12658228
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

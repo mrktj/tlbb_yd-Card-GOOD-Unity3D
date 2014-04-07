@@ -1,0 +1,1083 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: BattleUI_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c1e4d9cc5f27c324794b284491c8fcf0, type: 2}
+  sprites:
+  - name: card_dead_kuloutou
+    outer:
+      serializedVersion: 2
+      x: 965
+      y: 1585
+      width: 56
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 965
+      y: 1585
+      width: 56
+      height: 58
+    rotated: 0
+    paddingLeft: .0892857164
+    paddingRight: .0892857164
+    paddingTop: .068965517
+    paddingBottom: .0862068981
+  - name: Box_closed
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 1504
+      width: 249
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 1504
+      width: 249
+      height: 139
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00401606411
+    paddingTop: .00719424477
+    paddingBottom: 0
+  - name: card_back
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1769
+      width: 238
+      height: 279
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1769
+      width: 238
+      height: 279
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Box_cover
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 1650
+      width: 243
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 1650
+      width: 243
+      height: 118
+    rotated: 0
+    paddingLeft: .0123456791
+    paddingRight: .0164609049
+    paddingTop: .169491529
+    paddingBottom: .0169491526
+  - name: light_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1315
+      width: 236
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1315
+      width: 236
+      height: 188
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_back
+    outer:
+      serializedVersion: 2
+      x: 239
+      y: 1769
+      width: 238
+      height: 279
+    inner:
+      serializedVersion: 2
+      x: 239
+      y: 1769
+      width: 238
+      height: 279
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: light_02
+    outer:
+      serializedVersion: 2
+      x: 453
+      y: 1345
+      width: 197
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 453
+      y: 1345
+      width: 197
+      height: 158
+    rotated: 0
+    paddingLeft: .106598988
+    paddingRight: .121827409
+    paddingTop: .0253164563
+    paddingBottom: .03164557
+  - name: Box_open
+    outer:
+      serializedVersion: 2
+      x: 735
+      y: 1861
+      width: 249
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 735
+      y: 1861
+      width: 249
+      height: 187
+    rotated: 0
+    paddingLeft: .00803212821
+    paddingRight: .108433738
+    paddingTop: .128342241
+    paddingBottom: .0267379675
+  - name: battle_slot_frame
+    outer:
+      serializedVersion: 2
+      x: 183
+      y: 1115
+      width: 169
+      height: 199
+    inner:
+      serializedVersion: 2
+      x: 183
+      y: 1115
+      width: 169
+      height: 199
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tips_dou
+    outer:
+      serializedVersion: 2
+      x: 756
+      y: 1515
+      width: 110
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 756
+      y: 1515
+      width: 110
+      height: 128
+    rotated: 0
+    paddingLeft: .100000001
+    paddingRight: .0818181783
+    paddingTop: .1015625
+    paddingBottom: .0703125
+  - name: tips_zhan
+    outer:
+      serializedVersion: 2
+      x: 625
+      y: 1516
+      width: 130
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 625
+      y: 1516
+      width: 130
+      height: 127
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0866141766
+    paddingBottom: .0944881886
+  - name: xuanzefuhuo
+    outer:
+      serializedVersion: 2
+      x: 353
+      y: 1101
+      width: 150
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 353
+      y: 1101
+      width: 150
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tomb
+    outer:
+      serializedVersion: 2
+      x: 661
+      y: 1157
+      width: 133
+      height: 157
+    inner:
+      serializedVersion: 2
+      x: 661
+      y: 1157
+      width: 133
+      height: 157
+    rotated: 0
+    paddingLeft: .165413529
+    paddingRight: .0225563906
+    paddingTop: .00636942685
+    paddingBottom: 0
+  - name: alph_32x32
+    outer:
+      serializedVersion: 2
+      x: 591
+      y: 1773
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 591
+      y: 1773
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: black_32x32
+    outer:
+      serializedVersion: 2
+      x: 558
+      y: 1773
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 1773
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_middle
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 406
+      width: 13
+      height: 342
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 406
+      width: 13
+      height: 342
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: black_point_1x1
+    outer:
+      serializedVersion: 2
+      x: 478
+      y: 1769
+      width: 2
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 478
+      y: 1769
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cloud_dark
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 1123
+      width: 115
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 1123
+      width: 115
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fengefu
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 1328
+      width: 138
+      height: 175
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 1328
+      width: 138
+      height: 175
+    rotated: 0
+    paddingLeft: .00724637695
+    paddingRight: .00724637695
+    paddingTop: .0171428565
+    paddingBottom: .0114285713
+  - name: ink
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1644
+      width: 425
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1644
+      width: 425
+      height: 124
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: circle
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 1675
+      width: 140
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 1675
+      width: 140
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_top
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 920
+      width: 52
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 920
+      width: 52
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_tips_1
+    outer:
+      serializedVersion: 2
+      x: 795
+      y: 1154
+      width: 108
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 795
+      y: 1154
+      width: 108
+      height: 160
+    rotated: 0
+    paddingLeft: .287037045
+    paddingRight: .287037045
+    paddingTop: .118749999
+    paddingBottom: .0687500015
+  - name: cloud_right
+    outer:
+      serializedVersion: 2
+      x: 53
+      y: 1033
+      width: 143
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 53
+      y: 1033
+      width: 143
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: arrow
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 1324
+      width: 215
+      height: 179
+    inner:
+      serializedVersion: 2
+      x: 237
+      y: 1324
+      width: 215
+      height: 179
+    rotated: 0
+    paddingLeft: .0930232555
+    paddingRight: .120930232
+    paddingTop: .00558659201
+    paddingBottom: 0
+  - name: Text_di
+    outer:
+      serializedVersion: 2
+      x: 53
+      y: 949
+      width: 69
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 53
+      y: 949
+      width: 69
+      height: 83
+    rotated: 0
+    paddingLeft: .0144927539
+    paddingRight: 0
+    paddingTop: .0481927693
+    paddingBottom: .036144577
+  - name: Text_Victory_zhandou
+    outer:
+      serializedVersion: 2
+      x: 353
+      y: 1172
+      width: 166
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 353
+      y: 1172
+      width: 166
+      height: 142
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_tips_2
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 1161
+      width: 140
+      height: 153
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 1161
+      width: 140
+      height: 153
+    rotated: 0
+    paddingLeft: .100000001
+    paddingRight: .114285715
+    paddingTop: .137254909
+    paddingBottom: .104575165
+  - name: Text_zui
+    outer:
+      serializedVersion: 2
+      x: 904
+      y: 1103
+      width: 96
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 904
+      y: 1103
+      width: 96
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .057692308
+    paddingBottom: 0
+  - name: Text_chang
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 1784
+      width: 82
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 892
+      y: 1784
+      width: 82
+      height: 76
+    rotated: 0
+    paddingLeft: .0121951215
+    paddingRight: 0
+    paddingTop: .092105262
+    paddingBottom: .0789473653
+  - name: Text_zhong
+    outer:
+      serializedVersion: 2
+      x: 811
+      y: 1662
+      width: 108
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 811
+      y: 1662
+      width: 108
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .094339624
+    paddingBottom: .113207549
+  - name: frame_down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 749
+      width: 52
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 749
+      width: 52
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_Victory_shengli
+    outer:
+      serializedVersion: 2
+      x: 735
+      y: 1772
+      width: 156
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 735
+      y: 1772
+      width: 156
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0909090936
+    paddingBottom: 0
+  - name: Text_chang_1
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 1398
+      width: 100
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 920
+      y: 1398
+      width: 100
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0666666701
+    paddingBottom: .00952380989
+  - name: light
+    outer:
+      serializedVersion: 2
+      x: 478
+      y: 1806
+      width: 256
+      height: 242
+    inner:
+      serializedVersion: 2
+      x: 478
+      y: 1806
+      width: 256
+      height: 242
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zhandou_fuhuo
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 1354
+      width: 68
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 920
+      y: 1354
+      width: 68
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_zhan_1
+    outer:
+      serializedVersion: 2
+      x: 985
+      y: 1891
+      width: 35
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 985
+      y: 1891
+      width: 35
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_shi_4
+    outer:
+      serializedVersion: 2
+      x: 661
+      y: 1106
+      width: 45
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 661
+      y: 1106
+      width: 45
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_dou_1
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 1807
+      width: 45
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 1807
+      width: 45
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0188679248
+    paddingBottom: 0
+  - name: Text_dou_3
+    outer:
+      serializedVersion: 2
+      x: 825
+      y: 1098
+      width: 22
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 825
+      y: 1098
+      width: 22
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_shi_2
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 1769
+      width: 22
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 1769
+      width: 22
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_shi_1
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 1315
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 920
+      y: 1315
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0263157897
+    paddingBottom: 0
+  - name: Text_shi_3
+    outer:
+      serializedVersion: 2
+      x: 985
+      y: 1937
+      width: 35
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 985
+      y: 1937
+      width: 35
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0285714287
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_bai_1
+    outer:
+      serializedVersion: 2
+      x: 758
+      y: 1111
+      width: 34
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 758
+      y: 1111
+      width: 34
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0222222228
+    paddingBottom: 0
+  - name: Text_bai_4
+    outer:
+      serializedVersion: 2
+      x: 478
+      y: 1772
+      width: 47
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 478
+      y: 1772
+      width: 47
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_dou_2
+    outer:
+      serializedVersion: 2
+      x: 795
+      y: 1103
+      width: 29
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 795
+      y: 1103
+      width: 29
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .068965517
+    paddingTop: .0399999991
+    paddingBottom: 0
+  - name: Text_bai_2
+    outer:
+      serializedVersion: 2
+      x: 526
+      y: 1769
+      width: 31
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 526
+      y: 1769
+      width: 31
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_zhan_2
+    outer:
+      serializedVersion: 2
+      x: 989
+      y: 1356
+      width: 34
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 989
+      y: 1356
+      width: 34
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_zhan_4
+    outer:
+      serializedVersion: 2
+      x: 965
+      y: 1534
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 965
+      y: 1534
+      width: 50
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_bai_3
+    outer:
+      serializedVersion: 2
+      x: 985
+      y: 1984
+      width: 36
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 985
+      y: 1984
+      width: 36
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_zhan_3
+    outer:
+      serializedVersion: 2
+      x: 707
+      y: 1111
+      width: 50
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 707
+      y: 1111
+      width: 50
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tail2
+    outer:
+      serializedVersion: 2
+      x: 867
+      y: 1515
+      width: 97
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 867
+      y: 1515
+      width: 97
+      height: 128
+    rotated: 0
+    paddingLeft: .15463917
+    paddingRight: .164948449
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zhandou_fuhuo_beijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1091
+      width: 182
+      height: 223
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1091
+      width: 182
+      height: 223
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zhandou_dipai
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 1318
+      width: 129
+      height: 185
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 1318
+      width: 129
+      height: 185
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zhandou_jue
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 1663
+      width: 102
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 920
+      y: 1663
+      width: 102
+      height: 105
+    rotated: 0
+    paddingLeft: .0490196086
+    paddingRight: 0
+    paddingTop: .0380952395
+    paddingBottom: .0666666701
+  - name: zhandou_juezhan_beijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1504
+      width: 374
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1504
+      width: 374
+      height: 139
+    rotated: 0
+    paddingLeft: .0160427801
+    paddingRight: 0
+    paddingTop: .0431654677
+    paddingBottom: .079136692
+  - name: zhandou_ zhan
+    outer:
+      serializedVersion: 2
+      x: 904
+      y: 1208
+      width: 107
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 904
+      y: 1208
+      width: 107
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0186915882
+    paddingTop: .0660377368
+    paddingBottom: .0283018872
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

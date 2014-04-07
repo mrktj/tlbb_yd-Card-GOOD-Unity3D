@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hecheng
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: fea0a4a0f33e8da4f9258ede39136747, type: 2}
+  sprites:
+  - name: hecheng_01
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 187
+      width: 251
+      height: 275
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 187
+      width: 251
+      height: 275
+    rotated: 0
+    paddingLeft: .231075704
+    paddingRight: .0956175327
+    paddingTop: .0509090908
+    paddingBottom: .265454531
+  - name: hecheng_02
+    outer:
+      serializedVersion: 2
+      x: 609
+      y: 157
+      width: 262
+      height: 283
+    inner:
+      serializedVersion: 2
+      x: 609
+      y: 157
+      width: 262
+      height: 283
+    rotated: 0
+    paddingLeft: .175572515
+    paddingRight: .0954198465
+    paddingTop: .0565371029
+    paddingBottom: .22261484
+  - name: hecheng_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 24
+      width: 286
+      height: 306
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 24
+      width: 286
+      height: 306
+    rotated: 0
+    paddingLeft: .164335668
+    paddingRight: 0
+    paddingTop: .0326797403
+    paddingBottom: .150326803
+  - name: hecheng_04
+    outer:
+      serializedVersion: 2
+      x: 323
+      y: 721
+      width: 285
+      height: 303
+    inner:
+      serializedVersion: 2
+      x: 323
+      y: 721
+      width: 285
+      height: 303
+    rotated: 0
+    paddingLeft: .16842106
+    paddingRight: 0
+    paddingTop: .0462046191
+    paddingBottom: .148514852
+  - name: hecheng_05
+    outer:
+      serializedVersion: 2
+      x: 1131
+      y: 766
+      width: 275
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 1131
+      y: 766
+      width: 275
+      height: 258
+    rotated: 0
+    paddingLeft: .170909092
+    paddingRight: .0399999991
+    paddingTop: .112403102
+    paddingBottom: .290697664
+  - name: hecheng_06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 662
+      width: 322
+      height: 362
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 662
+      width: 322
+      height: 362
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0341614895
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hecheng_07
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 331
+      width: 303
+      height: 330
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 331
+      width: 303
+      height: 330
+    rotated: 0
+    paddingLeft: .0462046191
+    paddingRight: .0528052822
+    paddingTop: .0454545468
+    paddingBottom: .0515151508
+  - name: hecheng_08
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 463
+      width: 254
+      height: 277
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 463
+      width: 254
+      height: 277
+    rotated: 0
+    paddingLeft: .16141732
+    paddingRight: .149606302
+    paddingTop: .140794218
+    paddingBottom: .166064978
+  - name: hecheng_09
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 741
+      width: 254
+      height: 283
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 741
+      width: 254
+      height: 283
+    rotated: 0
+    paddingLeft: .16141732
+    paddingRight: .149606302
+    paddingTop: .127208486
+    paddingBottom: .15194346
+  - name: hecheng_10
+    outer:
+      serializedVersion: 2
+      x: 609
+      y: 441
+      width: 266
+      height: 288
+    inner:
+      serializedVersion: 2
+      x: 609
+      y: 441
+      width: 266
+      height: 288
+    rotated: 0
+    paddingLeft: .131578952
+    paddingRight: .120300755
+    paddingTop: .118055552
+    paddingBottom: .138888896
+  - name: hecheng_11
+    outer:
+      serializedVersion: 2
+      x: 323
+      y: 130
+      width: 268
+      height: 293
+    inner:
+      serializedVersion: 2
+      x: 323
+      y: 130
+      width: 268
+      height: 293
+    rotated: 0
+    paddingLeft: .12686567
+    paddingRight: .115671642
+    paddingTop: .102389075
+    paddingBottom: .1331058
+  - name: hecheng_12
+    outer:
+      serializedVersion: 2
+      x: 323
+      y: 424
+      width: 271
+      height: 296
+    inner:
+      serializedVersion: 2
+      x: 323
+      y: 424
+      width: 271
+      height: 296
+    rotated: 0
+    paddingLeft: .125461251
+    paddingRight: .103321031
+    paddingTop: .091216214
+    paddingBottom: .131756753
+  - name: hecheng_13
+    outer:
+      serializedVersion: 2
+      x: 609
+      y: 730
+      width: 266
+      height: 294
+    inner:
+      serializedVersion: 2
+      x: 609
+      y: 730
+      width: 266
+      height: 294
+    rotated: 0
+    paddingLeft: .13909775
+    paddingRight: .112781957
+    paddingTop: .0884353742
+    paddingBottom: .142857149
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

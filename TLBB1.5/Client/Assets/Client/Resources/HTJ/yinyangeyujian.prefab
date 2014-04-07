@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: yinyangeyujian
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e434d710b2d8f489ed5291b9187f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Effects:
+  - {fileID: 100000, guid: 00761206a228e3345ad1e9e636133d4f, type: 2}
+  - {fileID: 100026, guid: f5c5abdfb35fea043ae17b55f8f92c16, type: 2}
+  - {fileID: 100004, guid: a3c7fdb0b290ba541a644d839a265ef2, type: 2}
+  - {fileID: 100000, guid: a75f637c4d9c7294085d7f1e3a0fab81, type: 2}
+  - {fileID: 100004, guid: 4f5fd29e6e6ff0642b624899b86e3cb8, type: 2}
+  - {fileID: 100026, guid: 779e49350d1a5f4438457fee0557e84a, type: 2}
+  - {fileID: 100004, guid: 72e4dad52f94872458f34056dac9033b, type: 2}
+  - {fileID: 100000, guid: bc4f1ec8a57c8c24fb7f386b7adc4732, type: 2}
+  - {fileID: 100004, guid: 692b14f884854d74ba408ae5e2686cc6, type: 2}
+  - {fileID: 100028, guid: dd706e385a52ad640ba0c7af734dafcc, type: 2}
+  - {fileID: 100028, guid: 93e750be9a82b754a9d5b8f555e31aae, type: 2}
+  - {fileID: 100004, guid: 664b273b72a48aa4b9562b783794c347, type: 2}
+  DelayTime:
+  - 0
+  - 1.25
+  - 1.45000005
+  - 1.5
+  - 1.75
+  - 1.79999995
+  - 2.04999995
+  - 2.0999999
+  - 2.3499999
+  - 2.5
+  - .75
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

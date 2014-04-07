@@ -1,0 +1,1676 @@
+option java_package = "xjgame.message";
+
+
+//客户端登录消息包
+//CSLogin必须是第一个message并且id是20002,ServerEngine强制规定无法修改!!!
+//----------------------注册登录开始----------------------
+message CSLogin
+{
+	required string mid = 1;//mac地址
+	required string version = 2;//版本
+	optional string accountId = 3;//如果没有则发''
+	optional string area	 	= 4;//	登录地区名称
+	optional string country		= 5;//	登录国家名称
+	optional string device		= 6;//	登录设备名称
+	optional string deviceSystem= 7;//	登录系统名称
+	optional string downloadType= 8;//	下载类型
+	optional string networkType	= 9;//	联网类型名称
+	optional string prisonBreak	= 10;//	是否越狱(0:否   1:是)
+	optional string operator	= 11;//	运营商名称
+	optional int32  serverid = 12;	//服务器号
+	optional int32 type = 13;			//1：登陆	2：注册  空：快速登录  -1 facebook登陆
+	optional string username = 14;	//两次base64加密后的值   如果是facebook登陆，这里填facebookID，
+	optional string password = 15;	//两次base64加密后的值
+	repeated ButtonInfo info = 16; //统计 - Button 
+	optional string lastAccountId = 17; //统计信息所属的用户ID
+	optional int32 loginType = 18; //登陆还是终端恢复 0 ：中断恢复 1：正常登陆
+	optional string uid = 19;//玩家在畅游的唯一标识
+	optional string token = 20;//接入第三方平台
+}
+
+//服务器端登录验证包
+message SCLoginRet
+{
+	optional int32 state 					=	1; //1.新玩家 2.老玩家
+	optional int64 accountId				=	2;//服务器返回account id,如果是注册则返回,下次登录使用
+	optional int32 guide_finished_step	= 3;//1:选人 2:设置队长 3：设置队员 4：完成一次副本 5:完成一次合成 6:完成一次强化 7：完成一次抽奖 8:完成引导 9:结束
+	optional int32 retCode = 4;	//畅游平台返回码
+	optional int32 type = 5;		//登录类型
+	optional string uid = 6;	//玩家在畅游的唯一标识
+	optional string username = 7;	//玩家畅游邮箱
+	optional int32 giftison = 8;  //礼包激活码开关   1=开启  0=关闭
+}
+
+// *******************************************以下包海外不用******************************** //
+
+// =========================ANDROID===============================
+//   第三方接入相关消息包  begin
+//
+//客户端登录消息包
+//CSLoginThirdPlatform必须是第三个message并且id是20004,ServerEngine强制规定无法修改!!!
+//----------------------注册登录开始----------------------
+message CSLoginThirdPlatform
+{
+	required string mid 					= 1;		 //mac地址
+	required string version 			= 2; //版本
+	required int32  platform			= 3;// 第三方平台类型 0 是UC
+	required string  sid				= 4;		 // UC登陆会话id
+	optional string area	 		 	  = 5; //	登录地区名称
+	optional string country				= 6;//	登录国家名称
+	optional string device				= 7;//	登录设备名称
+	optional string deviceSystem	= 8;//	登录系统名称
+	optional string networkType		= 9;//	联网类型名称
+	optional string operator			= 11;//	运营商名称
+	optional int32  serverid 			= 12;	//服务器号
+	repeated ButtonInfo info 			= 16; //统计 - Button 
+	optional string lastAccountId = 17; //统计信息所属的用户ID
+	optional int32 loginType 			= 18; //登陆还是终端恢复 0 ：中断恢复 1：正常登陆
+}
+
+//服务器端登录验证包
+message SCLoginThirdPlatformRet
+{
+	optional int32 state 					=	1; //1.新玩家 2.老玩家
+	required string ucAccount		  = 2; //UC账号
+	required string nickName	  	= 3; //用户昵称
+	optional int32 guide_finished_step = 4; //1:选人 2:设置队长 3：设置队员 4：完成一次副本 5:完成一次合成 6:完成一次强化 7：完成一次抽奖 8:完成引导 9:结束
+	optional int32 retCode 				= 5; //登陆响应码 0 成功 2 用户未登陆 -1 服务器错误
+	optional int32 gameId			  = 6;	//
+	optional int32 serverId			  = 7;
+	optional string appkey			  = 8;
+	optional string appsecret		  = 9;
+	optional int32 cpId			  	  = 10;
+	optional string apiKey		  	  = 11;
+	optional int32 ucchannelId	  	  = 12;
+	optional int64 accountId		  =	13;//服务器返回account id,如果是注册则返回,下次登录使用
+	optional int32 giftison = 14;  //礼包激活码开关   1=开启  0=关闭
+}
+
+// *******************************************以上包海外不用******************************** //
+
+
+
+//请求购买验证 
+message CSThirdPlatformVerifyCharge
+{
+	required int32 goodsId 			= 1;// 商品id
+	required string productId 	= 2;// pid 商品注册id
+	required string orderId 		= 3; // tid:订单ID 
+	required int32  platform 	= 4; //平台信息 UC 是0
+	required int32 goodprice 		= 5;// 
+}
+
+
+//返回购买验证 
+message SCThirdPlatformVerifyCharge
+{
+	required int32 result 			= 1;//   结果（0:验证成功	  1:订单存在但未加钱     -1:订单验证失败     -2:平台错误下单暂时不成功,稍后重试       -3:重复订单,订单已加钱       -4:参数不完整）
+	required int32 goodsId 			= 2; //商品id
+	required int32 playerDollar = 3;//玩家当前元宝
+	required string orderId 		= 4;// 
+	required int32 goodsPrice		= 5;
+}
+
+//
+//   第三方接入相关消息包  end
+//
+
+
+message CSAskUserData
+{
+	required int32 isNewUser = 1;//是否为新玩家;1：是，2:否
+	optional string userName = 2;//新玩家的时候发送用户输入的名称，服务器负责检测是否重复
+	optional int32 cardTempletId = 3;//玩家选中的card模板ID
+	optional int32 finishehGuideStep = 4;//0:未开始 100:选人 101:设置队长 102：设置队员 103：完成一次副本 104:完成一次合成 105:完成一次强化 106：完成一次抽奖 107:完成引导 108:全部结束
+}
+
+//用户基本数据
+message PBUserBaseData
+{
+	required string name = 	2;//玩家昵称
+	required int32 mail = 3;
+	required int32 level = 4;	
+	required int32 exp = 5;	
+	required int32 money = 6;
+	required int32 dollar = 7;
+	required int32 power = 8;
+	required int32 leadership = 9;//用户领导力
+	required int32 friendpoint = 10;//友情点
+	optional int64 powertime = 11;//上一次获得体力时间
+	optional int32 luckyPoint = 12;//玩家幸运值
+	optional int32 friendNumMax = 13;//好友上限
+	optional int32 bagCapacity = 14;//背包容量
+	optional int32 noReadMail = 15;//未读取的邮件数
+	optional int32 noGetQuest = 16;//未领取奖励的任务数
+	optional DataBattle lastBattleData = 17;//最后一次战斗数据
+	optional int32 ifFreeGamble = 18;//是否可以进行免费抽奖 1 是  2 否
+	optional int64 freeCD = 19;//免费抽奖CD时间
+	optional int32 pvptimes = 20;//PVP剩余次数
+	optional int32 purchaseDollar = 21; //充值过的元宝数
+	optional int32 daysAfterFirstLogin = 22; //距离首次登录的天数
+	optional int32 finish_step = 23;//新手引导步骤
+	repeated DropBag beforeDrops = 24;//上一场战斗获得的物品
+	optional int32 buyMoneyTimes = 25 ;//购买金币次数
+	optional int32 buyPowerTimes = 26 ;// 购买体力次数
+	optional int32 GGLTimes = 27 ;	   // GGL次数
+	optional FengshuiInfo fengshuiInfo = 28;//风水阵信息
+	optional int32 BBZTimes = 29;//八卦阵次数
+	optional int32 BBZFlag = 30;//八卦阵中奖状态
+	optional int32 monthCardFlag = 31;//月卡状态
+	optional int32 gglLastRewardID = 32;//呱呱乐上次中奖信息
+	optional int32 pataTimes = 33;//爬塔次数
+	optional int32 pataNum = 34;//爬塔楼层
+	optional int32 areaid = 35;//分区id
+}
+
+//用户背包数据
+message PBUserBagData
+{
+	required int32 bagCapacity = 1;//背包容量
+	repeated CardInfo cardInfo = 2;// 持有的卡片 
+	repeated ItemInfo itemInfo = 3;// 持有的物品id   
+}
+
+//用户副本数据
+message PBUserCopyData
+{
+	repeated CopyInfo activityCopy = 1;//活动复本    
+	repeated MissionInfo normalCopy = 2;//普通复本  
+}
+
+message SCAskUserData
+{
+	required PBUserBaseData baseData = 1;//
+	required PBUserBagData  bagData = 2;//
+	required PBUserCopyData copyData = 3;//
+}
+
+//----------------------注册登录结束----------------------
+//普通副本信息
+message MissionInfo
+{
+	required int32 battleId = 1;//
+	required int32 count = 2;//
+	optional int32 maxStarHis = 3;//历史最高评星
+}
+
+//活动副本信息
+message CopyInfo
+{
+	required int32 copyId = 1;//大副本的ID
+	optional int32 start_rest_time = 2;//剩余多少时间开启复本，单位：秒，
+	optional int32 close_rest_time = 3;//还有多长时间就要关闭了，单位：秒，
+	repeated MissionInfo subcopys = 4;//大复本里面的小副本
+}
+//物品信息
+message ItemInfo
+{
+	required int32 itemId = 1;//
+	required int32 count = 2;// 	
+}
+
+//卡牌信息
+message CardInfo
+{
+	required int64 cardId = 1;// 
+	required int32 templateId = 2;// 
+	required int32 level = 3;//卡牌等级
+	required int32 skill_level = 4; //主动技能等级
+	optional int32 add_quality_att = 5;// 攻击强化次数
+	optional int32 add_quality_hp = 6;//生命强化次数
+	optional int32 fightIndex = 7;// 出战(队伍)顺序 -1 = 不出站 0-4出战
+	required int32 curLevExp = 8;//当前级别上的经验
+	required int32 memberID = 9;//卡牌的memberID,0为队长
+	required int32 studySkillID = 10;//学习技能ID
+	required int32 studySkillLev = 11;//学习技能等级
+	required int32 studySkillcurLevExp = 12;//学习技能当前经验
+	optional int32 QxzbFightIndex = 13;  	//群雄争霸 pvp 阵型 十位为星级 各位为阵型位置 例 三星的就是　３０－３５
+}
+ 
+
+//////////////////////////////////////////战斗相关/////////////////////////////////
+//掉落包
+message DropBag
+{
+	optional int32 type		= 1;//掉落物品种类，1  钱，2 卡，3 道具
+	optional int32 value	= 2;//对应数值
+
+}
+
+//卡牌信息
+message BattleCard
+{
+	required uint64 cardguid   = 1; 
+	optional int32  cardID	   = 2;
+	optional int32  place_idx  = 3;//格子位置
+	required int32	state			 = 4;//卡牌状态，Normal、Dead，0、1
+	optional int32	isfriend	 = 5;//好友卡牌标记 1 好友 0 非好友
+	optional DropBag bag			 = 6;//掉落包
+	optional int64  init_hp		 = 7;//初始血量
+	optional int32  commSkillId = 8;//普通技能ID
+	optional int32  volSkillId = 9;//主攻技能ID
+	optional int32  combSkillId = 10;//和体技能ID
+}
+
+message CSBattleData
+{
+	required int64 		missionID = 1;//关卡ID，或好友的GUID
+	required int32		round			= 2;//第几回合，1、2、3
+	required uint64		friendguid 	= 3;//好友GUID
+	repeated BattleCard info  		= 4;
+	optional int32		cost_money 	= 5;//复活消耗金币数量
+	
+}
+//buff信息
+message DataBuffInfo
+{
+	required int32 buf_id 	 		= 1;//buffID
+	optional int32 buf_value 		= 2;//buff伤害量，不一定有
+}
+
+message DataSingleAction
+{
+	required int32 card_idx    = 1;//格子id
+	optional int32 skillid     = 2;//技能id
+	optional int32 att_value   = 3;//数值;可选项;只有被攻击者有
+	repeated DataBuffInfo buffInfo = 4;//携带buff，可携带多个
+	optional int32 att_type    = 6;//伤害类型
+	optional int32 beCrit    	 = 7;//暴击
+	optional int64 cur_hp			 = 8;//受击者，被击后的血量
+	optional int32 heti_idx		 = 9;//如果是合体技，这里是合体者的格子id，0-11，否则是-1
+}
+message DataAction
+ { 
+	//回合
+	repeated DataSingleAction attacker_actions    = 1;//攻击信息 数组
+	repeated DataSingleAction be_attacker_actions = 2;//被攻击信息 数组
+ }
+
+message DataRound
+{
+	repeated DataAction actions = 1;//攻击行为 数组
+}
+
+message DataBattle
+{
+	//阵型数据
+	repeated BattleCard userCard = 1;//出战的卡
+	//战斗内容
+	repeated DataRound rounds = 2;//回合;暂定最大为10 数组
+	required int32 win_idx    = 3;//胜利方idx
+	required int64 missionID  = 4;//关卡ID，或好友的GUID
+	required int32 round_count= 5;//第几回合，1、2、3
+	repeated DropBag drops 		= 6;//获得的卡
+	optional int32 add_exp		= 7;//增加的经验
+	optional uint64	friendguid 	= 8;//好友GUID
+	optional string friendname = 9;//好友/助战者名字
+	optional int32 friendlevel = 10;//好友/助战者等级
+	optional int32 friendCardLev = 11;//助战卡牌等级
+	optional int32 getFriendPoint = 12;//获取的友情点
+	optional int32 isFriend = 13;//是否为好友 0是 1否
+	optional int32 copyStar = 14;//副本获得的评星
+	optional int32 whichPVE = 15;//如果 = 1 就是爬塔
+}
+
+message SCBattleData
+{
+	required DataBattle 	battle   = 1;
+    optional PBUserBaseData baseData = 2;//
+	optional PBUserBagData  bagData  = 3;//
+	optional PBUserCopyData copyData = 4;//
+}
+
+//pvp
+message CSPVPBattleData
+{
+	required int64 		guid 		= 1;//好友的GUID
+	required int32		round		= 2;//第几回合，1、2、3
+	repeated BattleCard info  = 3;
+}
+//pvp
+message SCPVPBattleData
+{
+	required DataBattle 	battle   = 1;
+  optional PBUserBaseData baseData = 2;//
+	optional PBUserBagData  bagData  = 3;//
+	optional PBUserCopyData copyData = 4;//
+}
+
+//////////////////////////////////////////////战斗结束/////////////////////////////////////
+
+///-----------------------------更换队长，队员
+
+message CSChangeMember
+{
+	repeated int64 cardguidList = 1;//卡片id数组
+}
+
+message SCChangeMember
+{
+	required int32 issuccess=1; //1:成功 2：失败
+	optional PBUserBagData bagData = 2;
+}
+
+//////////////////////////////////////////////养成相关/////////////////////////////////////
+//卡牌合成
+message CSCardCombining
+{
+	required int64 hero_cardguid = 1;//
+	repeated int64 swallowed_cardguid = 2;//
+}
+message SCCardCombiningRet
+{
+	required int32 combine_result = 1;//成功：1，失败：-1
+	optional PBUserBaseData baseData = 2;//用户基本数据
+	optional PBUserBagData bagData = 3;// 用户背包数据
+}
+//卡牌进化
+message CSCardEvolve
+{
+	required int64 evolve_cardguid = 1;
+	repeated int64 material_cardguid = 2;//
+}
+
+message SCCardEvolveRet
+{
+	required int32 evolve_result = 1;//成功：1. 失败：-1
+	optional PBUserBagData bagData = 2;//用户背包数据
+	optional PBUserBaseData baseData = 3;//基本数据
+}
+//卡牌强化
+message CSCardStrengthen
+{
+	required int64 streng_cardguid = 1;
+	required int32 streng_type = 2;//强化类型：0=强化攻击、1=强化血量
+	optional int32 streng_times = 3;//强化次数，暂时不用
+}
+message SCCardStrengthenRet
+{
+	required int32 streng_result = 1;//成功：1. 失败：-1
+	optional PBUserBaseData baseData = 2;//用户基本数据
+	optional PBUserBagData bagData = 3;//用户背包数据
+}
+//////////////////////////////////////////////养成结束/////////////////////////////////////
+
+//-----------------------------cb Start----------------------------------------------
+//-----------------------------好友消息开始------------------------------------------
+//获取好友列表
+message CSFriendsList
+{
+	required int64 user_guid = 1;//用户唯一id
+}
+message SCFriendsList
+{
+	required int32 friends_num = 1;//玩家好友数量
+	required int32 friends_max = 2;//玩家好友上限
+	repeated PBFriend friendsList = 3;//好友数组
+}
+//搜索好友
+message CSSearchFriend
+{
+	required int64 friend_guid = 1;//好友唯一id
+}
+message SCSearchFriend
+{
+	required PBFriend friend_info = 1;//查找到的玩家信息
+}
+//赠送体力
+message CSGiveFriendPower
+{
+	required int64 friend_guid = 1;//好友唯一id
+}
+message SCGiveFriendPower
+{
+	required int64 friend_guid = 1;//好友唯一id
+}
+//接受体力
+message CSGetFriendPower
+{
+	required int64 friend_guid = 1;//好友唯一id
+}
+message SCGetFriendPower
+{
+	required int64 friend_guid = 1;//好友唯一id
+	required int32 new_power_num = 3;//接受后服务器返回的用户体力值
+	required int32 receive_power_time = 4;   //获得体力的次数
+
+}
+//添加好友
+message CSADDFriend
+{
+	required int64 friend_guid = 1;//好友唯一id
+}
+message SCADDFriend
+{
+	required int32 state = 1;//1:成功2:对方好友邮件已满 3:对方好友已满
+}
+//删除好友
+message CSDeleteFriend
+{
+	required int64 friend_guid = 1;//好友唯一id
+}
+message SCDeleteFriend
+{
+	required int64 friend_guid = 2;//好友唯一id
+}
+//请求随即助战好友列表
+message CSGetRandomAssistanceList
+{
+	required int64 user_guid = 1;//玩家唯一id
+}
+message SCGetRandomAssistanceList
+{
+	repeated PBFriend assistanceList = 1;//助战列表
+}
+message PBFriend
+{
+	required int64 guid = 1;//好友/助战者唯一id
+	required string name = 2;//好友/助战者名字
+	required int32	level = 3;//好友/助战者等级
+	optional int32	last_online_hours = 4;//好友XX小时前登录	-1:离线
+	
+	optional int32 	can_give_power = 5;//好友赠送体力 1：是，2:否
+	optional int32	can_get_power = 6;//好友接受体力 1：是，2:否
+	optional int32	give_power_day = 7;//好友XX天前给您体力
+	optional int32	accept_power_day = 8;//好友XX天前接受您体力
+	
+	optional int64	assist_card_guid = 9;//助战者卡牌唯一id
+	optional int32	assist_card_templet_id = 10;//助战者卡牌模板
+	optional int32 	assist_card_level = 11;//助战者卡牌等级
+	optional int32  assist_card_skill_id = 12;//助战者卡牌技能
+	optional int32  assist_card_att_times = 13;//攻击强化次数
+	optional int32  assist_card_hp_times = 14; //血量强化次数
+	optional int32  assist_card_skill_lev = 15;//助战卡牌技能等级
+	
+	optional int32	assist_friendship_num = 16;//助战者提供的友情点数 1：是，2:否
+	optional int32 	assist_is_my_friend = 17;//助战者是否已经是我的好友
+	optional int32 	last_logout_hours = 18;//好友XX小时前登出  -1:在线
+	optional int32 studySkillLev = 19;//学习技能等级
+	optional int32 studySkillID = 20;//学习技能id
+	optional int32 qxzbTopStar = 21; // 所在第一名榜单的星级
+}
+
+//-----------------------------好友消息结束------------------------------------------
+//-----------------------------邮件消息开始------------------------------------------
+//-----------------------------邮件消息结束------------------------------------------
+//-----------------------------背包消息开始------------------------------------------
+message CSSellCard
+{
+	repeated int64 card_guid = 1;//card唯一id
+}
+message SCSellCard
+{
+	repeated int64 card_guid = 1;//card唯一id
+	required int32 new_money = 2;//更新玩家金钱数量
+}
+//-----------------------------背包消息结束------------------------------------------
+//-----------------------------商城消息开始------------------------------------------
+//-----------------------------商城消息结束------------------------------------------
+//-----------------------------操作失败消息开始--------------------------------------
+	enum ErrorType {
+		FRIEND_ADD = 0;
+		FRIEND_DELETE = 1;
+		SEND_POWER = 2;
+		ACCEPT_POWER = 3;
+		SELL_CARD= 4;
+		SEARCH_FRIEND_NOT_FOUND = 5;//没有找到好友
+		SEARCH_FRIEND_ALREADY_MY_FRIEND = 6;//已找到但是已经是我的好友了
+		LOGIN_VERSION_WRONG = 7;//与服务器版本不匹配
+		LOGIN_NAME_SAME = 8;//玩家注册名称已存在
+		TASK_LIST = 9;//任务列表错误,guid错
+		TASK_FINISH = 10;//获取任务所得错误
+		CARD_COMBINE = 11;//卡牌合成
+		CARD_EVOLVE = 12;//卡牌进化
+		CARD_STRENGTHEN = 13;//卡牌强化
+		FRIEND_MAIL_FULL = 14;//好友邮箱已满
+		MAIL_NOT_EXIST = 15;//mail不存在
+		MAIL_FRIEND_NOT_EXIST = 16;//要发送的mail好友不存在
+		MAIL_ITEM_DONE = 17;//mail的物品已经领过了
+		COMBINE_SWALLOWED_CARDLIST = 18;//吞噬卡牌组错误
+		COMBINE_SWALLOWED_NOTEXIST = 19;//吞噬卡牌不存在
+		COMBINE_NO_MONEY = 20;//合成费用不足
+		EVOLVE_MATERIALS_CARDLIST = 21;//材料卡牌组错误
+		EVOLVE_MATERIALS_NOTEXIST = 22;//材料卡牌不存在
+		EVOLVE_NOT_CONDITION = 23;//不满足进化条件
+		STRENGTHEN_NULL_CARD = 24;//强化卡牌为空
+		STRENGTHEN_NOT_ITEM = 25;//强化道具不足
+		STRENGTHEN_NO_MONEY = 26;//强化费用不足
+		GAMBLE_NO_FRIEND_POINT = 27;//友情点数不足
+		GAMBLE_NO_DOLLAR = 28;//符石不足
+		GAMBLE_NO_LUCKY = 29;	//幸运值不足够
+		GAMBLE_ERR = 30;//博彩异常
+		SHOP_POWER = 31;//购买体力错误
+		SHOP_BAG = 32;	//购买背包错误
+		SHOP_FRIEND = 33;//购买好友上限错误
+		SHOP_PVP = 34;	//购买PVP权限错误
+		SHOP_ERR = 35;	//商城错误
+		GUIDE_ERROR =36;//引导的总错误id,需要服务器分别改成具体信息
+		BAG_FULL = 37;	//玩家背包已满
+		FRIEND_FULL = 38;//玩家好友已达上限
+		GM_ERROR = 39;	//GM命令错误
+		BATTLE_ERR = 40;							//战斗异常
+		BATTLE_ERR_COPY_NULL = 41;		//副本不存在
+		BATTLE_ERR_COPY_LEVEL = 42;		//玩家等级不足
+		BATTLE_ERR_COPY_NOTOPEN = 43;	//副本未开启
+		BATTLE_ERR_COPY_TIMES = 44;		//副本次数限制
+		BATTLE_ERR_CARD_ERR = 45;			//战斗卡牌异常
+		BATTLE_ERR_PLAYER_POWER = 46;	//玩家体力不足
+		SHOP_POWER_TIMES = 47;//购买体力次数限制
+		SHOP_DOLLAR = 48;//玩家符石不够
+		ADD_FRIEND_ALREADY_FRIEND = 49;//已经建立好友关系
+		ADD_FRIEND_MY_FULL = 50;//我的好友列表已满
+		ADD_FRIEND_HE_FULL = 51;//他的好友列表已满
+		GM_NO_SUCH_CMD = 52;		//GM工具-无此命令
+		GM_FORMAT_ERR = 53;			//GM工具-命令格式有误
+		GM_NO_CONTEXT = 54;			//GM工具-参数或命令为空
+		GM_PARM_NOT_NUM = 55;		//GM工具-参数不是数字类型
+		ADD_FRIEND_NOTFIND = 56;//玩家未找到
+		EVOLVE_NO_MONEY = 57;//进化费用不足
+		MAIL_TOPLAYER_MAILFULL = 58;//对方收件箱已满
+		BIND_ERR = 59;				//绑定账号异常
+		BIND_ALREADY = 60;		//账号已经被绑定
+		BILLING_NET_ERR = 61;	//网络不通
+		POWER_FULL = 62; //体力值已经满了 
+		FRIEND_IS_NOT_MINE = 63;//对方不是我的好友
+		POWER_TIMES_FULL = 64; //能得到体力的次数已满 
+		POWER_SEND_ALREADY = 65; // 已经送过了体力值
+		ADD_FRIEND_ALREADY_MAIL = 66;//已经向对方发送过好友申请邮件
+		BAG_MAX = 67; //购买背包达到上限
+		LEAD_POINT_NOT_ENOUGH = 68;//领导力不足
+		SHOP_PVP_TIMES = 69;//购买PVP次数限制
+		BATTLE_PVP_TIMES = 70;//PVP战斗次数达到上限
+		PVP_SHOP_SCORE = 71;//兑换商品PVP积分不足
+		PVP_SHOP_ERR = 72;//积分商城出现错误稍后重试
+		PRODUCT_LIST_ERR = 73;
+		BATTLE_PVP_ERR = 74;			//PVP战斗异常
+		BATTLE_PVP_ERR_CARD_ERR = 75;		//PVP对手战斗卡牌异常
+		FRIEND_MAX = 76;		//好友上限
+		SCODE_ERR = 77;//激活码已失效
+		BATTLE_PVP_RANK_ERR = 78; //pvp战斗排名大于对手
+		BATTLE_PVP_LIST_ERR = 79; //pvp战斗排名列表异常
+		SCODE_ERR_USED = 80;		//1 激活码已使用过
+		SCODE_ERR_NOT_PASS = 81;	//2 激活码验证失败
+		SCODE_ERR_PARM_ERR = 82;	//3 参数不完整
+		SCODE_ERR_SAME_TYPE = 83;	//4 账号已领取过该分区同一礼包类型的激活码
+		SCODE_ERR_NOT_EFFECT = 84;	//5 激活码无效
+		SCODE_ERR_NOT_THIS_AREA = 85;//6 激活码不适用该分区
+		SCODE_ERR_NOT_THIS_GAME = 86;//7 激活码不在该游戏发放
+		SCODE_ERR_DATA_ERR = 87;	 //-1 数据异常
+		REQ_IAP_PLIST_PLAYER_NULL = 88;//请求iap商品列表时session得到的player为空
+		REQ_APAY_PLIST_PLAYER_NULL = 89;//请求爱贝商品列表时session得到的player为空
+		SESSION_PLAYER_ISNULL = 90;//session得到的玩家为空
+		GGL_ERR = 91; //刮刮乐功能异常
+		BGZ_ERR = 92; //八卦阵功能异常
+		BGZ_NO_TIMES = 93; //八卦阵今日已抽完
+		BGZ_OVER = 94; //八卦阵活动已结束
+		FS_ACTIVE_ERR = 95;//风水激活异常
+		FS_STAR_LESS = 96;//激活风水星星不足
+		FS_LEVUP_ERR = 97;//风水升级异常
+		FS_SUIPIAN_LESS = 98;//升级碎片不足
+		FS_RESET_ERR = 99;//风水重置错误
+		YK_REWARD_ERR = 100;//领取月卡奖励错误
+		YK_NOT_FINISH = 101;//领取月卡奖励条件未达成
+		STUDYSKILL_ERR = 102 ;//学习技能异常
+		STUDYSKILL_NO_MONEY = 103 ;//学习技能金币不足
+		STUDYSKILL_NO_SKILL = 104 ;//学习技能饲料卡牌无技能或者技能有误
+		STUDYSKILL_CARDLIST = 105 ;//学习技能饲料卡牌异常
+		STUDYSKILL_NOT_EXIST = 106 ;//学习技能饲料卡牌不存在
+		STUDYSKILLUPDATE_ERR = 107 ;//学习技能升级异常
+		STUDYSKILLUPDATE_MAX_LEV = 108 ;//学习技能卡牌满级
+		STUDYSKILLUPDATE_NO_MONEY = 109 ;//学习技能升级金币不足
+		STUDYSKILLUPDATE_CARDLIST = 110 ;//学习技能升级饲料卡牌组异常
+		STUDYSKILLUPDATE_CARD_NUM = 111 ;//学习技能升级饲料卡牌组超过上限
+		STUDYSKILLUPDATE_NOT_EXIST = 112 ;//学习技能升级饲料卡牌组卡牌不存在
+		STUDYSKILLUPDATE_GROUP = 113 ;//学习技能升级饲料卡牌组与升级卡牌不是同一技能
+		BATTLE_PATA_TIMES = 114;//爬塔战斗次数达到上限
+		BATTLE_PATA_ERR = 115;			//爬塔战斗异常
+		BATTLE_PATA_ERR_CARD_ERR = 116;		//爬塔战斗卡牌异常
+		QXZB_BEAT_COUNT_NOT_ENOUGH = 117;			// 没有足够的挑战次数
+		QXZB_BEAT_CD = 118;							// 群雄争霸挑战次数不足
+		QXZB_DEFIER_NOT_FOUND = 119;				// 挑战者不存在
+		QXZB_NO_ENOUGH_DOLLAR_FOR_CARD_CD = 120;	// 没有足够的元宝清除CD
+		QXZB_REWARD_NOT_FOUND = 121;				// 没有发现该奖励
+		QXZB_BEAT_CD_EXPIRE = 122;					// 群雄争霸战斗CD过期
+		QXZB_BEAT_CARD_ERROR = 123;					// 群雄争霸上阵卡牌错误
+		SHOP_BEAT_COUNT_FULL = 124;					// 群雄争霸挑战次数已满
+		WB_INFO_ERR = 125;//请求世界boss信息异常
+		WB_BATTLE_ERR = 126;//世界boss战斗异常
+		WB_BATTLE_WEEK_ERR = 127;//世界boss校验异常
+		WB_BATTLE_PLAYER_ERR = 128;//世界boss，玩家校验异常
+		WB_BATTLE_PLAYER_DEAD = 129;//玩家未复活
+		WB_BATTLE_PLAYER_LEV = 130;//玩家等级未达到
+		WB_BUY_ZHUFU = 131;//购买祝福异常
+		WB_BUY_ZHUFU_NOT_MONEY = 132;//购买祝福元宝不足
+		WB_BUY_LIFE = 133;//玩家复活异常
+		WB_BUY_LIFE_NOT_MONEY = 134;//复活元宝不足
+		WB_BUY_ZHUFU_LIMIT = 135;//祝福次数达到上限
+		WB_BUY_LIFE_NOT_DEAD = 136;//玩家复活时间已到，无需复活
+		WB_BUY_LIFE_BOSS_DEAD = 137;//boss已死，无需复活
+		WB_BUY_ZHUFU_BOSS_DEAD = 138;//boss已死，无需祝福
+		CHANGECARD_ERR = 139;// 换卡异常
+		CHANGECARD_NO_TIMES = 140;// 换卡次数不足
+		CHANGECARD_NO_MONEY = 141;// 换卡金币不足
+		CHANGECARD_NO_RUBY = 142;// 换卡元宝不足
+		CHANGECARD_CARD_ERR = 143;// 换卡所需卡牌异常
+		CHANGECARD_NO_TIME = 144;// 换卡活动结束
+		WB_BATTLE_BOSS_DEAD = 145;//世界boss已死亡
+		WB_BATTLE_BOSS_HIDE = 146;//世界boss已隐匿
+		QXZB_NOT_START = 147;//群雄争霸还未开启
+	}
+//之后错误信息可以都放在这里
+message SCErrorMsg
+{
+
+	required int32 type = 1;//required ErrorType type = 1;
+	optional string version	= 2; //服务器端当前版本,版本不一致时返回
+
+}
+//-----------------------------操作失败消息结束--------------------------------------
+//-----------------------------cb End------------------------------------------------
+message CSMailList
+{
+	required int64 player_guid = 1;
+}
+message SCMailList
+{
+	repeated PBMail pbMail = 1;
+	optional int32 isfull = 2;//非好友邮箱是否已满  0：未满 1：已满
+	optional int32 friendIsfull = 3;//好友申请是否已满  0：未满 1：已满
+	optional int32 noReadMail = 4;//未读邮件数
+}
+message PBMail
+{
+	required int64 mail_id = 1;//邮件id
+	required int32 type = 2;//1:信息 2:好友申请 3:物品
+	required int32 icon_id= 3;//图id
+	optional string from = 4;//发送人
+	//好友申请
+	optional int32 level = 5;
+	optional int64 friend_id = 6;
+	//信息
+	optional string content = 7;
+	optional int64 from_time = 8;
+	//系统
+	optional int32 item_type = 9;//1:钱 2:宝石 3:卡牌 4:道具
+	optional int32 item_value = 10;//如果属于钱和宝石：数量  卡牌道具：id
+	required int32 state = 11;//1:未读2：已读 3:已领取
+	//好友申请邮件的队长卡牌信息
+	optional int64	assist_card_guid = 12;
+	optional int32	assist_card_templet_id = 13;
+	optional int32 	assist_card_level = 14;
+	optional int32  assist_card_skill_id = 15;
+	optional int32  assist_card_att_times = 16;
+	optional int32  assist_card_hp_times = 17; 
+	optional int32  assist_card_skill_lev = 18;
+	optional int32	last_online_hours = 19;//好友XX小时前登录	-1:离线
+	//新增GM邮件数量
+	optional int32 item_num = 20;//如果属于钱和宝石：0  卡牌道具：数量
+	optional int32 studySkillLev = 21;//学习技能等级
+	optional int32 studySkillID = 22;//学习技能id
+}
+message CSMailDelete
+{
+	required int64 mail_id = 1;
+}
+message SCMailDelete
+{
+	required int32 state = 1;//1:成功 2：失败
+}
+message CSMailSend
+{
+	required int64 friend_id = 1;
+	required string content = 2;
+}
+message SCMailSend
+{
+	required int32 state = 1;//1:成功 2：失败
+}
+message CSMailFriend
+{
+	required int64 mail_id = 1;
+	required int32 state = 2;//1：同意 2： 拒绝
+}
+message SCMailFriend
+{
+	required int32 state = 1;//1:成功 2：失败
+}
+message CSMailSystem
+{
+	required int64 mail_id = 1;
+}
+message SCMailSystem
+{
+	required int32 item_type = 1;//1:钱 2:宝石 3:卡牌 4:道具
+	optional PBUserBaseData baseData = 2;
+	optional PBUserBagData bagData = 3;
+}
+message CSMailRead
+{
+	required int64 mail_id = 1;
+}
+message SCMailRead
+{
+	required int32 state = 1;
+}
+//-----------------------------GM工具开始--------------------------------------
+message CSGMcmds
+{
+	required string cmds = 1;//gm命令格式  command:xxxx
+}
+message SCGMcmds
+{
+  required int32 result = 1;// 0=成功  1=失败
+	optional PBUserBagData bagData = 2;//玩家背包数据
+	optional PBUserBaseData baseData = 3;//玩家基本数据
+	optional PBUserCopyData copyData = 4;//玩家副本数据
+}
+
+//-----------------------------GM工具结束--------------------------------------
+
+//-----------------------------任务开始------------------------------------------
+message CSTaskList
+{
+	required int64 guid = 1;
+}
+message SCTaskList
+{
+	repeated PBTask pbTask = 1;
+}
+message PBTask
+{
+	required int32 templet_id = 1;//本地任务id 1：是，2:否
+	required int32 process = 2;//进度 如400/1000
+	required int32 state = 3;//完成情况:1 完成 2 进行中
+}
+message CSFinishTask
+{
+	required int64 player_guid = 1;//玩家id
+	required int32 templet_id = 2;//本地任务id
+}
+message SCFinishTask
+{
+	required int32 templet_id = 1;//本地任务id
+	optional PBUserBagData bagData = 2;
+	optional PBUserBaseData baseData = 3;
+}
+//-----------------------------任务结束------------------------------------------
+
+//-----------------------------邮件开始------------------------------------------
+//-----------------------------邮件结束--------------------------------------
+//-----------------------------商城开始--------------------------------------
+message CSShop
+{
+	required int32 player_guid = 1;
+	required int32 type = 2;	//1 扩充背包、2 购买体力、3 扩充好友、4 购买PVP（未开放）
+}
+message SCShopRet
+{
+	required int32 result = 1;//0=成功  1=失败
+	optional PBUserBaseData baseData = 2;
+}
+//博彩
+message CSGamble
+{
+	required int32 type = 1; //   0=友情抽奖 1=符石抽奖 2=幸运值抽奖
+	required int32 times = 2;//   1=抽一次   10=十连抽
+}
+message SCGambleRet
+{
+	repeated int32 templateID = 1;//抽中的卡牌
+	optional PBUserBaseData baseData = 2;
+	optional PBUserBagData bagData = 3;
+}
+//-----------------------------商城结束--------------------------------------
+
+//-----------------------------新手引导开始--------------------------------------
+
+//100:无//101:南海鳄神卡片//102:无//103:白棋子//104:强身丹和大力丸//105:元宝280//106:无（正常抽奖）107：强身丹*3和大力丸*3
+//选人
+message CSGuide
+{
+	required int32 player_guid = 1;
+	required int32 finish_step = 2;//0:未开始 100:选人 101:设置队长 102：设置队员 103：完成一次副本 104:完成一次合成 105:完成一次强化 106：完成一次抽奖 107:完成引导 108:全部结束 999:跳过，引导直接结束，一次性给所有物品
+}
+message SCGuide
+{
+	required int32 player_guid = 1;
+	required int32 finish_step = 2;
+	optional PBUserBaseData baseData = 3;
+	optional PBUserBagData bagData = 4;
+}
+//-----------------------------新手引导结束--------------------------------------
+//-----------------------------消息统计------------------------------------------
+message ButtonInfo
+{
+	required int32 id = 1;
+	required int32 value = 2;
+}
+//-----------------------------消息统计------------------------------------------
+
+//-----------------------------修改昵称------------------------------------------
+
+message CSChangeName
+{
+	required int32 player_guid = 1;
+	required string name = 2;// name
+}
+message SCChangeName
+{
+	required int32 type = 1; //1 = 修改成功 , 2 = 修改失败,元宝不足, 3 = 失败,涉及敏感词 
+	optional PBUserBaseData baseData = 2;
+	optional PBUserBagData bagData = 3;
+}
+
+
+//-----------------------------修改昵称------------------------------------------
+//-----------------------------接入畅游平台------------------------------------------
+//账号绑定
+message CSBindAccount
+{
+	required int32 accountid = 1;	//要绑定的账号id
+	required string username = 2;	//要绑定的邮箱
+	required string password = 3;	//邮箱密码
+	required int32 type = 4;			//1：登陆	2：注册
+	required string deviceSystem = 5;//
+	required string downloadType = 6;//下载渠道
+}
+message SCBindAccount
+{
+	required int32 retCode = 1;
+	optional int32 accountid = 2;//被绑定的游戏账号
+	optional string username = 3;//facebook 邮箱或ID
+	optional string passward = 4;//facebook token;
+}
+//-----------------------------接入畅游平台------------------------------------------
+
+//-----------------------------PVP------------------------------------------
+message CSAskPVPList
+{
+	required int32 heroGuid = 1;	//玩家的GUID
+}
+
+message SCAskPVPList
+{
+	required int32 nHeroRank = 1;  	  			//玩家的PVP排名
+	required int32 nHeroPVPTimes = 2; 			//玩家PVP剩余次数
+	required int64 nHeroScore = 3;    			//玩家的总积分
+	repeated PVPUserBaseData userInfo = 4;  //对手玩家信息列表
+}
+
+//PVP玩家信息
+message PVPUserBaseData
+{
+	optional int64 nGuid = 1;      //玩家Guid
+	optional string name = 2;      //玩家昵称
+	optional int32 nTempleID = 3;  //主卡牌模板ID
+	optional int32 nLevel = 4;		 //主卡牌等级
+	optional int32 nRank = 5;		   //玩家排名  
+	optional int32 nFight = 6;		 //玩家战斗力
+	optional int32 skill_level = 7; //主动技能等级
+	optional int32 add_quality_att = 8;// 攻击强化次数
+	optional int32 add_quality_hp = 9;//生命强化次数
+	optional int32 studySkillLev = 10;//学习技能等级
+	optional int32 studySkillID = 11;//学习技能当前经验
+}
+
+//-----------------------------积分兑换------------------------------------------
+message CSAskScoreShopFresh
+{
+	required int32 guid = 1;	//玩家的GUID
+}
+
+message SCAskScoreShopFresh
+{
+	required int32 nScore = 1;	//积分
+}
+
+message CSPVPShop
+{
+	required int32 player_guid = 1;
+	required int32 type = 2;	//物品类型
+}
+message SCPVPShopRet
+{
+	required int32 result = 1;//0=成功  1=失败
+	optional PBUserBagData baseBagData = 2;//背包数据
+	optional int32 nScore = 3;//积分
+}
+message ProductInfo
+{
+	required int32 goodsId = 1;// 商品id
+	required string productId = 2;// pid 商品苹果商店id
+	required string goodsIcon = 3;// icon
+	required int32 goodsNumber = 4;//  游戏内代币数量
+	required string goodsPrice = 5;//   人民币价值
+	required string goodsName = 6;// 
+	optional string goodDec = 7;//商品描述
+}
+message CSProductList
+{
+	optional int64 guid = 1;	//玩家的GUID
+	optional int32  platform	 = 3;// 第三方平台类型 0 是UC
+}
+message SCProductList
+{
+	required int32 isFirst = 1; //是否首冲 0 是 1 否
+	repeated ProductInfo product = 2;//商品列表
+}
+//结算战斗
+message CSClearBattleData
+{
+	optional int32 copyDetial = 1;//小副本ID
+	optional int32 copyFather = 2;//大副本ID
+}
+message SCClearBattleData
+{
+	optional int32 result = 1;//处理结果标记位 0 成功  1失败
+	optional PBUserBaseData baseData = 2;//用户基础数据
+	optional PBUserCopyData copyData = 3;//玩家副本数据
+	optional int32 copyStar = 4;//本次战斗评星
+	repeated SuipianInfo suipian = 5;//获得的碎片
+}
+//每日登陆免费友情抽奖，但是给幸运值，CD时间24小时
+message CSRandomCardFree
+{
+	
+}
+message SCRandomCardFree
+{
+	optional int32 templateID = 1;//抽中卡牌的模板ID
+	optional PBUserBaseData baseData = 2;//用户基本数据
+	optional PBUserBagData bagData = 3;//背包数据
+}
+
+//////////////////爱贝
+
+//请求应用的商品列表
+message CS20038
+{  
+}
+//返回爱贝商品列表 
+message SC30038
+{
+	repeated ProductInfo product = 1;//爱贝商品列表
+} 
+//请求校验账单
+message CS20039
+{  
+	required string orderId = 1;// 玩家id_日期_商品号_自增序列号:axvex20130809100011
+	required int32 goodsId = 2;//  商品id 
+	required string waresId = 3;//  商品爱贝商店id 
+}
+//返回校验账单 
+message SC30039
+{
+	required int32 result = 1;//   结果（ 0:验证成功  1: 订单存在,但未加钱  -1:订单验证失败  -2:平台错误下单暂时不成功,押后重试  -3:重复订单,已加钱  -4:参数不完整） 
+	required int32 goodsId = 2; //商品id
+	required int32 playerDollar = 3;//玩家当前元宝
+	required string orderId = 4;// 
+}
+
+//////////////IAP 
+
+//请求应用的商品列表
+message CS20040
+{  
+}
+//返回商品列表 
+message SC30040
+{
+	repeated ProductInfo product = 1;//商品列表
+}
+
+//请求校验账单
+message CS20041
+{  
+	required int32 goodsId = 1;// 商品id
+	required string productId = 2;// pid 商品苹果商店id
+	required string transactionId = 3;// tid:苹果交易流水号 
+	required string receipt = 4;//  Base64编码的单据信息
+}
+//返回校验账单 
+message SC30041
+{
+	required int32 result = 1;//   结果（0:验证成功	  1:订单存在但未加钱     -1:订单验证失败     -2:平台错误下单暂时不成功,稍后重试       -3:重复订单,订单已加钱       -4:参数不完整）
+	required int32 goodsId = 2; //商品id
+	required int32 playerDollar = 3;//玩家当前元宝
+	required string orderId = 4;// 
+}
+
+//激活码 
+message CSscode
+{  
+	required string scode = 1;// 
+}
+//返回校验账单 
+message SCscode
+{ 
+	optional PBUserBaseData baseData = 1;// 用户基本数据    
+	optional PBUserBagData bagData = 2;// 用户背包数据       
+}
+////////////////////////畅游支付
+//畅游支付平台 请求商品列表
+message CSCYouProductList
+{
+}
+//畅游支付平台 返回商品列表
+message SCCYouProductList
+{
+	repeated ProductInfo product = 1;//商品列表
+}
+//畅游支付平台 请求购买验证
+message CSCYouVerifyCharge
+{
+	required int32	goodsId		= 1;// 商品id
+	required string	productId	= 2;// pid 商品苹果商店id
+	required int32	payway		= 3;// 支付方式
+	required string	orderId		= 4;// tid：订单ID
+	required int32	goodPrice	= 5;// 商品价格
+}
+//畅游支付平台 返回购买验证
+message SCCYouVerifyCharge
+{
+	required int32	result				= 1;// 结果 （0：验证成功		 1：订单存在但未加钱			-1：订单验证失败			-2：平台错误下单暂时不成功，稍后重试			-3：重复订单，订单已加钱			-4：参数不完整）
+	required int32	goodsId				= 2;// 商品id
+	required int32	playerDollar	= 3;// 玩家当前元宝
+	required string	orderId				= 4;//
+}
+//////////////////PP
+
+//请求应用的商品列表
+message CSPPProductList
+{
+
+}
+//返回PP商品列表 
+message SCPPProductList
+{
+	repeated ProductInfo product = 1;//商品列表
+}
+//请求校验账单
+message CSPPVerifyCharge
+{
+	required int32  goodsId = 1;// 商品id
+	required string productId = 2;//商品注册id
+	required int32  price = 3;// 价格
+	required string orderID = 4;//  订单ID
+	required string userID = 5; // 用户ID
+	required int32  zoneID = 6; // 服务器分区。
+}
+//返回校验账单 
+message SCPPVerifyCharge
+{
+	required int32 result = 1;//   结果（ 0:验证成功  1: 订单存在,但未加钱  -1:订单验证失败  -2:平台错误下单暂时不成功,押后重试  -3:重复订单,已加钱  -4:参数不完整） 
+	required int32 goodsId = 2; //商品id
+	required int32 playerDollar = 3;//玩家当前元宝
+	required string orderId = 4;// 
+}
+//////////购买金币
+message CSBuyMoney
+{
+	required int32 player_guid = 1;
+	required int32 times = 2;  //次数
+}
+message SCBuyMoney
+{
+	required int32 result = 1;//0=成功  1=失败
+	optional PBUserBaseData baseData = 2;
+}
+///////////购买体力
+message CSBuyPower
+{
+	required int32 player_guid = 1;
+	required int32 times = 2;  //次数
+}
+message SCBuyPower
+{
+	required int32 result = 1;//0=成功  1=失败
+	optional PBUserBaseData baseData = 2;
+}
+//=======android==sdk==begin===
+message CSSDKLoginThirdPlatform
+{
+	required string mid 					= 1;		 //mac地址
+	required string version 			= 2; //版本
+	required int32  platform			= 3;// 第三方平台类型 0 是UC
+	required string  sid				  = 4;		 // UC登陆会话id
+	optional string area	 		 	  = 5; //	登录地区名称
+	optional string country				= 6;//	登录国家名称
+	optional string device				= 7;//	登录设备名称
+	optional string deviceSystem	= 8;//	登录系统名称
+	optional string networkType		= 9;//	联网类型名称
+	optional string operator			= 11;//	运营商名称
+	optional int32  serverid 			= 12;	//服务器号
+	repeated ButtonInfo info 			= 16; //统计 - Button 
+	optional string lastAccountId = 17; //统计信息所属的用户ID
+	optional int32 loginType 			= 18; //登陆还是终端恢复 0 ：中断恢复 1：正常登陆
+	optional string downloadType= 19 ; //下载类型
+	optional string jsonData            = 20; //扩展字段
+	optional string prisonBreak	= 21;//	是否越狱(0:否   1:是)
+}
+
+//服务器端登录验证包
+message SCSDKLoginThirdPlatformRet
+{
+	optional int32 state 					=	1; //1.新玩家 2.老玩家
+	required string ucAccount		  = 2; //UC账号
+	required string nickName	  	= 3; //用户昵称
+	optional int32 guide_finished_step = 4; //1:选人 2:设置队长 3：设置队员 4：完成一次副本 5:完成一次合成 6:完成一次强化 7：完成一次抽奖 8:完成引导 9:结束
+	optional int32 retCode 				= 5; //登陆响应码 0 成功 2 用户未登陆 -1 服务器错误
+	optional int32 gameId			  = 6;	//
+	optional int32 serverId			  = 7;
+	optional string appkey			  = 8;
+	optional string appsecret		  = 9;
+	optional int32 cpId			  	  = 10;
+	optional string apiKey		  	  = 11;
+	optional int32 ucchannelId	  	  = 12;
+	optional int64 accountId		  =	13;//服务器返回account id,如果是注册则返回,下次登录使用
+	optional int32 giftison = 14;  //礼包激活码开关   1=开启  0=关闭
+	optional string jsonData            = 15; //扩展字段
+}
+
+message CSSDKRefresh
+{
+	required int32  platform		= 1;// 第三方平台类型 0 是UC
+	optional string jsonData        = 2; //扩展字段
+}
+
+message SCSDKRefreshRet
+{
+	optional string jsonData        = 1;
+}
+//根据渠道号请求产品列表
+message CSCommonProductList
+{
+	optional int32 channelid        = 1;
+}
+
+//返回对应渠道号的产品列表
+message SCCommonProductListRet
+{
+repeated ProductInfo product = 1;//商品列表
+}
+
+//小米，多酷，91，奇虎360 渠道支付验证
+message CSCYouPayVerifyCharge
+{
+	optional string  orderId 			= 1;// 订单编号
+	optional int32   goodsId 	        = 2;// 产品主键key
+	optional int32   goodPrice 		    = 3; // 产品价格 
+	optional string   productId 	    = 4; // 对应的goodRegisteredId
+	optional int32  channelId 			= 5;// 渠道编号
+	optional string  payWay             = 6;//支付方式
+}
+//小米，多酷，91，奇虎360 渠道支付验证返回
+message SCCYouPayVerifyChargeRet
+{
+	optional int32 result 			= 1;//   结果（0:验证成功	  1:订单存在但未加钱     -1:订单验证失败     -2:平台错误下单暂时不成功,稍后重试       -3:重复订单,订单已加钱       -4:参数不完整）
+	optional int32 goodsId 			= 2; //商品id
+	optional int32 playerDollar = 3;//玩家当前元宝
+	optional string orderId 		= 4;// 
+	optional int32 goodsPrice		= 5;
+}
+
+//=======android==sdk==end=====
+
+//刮刮乐功能协议
+message CSGGL
+{
+	required int32 player_guid = 1;
+	required int32 times = 2;  //次数
+}
+message SCGGL
+{
+	required int32 showRewardID = 1;//刮刮乐中奖ID
+	required int32 nowTimes = 2;//当前次数
+}
+
+
+//风水功能协议
+//风水激活
+message CSWuxingActivation
+{
+	required int32 id = 1;
+}
+message SCWuxingActivation
+{
+	optional FengshuiInfo fengshui = 1;//风水信息
+}
+//风水升级
+message CSWuxingLevelup
+{
+	required int32 id = 1;
+}
+message SCWuxingLevelup
+{
+	optional FengshuiInfo fengshui = 1;//风水信息
+}
+//风水重置
+message CSWuxingReset
+{
+	required int32 id = 1;
+}
+message SCWuxingReset
+{
+	optional FengshuiInfo fengshui = 1;//风水信息
+}
+message WuxingInfo
+{
+	required int32 id = 1;//风水ID
+	required int32 level = 2;//风水等级
+}
+message SuipianInfo
+{
+	required int32 id = 1;//0=金 1=木 2=水 3=火 4=土
+	required int32 num = 2;//碎片数量
+}
+message FengshuiInfo
+{
+	repeated WuxingInfo wuxingInfo = 1;
+	repeated SuipianInfo suipianInfo = 2;
+	required int32 starNum = 3;
+}
+//八卦阵
+message CSBGZ
+{
+	required int32 player_guid = 1;
+	required int32 times = 2;  //次数
+}
+message SCBGZ
+{
+    required int32 showRewardID = 1;//八卦阵中奖ID
+	optional PBUserBaseData baseData = 2;
+}
+
+message MonthCardInfo
+{
+	optional int32 totalTime = 1;//活动持续时间
+	optional int32 remainTime =2;//活动剩余时间
+	optional int32 totalPurchase = 3;//活动期间总共要消费金额
+	optional int32 currentPurchase = 4;//活动期间当前已消费金额
+	repeated MonthReward rewards = 5;//活动奖励
+	optional int32 monthCardState = 6;//活动当前状态，关闭：0；开启：1；完成：2；已领取：3
+	optional int32 rewardRemainDays = 7;//奖励剩余时间
+}
+
+//领取每天的月卡元宝
+message CSMonthCardGetDollar
+{
+}
+
+message SCMonthCardGetDollar
+{
+	optional int32 result = 1;//返回结果，成功：0；
+	optional PBUserBaseData baseData = 2;
+	optional PBUserBagData bagData = 3;
+}
+
+
+message MonthReward
+{
+	required int32 type = 1;//1=金钱 2=卡牌 3=道具 4=元宝
+	optional int32 id = 2;//只有卡牌和道具有值，金钱和元宝为-1
+	optional int32 num = 3;//奖励数量
+}
+//活动界面
+message CSMonthCardInfo
+{
+	
+}
+message SCMonthCardInfo
+{
+	required MonthCardInfo yuekaInfo = 1;
+}
+//一键删除好友申请邮件
+message CSFriendMailDelete
+{
+}
+message SCFriendMailDelete
+{
+	required int32 state = 1;//1:成功 2：失败
+}
+//卡牌技能学习
+message CSStudySkill
+{
+	required int64 hero_cardguid = 1;//
+	required int64 swallowed_cardguid = 2;//
+}
+message SCStudySkill
+{
+	required int32 combine_result = 1;//成功：1，失败：-1
+	optional PBUserBaseData baseData = 2;//用户基本数据
+	optional PBUserBagData bagData = 3;// 用户背包数据
+}
+//卡牌技能升级
+message CSStudySkillUpdate
+{
+	required int64 hero_cardguid = 1;//
+	repeated int64 swallowed_cardguid = 2;//
+}
+message SCStudySkillUpdate
+{
+	required int32 combine_result = 1;//成功：1，失败：-1
+	optional PBUserBaseData baseData = 2;//用户基本数据
+	optional PBUserBagData bagData = 3;// 用户背包数据
+}
+
+
+//新群雄争霸pvp信息
+message CSQxzbPVPDataAsk
+{
+	required int64 playerId = 1;  
+}
+
+//新群雄争霸pvp
+message SCQxzbPVPDataAsk
+{
+	repeated PVPUserBaseData pvpStar3 = 1;
+	repeated PVPUserBaseData pvpStar4 = 2;
+	repeated PVPUserBaseData pvpStar5 = 3;
+	repeated PVPUserBaseData pvpStar6 = 4;
+	repeated PVPUserBaseData pvpStar7 = 5;
+	optional int64  startTime = 6;	//争霸开始剩余时间
+	optional int64  endTime = 7; 	//争霸结束时间
+	repeated int32	ranks = 8;		// 排名数组;数组下标0为3星榜;不在榜单则为10001;
+	repeated int32	rewards = 9;	// 排行奖励数组;数组下标0为3星榜奖励;0表示没有奖励
+	optional int64  qxzbBeatCdTime = 10; //群雄争霸挑战CD时间
+	optional int32  qxzbRemainingBeatCount = 11; // 群雄争霸剩余挑战次数
+}
+// 群雄争霸挑战
+message CSQxzbBattle
+{
+	required int32 playerId = 1; // 自己的编号
+	required int32 defierId = 2; // 挑战的玩家编号
+	required int32 star = 3; // 榜单星级
+	repeated BattleCard info = 4; // 上阵卡牌
+	optional int64 leaderID = 5; //当前星级的队长ID
+}
+message SCQxzbBattle
+{
+	required DataBattle battle = 1; // 战斗数据
+	optional PBUserBaseData baseData = 2; // 基本数据
+	optional PBUserBagData bagData = 3;	// 背包数据
+	optional PBUserCopyData copyData = 4; // 副本数据
+	optional int32 money = 5; 		// 奖励铜钱
+}
+//新群雄争霸，清除CD
+message CSQxzbPVPClearCD
+{
+	required int64 playerId = 1;  
+}
+message SCQxzbPVPClearCD
+{
+	required int32 result = 1;
+}
+//新群雄争霸，奖励
+message CSQxzbGetReward
+{
+	required int32 playerId = 1; 	// 角色编号
+	required int32 star = 2	;		// 排行榜星级
+}
+message SCQxzbGetReward
+{
+	required int32 result = 1; // 结果: 0,成功
+}
+//爬塔
+message CSPaiTaBattleData
+{
+	required int64 		guid 		= 1;//玩家的GUID
+	required int32		round		= 2;//第几回合，1、2、3
+	repeated BattleCard info  = 3;
+	required int32 num	= 4;   // 当前楼层
+	
+}
+//爬塔
+message SCPaiTaBattleData
+{
+	required DataBattle 	battle   = 1;
+	required int32  flag = 2; //是否是最后一关 1.是 2.不是
+	required int32 moneynum = 3;  // 当前楼层金币数量
+	required int32 rubynum = 4;  //   当前楼层元宝
+	required int32 num	= 5;   // 当前楼层
+    optional PBUserBaseData baseData = 6;//
+	optional PBUserBagData  bagData  = 7;//
+	optional PBUserCopyData copyData = 8;//
+}
+
+//爬塔结算战斗
+message CSClearPaiTaBattleData
+{
+	required int64 		guid 		= 1;//玩家的GUID
+	required int32      clearflag   = 2;//结算标志位，1=结算 2 = 退出（不清次数）
+}
+message SCClearPaiTaBattleData
+{
+	optional int32 result = 1;//处理结果标记位 0 成功  1失败
+	optional PBUserBaseData baseData = 2;//用户基础数据
+	optional int32 moneynum = 4;//本次战斗金币数量
+	optional int32 rubynum = 5;//获得的元宝数量
+}
+//世界boss
+message CSAskWorldBossInfo
+{
+	required int64 		guid 		= 1;//玩家的GUID
+}
+message SCAskWorldBossInfo
+{
+	optional WorldBoss activeBoss = 1;//当前开启的boss
+	optional WorldBossKillInfo lastKillInfo = 2;//上一轮击杀信息
+	optional WorldBossAttInfo currentKillInfo = 3;//本轮boss击杀情况
+	optional int32 hasReward = 4;//是否有周奖励要领取0=无 1=有
+}
+message WorldBoss
+{
+	required int32 id = 1;
+	optional string name = 2;
+	required int32 cardid = 3;//boss对应的卡牌模板
+	optional int64 currentHp = 4;
+	optional int64 totalHp = 5;
+	optional int32 activeFlag = 6;//boss是否开启标记  0=未开启  1=开启
+	optional int32 remainOpenTime = 7;//距离开启时间（单位：秒）
+	optional int32 aliveTime = 8;//boss存活时间，-1表示boss还未被击杀 >0表示boss已被击杀
+}
+//上一轮boss击杀信息
+message WorldBossKillInfo
+{
+	optional WorldBoss lastBossInfo = 1;
+	optional WorldBossDamageRankInfo lastKiller = 2;//最后一刀
+	repeated WorldBossDamageRankInfo top3Killer = 3;//伤害前三名
+}
+//本轮boss进攻信息
+message WorldBossAttInfo
+{
+	optional int32 attTimes = 1;//当前玩家尝试次数
+	optional int64 currentDamage = 2;//本次伤害量
+	optional int64 totalDamage	= 3;//当前累计伤害量
+	optional int32 attRank	= 4;//当前伤害量排名
+	repeated WorldBossDamageRankInfo rankInfo = 5;//其他玩家伤害信息
+	optional int32 zhufuTimes = 6;//玩家祝福次数
+	optional int32 fuhuoTime = 7;//复活倒计时
+}
+//伤害量排名信息
+message WorldBossDamageRankInfo
+{
+	required int32 rank = 1;
+	required int64 pid 	= 2;
+	optional string name = 3;
+	optional int64 totalDamage = 4;
+	optional int32 cardid = 5;//玩家主卡牌
+	optional int32 power = 6;//战斗力
+	optional int32 playerLev = 7;//玩家等级
+}
+message CSAskWorldBossBattle
+{
+	required int32 bossid = 1;//
+	required int32 round = 2;//直接发3
+	repeated BattleCard into = 3;
+	optional int32 zhufuTimes = 4;//祝福次数
+}
+message SCAskWorldBossBattle
+{
+	required int32 bossIsDead = 1;//boss是否死亡 1=已死亡  0=未死亡
+	optional DataBattle battle = 2;//战斗数据
+	optional PBUserBaseData baseData = 3;
+	optional int64 currentDamage = 4;//本轮伤害量
+	optional int32 rewardMoney = 5;//奖励金币
+	optional int64 currentBossHp = 6;//boss的初始化血量
+}
+//祝福
+message CSWorldBossAddZhufu
+{
+	
+}
+message SCWorldBossAddZhufu
+{
+	optional PBUserBaseData baseData = 1;
+	optional WorldBossAttInfo currentAttInfo = 2;
+}
+//复活
+message CSWorldBossResurgence
+{
+	
+}
+message SCWorldBossResurgence
+{
+	optional PBUserBaseData baseData = 1;
+	optional WorldBossAttInfo currentAttInfo = 2;
+}
+//-----------------------------活动------------------------------------------
+//请求活动状态
+message CSAskActivity
+{
+	
+}
+message SCAskActivity
+{
+	optional ActivityInfo activityData = 1;
+}
+message ActivityInfo
+{
+   optional int32 changeCardFlag = 1; //0 = 换卡活动没开始 1 = 换卡活动开始
+   optional int32 worldBossFlag = 2;//0= 正在进行中 1=非进行中
+}
+//换卡信息
+message ChangeCardInfo
+{
+	 optional int32 changeType_1 = 1; // 换卡条件1类型
+	 optional int32 changeNum_1 = 2; //  换卡条件1数量
+	 optional int32 changeType_2 = 3; // 换卡条件2类型
+	 optional int32 changeNum_2= 4; //  换卡条件2数量
+	 optional int32 changeType_3 = 5; // 换卡条件3类型
+	 optional int32 changeNum_3 = 6; //  换卡条件3数量
+	 optional int32 resultID = 7; //     换卡结果集ID
+	 optional int32 cardInfoID= 8; //    本条换卡信息ID
+	 optional int32 times = 9; //        本条换卡剩余次数	 
+}
+
+message cardGuidAndTempleID
+{
+	optional int64 cardGuid  = 1;// 卡牌Guid
+	optional int32 cardTempleID = 2;// 卡牌模板ID
+	optional int32 whereIn = 3 ;//卡牌位置
+}
+//请求换卡列表
+message CSAskChangeCardList
+{
+	required int64 playerGuid  = 1;// 玩家Guid
+}
+message SCAskChangeCardList
+{
+    repeated ChangeCardInfo info = 1; //每条信息
+	required int64 endTime = 2 ;//倒计时时间
+}
+//确认换卡牌
+message CSChangeCardConfirm
+{
+	required int32 changeCardInfoID = 1;//本条换卡ID
+	required int32 HaveCardflag = 2;//换卡条件是否有卡牌 0 = 没有 1 =有
+	repeated int64 info_1 = 3; // 条件1
+	repeated int64 info_2 = 4; // 条件2
+	repeated int64 info_3 = 5; // 条件3
+}
+message SCChangeCardConfirm
+{
+    required int32 result = 1; //是否成功 0 = 失败 1 =成功
+	required int32 templeID = 2; //卡牌模板ID
+	optional PBUserBaseData baseData = 3;
+	optional PBUserBagData  bagData  = 4;
+	optional PBUserCopyData copyData = 5;
+	optional ActivityInfo activityData = 6;
+}
+//世界boss，周排行
+message CSWorldBossWeekRank
+{
+	
+}
+message SCWorldBossWeekRank
+{
+	required WorldBossDamageRankInfo playerRankInfo = 1;//玩家在周榜中的排名
+	optional int32 hasReward = 2;//是否有周奖励要领 0=无 1=有
+	repeated WorldBossDamageRankInfo top10RankInfo = 3;//伤害量前十的玩家
+}
+//世界boss，周奖励
+message CSWorldBossWeekReward
+{
+	
+}
+message SCWorldBossWeekReward
+{
+	optional int32 playerRank = 1;//玩家在周榜中伤害量排名
+	optional PBUserBaseData baseData = 2;
+	optional int32 rewardLev = 3;//奖品档次
+	optional int32 hasReward = 4;//是否有周奖励要领 0=无 1=有
+}
+
+// 
+message CSTaskOver
+{
+	required  int32 TaskId = 1; //1表示facebook点赞；2 google store；3 app store评分;
+}
+
+message SCTaskOver
+{
+	required int32 taskOver = 1;//0为失败;1为成功;
+}
+
+// 繁体版运营活动
+message PBYunyingHuodong
+{
+	required int32 ItemType = 1;	// 类型，1，卡牌，2，金钱，3，道具， 4，元宝
+	required int32 ItemValue = 2;	// 卡牌id，金钱数量，道具ID，元宝数量
+	required int32 ItemNumber = 3;	// 卡牌数量，道具数量
+}
+
+// 繁体版运营活动
+message CSYunyingHuodong
+{
+	required int64 accountId = 1;	// 玩家账号ID
+}
+
+// 活动内容返回
+message SCYunyingHuodong
+{
+	required int32 HasHuodong = 1;	// 0,没有活动，1，有活动
+	optional string HuodongMiaoshu = 2;//活动描述
+	repeated PBYunyingHuodong HuodongArray = 3;// 活动内容
+}
+
+
+// google支付验证
+message CSGooglePayVerifyCharge
+{
+	required string  orderId 			= 1; // 订单编号
+	required int32   channelId 			= 3; // 渠道编号，谷歌6001
+	required string  signature 			= 4; // 数字签名
+	required string  purchaseData       = 5; // 订单信息
+
+}
+// google支付验证返回
+message SCGooglePayVerifyChargeRet
+{
+	optional int32 result 			= 1;//   结果（0:验证成功	  1:订单存在但未加钱     -1:订单验证失败     -2:平台错误下单暂时不成功,稍后重试       -3:重复订单,订单已加钱       -4:参数不完整）
+	optional int32 goodsId 			= 2; //商品id
+	optional int32 playerDollar = 3;//玩家当前元宝
+	optional string orderId 		= 4;// 
+	optional int32 goodsPrice		= 5;
+}

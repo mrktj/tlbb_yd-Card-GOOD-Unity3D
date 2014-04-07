@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_gaigun_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_gaigun_09
+    boundsData:
+    - {x: -10.5, y: -27, z: 0}
+    - {x: 229, y: 146, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 251, y: 248, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -125, y: -100, z: 0}
+    - {x: 104, y: -100, z: 0}
+    - {x: -125, y: 46, z: 0}
+    - {x: 104, y: 46, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .464845717, y: .00390820298}
+    - {x: .912107408, y: .00390820298}
+    - {x: .464845717, y: .289060533}
+    - {x: .912107408, y: .289060533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e0a3a8c478f8e4843b5b1e93813f3758, type: 2}
+    materialId: 0
+    sourceTextureGUID: e3d78cd5343f3eb47ab18d5357a167cc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_gaigun_10
+    boundsData:
+    - {x: 4.00000381, y: -9, z: 0}
+    - {x: 186, y: 144, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 251, y: 248, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -89, y: -81, z: 0}
+    - {x: 97.0000076, y: -81, z: 0}
+    - {x: -89, y: 63, z: 0}
+    - {x: 97.0000076, y: 63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .464845717, y: .296876967}
+    - {x: .828123033, y: .296876967}
+    - {x: .464845717, y: .578123033}
+    - {x: .828123033, y: .578123033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e0a3a8c478f8e4843b5b1e93813f3758, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5c9eade65a4a6144fa605a7874030c95
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_gaigun_08
+    boundsData:
+    - {x: -6.99999619, y: 21.5000038, z: 0}
+    - {x: 232, y: 165, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 251, y: 248, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -123, y: -61, z: 0}
+    - {x: 109.000008, y: -61, z: 0}
+    - {x: -123, y: 104.000008, z: 0}
+    - {x: 109.000008, y: 104.000008, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .457029283, y: .00390820298}
+    - {x: .00390820298, y: .326169908}
+    - {x: .457029283, y: .326169908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e0a3a8c478f8e4843b5b1e93813f3758, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3512ebc8924b7eb47b28fb8603ce98ef
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: e0a3a8c478f8e4843b5b1e93813f3758, type: 2}
+  textures:
+  - {fileID: 2800000, guid: daddcd9b952cb8a4ca532dfe0eec4d40, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: a3e30d238a663f846a3a05885d0076ae
+  spriteCollectionName: hit_gaigun_2
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 2126935761
+  dataGuid: 1ff4392948097644e83fcee3ab95dcf0
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,49 @@
+option java_package = "com.cyou.mrd.xjgame.message";
+
+//错误码20001
+message CS20001
+{
+	required int32 errorCode = 1;//错误码
+}
+
+message CSAskUserData
+{
+	required string seesionID = 1;//玩家ID
+}
+
+//物品信息
+message MissionInfo
+{
+	required int32 battleId = 1;//
+	required int32 count = 2;// 	
+}
+//物品信息
+message ItemInfo
+{
+	required int32 itemId = 1;//
+	required int32 count = 2;// 	
+}
+
+//卡牌信息
+message CardInfo
+{
+	required int32 cardId = 1;// 
+	required int32 templateId = 2;// 
+	required int32 level = 3;// 
+	required int32 hp = 4; 
+	optional int32 fightIndex = 5;// 出战顺序 -1 = 不出站
+}
+message SCAskUserData
+{
+	required string accountId = 1;//axcvzl 下次登陆使用
+	required string name = 2;//
+	required int32 mail = 3;
+	required int32 level = 4;	
+	required int32 exp = 5;	
+	required int32 money = 6;
+	required int32 dollar = 7;
+	required int32 power = 8;
+	repeated CardInfo cardInfo = 9;// 持有的卡片 
+	repeated ItemInfo itemInfo = 10;// 持有的物品id   
+	repeated MissionInfo missionInfo = 11;// 关卡的使用次数   
+}

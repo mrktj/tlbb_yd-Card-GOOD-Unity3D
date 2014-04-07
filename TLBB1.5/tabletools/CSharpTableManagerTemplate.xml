@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plist>
+  <!--Inner descript ${N} =\n ${L} =< ${R} = '>'-->
+  
+  <descript>//This code create by CodeEngine mrd.cyou.com ,don't modify</descript>
+  
+  <import>
+    using System;${N}
+    using System.Collections.Generic;${N}
+    using System.Collections;${N}
+    using System.Xml;${N}
+    using Module.Log;${N}
+    using UnityEngine;${N}
+    using System.IO;${N}
+  </import>
+  
+  <namespace>namespace  GCGame.Table{ </namespace>
+  <classhead>
+    ${N}public interface ITableOperate${N}
+    {${N}
+    bool LoadTable(Hashtable _tab);${N}
+    string GetInstanceFile();${N}
+    }${N}${N}
+    public  delegate void SerializableTable(ArrayList valuesList, string skey, Hashtable _hash);${N}
+    ${N}[Serializable]${N}
+    public  class TableManager${N}{${N}
+    public static bool IsLoadFromLocal = false;${N}
+    public static bool ReaderPList(String xmlFile, SerializableTable _fun, Hashtable _hash)${N}
+    {${N}
+    string[] list= xmlFile.Split('.');${N} 
+    string tableFilePath = Application.persistentDataPath + "/TableData/" + list[0] + ".txt";${N}
+    string[] alldataRow ;${N}
+    if (File.Exists(tableFilePath))${N}
+    {${N}
+    Debug.LogWarning("load from txt");${N}
+    StreamReader sr = null;${N}
+    sr = File.OpenText(tableFilePath);${N}
+    string tableData = sr.ReadToEnd();${N}
+    alldataRow = tableData.Split('\n');${N}
+    }${N}
+    else${N}
+    {${N}
+    Debug.LogWarning("load from localdata");${N}
+    TextAsset testAsset = Resources.Load(list[0], typeof(TextAsset)) as TextAsset;${N}
+    alldataRow = testAsset.text.Split('\n');${N}
+    }${N}
+    foreach(string line in alldataRow)${N}
+    {${N}
+         if(String.IsNullOrEmpty(line))continue;${N}
+         string[] strCol = line.Split('\t');${N}
+         if (strCol.Length == 0) continue;${N}
+         string skey = strCol[0];${N}
+         if (string.IsNullOrEmpty(skey)) return false;${N}
+         ArrayList valuesList = new ArrayList();${N}
+
+         for (int i = 1; i ${L} strCol.Length;++i )${N}
+         {${N}
+             valuesList.Add(strCol[i]);${N}
+         }${N}
+         _fun(valuesList, skey, _hash);${N}
+     }${N}
+    return true;${N}
+    }${N}${N}
+  </classhead>
+
+  <!--This below is Body-->
+  <managerdata>
+    private static Hashtable g_${CodeName} = new Hashtable();${N}
+    public static Hashtable Get${CodeName}()${N}
+    {${N}
+	if (g_${CodeName}.Count == 0)${N}
+    {${N}
+        Tab_${CodeName} s_Tab_${CodeName} = new Tab_${CodeName}();${N}
+        s_Tab_${CodeName}.LoadTable(g_${CodeName});${N}
+    }${N}
+    return g_${CodeName};${N}	
+    }${N}
+  </managerdata>
+
+  <initsingle>
+	Tab_${CodeName} s_Tab_${CodeName} = new Tab_${CodeName}();${N}
+    if(s_Tab_${CodeName}.LoadTable(g_${CodeName}))${N}
+	{${N}
+		LogModule.DebugLog("Load Table:{0} OK! Record({1})",s_Tab_${CodeName}.GetInstanceFile(),g_${CodeName}.Count);${N}
+	}${N}
+	yield return null;${N}
+  </initsingle>
+  
+  <inittable>  
+    public  IEnumerator InitTable()${N}
+    {${N}
+    ${FULLINIT}${N}
+	
+    }${N}
+  </inittable>
+
+  <manageropt>
+    public static Tab_${CodeName}   Get${CodeName}ByID(int nIdex)${N}
+    {${N}
+    if( Get${CodeName}().ContainsKey(nIdex))${N}
+    {${N}
+    return g_${CodeName}[nIdex] as Tab_${CodeName};${N}
+    }${N}
+    return null;${N}
+    }${N}
+
+  </manageropt>
+
+  <tail>${N}}${N}}${N}</tail>
+  </plist>
+  

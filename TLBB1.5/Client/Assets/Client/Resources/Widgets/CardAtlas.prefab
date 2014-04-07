@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: CardAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fe258508d787f4d8938d639e172046, type: 3}
+  m_Name: 
+  cardAtlas:
+  - {fileID: 11400000, guid: b5e2988e1e8685c468dc3c139b73a4c8, type: 2}
+  - {fileID: 11400000, guid: d83a6de8f2b696a4fbd72654b4864dda, type: 2}
+  - {fileID: 11400000, guid: 22a3b2fc633b0c146940cafc7dea18c9, type: 2}
+  - {fileID: 11400000, guid: 38cb3c910d9cdd641abab79d0413dfea, type: 2}
+  - {fileID: 11400000, guid: e311e2609c29d0f429bb8a659f3198db, type: 2}
+  - {fileID: 11400000, guid: 244e2aac678d7de48b31a39345ccc9e4, type: 2}
+  - {fileID: 11400000, guid: 42759194e3e19944399829b0283ba440, type: 2}
+  - {fileID: 11400000, guid: 73d14c3474960e547af398f30451741b, type: 2}
+  - {fileID: 11400000, guid: d3283062983e27d409952455b90b9da5, type: 2}
+  - {fileID: 11400000, guid: 1bb0dfd7c1455c94699bafe3f17fab9a, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

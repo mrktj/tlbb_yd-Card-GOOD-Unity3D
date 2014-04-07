@@ -1,0 +1,1176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LotteryAnimation
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: {x: .000160098076, y: -98.0614166, z: -.000159740448}
+        inSlope: {x: 3.75602359e-39, y: 87.4999924, z: 0}
+        outSlope: {x: 3.75602359e-39, y: 87.4999924, z: 0}
+        tangentMode: -559038737
+      - time: 1.80000007
+        value: {x: .000160098076, y: -28.0614204, z: -.000159740448}
+        inSlope: {x: 3.75602359e-39, y: 87.4999924, z: 0}
+        outSlope: {x: 3.75602359e-39, y: 87.4999924, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: LotteryAnimation/Layer4-2
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 251, y: 93, z: 1}
+        inSlope: {x: 5.94095736e-13, y: 517.5, z: 0}
+        outSlope: {x: 3.75602359e-39, y: 517.5, z: 0}
+        tangentMode: -559038737
+      - time: .400000006
+        value: {x: 251, y: 300, z: 1}
+        inSlope: {x: 5.94095736e-13, y: 517.5, z: 0}
+        outSlope: {x: 3.75602359e-39, y: 517.5, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: LotteryAnimation/Layer1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 114, y: 90, z: 1}
+        inSlope: {x: 0, y: 502.5, z: 0}
+        outSlope: {x: 0, y: 502.5, z: 0}
+        tangentMode: -559038737
+      - time: .400000006
+        value: {x: 114, y: 291, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: .800000012
+        value: {x: 8, y: 228, z: 1}
+        inSlope: {x: -265, y: -157.5, z: 0}
+        outSlope: {x: -265, y: -157.5, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: LotteryAnimation/Layer2-1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 114, y: 90, z: 1}
+        inSlope: {x: 0, y: 502.5, z: 0}
+        outSlope: {x: 0, y: 502.5, z: 0}
+        tangentMode: -559038737
+      - time: .400000006
+        value: {x: 114, y: 291, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: .800000012
+        value: {x: 8, y: 228, z: 1}
+        inSlope: {x: -265, y: -157.5, z: 0}
+        outSlope: {x: -265, y: -157.5, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: LotteryAnimation/Layer2-2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: {x: 270, y: 210, z: 0}
+        inSlope: {x: 300.000031, y: 233.750015, z: 0}
+        outSlope: {x: 300.000031, y: 233.750015, z: 0}
+        tangentMode: -559038737
+      - time: 1.79999995
+        value: {x: 510, y: 397, z: 0}
+        inSlope: {x: 300.000031, y: 233.750015, z: 0}
+        outSlope: {x: 300.000031, y: 233.750015, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: LotteryAnimation/Layer3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .200000003
+        value: {x: 352, y: 160, z: 1}
+        inSlope: {x: 352, y: 160, z: 0}
+        outSlope: {x: 352, y: 160, z: 0}
+        tangentMode: -559038737
+      - time: 1.20000005
+        value: {x: 704, y: 320, z: 1}
+        inSlope: {x: 352, y: 160, z: 0}
+        outSlope: {x: 352, y: 160, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: LotteryAnimation/Layer8
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1.20000005
+        value: {x: 352, y: 160, z: 1}
+        inSlope: {x: 352, y: 160, z: 0}
+        outSlope: {x: 352, y: 160, z: 0}
+        tangentMode: -559038737
+      - time: 2.20000005
+        value: {x: 704, y: 320, z: 1}
+        inSlope: {x: 352, y: 160, z: 0}
+        outSlope: {x: 352, y: 160, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: LotteryAnimation/Layer9
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .383333325
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .400000006
+        value: 0
+        inSlope: -276.91983
+        outSlope: -278.769318
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .783333361
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000012
+        value: 0
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer2-1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .783333361
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000012
+        value: 0
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer2-2
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.20000005
+        value: 0
+        inSlope: 0
+        outSlope: 1.26069975
+        tangentMode: 1
+      - time: 2
+        value: 1
+        inSlope: 1.26167381
+        outSlope: -1.24680781
+        tangentMode: 1
+      - time: 2.79999995
+        value: 0
+        inSlope: -1.25000012
+        outSlope: -1.25000012
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer2-3
+    classID: 114
+    script: {fileID: 11500000, guid: 9d33c6354b54fb847b16b36e1391868d, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .983333349
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 1
+      - time: 1
+        value: .200000003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - time: 1.7833333
+        value: 1
+        inSlope: .802190304
+        outSlope: -29.4893894
+        tangentMode: 1
+      - time: 1.79999995
+        value: 0
+        inSlope: Infinity
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer3
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .183333337
+        value: 0
+        inSlope: 60.0000038
+        outSlope: 60.0000038
+        tangentMode: 10
+      - time: .200000003
+        value: 1
+        inSlope: Infinity
+        outSlope: -1.26141429
+        tangentMode: 1
+      - time: 1
+        value: 0
+        inSlope: -1.25
+        outSlope: -1.25
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer4-1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .183333337
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - time: .200000003
+        value: 1
+        inSlope: Infinity
+        outSlope: -.00128537836
+        tangentMode: 1
+      - time: 1.78333342
+        value: 1
+        inSlope: .00128454296
+        outSlope: Infinity
+        tangentMode: 1
+      - time: 1.80000007
+        value: 0
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer4-2
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .183333337
+        value: 0
+        inSlope: 60.0000038
+        outSlope: 60.0000038
+        tangentMode: 10
+      - time: .200000003
+        value: 1
+        inSlope: Infinity
+        outSlope: -1.26374626
+        tangentMode: 1
+      - time: .99999994
+        value: 0
+        inSlope: -1.25000012
+        outSlope: -1.25000012
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer6-1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .183333337
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 1
+      - time: .200000003
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - time: 1.7833333
+        value: 1
+        inSlope: -.00367317698
+        outSlope: Infinity
+        tangentMode: 1
+      - time: 1.80000007
+        value: 0
+        inSlope: -59.99963
+        outSlope: -59.99963
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer6-2
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .883333325
+        value: 1
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      - time: .899999976
+        value: 0
+        inSlope: Infinity
+        outSlope: -60.0000572
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer7-1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .883333325
+        value: 1
+        inSlope: -60.0000572
+        outSlope: Infinity
+        tangentMode: 1
+      - time: .899999976
+        value: 0
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer7-2
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .200000003
+        inSlope: 4
+        outSlope: 4
+        tangentMode: 10
+      - time: .200000003
+        value: 1
+        inSlope: 3.9963975
+        outSlope: -1.00660884
+        tangentMode: 1
+      - time: 1.20000005
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer8
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .983333349
+        value: 0
+        inSlope: 12.0000114
+        outSlope: Infinity
+        tangentMode: 1
+      - time: 1
+        value: .200000003
+        inSlope: Infinity
+        outSlope: 3.93868113
+        tangentMode: 1
+      - time: 1.20000005
+        value: 1
+        inSlope: 4.04977322
+        outSlope: -1.00234735
+        tangentMode: 1
+      - time: 2.20000005
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer9
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .383333325
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .400000006
+        value: 0
+        inSlope: -276.91983
+        outSlope: -278.769318
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 251
+        inSlope: 5.94095736e-13
+        outSlope: 3.75602359e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: LotteryAnimation/Layer1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 93
+        inSlope: 517.5
+        outSlope: 517.5
+        tangentMode: 10
+      - time: .400000006
+        value: 300
+        inSlope: 517.5
+        outSlope: 517.5
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: LotteryAnimation/Layer1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 3.49615519e-13
+        outSlope: 3.75602359e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: LotteryAnimation/Layer1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .783333361
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000012
+        value: 0
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer2-1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .400000006
+        value: 114
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000012
+        value: 8
+        inSlope: -265
+        outSlope: -265
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: LotteryAnimation/Layer2-1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 90
+        inSlope: 502.5
+        outSlope: 502.5
+        tangentMode: 10
+      - time: .400000006
+        value: 291
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000012
+        value: 228
+        inSlope: -157.5
+        outSlope: -157.5
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: LotteryAnimation/Layer2-1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .400000006
+        value: 1
+        inSlope: 4.46410487e-13
+        outSlope: 3.75602359e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: LotteryAnimation/Layer2-1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 114
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .400000006
+        value: 114
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000012
+        value: 8
+        inSlope: -265
+        outSlope: -265
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: LotteryAnimation/Layer2-2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 90
+        inSlope: 502.5
+        outSlope: 502.5
+        tangentMode: 10
+      - time: .400000006
+        value: 291
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000012
+        value: 228
+        inSlope: -157.5
+        outSlope: -157.5
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: LotteryAnimation/Layer2-2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 8.3402469e-13
+        outSlope: 3.75602359e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: LotteryAnimation/Layer2-2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .783333361
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .800000012
+        value: 0
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer2-2
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.20000005
+        value: 0
+        inSlope: 0
+        outSlope: 1.26069975
+        tangentMode: 1
+      - time: 2
+        value: 1
+        inSlope: 1.26167381
+        outSlope: -1.24680781
+        tangentMode: 1
+      - time: 2.79999995
+        value: 0
+        inSlope: -1.25000012
+        outSlope: -1.25000012
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer2-3
+    classID: 114
+    script: {fileID: 11500000, guid: 9d33c6354b54fb847b16b36e1391868d, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: 270
+        inSlope: 300.000031
+        outSlope: 300.000031
+        tangentMode: 10
+      - time: 1.79999995
+        value: 510
+        inSlope: 300.000031
+        outSlope: 300.000031
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: LotteryAnimation/Layer3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: 210
+        inSlope: 233.750015
+        outSlope: 233.750015
+        tangentMode: 10
+      - time: 1.79999995
+        value: 397
+        inSlope: 233.750015
+        outSlope: 233.750015
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: LotteryAnimation/Layer3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: LotteryAnimation/Layer3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .983333349
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 1
+      - time: 1
+        value: .200000003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - time: 1.7833333
+        value: 1
+        inSlope: .802190304
+        outSlope: -29.4893894
+        tangentMode: 1
+      - time: 1.79999995
+        value: 0
+        inSlope: Infinity
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer3
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .183333337
+        value: 0
+        inSlope: 60.0000038
+        outSlope: 60.0000038
+        tangentMode: 10
+      - time: .200000003
+        value: 1
+        inSlope: Infinity
+        outSlope: -1.26141429
+        tangentMode: 1
+      - time: 1
+        value: 0
+        inSlope: -1.25
+        outSlope: -1.25
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer4-1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: .000160098076
+        inSlope: 3.75602359e-39
+        outSlope: 3.75602359e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: LotteryAnimation/Layer4-2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: -98.0614166
+        inSlope: 87.4999924
+        outSlope: 87.4999924
+        tangentMode: 10
+      - time: 1.80000007
+        value: -28.0614204
+        inSlope: 87.4999924
+        outSlope: 87.4999924
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: LotteryAnimation/Layer4-2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: -.000159740448
+        inSlope: 3.75602359e-39
+        outSlope: 3.75602359e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: LotteryAnimation/Layer4-2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .183333337
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - time: .200000003
+        value: 1
+        inSlope: Infinity
+        outSlope: -.00128537836
+        tangentMode: 1
+      - time: 1.78333342
+        value: 1
+        inSlope: .00128454296
+        outSlope: Infinity
+        tangentMode: 1
+      - time: 1.80000007
+        value: 0
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer4-2
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .183333337
+        value: 0
+        inSlope: 60.0000038
+        outSlope: 60.0000038
+        tangentMode: 10
+      - time: .200000003
+        value: 1
+        inSlope: Infinity
+        outSlope: -1.26374626
+        tangentMode: 1
+      - time: .99999994
+        value: 0
+        inSlope: -1.25000012
+        outSlope: -1.25000012
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer6-1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .183333337
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 1
+      - time: .200000003
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - time: 1.7833333
+        value: 1
+        inSlope: -.00367317698
+        outSlope: Infinity
+        tangentMode: 1
+      - time: 1.80000007
+        value: 0
+        inSlope: -59.99963
+        outSlope: -59.99963
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer6-2
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .883333325
+        value: 1
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      - time: .899999976
+        value: 0
+        inSlope: Infinity
+        outSlope: -60.0000572
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer7-1
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .883333325
+        value: 1
+        inSlope: -60.0000572
+        outSlope: Infinity
+        tangentMode: 1
+      - time: .899999976
+        value: 0
+        inSlope: -60.0000572
+        outSlope: -60.0000572
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer7-2
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .200000003
+        inSlope: 4
+        outSlope: 4
+        tangentMode: 10
+      - time: .200000003
+        value: 1
+        inSlope: 3.9963975
+        outSlope: -1.00660884
+        tangentMode: 1
+      - time: 1.20000005
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer8
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .200000003
+        value: 352
+        inSlope: 352
+        outSlope: 352
+        tangentMode: 10
+      - time: 1.20000005
+        value: 704
+        inSlope: 352
+        outSlope: 352
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: LotteryAnimation/Layer8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .200000003
+        value: 160
+        inSlope: 160
+        outSlope: 160
+        tangentMode: 10
+      - time: 1.20000005
+        value: 320
+        inSlope: 160
+        outSlope: 160
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: LotteryAnimation/Layer8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .200000003
+        value: 1
+        inSlope: 7.90796465e-13
+        outSlope: 3.75602359e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: LotteryAnimation/Layer8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .983333349
+        value: 0
+        inSlope: 12.0000114
+        outSlope: Infinity
+        tangentMode: 1
+      - time: 1
+        value: .200000003
+        inSlope: Infinity
+        outSlope: 3.93868113
+        tangentMode: 1
+      - time: 1.20000005
+        value: 1
+        inSlope: 4.04977322
+        outSlope: -1.00234735
+        tangentMode: 1
+      - time: 2.20000005
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: mColor.a
+    path: LotteryAnimation/Layer9
+    classID: 114
+    script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1.20000005
+        value: 352
+        inSlope: 352
+        outSlope: 352
+        tangentMode: 10
+      - time: 2.20000005
+        value: 704
+        inSlope: 352
+        outSlope: 352
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: LotteryAnimation/Layer9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1.20000005
+        value: 160
+        inSlope: 160
+        outSlope: 160
+        tangentMode: 10
+      - time: 2.20000005
+        value: 320
+        inSlope: 160
+        outSlope: 160
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: LotteryAnimation/Layer9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1.20000005
+        value: 1
+        inSlope: 5.69944916e-13
+        outSlope: 3.75661213e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: LotteryAnimation/Layer9
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events:
+  - time: 2.1833334
+    functionName: showCard
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

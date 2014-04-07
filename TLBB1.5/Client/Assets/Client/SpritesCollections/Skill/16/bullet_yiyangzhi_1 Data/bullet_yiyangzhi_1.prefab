@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: bullet_yiyangzhi_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: bullet_yiyangzhi_04
+    boundsData:
+    - {x: 0, y: 317.5, z: 0}
+    - {x: 26, y: 513, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 301.5, z: 0}
+    - {x: 26, y: 603, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -13, y: 61, z: 0}
+    - {x: 13, y: 61, z: 0}
+    - {x: -13, y: 574, z: 0}
+    - {x: 13, y: 574, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .574219704}
+    - {x: .00195410149, y: .599608421}
+    - {x: .502928734, y: .574219704}
+    - {x: .502928734, y: .599608421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 07e465223ca50ac428aa2f01cd7861ae, type: 2}
+    materialId: 0
+    sourceTextureGUID: db69ada0c31c4604cae2ba498d0de024
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_yiyangzhi_05
+    boundsData:
+    - {x: -1.00000048, y: 350, z: 0}
+    - {x: 22, y: 488, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 301.5, z: 0}
+    - {x: 26, y: 603, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -12, y: 106, z: 0}
+    - {x: 9.99999905, y: 106, z: 0}
+    - {x: -12, y: 594, z: 0}
+    - {x: 9.99999905, y: 594, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .501954079, y: .630860329}
+    - {x: .501954079, y: .652342796}
+    - {x: .978514671, y: .630860329}
+    - {x: .978514671, y: .652342796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 07e465223ca50ac428aa2f01cd7861ae, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3fb681b263f3f884c81fc6975bbfafaa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_yiyangzhi_02
+    boundsData:
+    - {x: 0, y: 286, z: 0}
+    - {x: 26, y: 508, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 301.5, z: 0}
+    - {x: 26, y: 603, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -13, y: 32, z: 0}
+    - {x: 13, y: 32, z: 0}
+    - {x: -13, y: 540, z: 0}
+    - {x: 13, y: 540, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .603516579}
+    - {x: .00195410149, y: .628905296}
+    - {x: .498045892, y: .603516579}
+    - {x: .498045892, y: .628905296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 07e465223ca50ac428aa2f01cd7861ae, type: 2}
+    materialId: 0
+    sourceTextureGUID: 796de873931ae37448d9386062c0ab91
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_yiyangzhi_06
+    boundsData:
+    - {x: -4, y: 381.5, z: 0}
+    - {x: 12, y: 443, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 301.5, z: 0}
+    - {x: 26, y: 603, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -10, y: 160, z: 0}
+    - {x: 1.99999988, y: 160, z: 0}
+    - {x: -10, y: 603, z: 0}
+    - {x: 1.99999988, y: 603, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .632813454}
+    - {x: .00195410149, y: .644530296}
+    - {x: .434569329, y: .632813454}
+    - {x: .434569329, y: .644530296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 07e465223ca50ac428aa2f01cd7861ae, type: 2}
+    materialId: 0
+    sourceTextureGUID: a5a88d16ff1e6bd4ca864b257e38dc65
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_yiyangzhi_01
+    boundsData:
+    - {x: -4.76837158e-07, y: 251, z: 0}
+    - {x: 24, y: 502, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 301.5, z: 0}
+    - {x: 26, y: 603, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -12, y: 0, z: 0}
+    - {x: 11.999999, y: 0, z: 0}
+    - {x: -12, y: 502, z: 0}
+    - {x: 11.999999, y: 502, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .501954079, y: .603516579}
+    - {x: .501954079, y: .626952171}
+    - {x: .992186546, y: .603516579}
+    - {x: .992186546, y: .626952171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 07e465223ca50ac428aa2f01cd7861ae, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6778fed9c645b9448b39eac9cbe8768f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_yiyangzhi_03
+    boundsData:
+    - {x: 0, y: 299, z: 0}
+    - {x: 26, y: 582, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 301.5, z: 0}
+    - {x: 26, y: 603, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -13, y: 8, z: 0}
+    - {x: 13, y: 8, z: 0}
+    - {x: -13, y: 590, z: 0}
+    - {x: 13, y: 590, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .027342774, y: .00195410149}
+    - {x: .00195410149, y: .570311546}
+    - {x: .027342774, y: .570311546}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 07e465223ca50ac428aa2f01cd7861ae, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5f5664f98c68f4f43b672a270cd017f0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 07e465223ca50ac428aa2f01cd7861ae, type: 2}
+  textures:
+  - {fileID: 2800000, guid: c1b17f638f24bd84ca5f4061c5c43927, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 42b58b2ae98b60848a5aad0504fedcf0
+  spriteCollectionName: bullet_yiyangzhi_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1680682916
+  dataGuid: d1f78b6ed86863d4b97b1b8c40a0bf37
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

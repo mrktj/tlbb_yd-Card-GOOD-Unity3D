@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Client\Scripts\Widget\CyouBind.cs">
+    <Files>
+      <File FileName="Assets\Client\Scripts\DeviceHelper.cs" Line="1" Column="1" />
+      <File FileName="Assets\Client\Scripts\UnityToolkit\GameSystem.cs" Line="28" Column="30" />
+      <File FileName="Assets\Client\Scripts\Widget\CyouBind.cs" Line="136" Column="79" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>TEMPSPS[0]</Value>
+          <Value>TEMPSPS[0].tex</Value>
+          <Value>sprite.tex</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\Work\TLBB1.5\Client\Assets\Editor\AutoEdit.cs" line="919" />
+      <Breakpoint file="E:\Work\TLBB1.5\Client\Assets\Editor\ProcssAtlas.cs" line="240" />
+      <Breakpoint file="E:\Work\TLBB1.5\Client\Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" line="406" />
+      <Breakpoint file="E:\Work\TLBB1.5\Client\Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" line="609" />
+      <Breakpoint file="E:\Work\TLBB1.5\Client\Assets\Client\Scripts\UIControler\CYRegisterController.cs" line="122" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

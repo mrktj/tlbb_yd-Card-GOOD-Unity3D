@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: behit_zhang_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: behit_zhang_02
+    boundsData:
+    - {x: -3.81469727e-06, y: -.5, z: 0}
+    - {x: 238, y: 235, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 242, y: 241, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -119, y: -118, z: 0}
+    - {x: 118.999992, y: -118, z: 0}
+    - {x: -119, y: 117, z: 0}
+    - {x: 118.999992, y: 117, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .484376967, y: .478517592}
+    - {x: .949216783, y: .478517592}
+    - {x: .484376967, y: .937498033}
+    - {x: .949216783, y: .937498033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01c48d79488fd7c479edcd968cbf2606, type: 2}
+    materialId: 0
+    sourceTextureGUID: 82a284f5f7a89b4479a1ee1d704e3ce2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_zhang_01
+    boundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 235, y: 233, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 242, y: 241, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -117, y: -117, z: 0}
+    - {x: 118, y: -117, z: 0}
+    - {x: -117, y: 116, z: 0}
+    - {x: 118, y: 116, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .482423842}
+    - {x: .462888658, y: .482423842}
+    - {x: .00390820298, y: .937498033}
+    - {x: .462888658, y: .937498033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01c48d79488fd7c479edcd968cbf2606, type: 2}
+    materialId: 0
+    sourceTextureGUID: efe964ea37a62e447ac825318f2a7870
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_zhang_03
+    boundsData:
+    - {x: 3.81469727e-06, y: -.5, z: 0}
+    - {x: 240, y: 239, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 242, y: 241, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -120, y: -120, z: 0}
+    - {x: 120.000008, y: -120, z: 0}
+    - {x: -120, y: 119, z: 0}
+    - {x: 120.000008, y: 119, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .484376967, y: .00390820298}
+    - {x: .953123033, y: .00390820298}
+    - {x: .484376967, y: .470701158}
+    - {x: .953123033, y: .470701158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01c48d79488fd7c479edcd968cbf2606, type: 2}
+    materialId: 0
+    sourceTextureGUID: 576f893c34577a74f8d22870a552a834
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_zhang_04
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 242, y: 241, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 242, y: 241, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -121, y: -121, z: 0}
+    - {x: 121, y: -121, z: 0}
+    - {x: -121, y: 120, z: 0}
+    - {x: 121, y: 120, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .476560533, y: .00390820298}
+    - {x: .00390820298, y: .474607408}
+    - {x: .476560533, y: .474607408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 01c48d79488fd7c479edcd968cbf2606, type: 2}
+    materialId: 0
+    sourceTextureGUID: 683ebb3f697a660408618c8cff1684c2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 01c48d79488fd7c479edcd968cbf2606, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 197a2448bf602434cb7387667c87fd9f, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 7847a1dd52b629f4584ae100f85fc723
+  spriteCollectionName: behit_zhang_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1044675114
+  dataGuid: 343d4d9e25071e54da607dd9673ef244
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

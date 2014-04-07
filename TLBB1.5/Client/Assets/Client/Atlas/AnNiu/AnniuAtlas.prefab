@@ -1,0 +1,489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: AnniuAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 034d635984ce102469a99719cebec3bd, type: 2}
+  sprites:
+  - name: hint_14
+    outer:
+      serializedVersion: 2
+      x: 349
+      y: 257
+      width: 107
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 349
+      y: 257
+      width: 107
+      height: 129
+    rotated: 0
+    paddingLeft: .0747663528
+    paddingRight: .0560747646
+    paddingTop: .0155038759
+    paddingBottom: .0387596898
+  - name: hint_08
+    outer:
+      serializedVersion: 2
+      x: 672
+      y: 265
+      width: 106
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 672
+      y: 265
+      width: 106
+      height: 120
+    rotated: 0
+    paddingLeft: .0754716992
+    paddingRight: .0660377368
+    paddingTop: .0583333336
+    paddingBottom: .075000003
+  - name: hint_24
+    outer:
+      serializedVersion: 2
+      x: 120
+      y: 1
+      width: 110
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 1
+      width: 110
+      height: 124
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .100000001
+    paddingTop: .072580643
+    paddingBottom: .0241935477
+  - name: hint_23
+    outer:
+      serializedVersion: 2
+      x: 566
+      y: 263
+      width: 105
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 566
+      y: 263
+      width: 105
+      height: 122
+    rotated: 0
+    paddingLeft: .0285714287
+    paddingRight: .123809524
+    paddingTop: .0819672123
+    paddingBottom: .0327868834
+  - name: hint_07
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 249
+      width: 110
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 249
+      width: 110
+      height: 134
+    rotated: 0
+    paddingLeft: .0636363626
+    paddingRight: .0363636352
+    paddingTop: .00746268639
+    paddingBottom: .00746268639
+  - name: hint_10
+    outer:
+      serializedVersion: 2
+      x: 461
+      y: 123
+      width: 104
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 461
+      y: 123
+      width: 104
+      height: 127
+    rotated: 0
+    paddingLeft: .0865384638
+    paddingRight: .0769230798
+    paddingTop: .0314960629
+    paddingBottom: .0393700786
+  - name: hint_17
+    outer:
+      serializedVersion: 2
+      x: 349
+      y: 2
+      width: 108
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 349
+      y: 2
+      width: 108
+      height: 124
+    rotated: 0
+    paddingLeft: .027777778
+    paddingRight: .0925925896
+    paddingTop: .0322580636
+    paddingBottom: .0645161271
+  - name: hint_13
+    outer:
+      serializedVersion: 2
+      x: 566
+      y: 386
+      width: 108
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 566
+      y: 386
+      width: 108
+      height: 126
+    rotated: 0
+    paddingLeft: .055555556
+    paddingRight: .0648148134
+    paddingTop: .0317460336
+    paddingBottom: .0476190485
+  - name: hint_01
+    outer:
+      serializedVersion: 2
+      x: 120
+      y: 384
+      width: 112
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 384
+      width: 112
+      height: 128
+    rotated: 0
+    paddingLeft: .0178571437
+    paddingRight: .0625
+    paddingTop: .0234375
+    paddingBottom: .0390625
+  - name: hint_22
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 391
+      width: 110
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 391
+      width: 110
+      height: 121
+    rotated: 0
+    paddingLeft: .0272727273
+    paddingRight: .0727272704
+    paddingTop: .0826446265
+    paddingBottom: .0413223132
+  - name: hint_04
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 388
+      width: 115
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 388
+      width: 115
+      height: 124
+    rotated: 0
+    paddingLeft: .0347826071
+    paddingRight: .0173913036
+    paddingTop: .0564516112
+    paddingBottom: .0403225794
+  - name: hint_09
+    outer:
+      serializedVersion: 2
+      x: 786
+      y: 388
+      width: 107
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 786
+      y: 388
+      width: 107
+      height: 124
+    rotated: 0
+    paddingLeft: .0560747646
+    paddingRight: .0747663528
+    paddingTop: .0403225794
+    paddingBottom: .0564516112
+  - name: hint_20
+    outer:
+      serializedVersion: 2
+      x: 349
+      y: 127
+      width: 107
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 349
+      y: 127
+      width: 107
+      height: 129
+    rotated: 0
+    paddingLeft: .0560747646
+    paddingRight: .0747663528
+    paddingTop: .0387596898
+    paddingBottom: .0155038759
+  - name: hint_16
+    outer:
+      serializedVersion: 2
+      x: 461
+      y: 381
+      width: 104
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 461
+      y: 381
+      width: 104
+      height: 131
+    rotated: 0
+    paddingLeft: .0384615399
+    paddingRight: .125
+    paddingTop: .0381679386
+    paddingBottom: 0
+  - name: hint_02
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 4
+      width: 114
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 4
+      width: 114
+      height: 120
+    rotated: 0
+    paddingLeft: .00877192989
+    paddingRight: .0526315793
+    paddingTop: .0416666679
+    paddingBottom: .0916666687
+  - name: hint_03
+    outer:
+      serializedVersion: 2
+      x: 120
+      y: 254
+      width: 110
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 254
+      width: 110
+      height: 129
+    rotated: 0
+    paddingLeft: .0727272704
+    paddingRight: .0272727273
+    paddingTop: 0
+    paddingBottom: .0542635657
+  - name: hint_11
+    outer:
+      serializedVersion: 2
+      x: 461
+      y: 251
+      width: 104
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 461
+      y: 251
+      width: 104
+      height: 129
+    rotated: 0
+    paddingLeft: .0769230798
+    paddingRight: .0865384638
+    paddingTop: .0310077518
+    paddingBottom: .0232558139
+  - name: hint_05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 384
+      width: 119
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 384
+      width: 119
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0168067235
+    paddingTop: .0234375
+    paddingBottom: .0390625
+  - name: hint_18
+    outer:
+      serializedVersion: 2
+      x: 349
+      y: 387
+      width: 111
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 349
+      y: 387
+      width: 111
+      height: 125
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0900900885
+    paddingTop: .0320000015
+    paddingBottom: .0560000017
+  - name: hint_06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 118
+      width: 111
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 118
+      width: 111
+      height: 130
+    rotated: 0
+    paddingLeft: .0900900885
+    paddingRight: 0
+    paddingTop: .0230769236
+    paddingBottom: .0230769236
+  - name: hint_12
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 254
+      width: 105
+      height: 133
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 254
+      width: 105
+      height: 133
+    rotated: 0
+    paddingLeft: .0666666701
+    paddingRight: .0857142881
+    paddingTop: .0225563906
+    paddingBottom: 0
+  - name: hint_19
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 125
+      width: 109
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 125
+      width: 109
+      height: 128
+    rotated: 0
+    paddingLeft: .0458715595
+    paddingRight: .0642201826
+    paddingTop: .015625
+    paddingBottom: .046875
+  - name: hint_15
+    outer:
+      serializedVersion: 2
+      x: 120
+      y: 126
+      width: 110
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 126
+      width: 110
+      height: 127
+    rotated: 0
+    paddingLeft: .0545454547
+    paddingRight: .0454545468
+    paddingTop: .05511811
+    paddingBottom: .0157480314
+  - name: hint_21
+    outer:
+      serializedVersion: 2
+      x: 894
+      y: 391
+      width: 107
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 894
+      y: 391
+      width: 107
+      height: 121
+    rotated: 0
+    paddingLeft: .0373831764
+    paddingRight: .0934579447
+    paddingTop: .0909090936
+    paddingBottom: .0330578499
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

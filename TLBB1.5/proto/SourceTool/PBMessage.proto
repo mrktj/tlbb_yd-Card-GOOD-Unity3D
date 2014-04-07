@@ -1,0 +1,9 @@
+//客户端
+option java_package = "com.cyou.mrd.sevensea.message";
+
+//心跳10000
+message CS10000
+{
+	required bytes commandId = 1;//命令idx
+}
+

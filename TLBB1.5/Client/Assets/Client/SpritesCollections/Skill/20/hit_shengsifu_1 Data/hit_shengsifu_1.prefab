@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_shengsifu_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_shengsifu_05
+    boundsData:
+    - {x: -3, y: 8, z: 0}
+    - {x: 162, y: 192, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 192, y: 208, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -84, y: -88, z: 0}
+    - {x: 78, y: -88, z: 0}
+    - {x: -84, y: 104, z: 0}
+    - {x: 78, y: 104, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .386720717, y: .351564467}
+    - {x: .386720717, y: .667966783}
+    - {x: .761716783, y: .351564467}
+    - {x: .761716783, y: .667966783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2cbe74e36e0bcfd4b8844963b4d09354, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7059198502a11e34ca3295360389e667
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_shengsifu_02
+    boundsData:
+    - {x: -16.0000019, y: -13.9999962, z: 0}
+    - {x: 160, y: 180, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 192, y: 208, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -96, y: -104, z: 0}
+    - {x: 63.9999962, y: -104, z: 0}
+    - {x: -96, y: 76.0000076, z: 0}
+    - {x: 63.9999962, y: 76.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .363283217}
+    - {x: .00390820298, y: .675779283}
+    - {x: .355466783, y: .363283217}
+    - {x: .355466783, y: .675779283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2cbe74e36e0bcfd4b8844963b4d09354, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3b30e36627c3e3344bc9bf8abc0be3d2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_shengsifu_01
+    boundsData:
+    - {x: -16.0000019, y: -13.9999962, z: 0}
+    - {x: 160, y: 180, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 192, y: 208, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -96, y: -104, z: 0}
+    - {x: 63.9999962, y: -104, z: 0}
+    - {x: -96, y: 76.0000076, z: 0}
+    - {x: 63.9999962, y: 76.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .363283217, y: .675783217}
+    - {x: .363283217, y: .988279283}
+    - {x: .714841783, y: .675783217}
+    - {x: .714841783, y: .988279283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2cbe74e36e0bcfd4b8844963b4d09354, type: 2}
+    materialId: 0
+    sourceTextureGUID: 26394147ac1c1034691b92c55bae586a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_shengsifu_04
+    boundsData:
+    - {x: -.500001907, y: -5.99999619, z: 0}
+    - {x: 129, y: 164, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 192, y: 208, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -65, y: -88, z: 0}
+    - {x: 63.9999962, y: -88, z: 0}
+    - {x: -65, y: 76.0000076, z: 0}
+    - {x: 63.9999962, y: 76.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .722658217, y: .675783217}
+    - {x: .974607408, y: .675783217}
+    - {x: .722658217, y: .996091783}
+    - {x: .974607408, y: .996091783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2cbe74e36e0bcfd4b8844963b4d09354, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ec91d59fc3ab8249a3e33a74d8cac66
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_shengsifu_06
+    boundsData:
+    - {x: -3, y: 8, z: 0}
+    - {x: 174, y: 192, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 192, y: 208, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -90, y: -88, z: 0}
+    - {x: 84, y: -88, z: 0}
+    - {x: -90, y: 104, z: 0}
+    - {x: 84, y: 104, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .386720717, y: .00390820298}
+    - {x: .386720717, y: .343748033}
+    - {x: .761716783, y: .00390820298}
+    - {x: .761716783, y: .343748033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2cbe74e36e0bcfd4b8844963b4d09354, type: 2}
+    materialId: 0
+    sourceTextureGUID: a55a210a445d0cf4794dc69bc470d097
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_shengsifu_03
+    boundsData:
+    - {x: 0, y: -13.9999962, z: 0}
+    - {x: 192, y: 180, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 192, y: 208, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -96, y: -104, z: 0}
+    - {x: 96, y: -104, z: 0}
+    - {x: -96, y: 76.0000076, z: 0}
+    - {x: 96, y: 76.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .378904283, y: .00390820298}
+    - {x: .00390820298, y: .355466783}
+    - {x: .378904283, y: .355466783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2cbe74e36e0bcfd4b8844963b4d09354, type: 2}
+    materialId: 0
+    sourceTextureGUID: cdfc4d8e7064d5c40a0b9d6f9f1fafde
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 2cbe74e36e0bcfd4b8844963b4d09354, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 33d5e1d0a7480f74ca75bab9d711591a, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 19c9c3eb9d8fd0e47beb28e78534f5eb
+  spriteCollectionName: hit_shengsifu_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 359269223
+  dataGuid: 554f36bcc1fcc574f82c8d33d0967b89
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: jinmiezhua
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_jinmiezhua_06
+    boundsData:
+    - {x: 3.5, y: 57, z: 0}
+    - {x: 151, y: 226, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 168, y: 355, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -72, y: -56.0000038, z: 0}
+    - {x: 79, y: -56.0000038, z: 0}
+    - {x: -72, y: 170, z: 0}
+    - {x: 79, y: 170, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .841797829}
+    - {x: .00195410149, y: .989256859}
+    - {x: .222655267, y: .841797829}
+    - {x: .222655267, y: .989256859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 210e262732f11db4c9788cde123f093d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_jinmiezhua_01
+    boundsData:
+    - {x: -16, y: -87.5, z: 0}
+    - {x: 116, y: 181, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 168, y: 355, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -74, y: -178, z: 0}
+    - {x: 42, y: -178, z: 0}
+    - {x: -74, y: 2.99999642, z: 0}
+    - {x: 42, y: 2.99999642, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .875977516, y: .00195410149}
+    - {x: .989256859, y: .00195410149}
+    - {x: .875977516, y: .178709954}
+    - {x: .989256859, y: .178709954}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 280aa99e149a7f14da284c02096f6dc1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: 
+    boundsData:
+    - {x: 31, y: -31, z: 0}
+    - {x: 64, y: 64, z: 0}
+    untrimmedBoundsData:
+    - {x: 31, y: -31, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -1, y: -63, z: 0}
+    - {x: 63, y: -63, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 63, y: 1, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .993165016}
+    - {x: .00390527351, y: .993165016}
+    - {x: .00195410149, y: .995116234}
+    - {x: .00390527351, y: .995116234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_jinmiezhua_03
+    boundsData:
+    - {x: -.5, y: 30, z: 0}
+    - {x: 167, y: 294, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 168, y: 355, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -84, y: -117, z: 0}
+    - {x: 83, y: -117, z: 0}
+    - {x: -84, y: 177, z: 0}
+    - {x: 83, y: 177, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .260743171, y: .234375983}
+    - {x: .423827142, y: .234375983}
+    - {x: .260743171, y: .521483421}
+    - {x: .423827142, y: .521483421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2f140340e1de8714a8548adf02d4ff3a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: 
+    boundsData:
+    - {x: 31, y: -31, z: 0}
+    - {x: 64, y: 64, z: 0}
+    untrimmedBoundsData:
+    - {x: 31, y: -31, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -1, y: -63, z: 0}
+    - {x: 63, y: -63, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: 63, y: 1, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .993165016}
+    - {x: .00390527351, y: .993165016}
+    - {x: .00195410149, y: .995116234}
+    - {x: .00390527351, y: .995116234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_jinmiezhua_05
+    boundsData:
+    - {x: 2, y: 66, z: 0}
+    - {x: 164, y: 220, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 168, y: 355, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -80, y: -43.9999962, z: 0}
+    - {x: 84, y: -43.9999962, z: 0}
+    - {x: -80, y: 176, z: 0}
+    - {x: 84, y: 176, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .427735358, y: .234375983}
+    - {x: .587889671, y: .234375983}
+    - {x: .427735358, y: .449217767}
+    - {x: .587889671, y: .449217767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: b40cf8fab17256d428cc51a888e0c22a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_jinmiezhua_07
+    boundsData:
+    - {x: 11.5, y: 53.5, z: 0}
+    - {x: 135, y: 211, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 168, y: 355, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -56, y: -52.0000038, z: 0}
+    - {x: 79, y: -52.0000038, z: 0}
+    - {x: -56, y: 159, z: 0}
+    - {x: 79, y: 159, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .226563483, y: .841797829}
+    - {x: .226563483, y: .973631859}
+    - {x: .432616204, y: .841797829}
+    - {x: .432616204, y: .973631859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: e7489d7f6303c5145b85f0b3b0973fb3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_06
+    boundsData:
+    - {x: 8, y: .5, z: 0}
+    - {x: 260, y: 269, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -122, y: -134, z: 0}
+    - {x: 138, y: -134, z: 0}
+    - {x: -122, y: 135, z: 0}
+    - {x: 138, y: 135, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .575196266}
+    - {x: .255858392, y: .575196266}
+    - {x: .00195410149, y: .837889671}
+    - {x: .255858392, y: .837889671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2667f34447c835649a2c1d9830ceee96
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_08
+    boundsData:
+    - {x: 21.9999962, y: 14.4999962, z: 0}
+    - {x: 178, y: 159, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -67, y: -65, z: 0}
+    - {x: 110.999992, y: -65, z: 0}
+    - {x: -67, y: 93.9999924, z: 0}
+    - {x: 110.999992, y: 93.9999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .436524421, y: .841797829}
+    - {x: .610350609, y: .841797829}
+    - {x: .436524421, y: .997069359}
+    - {x: .610350609, y: .997069359}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3d472e67a38d79641a06458d8440d21c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_07
+    boundsData:
+    - {x: 21.9999962, y: 6.5, z: 0}
+    - {x: 178, y: 159, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -67, y: -73, z: 0}
+    - {x: 110.999992, y: -73, z: 0}
+    - {x: -67, y: 86, z: 0}
+    - {x: 110.999992, y: 86, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .517579079, y: .453125983}
+    - {x: .517579079, y: .626952171}
+    - {x: .672850609, y: .453125983}
+    - {x: .672850609, y: .626952171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 490ff1c26e25e1c409d374229ff7ae73
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_02
+    boundsData:
+    - {x: -5.00000381, y: -27.0000038, z: 0}
+    - {x: 234, y: 264, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -122, y: -159, z: 0}
+    - {x: 111.999992, y: -159, z: 0}
+    - {x: -122, y: 104.999992, z: 0}
+    - {x: 111.999992, y: 104.999992, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .614258766, y: .00195410149}
+    - {x: .614258766, y: .230467767}
+    - {x: .872069359, y: .00195410149}
+    - {x: .872069359, y: .230467767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ed21d8d85211684b85f3afc08d88bce
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_01
+    boundsData:
+    - {x: -5.00000381, y: -35, z: 0}
+    - {x: 234, y: 264, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -122, y: -167, z: 0}
+    - {x: 111.999992, y: -167, z: 0}
+    - {x: -122, y: 97, z: 0}
+    - {x: 111.999992, y: 97, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .260743171, y: .00195410149}
+    - {x: .260743171, y: .230467767}
+    - {x: .518553734, y: .00195410149}
+    - {x: .518553734, y: .230467767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6179a52b957cc7c409258071dae088af
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_03
+    boundsData:
+    - {x: -6.5, y: -17.9999962, z: 0}
+    - {x: 261, y: 290, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -137, y: -163, z: 0}
+    - {x: 124, y: -163, z: 0}
+    - {x: -137, y: 127.000008, z: 0}
+    - {x: 124, y: 127.000008, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .256834954, y: .00195410149}
+    - {x: .00195410149, y: .285155267}
+    - {x: .256834954, y: .285155267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 729e2bce2d977fc4a902450d8f917d3e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_09
+    boundsData:
+    - {x: 21.9999962, y: 22.5, z: 0}
+    - {x: 178, y: 159, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -67, y: -57, z: 0}
+    - {x: 110.999992, y: -57, z: 0}
+    - {x: -67, y: 102, z: 0}
+    - {x: 110.999992, y: 102, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .591797829, y: .234375983}
+    - {x: .591797829, y: .408202142}
+    - {x: .747069359, y: .234375983}
+    - {x: .747069359, y: .408202142}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: 96a3ce64c55d89e4692b1cf51e10ec35
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_05
+    boundsData:
+    - {x: 8, y: -7.49999619, z: 0}
+    - {x: 260, y: 269, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -122, y: -142, z: 0}
+    - {x: 138, y: -142, z: 0}
+    - {x: -122, y: 127.000008, z: 0}
+    - {x: 138, y: 127.000008, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .259766608, y: .575196266}
+    - {x: .513670921, y: .575196266}
+    - {x: .259766608, y: .837889671}
+    - {x: .513670921, y: .837889671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: b8ed72cf1ee023142a1f40bfeb6b1d30
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: behit_jinmiezhua_04
+    boundsData:
+    - {x: -6.5, y: -10.5, z: 0}
+    - {x: 261, y: 289, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 275, y: 334, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -137, y: -155, z: 0}
+    - {x: 124, y: -155, z: 0}
+    - {x: -137, y: 134, z: 0}
+    - {x: 124, y: 134, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .289063483}
+    - {x: .256834954, y: .289063483}
+    - {x: .00195410149, y: .571288109}
+    - {x: .256834954, y: .571288109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+    materialId: 0
+    sourceTextureGUID: c06a3df875a50ca4ea421d4b1d6a826b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: de24bda3d26802a49bff5ab1df3cc0de, type: 2}
+  textures:
+  - {fileID: 2800000, guid: e91da8af8fda1af41a7ff29febc7aac5, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: c491c592a5bd7b741b479e82511baecd
+  spriteCollectionName: jinmiezhua
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1324502969
+  dataGuid: 5e947340879a8e64a87ccaa64b1b284d
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

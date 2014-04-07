@@ -1,0 +1,10 @@
+目前使用旧版codeEngine.exe导出.proto文件
+不支持long型和内部枚举
+
+protobuf-net for ios研究进度
+原因：ios不支持protobuf中反射方法，需要额外生成反射库
+1.使用protogen编译PBMessage.proto生成PBMessage.cs文件
+2.编译使用Mono编译PBMessage.cs文件为PBMessage.dll库
+3.使用precompile.exePBMessage.dll库编译生成相关的反射库
+4.在代码中使用反射库调用
+最后一步出现异常，type is not expected没有解决，暂时搁置，使用老办法

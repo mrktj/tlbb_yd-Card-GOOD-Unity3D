@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: bullet_lianhuazhang_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: bullet_lianhuazhang_06
+    boundsData:
+    - {x: -2.5, y: 19.5, z: 0}
+    - {x: 237, y: 309, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 289, y: 349, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -121, y: -135, z: 0}
+    - {x: 116, y: -135, z: 0}
+    - {x: -121, y: 174, z: 0}
+    - {x: 116, y: 174, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .466794908, y: .00390820298}
+    - {x: .00390820298, y: .607419908}
+    - {x: .466794908, y: .607419908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e02bdfc835eea1c4b867f606a457bdb9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 726d1215fb5cd734eb784e4e431d722c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_lianhuazhang_08
+    boundsData:
+    - {x: -4.99999619, y: 10, z: 0}
+    - {x: 182, y: 326, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 289, y: 349, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -96, y: -153, z: 0}
+    - {x: 86.0000076, y: -153, z: 0}
+    - {x: -96, y: 173, z: 0}
+    - {x: 86.0000076, y: 173, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .615236342}
+    - {x: .00390820298, y: .970701158}
+    - {x: .640623033, y: .615236342}
+    - {x: .640623033, y: .970701158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e02bdfc835eea1c4b867f606a457bdb9, type: 2}
+    materialId: 0
+    sourceTextureGUID: f996e45539d017644aeae087e9392afa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_lianhuazhang_07
+    boundsData:
+    - {x: 2, y: 1.49999237, z: 0}
+    - {x: 110.000008, y: 141, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 289, y: 349, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -53.0000038, y: -69.0000076, z: 0}
+    - {x: 57.0000038, y: -69.0000076, z: 0}
+    - {x: -53.0000038, y: 71.9999924, z: 0}
+    - {x: 57.0000038, y: 71.9999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .474611342, y: .218751952}
+    - {x: .689451158, y: .218751952}
+    - {x: .474611342, y: .494138658}
+    - {x: .689451158, y: .494138658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e02bdfc835eea1c4b867f606a457bdb9, type: 2}
+    materialId: 0
+    sourceTextureGUID: f354e4668a0750843a674da9c974ab9b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_lianhuazhang_05
+    boundsData:
+    - {x: -9.99999809, y: -5.50000763, z: 0}
+    - {x: 106.000015, y: 147, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 289, y: 349, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -63.0000038, y: -79.0000076, z: 0}
+    - {x: 43.0000076, y: -79.0000076, z: 0}
+    - {x: -63.0000038, y: 67.9999924, z: 0}
+    - {x: 43.0000076, y: 67.9999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .474611342, y: .00390820298}
+    - {x: .474611342, y: .210935548}
+    - {x: .761716783, y: .00390820298}
+    - {x: .761716783, y: .210935548}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e02bdfc835eea1c4b867f606a457bdb9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6bad292fe15d8af428935051b414ce72
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: e02bdfc835eea1c4b867f606a457bdb9, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 6e7aa0073d2a9aa43a18bbfcefdae865, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 201dd0dbbf3e64842a5c4ad56cb7c4c1
+  spriteCollectionName: bullet_lianhuazhang_2
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 758071350
+  dataGuid: 036443b139db50a41b4889c137348ed8
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

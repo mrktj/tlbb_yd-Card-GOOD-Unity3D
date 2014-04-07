@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: xiaoyaosanxiaosan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e434d710b2d8f489ed5291b9187f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Effects:
+  - {fileID: 100000, guid: ba9612869233abf4bbb57926b7ef9bf3, type: 2}
+  - {fileID: 100002, guid: b547d62537faf4549be71852f06a7d44, type: 2}
+  - {fileID: 100002, guid: dc16983ff2ef70149bedf9e785297e6f, type: 2}
+  - {fileID: 100002, guid: 11d071253012dc84b90e0700f9d1f0fe, type: 2}
+  - {fileID: 100002, guid: c17821a06c96fee45bc95b9450514874, type: 2}
+  - {fileID: 100002, guid: 06080c631419a5c4fb6caac9487b0c12, type: 2}
+  - {fileID: 100002, guid: 154cfe4ff047dcb4db2b4f6657926205, type: 2}
+  - {fileID: 100002, guid: d222d88dc2524bd4f804912b5a18a881, type: 2}
+  - {fileID: 100002, guid: 1ad1b30217d2e984bbafa0ace3ed1fe1, type: 2}
+  - {fileID: 100002, guid: d6a0eaff9b0251c4e88e74e5e5d3dfcd, type: 2}
+  - {fileID: 100002, guid: 174393489cb3b8244b3c9dee6b51446c, type: 2}
+  - {fileID: 100000, guid: ce52b2021c671b54d972bb559125f4bf, type: 2}
+  - {fileID: 100000, guid: 316ab6b483e7cb74ab95e2f7870cc5c7, type: 2}
+  - {fileID: 100000, guid: ad1e88e5697d2014d9bc7dd92ba3580e, type: 2}
+  DelayTime:
+  - 0
+  - .800000012
+  - .899999976
+  - 1
+  - 1.10000002
+  - 1.20000005
+  - 1.29999995
+  - 1.39999998
+  - 1.5
+  - 1.60000002
+  - 1.70000005
+  - 2.4000001
+  - 2.5999999
+  - 3
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

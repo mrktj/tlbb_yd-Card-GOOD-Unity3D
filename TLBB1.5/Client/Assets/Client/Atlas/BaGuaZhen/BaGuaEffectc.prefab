@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: BaGuaEffectc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fd7be220b93b43b4e899d0afec9e29ed, type: 2}
+  sprites:
+  - name: effect03
+    outer:
+      serializedVersion: 2
+      x: 176
+      y: 493
+      width: 175
+      height: 168
+    inner:
+      serializedVersion: 2
+      x: 176
+      y: 493
+      width: 175
+      height: 168
+    rotated: 0
+    paddingLeft: .0399999991
+    paddingRight: .00571428565
+    paddingTop: .0892857164
+    paddingBottom: .0357142873
+  - name: effect01
+    outer:
+      serializedVersion: 2
+      x: 174
+      y: 674
+      width: 177
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 174
+      y: 674
+      width: 177
+      height: 169
+    rotated: 0
+    paddingLeft: .0169491526
+    paddingRight: .0169491526
+    paddingTop: .0710059181
+    paddingBottom: .0473372787
+  - name: effect02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 158
+      width: 173
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 158
+      width: 173
+      height: 163
+    rotated: 0
+    paddingLeft: .0404624268
+    paddingRight: .0173410401
+    paddingTop: .116564415
+    paddingBottom: .0429447852
+  - name: effect04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 322
+      width: 174
+      height: 168
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 322
+      width: 174
+      height: 168
+    rotated: 0
+    paddingLeft: .0459770113
+    paddingRight: .00574712642
+    paddingTop: .0714285746
+    paddingBottom: .0535714291
+  - name: effect08
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 844
+      width: 174
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 844
+      width: 174
+      height: 180
+    rotated: 0
+    paddingLeft: .0459770113
+    paddingRight: .00574712642
+    paddingTop: 0
+    paddingBottom: .0500000007
+  - name: effect07
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 491
+      width: 175
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 491
+      width: 175
+      height: 170
+    rotated: 0
+    paddingLeft: .0457142852
+    paddingRight: 0
+    paddingTop: .0823529437
+    paddingBottom: .0294117648
+  - name: effect06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 662
+      width: 173
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 662
+      width: 173
+      height: 181
+    rotated: 0
+    paddingLeft: .0173410401
+    paddingRight: .0404624268
+    paddingTop: 0
+    paddingBottom: .0441988967
+  - name: effect05
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 849
+      width: 177
+      height: 175
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 849
+      width: 177
+      height: 175
+    rotated: 0
+    paddingLeft: .0169491526
+    paddingRight: .0169491526
+    paddingTop: .034285713
+    paddingBottom: .0457142852
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

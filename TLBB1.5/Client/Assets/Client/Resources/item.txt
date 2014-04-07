@@ -1,0 +1,2 @@
+10000	-1	-1	daliwan	0	50
+10001	-1	-1	qiangshendan	1	150

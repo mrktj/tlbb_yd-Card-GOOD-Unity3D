@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LotteryAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e504748af238514428e1753e06206318, type: 2}
+  sprites:
+  - name: 5
+    outer:
+      serializedVersion: 2
+      x: 265
+      y: 313
+      width: 114
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 265
+      y: 313
+      width: 114
+      height: 184
+    rotated: 0
+    paddingLeft: .00877192989
+    paddingRight: .0438596494
+    paddingTop: .0108695654
+    paddingBottom: .0217391308
+  - name: 3_1
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 517
+      width: 84
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 517
+      width: 84
+      height: 27
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3
+    outer:
+      serializedVersion: 2
+      x: 380
+      y: 417
+      width: 176
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 380
+      y: 417
+      width: 176
+      height: 80
+    rotated: 0
+    paddingLeft: .0284090918
+    paddingRight: .0227272734
+    paddingTop: 0
+    paddingBottom: .0125000002
+  - name: 7
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 705
+      width: 251
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 705
+      width: 251
+      height: 190
+    rotated: 0
+    paddingLeft: .0996015966
+    paddingRight: .0956175327
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 10
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 545
+      width: 252
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 545
+      width: 252
+      height: 159
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 323
+      width: 264
+      height: 174
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 323
+      width: 264
+      height: 174
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 18
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 249
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 249
+      height: 139
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00401606411
+    paddingTop: .00719424477
+    paddingBottom: 0
+  - name: 13
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 498
+      width: 510
+      height: 397
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 498
+      width: 510
+      height: 397
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .007556675
+  - name: white
+    outer:
+      serializedVersion: 2
+      x: 596
+      y: 512
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 596
+      y: 512
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 2.15625
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 10_1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 63
+      width: 243
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 63
+      width: 243
+      height: 119
+    rotated: 0
+    paddingLeft: .0123456791
+    paddingRight: .0164609049
+    paddingTop: .159663871
+    paddingBottom: .0168067235
+  - name: baoxiang_beijingtu
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 896
+      width: 768
+      height: 1152
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 896
+      width: 768
+      height: 1152
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

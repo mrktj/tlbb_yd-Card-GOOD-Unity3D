@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plist>
+  <!--Inner descript ${N} =\n ${L} =< ${R} = '>'-->
+  
+  <descript>//This code create by CodeEngine mrd.cyou.com ,don't modify</descript>
+  
+  <import>
+import java.util.ArrayList;${N}
+import java.util.HashMap;${N}
+import java.util.List;${N}
+${N}
+import org.slf4j.Logger;${N}
+import org.slf4j.LoggerFactory;${N}
+ ${N}
+import cyou.mrd.Platform;${N} 
+import cyou.mrd.service.Service;${N}
+import cyou.mrd.util.ConfigKeys;${N}
+import cyou.mrd.util.Utils;${N}
+  </import>
+  
+  <namespace>package xjgame.table;${N}</namespace>
+  <classhead>
+ public class TableManager implements Service{${N}	
+  private static final Logger log  = LoggerFactory.getLogger( TableManager.class);${N}
+
+  public static boolean ReaderPList(String fileName,ITableOperate opt,Object data){${N}
+    try {${N}
+      List${L}String${R} valueList =  Utils.getLinesFormTXTStarFrom0(Platform.getConfiguration().getString(ConfigKeys.SERVER_DATA_DIR) + fileName);${N}
+      if(valueList==null || valueList.size() ==0) {${N}
+        throw TableException.ErrorReader("Read %s Error as not any data", fileName);${N}
+      }${N}
+      int nLine=0;${N}
+      for (String string : valueList) {${N}
+        ArrayList${L}String${R} rLine = new ArrayList${L}String${R}();${N}
+        String strlist[] = string.split("\t");${N}
+        if(strlist == null || strlist.length ==0) {${N}
+        	 throw TableException.ErrorReader("Read %s Error at line:%d", fileName,nLine);${N}
+        }${N}
+        String sKeyString = strlist[0];${N}
+        for(int i=1;i${L}strlist.length;++i) {${N}
+        	 rLine.add(strlist[i]);${N}
+        }${N}
+        opt.SerializableTable(rLine,sKeyString, data);${N}
+        ++nLine;${N}
+      }${N}
+    } catch (Exception e) {${N}
+      e.printStackTrace();${N}
+      log.info("ERROR:"+e.getMessage());${N}
+      return false;${N}
+    }${N}
+    return true;${N}
+  }${N}
+
+${N}
+@Override${N}
+  public String getId() { ${N}
+    return "TableManager";${N}
+  }${N}
+${N}
+  @Override${N}
+  public void startup() throws Exception {${N}
+    if(!TableManager.InitTable())${N}
+    {${N}
+        throw TableException.ErrorReader("init Table Error!!!!!!!!!!!!!"); ${N}
+    }${N}
+  }${N}
+${N}
+  @Override${N}
+  public void shutdown() throws Exception {${N}
+     ${N}
+  }${N}
+  </classhead>
+
+  <!--This below is Body-->
+  <managerdata>
+  public static HashMap${L}Integer,Table_${CodeName}${R}  g_${CodeName} = new HashMap${L}Integer,Table_${CodeName}${R}();${N}
+  </managerdata>
+
+  <initsingle>
+    Table_${CodeName} s_${CodeName} = new Table_${CodeName}();${N}
+    if(!s_${CodeName}.LoadTable(g_${CodeName}))${N}
+    {${N}
+      log.error("Load Table:"+s_${CodeName}.GetInstanceFile()+"ERROR!!!");${N}
+      return false;
+    }${N}
+    else${N}
+    {${N}
+     log.debug("Load Table:"+s_${CodeName}.GetInstanceFile()+"OK!!!");${N}
+    }${N}
+  </initsingle>
+  
+  <inittable>
+    public  static  boolean InitTable()  throws TableException${N}
+    {${N}    
+    ${FULLINIT}${N}
+    return true;${N}
+    }${N}
+  </inittable>
+
+  <manageropt>
+    public static Table_${CodeName}   Get${CodeName}ByID(int nIdex)${N}
+    {${N}
+            return g_${CodeName}.get(nIdex);${N}
+    }${N}
+
+  </manageropt>
+
+  <tail>${N}}${N}</tail>
+  </plist>
+  

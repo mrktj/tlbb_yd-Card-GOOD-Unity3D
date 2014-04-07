@@ -1,0 +1,4 @@
+10001	204	http://115.160.140.204/XJGameServer/s	2
+10002	207	http://115.160.140.207/XJGameServer/s	2
+10003	冰封万里	http://10.6.154.56:8080/XJGameServer/s	2
+10004	刀塔传奇	http://63.221.201.75/XJGameServer/s	2

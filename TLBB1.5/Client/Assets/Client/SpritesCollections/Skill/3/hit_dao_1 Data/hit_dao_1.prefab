@@ -1,0 +1,408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_dao_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_dao_09
+    boundsData:
+    - {x: 66.5, y: 1.00000381, z: 0}
+    - {x: 159, y: 166, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -13, y: -82, z: 0}
+    - {x: 146, y: -82, z: 0}
+    - {x: -13, y: 84.0000076, z: 0}
+    - {x: 146, y: 84.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .492188483, y: .256836921}
+    - {x: .647459984, y: .256836921}
+    - {x: .492188483, y: .418944329}
+    - {x: .647459984, y: .418944329}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: bca15fb013eba4941a9ccfd1cef2fbdd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dao_08
+    boundsData:
+    - {x: 66, y: 26.5, z: 0}
+    - {x: 160, y: 217, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14.0000029, y: -82, z: 0}
+    - {x: 146, y: -82, z: 0}
+    - {x: -14.0000029, y: 135, z: 0}
+    - {x: 146, y: 135, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .274415046, y: .833008766}
+    - {x: .274415046, y: .989256859}
+    - {x: .486327142, y: .833008766}
+    - {x: .486327142, y: .989256859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: 94ecdf02bc0ad7f49bebf7639758626f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dao_03
+    boundsData:
+    - {x: -2.49999237, y: 17.5, z: 0}
+    - {x: 285, y: 275, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -145, y: -120, z: 0}
+    - {x: 140.000015, y: -120, z: 0}
+    - {x: -145, y: 155, z: 0}
+    - {x: 140.000015, y: 155, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .618165016}
+    - {x: .00195410149, y: .896483421}
+    - {x: .270506829, y: .618165016}
+    - {x: .270506829, y: .896483421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: 54f79e328c5a83a46b236e50232ef3fb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dao_06
+    boundsData:
+    - {x: 20.5, y: 36.5, z: 0}
+    - {x: 257, y: 237, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -108, y: -82, z: 0}
+    - {x: 149, y: -82, z: 0}
+    - {x: -108, y: 155, z: 0}
+    - {x: 149, y: 155, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .274415046, y: .00195410149}
+    - {x: .274415046, y: .252928704}
+    - {x: .505858421, y: .00195410149}
+    - {x: .505858421, y: .252928704}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9f873172fb08bcd47a189140727dbb14
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dao_04
+    boundsData:
+    - {x: -7.5, y: .5, z: 0}
+    - {x: 275, y: 311, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -145, y: -155, z: 0}
+    - {x: 130, y: -155, z: 0}
+    - {x: -145, y: 156, z: 0}
+    - {x: 130, y: 156, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .270506829, y: .00195410149}
+    - {x: .00195410149, y: .305663079}
+    - {x: .270506829, y: .305663079}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: 74b9ce47eda56ca4fa95caac048cd03d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dao_02
+    boundsData:
+    - {x: -17.0000038, y: 0, z: 0}
+    - {x: 256, y: 312, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -145, y: -156, z: 0}
+    - {x: 110.999992, y: -156, z: 0}
+    - {x: -145, y: 156, z: 0}
+    - {x: 110.999992, y: 156, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .309571296}
+    - {x: .251952142, y: .309571296}
+    - {x: .00195410149, y: .614256859}
+    - {x: .251952142, y: .614256859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: 87780f58f5fed434d9380d62004698a0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dao_01
+    boundsData:
+    - {x: 24.9999962, y: -50.5, z: 0}
+    - {x: 192, y: 167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -71, y: -134, z: 0}
+    - {x: 120.999992, y: -134, z: 0}
+    - {x: -71, y: 32.9999962, z: 0}
+    - {x: 120.999992, y: 32.9999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .490235358, y: .833008766}
+    - {x: .677733421, y: .833008766}
+    - {x: .490235358, y: .996092796}
+    - {x: .677733421, y: .996092796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: 94275899f7846bb4b87ce4b994a30675
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dao_05
+    boundsData:
+    - {x: -3, y: 37, z: 0}
+    - {x: 292, y: 238, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -149, y: -82, z: 0}
+    - {x: 143, y: -82, z: 0}
+    - {x: -149, y: 156, z: 0}
+    - {x: 143, y: 156, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .255860358, y: .309571296}
+    - {x: .255860358, y: .594725609}
+    - {x: .488280267, y: .309571296}
+    - {x: .488280267, y: .594725609}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: fa63d84d22411b943aa2dfd3cd69d82b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dao_07
+    boundsData:
+    - {x: 29.5, y: 36, z: 0}
+    - {x: 229, y: 236, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 298, y: 312, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -85, y: -82, z: 0}
+    - {x: 144, y: -82, z: 0}
+    - {x: -85, y: 154, z: 0}
+    - {x: 144, y: 154, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .274415046, y: .598633766}
+    - {x: .498045892, y: .598633766}
+    - {x: .274415046, y: .829100609}
+    - {x: .498045892, y: .829100609}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+    materialId: 0
+    sourceTextureGUID: 327d7b6e9ee53da4a90336e97c241714
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: b8a9188bbd303944e86f687f8e1c5951, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d51fbd765746de744b67248d5a15c948, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 596cf5c218d7d5f4dbfc536b2bea91df
+  spriteCollectionName: hit_dao_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 187990689
+  dataGuid: 645050728c1012b458cfa6f5b05f1c0f
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

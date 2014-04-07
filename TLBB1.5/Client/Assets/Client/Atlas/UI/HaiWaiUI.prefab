@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: HaiWaiUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 60f604b200b9637458d632d81c6e6ace, type: 2}
+  sprites:
+  - name: FB_anxia
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 475
+      width: 142
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 475
+      width: 142
+      height: 40
+    rotated: 0
+    paddingLeft: .112676054
+    paddingRight: .105633803
+    paddingTop: .300000012
+    paddingBottom: .275000006
+  - name: qitazhifu2
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 645
+      width: 294
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 645
+      width: 294
+      height: 57
+    rotated: 0
+    paddingLeft: .0306122452
+    paddingRight: .0204081628
+    paddingTop: .105263159
+    paddingBottom: 0
+  - name: facebookButtonIcon
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 883
+      width: 309
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 883
+      width: 309
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0677966103
+    paddingBottom: 0
+  - name: qitazhifu
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 587
+      width: 294
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 587
+      width: 294
+      height: 57
+    rotated: 0
+    paddingLeft: .0306122452
+    paddingRight: .0204081628
+    paddingTop: .105263159
+    paddingBottom: 0
+  - name: FB_zhengchang
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 434
+      width: 142
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 434
+      width: 142
+      height: 40
+    rotated: 0
+    paddingLeft: .112676054
+    paddingRight: .105633803
+    paddingTop: .300000012
+    paddingBottom: .275000006
+  - name: zhujiemian_wentifankui_anniu_1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 132
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 132
+      height: 33
+    rotated: 0
+    paddingLeft: .0909090936
+    paddingRight: .037878789
+    paddingTop: .24242425
+    paddingBottom: .121212125
+  - name: facebookButtonDownIcon
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 823
+      width: 309
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 823
+      width: 309
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0677966103
+    paddingBottom: 0
+  - name: "facebook\u7ED1\u5B9A\u6B63\u5E38"
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 763
+      width: 309
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 763
+      width: 309
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0677966103
+    paddingBottom: 0
+  - name: "facebook\u7ED1\u5B9A\u6309\u4E0B"
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 703
+      width: 309
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 703
+      width: 309
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0677966103
+    paddingBottom: 0
+  - name: denglu_beijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 516
+      width: 634
+      height: 508
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 516
+      width: 634
+      height: 508
+    rotated: 0
+    paddingLeft: .00315457419
+    paddingRight: .0157728698
+    paddingTop: .00393700786
+    paddingBottom: 0
+  - name: shurujihuoma
+    outer:
+      serializedVersion: 2
+      x: 143
+      y: 490
+      width: 198
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 143
+      y: 490
+      width: 198
+      height: 25
+    rotated: 0
+    paddingLeft: .0151515156
+    paddingRight: .0252525248
+    paddingTop: .0799999982
+    paddingBottom: .119999997
+  - name: anniu_1
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 943
+      width: 266
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 943
+      width: 266
+      height: 81
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_lijilingqu
+    outer:
+      serializedVersion: 2
+      x: 902
+      y: 994
+      width: 105
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 902
+      y: 994
+      width: 105
+      height: 30
+    rotated: 0
+    paddingLeft: .0285714287
+    paddingRight: .00952380989
+    paddingTop: .0333333351
+    paddingBottom: .0333333351
+  - name: denglu_shurukuang
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 551
+      width: 195
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 551
+      width: 195
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_fanhui
+    outer:
+      serializedVersion: 2
+      x: 902
+      y: 962
+      width: 65
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 902
+      y: 962
+      width: 65
+      height: 31
+    rotated: 0
+    paddingLeft: .0923076943
+    paddingRight: .0307692308
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: denglu_xuanzefuwuqi_beij-02
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 519
+      width: 154
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 519
+      width: 154
+      height: 31
+    rotated: 0
+    paddingLeft: .038961038
+    paddingRight: .0324675329
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: denglu_xuanzefuwuqi_beij-04
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 513
+      width: 285
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 513
+      width: 285
+      height: 2
+    rotated: 0
+    paddingLeft: .0245614033
+    paddingRight: .0245614033
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

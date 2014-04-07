@@ -1,0 +1,12 @@
+11	1238_icon_heiqizi_1	10
+10	gold01	100
+12	icon02	1
+1	1015_icon_xuzhu_5	10000
+3	gold03	4000
+2	gold03	5000
+5	gold02	4000
+4	gold03	4000
+7	gold02	4000
+6	gold02	4000
+9	gold01	3000
+8	gold01	4000

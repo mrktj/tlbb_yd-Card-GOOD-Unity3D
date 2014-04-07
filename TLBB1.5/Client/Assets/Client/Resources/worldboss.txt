@@ -1,0 +1,5 @@
+1	2876	4	wuliangshan	BattleUICollection7	2	shanjing	750	780
+3	2878	4	wuliangshan	BattleUICollection7	4	shanjing	750	780
+2	2877	4	wuliangshan	BattleUICollection7	3	shanjing	750	780
+5	2880	4	wuliangshan	BattleUICollection7	6	shanjing	750	780
+4	2879	4	wuliangshan	BattleUICollection7	5	shanjing	750	780

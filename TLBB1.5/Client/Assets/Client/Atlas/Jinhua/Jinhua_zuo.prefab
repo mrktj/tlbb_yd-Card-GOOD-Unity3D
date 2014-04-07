@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Jinhua_zuo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 4e79c64cbc768f0478755febee812d90, type: 2}
+  sprites:
+  - name: jingjinzuo_07
+    outer:
+      serializedVersion: 2
+      x: 409
+      y: 61
+      width: 198
+      height: 223
+    inner:
+      serializedVersion: 2
+      x: 409
+      y: 61
+      width: 198
+      height: 223
+    rotated: 0
+    paddingLeft: .0202020202
+    paddingRight: .0202020202
+    paddingTop: .00896861032
+    paddingBottom: .0134529145
+  - name: jingjinzuo_04
+    outer:
+      serializedVersion: 2
+      x: 206
+      y: 287
+      width: 202
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 287
+      width: 202
+      height: 225
+    rotated: 0
+    paddingLeft: .0148514854
+    paddingRight: .00495049497
+    paddingTop: .00444444455
+    paddingBottom: .0088888891
+  - name: jingjinzuo_08
+    outer:
+      serializedVersion: 2
+      x: 610
+      y: 68
+      width: 194
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 610
+      y: 68
+      width: 194
+      height: 225
+    rotated: 0
+    paddingLeft: .0360824727
+    paddingRight: .0257731955
+    paddingTop: .00444444455
+    paddingBottom: .0088888891
+  - name: jingjinzuo_02
+    outer:
+      serializedVersion: 2
+      x: 610
+      y: 294
+      width: 205
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 610
+      y: 294
+      width: 205
+      height: 218
+    rotated: 0
+    paddingLeft: .00487804879
+    paddingRight: 0
+    paddingTop: .0229357798
+    paddingBottom: .0229357798
+  - name: jingjinzuo_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 284
+      width: 205
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 284
+      width: 205
+      height: 228
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00487804879
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jingjinzuo_05
+    outer:
+      serializedVersion: 2
+      x: 206
+      y: 61
+      width: 202
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 61
+      width: 202
+      height: 225
+    rotated: 0
+    paddingLeft: .0148514854
+    paddingRight: .00495049497
+    paddingTop: .00444444455
+    paddingBottom: .0088888891
+  - name: jingjinzuo_06
+    outer:
+      serializedVersion: 2
+      x: 409
+      y: 285
+      width: 200
+      height: 227
+    inner:
+      serializedVersion: 2
+      x: 409
+      y: 285
+      width: 200
+      height: 227
+    rotated: 0
+    paddingLeft: .0149999997
+    paddingRight: .0149999997
+    paddingTop: 0
+    paddingBottom: .00440528616
+  - name: jingjinzuo_09
+    outer:
+      serializedVersion: 2
+      x: 805
+      y: 66
+      width: 184
+      height: 227
+    inner:
+      serializedVersion: 2
+      x: 805
+      y: 66
+      width: 184
+      height: 227
+    rotated: 0
+    paddingLeft: .0652173907
+    paddingRight: .0543478243
+    paddingTop: 0
+    paddingBottom: .00440528616
+  - name: jingjinzuo_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 58
+      width: 205
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 58
+      width: 205
+      height: 225
+    rotated: 0
+    paddingLeft: .00487804879
+    paddingRight: 0
+    paddingTop: .00444444455
+    paddingBottom: .0088888891
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: bullet_zhang_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: bullet_zhang_02
+    boundsData:
+    - {x: 2.99999619, y: 294.5, z: 0}
+    - {x: 226, y: 259, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 435, z: 0}
+    - {x: 234, y: 870, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -110, y: 165, z: 0}
+    - {x: 115.999992, y: 165, z: 0}
+    - {x: -110, y: 424, z: 0}
+    - {x: 115.999992, y: 424, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .531251967}
+    - {x: .00390820298, y: .972654283}
+    - {x: .509763658, y: .531251967}
+    - {x: .509763658, y: .972654283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e2fb6b34e151f7748b01e0d8effb74c3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 41232df1c5841f14fa81ec7e5cc54538
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_zhang_04
+    boundsData:
+    - {x: 1.99999619, y: 618, z: 0}
+    - {x: 192, y: 220.000031, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 435, z: 0}
+    - {x: 234, y: 870, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -94, y: 507.999969, z: 0}
+    - {x: 97.9999924, y: 507.999969, z: 0}
+    - {x: -94, y: 728, z: 0}
+    - {x: 97.9999924, y: 728, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .517580092, y: .482423842}
+    - {x: .517580092, y: .857419908}
+    - {x: .947263658, y: .482423842}
+    - {x: .947263658, y: .857419908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e2fb6b34e151f7748b01e0d8effb74c3, type: 2}
+    materialId: 0
+    sourceTextureGUID: b03118f37d1ec1046a2fcd828e0624c8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_zhang_01
+    boundsData:
+    - {x: 0, y: 133, z: 0}
+    - {x: 234, y: 266, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 435, z: 0}
+    - {x: 234, y: 870, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -117, y: 0, z: 0}
+    - {x: 117, y: 0, z: 0}
+    - {x: -117, y: 266, z: 0}
+    - {x: 117, y: 266, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .460935533, y: .00390820298}
+    - {x: .00390820298, y: .523435533}
+    - {x: .460935533, y: .523435533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e2fb6b34e151f7748b01e0d8effb74c3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3ab7a60a30a5ec34cb8ab2f2da4201b9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: bullet_zhang_03
+    boundsData:
+    - {x: .999996185, y: 457.5, z: 0}
+    - {x: 214, y: 241, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 435, z: 0}
+    - {x: 234, y: 870, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -106, y: 337, z: 0}
+    - {x: 107.999992, y: 337, z: 0}
+    - {x: -106, y: 578, z: 0}
+    - {x: 107.999992, y: 578, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .468751967, y: .00390820298}
+    - {x: .886716783, y: .00390820298}
+    - {x: .468751967, y: .474607408}
+    - {x: .886716783, y: .474607408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e2fb6b34e151f7748b01e0d8effb74c3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1072308b332b62541a58d986d409fbc5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: e2fb6b34e151f7748b01e0d8effb74c3, type: 2}
+  textures:
+  - {fileID: 2800000, guid: ab3a41e9835d8044a8de1549609eb4f4, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 6d2fd7c43f971244fb95102975b42d8f
+  spriteCollectionName: bullet_zhang_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1870342890
+  dataGuid: 774a6db1f17ba12458158df222a29afe
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

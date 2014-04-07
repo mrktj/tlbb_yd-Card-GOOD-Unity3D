@@ -1,0 +1,23 @@
+option java_package = "com.cyou.mrd.COC.message";
+
+enum protoCSMessage
+{
+	CS_LOGIN   = 1;
+	CS_CONNECT = 2;
+	CS_ASKUSERDATA 	 = 3;
+	CS_UPDATAUSERDTA = 4;
+	CS_FINDENEMY = 5;
+	CS_SENDRESULT = 6;
+	CS_SENDHEARTBEAT = 7;
+};
+
+enum protoSCMessage
+{
+	SC_LOGIN_RET   = 1;
+	SC_CONNECT_RET = 2;
+	SC_ASKUSERDATA_RET 	 = 3;
+	SC_UPDATAUSERDTA_RET = 4;
+	SC_FINDENEMYRET = 5;
+	SC_SENDRESULTRET = 6;
+	SC_SENDHEATBEATRET = 7;
+};

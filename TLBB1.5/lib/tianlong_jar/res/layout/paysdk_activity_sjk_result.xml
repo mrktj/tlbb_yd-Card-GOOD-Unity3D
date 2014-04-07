@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pay_activity_bg"
+    android:orientation="vertical"
+    tools:context=".SjkPayResultActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/psAPBackBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_back_bg"
+            android:text="返回"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_title_bt_text_size" />
+
+        <TextView
+            android:id="@+id/psAPTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/psAPBackBT"
+            android:layout_centerHorizontal="true"
+            android:text="@string/paysdk_title_activity_android_pay"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_title_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    
+    <WebView
+        android:id="@+id/sjkWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:visibility="gone" />
+    
+    <LinearLayout
+        android:id="@+id/sjkResultView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+        
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/paysdk_ap_info_view"
+	    android:orientation="vertical"
+	    android:padding="10dp">
+	    
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="bottom" >
+         
+        <TextView
+            android:id="@+id/sjcPayResultMes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="恭喜您，支付成功！"
+            android:textColor="@color/realPriceTextColor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/repeat_bg_cutline"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+    </LinearLayout>
+	<RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+    
+	   
+	        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+	        android:text="商品信息"
+	        android:textStyle="bold" 
+	        android:textSize="15sp"
+	        />
+	        <TextView
+	        android:id="@+id/sjcPayResGoodsName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+	        android:textSize="15sp"/>   
+	       
+    </RelativeLayout>
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/repeat_bg_cutline"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+	   
+	        <TextView
+            android:id="@+id/sjcPayResGoodsNumMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+	        android:text="数量"
+	        android:textSize="15sp"
+	        android:textStyle="bold" 
+	        />
+	        <TextView
+	        android:id="@+id/sjcPayResGoodsNum"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+	        android:textSize="15sp"/>   
+	       
+    </RelativeLayout>
+    <LinearLayout
+        		android:id="@+id/sjcPayResNumPrice"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/repeat_bg_cutline"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/sjcPayResGoodsPriceLayOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+	    
+	        <TextView
+	            android:id="@+id/sjcPayResGoodsPriceMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+	        android:text="订单金额"
+	        android:textSize="15sp"
+	        android:textStyle="bold" 
+	        />
+	        <TextView
+	        android:id="@+id/sjcPayResGoodsPrice"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/realPriceTextColor"
+	        android:textSize="15sp"/>   
+	       
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/pricelineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/repeat_bg_cutline" >
+
+    </LinearLayout>
+    </LinearLayout>
+    <!-- <Button
+        android:id="@+id/sjcPayResultsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_pay_bg"
+        android:text="继续充值" 
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" /> -->
+    
+	<Button
+        android:id="@+id/sjcPayQuesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_bg_2"
+        android:text="返回游戏" 
+        android:textColor="@color/qaColor"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+	<TextView 
+		        android:id="@+id/realPrice"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="5dp"
+		        android:textColor="@color/grayColor"
+		        android:layout_marginTop="10dp"
+		        android:text="温馨提示："
+		        android:inputType="text"
+		        android:textSize="12sp"/>
+  			  <TextView 
+		        android:id="@+id/realPrice"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="5dp"
+		        android:textColor="@color/grayColor"
+		        android:text="如遇到问题请拨打畅游客服电话：022-27695566"
+		        android:inputType="text"
+		        android:textSize="12sp"/>
+</LinearLayout>
+</LinearLayout>

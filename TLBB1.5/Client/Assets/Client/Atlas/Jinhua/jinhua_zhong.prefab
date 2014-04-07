@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: jinhua_zhong
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 536bfbf20e48c6a4aa177fcce8059b79, type: 2}
+  sprites:
+  - name: jingjin_zhong_06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 311
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 311
+      height: 45
+    rotated: 0
+    paddingLeft: .70096463
+    paddingRight: 0
+    paddingTop: .244444445
+    paddingBottom: .288888901
+  - name: jingjin_zhong_05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 286
+      width: 312
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 286
+      width: 312
+      height: 45
+    rotated: 0
+    paddingLeft: .557692289
+    paddingRight: .137820512
+    paddingTop: .244444445
+    paddingBottom: .288888901
+  - name: jingjin_zhong_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 384
+      width: 307
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 384
+      width: 307
+      height: 58
+    rotated: 0
+    paddingLeft: .296416938
+    paddingRight: .426710099
+    paddingTop: .0517241396
+    paddingBottom: .137931034
+  - name: jingjin_zhong_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 194
+      width: 311
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 194
+      width: 311
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .70096463
+    paddingTop: .244444445
+    paddingBottom: .288888901
+  - name: jingjin_zhong_04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 443
+      width: 306
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 443
+      width: 306
+      height: 69
+    rotated: 0
+    paddingLeft: .444444448
+    paddingRight: .284313738
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jingjin_zhong_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 332
+      width: 312
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 332
+      width: 312
+      height: 51
+    rotated: 0
+    paddingLeft: .137820512
+    paddingRight: .557692289
+    paddingTop: .156862751
+    paddingBottom: .196078435
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

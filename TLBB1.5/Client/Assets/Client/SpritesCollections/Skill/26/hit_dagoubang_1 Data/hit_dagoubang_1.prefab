@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_dagoubang_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_dagoubang_05
+    boundsData:
+    - {x: 44, y: -13.5, z: 0}
+    - {x: 160, y: 195, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 251, y: 261, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -35.9999962, y: -111, z: 0}
+    - {x: 124, y: -111, z: 0}
+    - {x: -35.9999962, y: 84, z: 0}
+    - {x: 124, y: 84, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .580080092, y: .308595717}
+    - {x: .580080092, y: .621091783}
+    - {x: .960935533, y: .308595717}
+    - {x: .960935533, y: .621091783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a20d3888cd295d447a693e85d20f7c33, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1633c866f1a307d4bb84edfce675c869
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dagoubang_01
+    boundsData:
+    - {x: 25.5, y: -8.49999619, z: 0}
+    - {x: 27.0000076, y: 245, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 251, y: 261, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 11.9999962, y: -131, z: 0}
+    - {x: 39.0000038, y: -131, z: 0}
+    - {x: 11.9999962, y: 114.000008, z: 0}
+    - {x: 39.0000038, y: 114.000008, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .0566386729, y: .00390820298}
+    - {x: .00390820298, y: .482419908}
+    - {x: .0566386729, y: .482419908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a20d3888cd295d447a693e85d20f7c33, type: 2}
+    materialId: 0
+    sourceTextureGUID: 95d63b67916843049983d8666c6179ef
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dagoubang_07
+    boundsData:
+    - {x: 2.00000381, y: 42.5, z: 0}
+    - {x: 230, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 251, y: 261, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -113, y: -42.9999962, z: 0}
+    - {x: 117.000008, y: -42.9999962, z: 0}
+    - {x: -113, y: 128, z: 0}
+    - {x: 117.000008, y: 128, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .238283202, y: .00390820298}
+    - {x: .238283202, y: .453123033}
+    - {x: .572263658, y: .00390820298}
+    - {x: .572263658, y: .453123033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a20d3888cd295d447a693e85d20f7c33, type: 2}
+    materialId: 0
+    sourceTextureGUID: 660b5198ebc70a74abcbd003c40b0554
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dagoubang_06
+    boundsData:
+    - {x: 56.5, y: 8.5, z: 0}
+    - {x: 139, y: 243, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 251, y: 261, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -12.9999962, y: -113, z: 0}
+    - {x: 126, y: -113, z: 0}
+    - {x: -12.9999962, y: 130, z: 0}
+    - {x: 126, y: 130, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .490236342}
+    - {x: .275388658, y: .490236342}
+    - {x: .00390820298, y: .964841783}
+    - {x: .275388658, y: .964841783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a20d3888cd295d447a693e85d20f7c33, type: 2}
+    materialId: 0
+    sourceTextureGUID: ae6bed29d216d4044a23ed8c00f061b4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dagoubang_03
+    boundsData:
+    - {x: 40.5000076, y: -12.5, z: 0}
+    - {x: 129, y: 215, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 251, y: 261, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -23.9999962, y: -120, z: 0}
+    - {x: 105.000008, y: -120, z: 0}
+    - {x: -23.9999962, y: 95, z: 0}
+    - {x: 105.000008, y: 95, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .283205092, y: .460939467}
+    - {x: .535154283, y: .460939467}
+    - {x: .283205092, y: .880857408}
+    - {x: .535154283, y: .880857408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a20d3888cd295d447a693e85d20f7c33, type: 2}
+    materialId: 0
+    sourceTextureGUID: 890eac3bf27a2ca4eb33124198c532fa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dagoubang_02
+    boundsData:
+    - {x: 36.5000038, y: -10.5000038, z: 0}
+    - {x: 85.0000076, y: 233, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 251, y: 261, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -5.99999666, y: -127, z: 0}
+    - {x: 79.0000076, y: -127, z: 0}
+    - {x: -5.99999666, y: 105.999992, z: 0}
+    - {x: 79.0000076, y: 105.999992, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0644550771, y: .00390820298}
+    - {x: .230466798, y: .00390820298}
+    - {x: .0644550771, y: .458982408}
+    - {x: .230466798, y: .458982408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a20d3888cd295d447a693e85d20f7c33, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2f8fdaed3a9daa4408264c1d863fa383
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_dagoubang_04
+    boundsData:
+    - {x: 43.0000076, y: -13.4999962, z: 0}
+    - {x: 152, y: 201, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 251, y: 261, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32.9999962, y: -114, z: 0}
+    - {x: 119.000008, y: -114, z: 0}
+    - {x: -32.9999962, y: 87.0000076, z: 0}
+    - {x: 119.000008, y: 87.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .580080092, y: .00390820298}
+    - {x: .580080092, y: .300779283}
+    - {x: .972654283, y: .00390820298}
+    - {x: .972654283, y: .300779283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a20d3888cd295d447a693e85d20f7c33, type: 2}
+    materialId: 0
+    sourceTextureGUID: b6ce90ffdf08e2e4d91457886b2032fd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: a20d3888cd295d447a693e85d20f7c33, type: 2}
+  textures:
+  - {fileID: 2800000, guid: fb9edd46c307ddb42ab92ba8d08ebe12, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 0a9370ff1d400794389d6224c1a61656
+  spriteCollectionName: hit_dagoubang_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 66651687
+  dataGuid: ff24576e5c63bbb409d1657aec912230
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

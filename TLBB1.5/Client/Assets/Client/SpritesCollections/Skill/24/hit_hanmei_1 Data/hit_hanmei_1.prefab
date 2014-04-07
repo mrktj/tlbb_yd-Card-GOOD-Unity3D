@@ -1,0 +1,704 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hit_hanmei_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hit_hanmei_17
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 97, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 97, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .191405267, y: .00195410149}
+    - {x: .00195410149, y: .168944329}
+    - {x: .191405267, y: .168944329}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: b3a0e3a112f61a24789f62bd28687a21
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_06
+    boundsData:
+    - {x: -1, y: -.5, z: 0}
+    - {x: 192, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 95, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 95, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .559571266}
+    - {x: .00195410149, y: .747069359}
+    - {x: .168944329, y: .559571266}
+    - {x: .168944329, y: .747069359}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8072bf12277cdd14e89962975e76e7f4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_01
+    boundsData:
+    - {x: 65.5, y: -70.5, z: 0}
+    - {x: 17.0000114, y: 13, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 56.9999962, y: -77, z: 0}
+    - {x: 74.0000076, y: -77, z: 0}
+    - {x: 56.9999962, y: -64, z: 0}
+    - {x: 74.0000076, y: -64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .968750954, y: .00195410149}
+    - {x: .985350609, y: .00195410149}
+    - {x: .968750954, y: .0146474605}
+    - {x: .985350609, y: .0146474605}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: fa357362e351fb341852ab9d07b90df4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_16
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 97, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 97, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .195313483, y: .00195410149}
+    - {x: .384764642, y: .00195410149}
+    - {x: .195313483, y: .168944329}
+    - {x: .384764642, y: .168944329}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: cda797a2b2f3d314a9c2ebe423e652a6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_12
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 97, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 97, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .388672858, y: .00195410149}
+    - {x: .578124046, y: .00195410149}
+    - {x: .388672858, y: .168944329}
+    - {x: .578124046, y: .168944329}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 766529f24613f5042b95bb47b24f58c4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_02
+    boundsData:
+    - {x: 25.4999981, y: -26.9999981, z: 0}
+    - {x: 123, y: 110, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -36.0000038, y: -82, z: 0}
+    - {x: 87, y: -82, z: 0}
+    - {x: -36.0000038, y: 28.0000038, z: 0}
+    - {x: 87, y: 28.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .172852546, y: .693360329}
+    - {x: .172852546, y: .813475609}
+    - {x: .280272454, y: .693360329}
+    - {x: .280272454, y: .813475609}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 30aaf3145826acf4295fa15b7565f6ae
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_04
+    boundsData:
+    - {x: -1, y: -.5, z: 0}
+    - {x: 192, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 95, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 95, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .750977516}
+    - {x: .00195410149, y: .938475609}
+    - {x: .168944329, y: .750977516}
+    - {x: .168944329, y: .938475609}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 78a16575d7305504cb98cc23f979a5b7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_07
+    boundsData:
+    - {x: -1, y: -.5, z: 0}
+    - {x: 192, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 95, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 95, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .172852546, y: .172852546}
+    - {x: .360350579, y: .172852546}
+    - {x: .172852546, y: .339842767}
+    - {x: .360350579, y: .339842767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: cbe305084684027428cea511e520ca99
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_09
+    boundsData:
+    - {x: -1, y: -.5, z: 0}
+    - {x: 192, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 95, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 95, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .364258796, y: .172852546}
+    - {x: .551756859, y: .172852546}
+    - {x: .364258796, y: .339842767}
+    - {x: .551756859, y: .339842767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6d4c694adb1a9b74c820593633a53330
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_03
+    boundsData:
+    - {x: 12, y: -13.4999981, z: 0}
+    - {x: 158, y: 141, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -67, y: -84, z: 0}
+    - {x: 91, y: -84, z: 0}
+    - {x: -67, y: 57.0000038, z: 0}
+    - {x: 91, y: 57.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .172852546, y: .535157204}
+    - {x: .172852546, y: .689452171}
+    - {x: .310545892, y: .535157204}
+    - {x: .310545892, y: .689452171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: eefb70ab7238b7e4d80a5b9a99b6864e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_15
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 97, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 97, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .582032204, y: .00195410149}
+    - {x: .771483421, y: .00195410149}
+    - {x: .582032204, y: .168944329}
+    - {x: .771483421, y: .168944329}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: fd08f1bc9d1b11f4e85f49f1ee4dc5fa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_11
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 97, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 97, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .775391579, y: .00195410149}
+    - {x: .964842796, y: .00195410149}
+    - {x: .775391579, y: .168944329}
+    - {x: .964842796, y: .168944329}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 692d952d2df8f5143a9f9b3a5878b47b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_08
+    boundsData:
+    - {x: -1, y: -.5, z: 0}
+    - {x: 192, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 95, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 95, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .555665016, y: .172852546}
+    - {x: .743163109, y: .172852546}
+    - {x: .555665016, y: .339842767}
+    - {x: .743163109, y: .339842767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 993577dde5370354b88f4884831f8779
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_05
+    boundsData:
+    - {x: -1, y: -.5, z: 0}
+    - {x: 192, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 95, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 95, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .747071266, y: .172852546}
+    - {x: .934569359, y: .172852546}
+    - {x: .747071266, y: .339842767}
+    - {x: .934569359, y: .339842767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4bc2463f09b315c4793ec48952911b33
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_13
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 97, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 97, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .172852546}
+    - {x: .00195410149, y: .362303704}
+    - {x: .168944329, y: .172852546}
+    - {x: .168944329, y: .362303704}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2ab3547fb741daf418d7a4a9a7d464b7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_14
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 97, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 97, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .366211921}
+    - {x: .00195410149, y: .555663109}
+    - {x: .168944329, y: .366211921}
+    - {x: .168944329, y: .555663109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3b47278f08b02d646b672a2516f06779
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hit_hanmei_10
+    boundsData:
+    - {x: -1, y: -.5, z: 0}
+    - {x: 192, y: 171, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 194, y: 171, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -97, y: -86, z: 0}
+    - {x: 95, y: -86, z: 0}
+    - {x: -97, y: 85, z: 0}
+    - {x: 95, y: 85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .172852546, y: .343750983}
+    - {x: .172852546, y: .531249046}
+    - {x: .339842767, y: .343750983}
+    - {x: .339842767, y: .531249046}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 07853bdf81171bb419d1b18b18d77552
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 99db057b067570644a58e44203ea22b6, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d96293864ea4a6544b07b9c47db31128, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: ed0982020b887444f9119dafb99c4bcf
+  spriteCollectionName: hit_hanmei_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1914882925
+  dataGuid: e5a50c89fc8e377469f038aa007cc622
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

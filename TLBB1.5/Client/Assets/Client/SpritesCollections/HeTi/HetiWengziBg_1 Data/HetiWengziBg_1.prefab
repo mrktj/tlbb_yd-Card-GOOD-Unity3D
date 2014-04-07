@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: HetiWengziBg_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: hetiguang_22
+    boundsData:
+    - {x: 104.499985, y: -70, z: 0}
+    - {x: 111, y: 166, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 425, y: 359, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 48.9999886, y: -153, z: 0}
+    - {x: 159.999985, y: -153, z: 0}
+    - {x: 48.9999886, y: 12.9999981, z: 0}
+    - {x: 159.999985, y: 12.9999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .807618141, y: .00195410149}
+    - {x: .807618141, y: .110350586}
+    - {x: .969725609, y: .00195410149}
+    - {x: .969725609, y: .110350586}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 812c2d14f430caa47905c8c38b057281, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1a639a0677c722f49b855173389af914
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hetiguang_01
+    boundsData:
+    - {x: -8.00000763, y: 3.5, z: 0}
+    - {x: 408, y: 351, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 425, y: 359, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -212, y: -172, z: 0}
+    - {x: 195.999985, y: -172, z: 0}
+    - {x: -212, y: 179, z: 0}
+    - {x: 195.999985, y: 179, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .400389642, y: .00195410149}
+    - {x: .00195410149, y: .344725579}
+    - {x: .400389642, y: .344725579}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 812c2d14f430caa47905c8c38b057281, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1f9009c314e9da54f942e565cd4b2301
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hetiguang_19
+    boundsData:
+    - {x: 19.0000076, y: -67.5, z: 0}
+    - {x: 332, y: 225, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 425, y: 359, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -147, y: -180, z: 0}
+    - {x: 185.000015, y: -180, z: 0}
+    - {x: -147, y: 44.9999962, z: 0}
+    - {x: 185.000015, y: 44.9999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .368165046, y: .681641579}
+    - {x: .692381859, y: .681641579}
+    - {x: .368165046, y: .901366234}
+    - {x: .692381859, y: .901366234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 812c2d14f430caa47905c8c38b057281, type: 2}
+    materialId: 0
+    sourceTextureGUID: 85a6e57b147dcf744ac91162921c6906
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hetiguang_16
+    boundsData:
+    - {x: 6.5, y: -63, z: 0}
+    - {x: 371, y: 232, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 425, y: 359, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -179, y: -179, z: 0}
+    - {x: 192, y: -179, z: 0}
+    - {x: -179, y: 53.0000038, z: 0}
+    - {x: 192, y: 53.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .653321266}
+    - {x: .364256829, y: .653321266}
+    - {x: .00195410149, y: .879881859}
+    - {x: .364256829, y: .879881859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 812c2d14f430caa47905c8c38b057281, type: 2}
+    materialId: 0
+    sourceTextureGUID: afd90c4ad8c3e1448bbefafc8cf9beee
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hetiguang_13
+    boundsData:
+    - {x: 5, y: -25.0000076, z: 0}
+    - {x: 386, y: 308, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 425, y: 359, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -188, y: -179, z: 0}
+    - {x: 198, y: -179, z: 0}
+    - {x: -188, y: 128.999985, z: 0}
+    - {x: 198, y: 128.999985, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .348633796}
+    - {x: .378905267, y: .348633796}
+    - {x: .00195410149, y: .649413109}
+    - {x: .378905267, y: .649413109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 812c2d14f430caa47905c8c38b057281, type: 2}
+    materialId: 0
+    sourceTextureGUID: f333c33ff612170479fbb3b9359202ec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hetiguang_10
+    boundsData:
+    - {x: 4, y: -11, z: 0}
+    - {x: 398, y: 338, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 425, y: 359, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -195, y: -180, z: 0}
+    - {x: 203, y: -180, z: 0}
+    - {x: -195, y: 158, z: 0}
+    - {x: 203, y: 158, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .404297858, y: .347657233}
+    - {x: .792967796, y: .347657233}
+    - {x: .404297858, y: .677733421}
+    - {x: .792967796, y: .677733421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 812c2d14f430caa47905c8c38b057281, type: 2}
+    materialId: 0
+    sourceTextureGUID: f659d10e755b7ae4fadf3b9e04db6fb1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hetiguang_07
+    boundsData:
+    - {x: 3.5, y: -5, z: 0}
+    - {x: 409, y: 350, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 425, y: 359, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -201, y: -180, z: 0}
+    - {x: 208, y: -180, z: 0}
+    - {x: -201, y: 170, z: 0}
+    - {x: 208, y: 170, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .404297858, y: .00195410149}
+    - {x: .803709984, y: .00195410149}
+    - {x: .404297858, y: .343749017}
+    - {x: .803709984, y: .343749017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 812c2d14f430caa47905c8c38b057281, type: 2}
+    materialId: 0
+    sourceTextureGUID: e5a11536507049247a0bd8f491f59948
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 812c2d14f430caa47905c8c38b057281, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 84a36c00fc774464387a00f39508a342, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: fa23d554854c71f49bd898d08b22ef8e
+  spriteCollectionName: HetiWengziBg_1
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1175206733
+  dataGuid: ca834686ab5b8dd43a5253389e8d7525
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

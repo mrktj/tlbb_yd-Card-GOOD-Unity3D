@@ -1,0 +1,24 @@
+option java_package = "com.cyou.mrd.xjgame.message";
+//客户端登录消息包
+message CSLogin
+{
+	required string mid = 1;//mac
+	required string version = 2;//版本
+	required string accountId = 3;//如果没有则发''
+	optional string area	 	= 4;//	登录地区名称
+	optional string country		= 5;//	登录国家名称
+	optional string device		= 6;//	登录设备名称
+	optional string deviceSystem= 7;//	登录系统名称
+	optional string downloadType= 8;//	下载类型
+	optional string networkType	= 9;//	联网类型名称
+	optional string prisonBreak	= 10;//	是否越狱(0:否   1:是)
+	optional string operator	= 11;//	运营商名称
+}
+//服务器端登录验证包
+message SCLoginRet
+{
+	required int32 	state 					=	1; //1.成功。-1.失败。100.版本不一致
+	optional string sid							=	2; //session ID
+	optional int32 	version					=	3; //服务器端当前版本,版本不一致时返回
+	
+}

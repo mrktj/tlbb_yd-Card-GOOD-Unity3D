@@ -1,0 +1,14 @@
+<resources>
+	<color name="bgChargeListView">#00fffbf3</color>
+	<color name="LayoutEdging">#F0F4F4</color>
+	<color name="realPriceTextColor">#FF6600</color>	
+	<color name="grayColor">#808080</color>	
+	<color name="qaColor">#4682B4</color>
+	<color name="back_btn_normal">#0098bd</color>
+	<color name="back_btn_press">#5fdefd</color>
+	
+	<dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+	
+</resources>

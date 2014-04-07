@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: qianghua_hp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5199615e82dfc244e8d84a1d93d57ce2, type: 2}
+  sprites:
+  - name: kapaiqianghuaA_09
+    outer:
+      serializedVersion: 2
+      x: 955
+      y: 424
+      width: 250
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 955
+      y: 424
+      width: 250
+      height: 312
+    rotated: 0
+    paddingLeft: .263999999
+    paddingRight: .0719999969
+    paddingTop: 0
+    paddingBottom: .10897436
+  - name: kapaiqianghuaA_11
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 78
+      width: 278
+      height: 322
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 78
+      width: 278
+      height: 322
+    rotated: 0
+    paddingLeft: .201438844
+    paddingRight: 0
+    paddingTop: .00621118024
+    paddingBottom: .0683229789
+  - name: kapaiqianghuaA_05
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 401
+      width: 297
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 401
+      width: 297
+      height: 310
+    rotated: 0
+    paddingLeft: .0235690232
+    paddingRight: .101010099
+    paddingTop: 0
+    paddingBottom: .116129033
+  - name: kapaiqianghuaA_12
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 687
+      width: 330
+      height: 337
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 687
+      width: 330
+      height: 337
+    rotated: 0
+    paddingLeft: .0121212117
+    paddingRight: 0
+    paddingTop: .0267062318
+    paddingBottom: 0
+  - name: kapaiqianghuaA_14
+    outer:
+      serializedVersion: 2
+      x: 1253
+      y: 532
+      width: 227
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 1253
+      y: 532
+      width: 227
+      height: 238
+    rotated: 0
+    paddingLeft: .24669604
+    paddingRight: .224669605
+    paddingTop: .15126051
+    paddingBottom: .30252102
+  - name: kapaiqianghuaA_02
+    outer:
+      serializedVersion: 2
+      x: 955
+      y: 737
+      width: 297
+      height: 287
+    inner:
+      serializedVersion: 2
+      x: 955
+      y: 737
+      width: 297
+      height: 287
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .124579124
+    paddingTop: 0
+    paddingBottom: .205574915
+  - name: kapaiqianghuaA_01
+    outer:
+      serializedVersion: 2
+      x: 1253
+      y: 771
+      width: 305
+      height: 253
+    inner:
+      serializedVersion: 2
+      x: 1253
+      y: 771
+      width: 305
+      height: 253
+    rotated: 0
+    paddingLeft: .0524590164
+    paddingRight: .0426229499
+    paddingTop: .114624508
+    paddingBottom: .252964437
+  - name: kapaiqianghuaA_07
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 712
+      width: 303
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 712
+      width: 303
+      height: 312
+    rotated: 0
+    paddingLeft: .0297029708
+    paddingRight: .0726072639
+    paddingTop: 0
+    paddingBottom: .10897436
+  - name: kapaiqianghuaA_08
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 88
+      width: 279
+      height: 308
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 88
+      width: 279
+      height: 308
+    rotated: 0
+    paddingLeft: .172043011
+    paddingRight: .0250896066
+    paddingTop: .0292207785
+    paddingBottom: .0941558406
+  - name: kapaiqianghuaA_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 365
+      width: 321
+      height: 321
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 365
+      width: 321
+      height: 321
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0404984429
+    paddingTop: 0
+    paddingBottom: .0778816193
+  - name: kapaiqianghuaA_06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 55
+      width: 322
+      height: 309
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 55
+      width: 322
+      height: 309
+    rotated: 0
+    paddingLeft: .0372670814
+    paddingRight: 0
+    paddingTop: .0485436879
+    paddingBottom: .0711974129
+  - name: kapaiqianghuaA_04
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 729
+      width: 319
+      height: 295
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 729
+      width: 319
+      height: 295
+    rotated: 0
+    paddingLeft: .00626959233
+    paddingRight: .0407523513
+    paddingTop: .00677966094
+    paddingBottom: .166101694
+  - name: kapaiqianghuaA_13
+    outer:
+      serializedVersion: 2
+      x: 1808
+      y: 787
+      width: 234
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 1808
+      y: 787
+      width: 234
+      height: 237
+    rotated: 0
+    paddingLeft: .230769232
+    paddingRight: .1965812
+    paddingTop: .151898727
+    paddingBottom: .308016866
+  - name: kapaiqianghuaA_10
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 397
+      width: 264
+      height: 331
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 397
+      width: 264
+      height: 331
+    rotated: 0
+    paddingLeft: .265151501
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0453172214
+  - name: kapaiqianghuaA_15
+    outer:
+      serializedVersion: 2
+      x: 955
+      y: 162
+      width: 242
+      height: 261
+    inner:
+      serializedVersion: 2
+      x: 955
+      y: 162
+      width: 242
+      height: 261
+    rotated: 0
+    paddingLeft: .2107438
+    paddingRight: .169421494
+    paddingTop: .0727969334
+    paddingBottom: .25287357
+  - name: kapaiqianghuaA_16
+    outer:
+      serializedVersion: 2
+      x: 1559
+      y: 778
+      width: 248
+      height: 246
+    inner:
+      serializedVersion: 2
+      x: 1559
+      y: 778
+      width: 248
+      height: 246
+    rotated: 0
+    paddingLeft: .157258064
+    paddingRight: .189516127
+    paddingTop: .126016259
+    paddingBottom: .280487806
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

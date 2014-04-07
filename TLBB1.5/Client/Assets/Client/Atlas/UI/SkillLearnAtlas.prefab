@@ -1,0 +1,1173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SkillLearnAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 09cd2e69e63d8504fbadc78873256ede, type: 2}
+  sprites:
+  - name: "\u5347\u7EA7\u6280\u80FD_anniu_1"
+    outer:
+      serializedVersion: 2
+      x: 1419
+      y: 773
+      width: 428
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 1419
+      y: 773
+      width: 428
+      height: 107
+    rotated: 0
+    paddingLeft: .00467289705
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u5347\u7EA7\u6280\u80FD_anniu_2"
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 773
+      width: 428
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 773
+      width: 428
+      height: 107
+    rotated: 0
+    paddingLeft: .00467289705
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u6309\u94AE\u5E95\u56FE"
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 131
+      width: 574
+      height: 156
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 131
+      width: 574
+      height: 156
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u5B66\u4E60\u6280\u80FD_anniu_2"
+    outer:
+      serializedVersion: 2
+      x: 1551
+      y: 917
+      width: 428
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 1551
+      y: 917
+      width: 428
+      height: 107
+    rotated: 0
+    paddingLeft: .00467289705
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u5B66\u4E60\u6280\u80FD_anniu_1"
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 23
+      width: 428
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 23
+      width: 428
+      height: 107
+    rotated: 0
+    paddingLeft: .00467289705
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: long beijing
+    outer:
+      serializedVersion: 2
+      x: 619
+      y: 654
+      width: 370
+      height: 370
+    inner:
+      serializedVersion: 2
+      x: 619
+      y: 654
+      width: 370
+      height: 370
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jinengmingchen
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 155
+      width: 115
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 155
+      width: 115
+      height: 111
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0360360369
+    paddingBottom: 0
+  - name: jinengmingchen2
+    outer:
+      serializedVersion: 2
+      x: 856
+      y: 155
+      width: 115
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 856
+      y: 155
+      width: 115
+      height: 111
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0360360369
+    paddingBottom: 0
+  - name: "\u6280\u80FD\u6807\u9898_zi2 hongse"
+    outer:
+      serializedVersion: 2
+      x: 1222
+      y: 489
+      width: 26
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 1222
+      y: 489
+      width: 26
+      height: 94
+    rotated: 0
+    paddingLeft: .15384616
+    paddingRight: 0
+    paddingTop: .148936167
+    paddingBottom: .106382981
+  - name: "\u6280\u80FD\u6807\u9898\u6846"
+    outer:
+      serializedVersion: 2
+      x: 575
+      y: 169
+      width: 30
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 575
+      y: 169
+      width: 30
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u6280\u80FD\u6807\u9898\u6846 hongse"
+    outer:
+      serializedVersion: 2
+      x: 1980
+      y: 906
+      width: 30
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 1980
+      y: 906
+      width: 30
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u6280\u80FD\u6807\u9898_zi hongse"
+    outer:
+      serializedVersion: 2
+      x: 1249
+      y: 508
+      width: 22
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 1249
+      y: 508
+      width: 22
+      height: 75
+    rotated: 0
+    paddingLeft: .181818187
+    paddingRight: .181818187
+    paddingTop: .306666672
+    paddingBottom: .266666681
+  - name: denglu_gengxin_jindutiao
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 368
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 368
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_gengxin_beijingkuang
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 705
+      width: 452
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 705
+      width: 452
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shengji_jingyantiao_xiao_lv
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 202
+      height: 7
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 202
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 618
+      height: 736
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 618
+      height: 736
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u63CF\u8FF0\u6846_\u82B1\u7EB9"
+    outer:
+      serializedVersion: 2
+      x: 2011
+      y: 921
+      width: 26
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 2011
+      y: 921
+      width: 26
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0776699036
+    paddingBottom: .0291262139
+  - name: "\u6392\u540D\u6807\u9898"
+    outer:
+      serializedVersion: 2
+      x: 1598
+      y: 605
+      width: 440
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1598
+      y: 605
+      width: 440
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u63CF\u8FF0\u6846"
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 670
+      width: 298
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 670
+      width: 298
+      height: 102
+    rotated: 0
+    paddingLeft: .0167785231
+    paddingRight: .0134228189
+    paddingTop: .0588235296
+    paddingBottom: .0490196086
+  - name: "\u82F1\u96C4\u699C_2"
+    outer:
+      serializedVersion: 2
+      x: 1405
+      y: 322
+      width: 71
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 1405
+      y: 322
+      width: 71
+      height: 69
+    rotated: 0
+    paddingLeft: .0422535203
+    paddingRight: .0281690136
+    paddingTop: .0869565234
+    paddingBottom: .0144927539
+  - name: "\u94F6\u7BAD\u5934"
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 15
+      width: 29
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 15
+      width: 29
+      height: 18
+    rotated: 0
+    paddingLeft: .103448279
+    paddingRight: .103448279
+    paddingTop: .166666672
+    paddingBottom: .166666672
+  - name: "\u6BCF\u65E5\u5F00\u542F"
+    outer:
+      serializedVersion: 2
+      x: 1653
+      y: 650
+      width: 339
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 1653
+      y: 650
+      width: 339
+      height: 54
+    rotated: 0
+    paddingLeft: .02359882
+    paddingRight: .0383480825
+    paddingTop: .203703701
+    paddingBottom: .0925925896
+  - name: "\u4E0A\u8F6E\u6218\u51B5"
+    outer:
+      serializedVersion: 2
+      x: 1953
+      y: 788
+      width: 93
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 1953
+      y: 788
+      width: 93
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u9020\u6210\u4F24\u5BB3"
+    outer:
+      serializedVersion: 2
+      x: 1551
+      y: 884
+      width: 241
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1551
+      y: 884
+      width: 241
+      height: 32
+    rotated: 0
+    paddingLeft: .012448133
+    paddingRight: .0539419092
+    paddingTop: .0625
+    paddingBottom: 0
+  - name: "\u94DC\u7BAD\u5934"
+    outer:
+      serializedVersion: 2
+      x: 399
+      y: 4
+      width: 29
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 399
+      y: 4
+      width: 29
+      height: 18
+    rotated: 0
+    paddingLeft: .103448279
+    paddingRight: .103448279
+    paddingTop: .166666672
+    paddingBottom: .166666672
+  - name: "\u91D1\u7BAD\u5934"
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 4
+      width: 29
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 369
+      y: 4
+      width: 29
+      height: 18
+    rotated: 0
+    paddingLeft: .103448279
+    paddingRight: .103448279
+    paddingTop: .166666672
+    paddingBottom: .166666672
+  - name: "\u82F1\u96C4\u699C_1"
+    outer:
+      serializedVersion: 2
+      x: 1405
+      y: 392
+      width: 71
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 1405
+      y: 392
+      width: 71
+      height: 69
+    rotated: 0
+    paddingLeft: .0422535203
+    paddingRight: .0281690136
+    paddingTop: .0869565234
+    paddingBottom: .0144927539
+  - name: "\u6392\u540D_\u80CC\u666F_tiao"
+    outer:
+      serializedVersion: 2
+      x: 1598
+      y: 580
+      width: 311
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 1598
+      y: 580
+      width: 311
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u5DF2\u653B\u51FB"
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 572
+      width: 308
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 572
+      width: 308
+      height: 67
+    rotated: 0
+    paddingLeft: .00649350649
+    paddingRight: .012987013
+    paddingTop: .0298507456
+    paddingBottom: .0447761193
+  - name: "\u6392\u540D_\u80CC\u666F \u6574\u5F20"
+    outer:
+      serializedVersion: 2
+      x: 1848
+      y: 776
+      width: 104
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 1878
+      y: 806
+      width: 44
+      height: 44
+    rotated: 0
+    paddingLeft: .00961538497
+    paddingRight: .00961538497
+    paddingTop: .00961538497
+    paddingBottom: .00961538497
+  - name: "\u5EF6\u5E74\u76CA\u5BFF_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 254
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 254
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u6C14\u5B9A\u516D\u5408"
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 267
+      width: 115
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 267
+      width: 115
+      height: 112
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0267857146
+    paddingBottom: 0
+  - name: "\u6C14\u5B9A\u516D\u5408_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 619
+      y: 8
+      width: 115
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 619
+      y: 8
+      width: 115
+      height: 112
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0267857146
+    paddingBottom: 0
+  - name: "\u6D41\u4E91\u6C34\u8896_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 352
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 352
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u4ED9\u98CE\u9053\u9AA8"
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 132
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 132
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u4ED9\u98CE\u9053\u9AA8_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 856
+      y: 45
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 856
+      y: 45
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u996E\u8840\u795E\u5251_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 462
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 462
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u51B2\u865A\u517B\u6C14"
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 474
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 474
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u5C06\u519B\u94C1\u7532_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 364
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 364
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u8840\u6218\u516B\u65B9"
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 34
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 34
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u51B2\u865A\u517B\u6C14_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 1106
+      y: 474
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1106
+      y: 474
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u7F57\u6C49\u91D1\u8EAB"
+    outer:
+      serializedVersion: 2
+      x: 1106
+      y: 254
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1106
+      y: 254
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u5EF6\u5E74\u76CA\u5BFF"
+    outer:
+      serializedVersion: 2
+      x: 1106
+      y: 364
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1106
+      y: 364
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u5C06\u519B\u94C1\u7532"
+    outer:
+      serializedVersion: 2
+      x: 1405
+      y: 462
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1405
+      y: 462
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u6DEC\u6BD2\u4ED9\u672F_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 43
+      width: 115
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 43
+      width: 115
+      height: 111
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0360360369
+    paddingBottom: 0
+  - name: "\u7F57\u6C49\u91D1\u8EAB_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 144
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 144
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u6DEC\u6BD2\u4ED9\u672F"
+    outer:
+      serializedVersion: 2
+      x: 856
+      y: 268
+      width: 115
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 856
+      y: 268
+      width: 115
+      height: 111
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0360360369
+    paddingBottom: 0
+  - name: "\u6D41\u4E91\u6C34\u8896"
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 242
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 242
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u996E\u8840\u795E\u5251"
+    outer:
+      serializedVersion: 2
+      x: 1106
+      y: 34
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1106
+      y: 34
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: "\u8840\u6218\u516B\u65B9_\u539F\u6280\u80FD"
+    outer:
+      serializedVersion: 2
+      x: 1106
+      y: 144
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1106
+      y: 144
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0173913036
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: wu
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 22
+      width: 115
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 22
+      width: 115
+      height: 109
+    rotated: 0
+    paddingLeft: .0260869563
+    paddingRight: .0434782617
+    paddingTop: .0550458729
+    paddingBottom: 0
+  - name: 3-5
+    outer:
+      serializedVersion: 2
+      x: 619
+      y: 121
+      width: 120
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 619
+      y: 121
+      width: 120
+      height: 258
+    rotated: 0
+    paddingLeft: .0666666701
+    paddingRight: .0666666701
+    paddingTop: .0581395365
+    paddingBottom: .00387596898
+  - name: 5-10
+    outer:
+      serializedVersion: 2
+      x: 859
+      y: 395
+      width: 120
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 859
+      y: 395
+      width: 120
+      height: 258
+    rotated: 0
+    paddingLeft: .0666666701
+    paddingRight: .0666666701
+    paddingTop: .0581395365
+    paddingBottom: .00387596898
+  - name: "\u7B2C\u4E00\u540D"
+    outer:
+      serializedVersion: 2
+      x: 619
+      y: 380
+      width: 119
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 619
+      y: 380
+      width: 119
+      height: 273
+    rotated: 0
+    paddingLeft: .0672268942
+    paddingRight: .075630255
+    paddingTop: 0
+    paddingBottom: .00366300368
+  - name: "\u7B2C\u4E8C\u540D"
+    outer:
+      serializedVersion: 2
+      x: 739
+      y: 380
+      width: 119
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 739
+      y: 380
+      width: 119
+      height: 273
+    rotated: 0
+    paddingLeft: .0672268942
+    paddingRight: .075630255
+    paddingTop: 0
+    paddingBottom: .00366300368
+  - name: "\u9664\u9B54\u5956\u52B1 1"
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 584
+      width: 291
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 584
+      width: 291
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wenzi
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 640
+      width: 363
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 640
+      width: 363
+      height: 64
+    rotated: 0
+    paddingLeft: .0220385678
+    paddingRight: .0440771356
+    paddingTop: .203125
+    paddingBottom: .21875
+  - name: chumoweidao_biaoti
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 34
+      width: 179
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 34
+      width: 179
+      height: 96
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0520833321
+    paddingBottom: .020833334
+  - name: juanzhou
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 881
+      width: 560
+      height: 143
+    inner:
+      serializedVersion: 2
+      x: 1033
+      y: 951
+      width: 477
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jiahao_2
+    outer:
+      serializedVersion: 2
+      x: 575
+      y: 143
+      width: 26
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 575
+      y: 143
+      width: 26
+      height: 25
+    rotated: 0
+    paddingLeft: .0769230798
+    paddingRight: .115384616
+    paddingTop: .159999996
+    paddingBottom: .0799999982
+  - name: denglu_gengxin_jindu
+    outer:
+      serializedVersion: 2
+      x: 606
+      y: 268
+      width: 10
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 606
+      y: 268
+      width: 10
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: denglu_gengxin_jindutiao1
+    outer:
+      serializedVersion: 2
+      x: 1521
+      y: 558
+      width: 368
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 1521
+      y: 558
+      width: 368
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

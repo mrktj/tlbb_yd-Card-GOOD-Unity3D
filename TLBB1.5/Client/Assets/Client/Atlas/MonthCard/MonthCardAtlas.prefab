@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MonthCardAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 8506dff0da522934c8108e070ab88662, type: 2}
+  sprites:
+  - name: jubaopen_12
+    outer:
+      serializedVersion: 2
+      x: 84
+      y: 339
+      width: 119
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 84
+      y: 339
+      width: 119
+      height: 88
+    rotated: 0
+    paddingLeft: .394957989
+    paddingRight: .386554629
+    paddingTop: 1.2954545
+    paddingBottom: .113636367
+  - name: jubaopen_15
+    outer:
+      serializedVersion: 2
+      x: 271
+      y: 243
+      width: 105
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 271
+      y: 243
+      width: 105
+      height: 95
+    rotated: 0
+    paddingLeft: .00952380989
+    paddingRight: 1.00952387
+    paddingTop: .789473712
+    paddingBottom: .442105263
+  - name: jubaopen_03
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 232
+      width: 97
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 173
+      y: 232
+      width: 97
+      height: 106
+    rotated: 0
+    paddingLeft: .371134013
+    paddingRight: .814432979
+    paddingTop: 0
+    paddingBottom: 1
+  - name: jubaopen_08
+    outer:
+      serializedVersion: 2
+      x: 84
+      y: 99
+      width: 87
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 84
+      y: 99
+      width: 87
+      height: 119
+    rotated: 0
+    paddingLeft: 1.31034482
+    paddingRight: .126436785
+    paddingTop: .428571433
+    paddingBottom: .352941185
+  - name: jubaopen_01
+    outer:
+      serializedVersion: 2
+      x: 324
+      y: 364
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 324
+      y: 364
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: .587301612
+    paddingRight: 1.77777779
+    paddingTop: .349206358
+    paddingBottom: 2.01587296
+  - name: jubaopen_11
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 126
+      width: 97
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 173
+      y: 126
+      width: 97
+      height: 105
+    rotated: 0
+    paddingLeft: .814432979
+    paddingRight: .371134013
+    paddingTop: 1.00952387
+    paddingBottom: .00952380989
+  - name: jubaopen_04
+    outer:
+      serializedVersion: 2
+      x: 204
+      y: 340
+      width: 119
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 340
+      width: 119
+      height: 87
+    rotated: 0
+    paddingLeft: .386554629
+    paddingRight: .394957989
+    paddingTop: .114942528
+    paddingBottom: 1.32183909
+  - name: jubaopen_13
+    outer:
+      serializedVersion: 2
+      x: 144
+      y: 429
+      width: 143
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 144
+      y: 429
+      width: 143
+      height: 83
+    rotated: 0
+    paddingLeft: .15384616
+    paddingRight: .328671336
+    paddingTop: 1.28915668
+    paddingBottom: .265060246
+  - name: jubaopen_09
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 289
+      width: 83
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 289
+      width: 83
+      height: 138
+    rotated: 0
+    paddingLeft: 1.28915668
+    paddingRight: .265060246
+    paddingTop: .376811594
+    paddingBottom: .159420297
+  - name: jubaopen_17
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 166
+      width: 82
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 166
+      width: 82
+      height: 122
+    rotated: 0
+    paddingLeft: .268292695
+    paddingRight: 1.31707323
+    paddingTop: .311475396
+    paddingBottom: .426229507
+  - name: jubaopen_14
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 434
+      width: 103
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 288
+      y: 434
+      width: 103
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 1.05825245
+    paddingTop: 1.21794868
+    paddingBottom: .5
+  - name: jubaopen_02
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 24
+      width: 77
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 173
+      y: 24
+      width: 77
+      height: 101
+    rotated: 0
+    paddingLeft: .44155845
+    paddingRight: 1.3116883
+    paddingTop: 0
+    paddingBottom: 1.09900987
+  - name: jubaopen_10
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 63
+      width: 77
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 63
+      width: 77
+      height: 102
+    rotated: 0
+    paddingLeft: 1.3116883
+    paddingRight: .44155845
+    paddingTop: 1.07843137
+    paddingBottom: 0
+  - name: jubaopen_16
+    outer:
+      serializedVersion: 2
+      x: 84
+      y: 219
+      width: 88
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 84
+      y: 219
+      width: 88
+      height: 119
+    rotated: 0
+    paddingLeft: .125
+    paddingRight: 1.28409088
+    paddingTop: .344537824
+    paddingBottom: .436974794
+  - name: jubaopen_06
+    outer:
+      serializedVersion: 2
+      x: 392
+      y: 434
+      width: 102
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 392
+      y: 434
+      width: 102
+      height: 78
+    rotated: 0
+    paddingLeft: 1.07843137
+    paddingRight: 0
+    paddingTop: .5
+    paddingBottom: 1.21794868
+  - name: jubaopen_05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 428
+      width: 143
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 428
+      width: 143
+      height: 84
+    rotated: 0
+    paddingLeft: .328671336
+    paddingRight: .15384616
+    paddingTop: .25
+    paddingBottom: 1.27380955
+  - name: jubaopen_07
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 243
+      width: 105
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 243
+      width: 105
+      height: 95
+    rotated: 0
+    paddingLeft: 1.00952387
+    paddingRight: .00952380989
+    paddingTop: .442105263
+    paddingBottom: .789473712
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

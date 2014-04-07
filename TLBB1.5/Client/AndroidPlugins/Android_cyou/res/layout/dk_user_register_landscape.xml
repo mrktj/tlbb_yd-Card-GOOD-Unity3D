@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/userloginroot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dk_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/dk_login_title"
+        style="@style/tabbar_top_style"
+        android:layout_gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/dk_btn_back_register"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/dk_ic_back_ab" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:gravity="center"
+	            android:text="@string/dk_welcome_to_reg_duoku"
+	            android:textSize="18sp"
+	            android:textColor="@color/dk_gamesdk_white"
+            />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/dk_bg"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/dk_scrollbar_gray" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:paddingBottom="15dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dk_account_text"
+                    android:textColor="@color/dk_color_333333"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/dk_account_input_edit_register"
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/dk_edittext_selector"
+                    android:gravity="center_vertical"
+                    android:hint="@string/dk_register_username_hint" 
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dk_password"
+                    android:textColor="@color/dk_color_333333"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/dk_pwd_input_edit_register"
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/dk_edittext_selector"
+                    android:gravity="center_vertical"
+                    android:hint="@string/dk_register_pwd_hint" 
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/dk_user_checkbox_register"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:button="@drawable/dk_login_checkbox_selector"
+                        android:checked="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:text="@string/dk_register_agreement_hint"
+                        android:textColor="@color/dk_color_666666"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/dk_btn_agreement_licence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dk_transparent"
+                        android:singleLine="true"
+                        android:text="@string/dk_register_licence"
+                        android:textColor="@color/dk_color_2764af"
+                        android:textSize="14sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentLeft="true"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/dk_user_show_passord"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:button="@drawable/dk_login_checkbox_selector"
+                        android:checked="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:text="@string/dk_show_passord"
+                        android:textColor="@color/dk_color_666666"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/dk_btn_register_comm"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/dk_login_btn_selector"
+                    android:gravity="center"
+                    android:text="@string/dk_register_now"
+                    android:textColor="@color/dk_gamesdk_white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/dk_btn_register_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/dk_register_btn_selector"
+                    android:gravity="center"
+                    android:text="@string/dk_register_phone"
+                    android:textColor="@color/dk_color_333333"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                >
+                <ImageView 
+                    android:layout_width="16dp"
+                	android:layout_height="16dp"
+                	android:background="@drawable/dk_ic_baidu_gray"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/dk_color_999999"
+                    android:textSize="12sp"
+                    android:text="@string/dk_bd_platform"
+                    android:layout_marginLeft="6dp"
+                    />
+                
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

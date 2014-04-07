@@ -1,0 +1,813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LoginUI_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 770942479a6f3ce4992db58011c37dd3, type: 2}
+  sprites:
+  - name: login_bg_white
+    outer:
+      serializedVersion: 2
+      x: 935
+      y: 854
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 935
+      y: 854
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: login_bg_blue
+    outer:
+      serializedVersion: 2
+      x: 935
+      y: 821
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 935
+      y: 821
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_zi_11
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 522
+      width: 226
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 522
+      width: 226
+      height: 31
+    rotated: 0
+    paddingLeft: .0442477874
+    paddingRight: .0221238937
+    paddingTop: .290322572
+    paddingBottom: .258064508
+  - name: denglu_zi_04
+    outer:
+      serializedVersion: 2
+      x: 935
+      y: 990
+      width: 74
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 935
+      y: 990
+      width: 74
+      height: 34
+    rotated: 0
+    paddingLeft: .202702701
+    paddingRight: .175675675
+    paddingTop: .323529422
+    paddingBottom: .264705896
+  - name: denglu_kaishiyouxi_1
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 681
+      width: 416
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 681
+      width: 416
+      height: 121
+    rotated: 0
+    paddingLeft: .057692308
+    paddingRight: .0985576957
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_zi_13
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 455
+      width: 152
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 455
+      width: 152
+      height: 30
+    rotated: 0
+    paddingLeft: .0526315793
+    paddingRight: .0855263174
+    paddingTop: .366666675
+    paddingBottom: .200000003
+  - name: denglu_zi_16
+    outer:
+      serializedVersion: 2
+      x: 935
+      y: 919
+      width: 66
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 935
+      y: 919
+      width: 66
+      height: 34
+    rotated: 0
+    paddingLeft: .212121218
+    paddingRight: .212121218
+    paddingTop: .235294119
+    paddingBottom: .14705883
+  - name: denglu_zi_10
+    outer:
+      serializedVersion: 2
+      x: 935
+      y: 887
+      width: 53
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 935
+      y: 887
+      width: 53
+      height: 31
+    rotated: 0
+    paddingLeft: .339622647
+    paddingRight: .415094346
+    paddingTop: .290322572
+    paddingBottom: .258064508
+  - name: denglu_zi_088
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 245
+      width: 104
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 245
+      width: 104
+      height: 31
+    rotated: 0
+    paddingLeft: .0384615399
+    paddingRight: .028846154
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_xuanzefuwuqi_beijing
+    outer:
+      serializedVersion: 2
+      x: 472
+      y: 827
+      width: 299
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 472
+      y: 827
+      width: 299
+      height: 197
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_zi_08
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 213
+      width: 104
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 213
+      width: 104
+      height: 31
+    rotated: 0
+    paddingLeft: .0384615399
+    paddingRight: .028846154
+    paddingTop: .129032254
+    paddingBottom: .129032254
+  - name: denglu_zi_07
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 283
+      width: 124
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 283
+      width: 124
+      height: 28
+    rotated: 0
+    paddingLeft: .0322580636
+    paddingRight: .0322580636
+    paddingTop: .107142858
+    paddingBottom: .0357142873
+  - name: denglu_zi_077
+    outer:
+      serializedVersion: 2
+      x: 99
+      y: 423
+      width: 163
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 99
+      y: 423
+      width: 163
+      height: 31
+    rotated: 0
+    paddingLeft: .036809817
+    paddingRight: .0184049085
+    paddingTop: .193548381
+    paddingBottom: .193548381
+  - name: denglu_kaishiyouxi_2
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 580
+      width: 416
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 580
+      width: 416
+      height: 100
+    rotated: 0
+    paddingLeft: .057692308
+    paddingRight: .0985576957
+    paddingTop: .0500000007
+    paddingBottom: .159999996
+  - name: denglu_zi_17
+    outer:
+      serializedVersion: 2
+      x: 935
+      y: 954
+      width: 66
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 935
+      y: 954
+      width: 66
+      height: 35
+    rotated: 0
+    paddingLeft: .151515156
+    paddingRight: .196969703
+    paddingTop: .22857143
+    paddingBottom: .114285715
+  - name: denglu_zi_14
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 455
+      width: 183
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 455
+      width: 183
+      height: 30
+    rotated: 0
+    paddingLeft: .0382513665
+    paddingRight: .0765027329
+    paddingTop: .200000003
+    paddingBottom: .0666666701
+  - name: 'denglu_zhanghaobangding '
+    outer:
+      serializedVersion: 2
+      x: 113
+      y: 320
+      width: 131
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 113
+      y: 320
+      width: 131
+      height: 35
+    rotated: 0
+    paddingLeft: .0305343512
+    paddingRight: .0305343512
+    paddingTop: .200000003
+    paddingBottom: .142857149
+  - name: denglu_wenxintishi
+    outer:
+      serializedVersion: 2
+      x: 196
+      y: 486
+      width: 148
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 196
+      y: 486
+      width: 148
+      height: 35
+    rotated: 0
+    paddingLeft: .0945945978
+    paddingRight: .0608108118
+    paddingTop: .285714298
+    paddingBottom: .257142872
+  - name: denglu_wangjimima
+    outer:
+      serializedVersion: 2
+      x: 227
+      y: 522
+      width: 114
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 227
+      y: 522
+      width: 114
+      height: 31
+    rotated: 0
+    paddingLeft: .0175438598
+    paddingRight: .0350877196
+    paddingTop: .0322580636
+    paddingBottom: .129032254
+  - name: denglu_jiantou
+    outer:
+      serializedVersion: 2
+      x: 968
+      y: 862
+      width: 28
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 968
+      y: 862
+      width: 28
+      height: 24
+    rotated: 0
+    paddingLeft: .0357142873
+    paddingRight: .107142858
+    paddingTop: .0833333358
+    paddingBottom: 0
+  - name: denglu_jiantou_3
+    outer:
+      serializedVersion: 2
+      x: 989
+      y: 894
+      width: 28
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 989
+      y: 894
+      width: 28
+      height: 24
+    rotated: 0
+    paddingLeft: .0357142873
+    paddingRight: .107142858
+    paddingTop: .0833333358
+    paddingBottom: 0
+  - name: denglu_zhanghaoguanli_zi
+    outer:
+      serializedVersion: 2
+      x: 772
+      y: 819
+      width: 160
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 772
+      y: 819
+      width: 160
+      height: 42
+    rotated: 0
+    paddingLeft: .0375000015
+    paddingRight: .0250000004
+    paddingTop: .119047619
+    paddingBottom: .0476190485
+  - name: denglu_zhuxiao_2
+    outer:
+      serializedVersion: 2
+      x: 113
+      y: 356
+      width: 112
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 113
+      y: 356
+      width: 112
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0232558139
+    paddingBottom: 0
+  - name: denglu_zhuxiao_1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 356
+      width: 112
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 356
+      width: 112
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0232558139
+    paddingBottom: 0
+  - name: denglu_jiantou_2
+    outer:
+      serializedVersion: 2
+      x: 968
+      y: 837
+      width: 28
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 968
+      y: 837
+      width: 28
+      height: 24
+    rotated: 0
+    paddingLeft: .0357142873
+    paddingRight: .107142858
+    paddingTop: .0833333358
+    paddingBottom: 0
+  - name: denglu_zhuxiao_3
+    outer:
+      serializedVersion: 2
+      x: 250
+      y: 597
+      width: 106
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 250
+      y: 597
+      width: 106
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0566037744
+    paddingTop: .0238095243
+    paddingBottom: .0238095243
+  - name: denglu_zhanghaoguangli_3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 312
+      width: 112
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 312
+      width: 112
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0232558139
+    paddingBottom: 0
+  - name: denglu_zhanghaoguangli_1
+    outer:
+      serializedVersion: 2
+      x: 245
+      y: 313
+      width: 106
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 245
+      y: 313
+      width: 106
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0566037744
+    paddingTop: .0238095243
+    paddingBottom: .0238095243
+  - name: denglu_zhanghaoguangli_2
+    outer:
+      serializedVersion: 2
+      x: 226
+      y: 356
+      width: 112
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 226
+      y: 356
+      width: 112
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0232558139
+    paddingBottom: 0
+  - name: denglu_gongxi
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 98
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 98
+      height: 54
+    rotated: 0
+    paddingLeft: .0102040814
+    paddingRight: .0306122452
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_zhuce_zi
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 400
+      width: 90
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 400
+      width: 90
+      height: 54
+    rotated: 0
+    paddingLeft: .088888891
+    paddingRight: .0444444455
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_zhanghaoguanli
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 277
+      width: 134
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 277
+      width: 134
+      height: 34
+    rotated: 0
+    paddingLeft: .0298507456
+    paddingRight: .0447761193
+    paddingTop: .235294119
+    paddingBottom: .205882356
+  - name: denglu_xuanzefuwuqi_xuanzhong
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 554
+      width: 289
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 554
+      width: 289
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0540540554
+  - name: shurukuang
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 592
+      width: 249
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 592
+      width: 249
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0240963846
+    paddingTop: .0851063803
+    paddingBottom: .0638297871
+  - name: denglu_gengxin_jindu
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 807
+      width: 10
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 807
+      width: 10
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: denglu_gengxin_jindutiao
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 498
+      width: 368
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 498
+      width: 368
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_gengxin_beijingkuang
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 512
+      width: 452
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 512
+      width: 452
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglu_shurukuang
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 486
+      width: 195
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 486
+      width: 195
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ge
+    outer:
+      serializedVersion: 2
+      x: 772
+      y: 862
+      width: 162
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 812
+      y: 902
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shengji_jingyantiao_xiao_lv
+    outer:
+      serializedVersion: 2
+      x: 472
+      y: 819
+      width: 202
+      height: 7
+    inner:
+      serializedVersion: 2
+      x: 472
+      y: 819
+      width: 202
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: denglulogo
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 803
+      width: 471
+      height: 221
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 803
+      width: 471
+      height: 221
+    rotated: 0
+    paddingLeft: .0106157111
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bantouming
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 640
+      width: 360
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 640
+      width: 360
+      height: 162
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

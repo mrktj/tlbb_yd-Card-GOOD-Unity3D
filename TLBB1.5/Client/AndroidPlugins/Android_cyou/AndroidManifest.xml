@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyou.tlyd.android.tw"
+    android:installLocation="preferExternal"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:versionCode="1209"
+    android:versionName="1.2.0.9">
+
+  <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:debuggable="false"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.cyou.tlyd.android.tw.UnityPlayerProxyActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cyou.tlyd.android.tw.UnityPlayerActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.cyou.tlyd.android.tw.UnityPlayerNativeActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+           
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="unity" />
+            <meta-data
+                android:name="unityplayer.ForwardNativeEventsToDalvik"
+                android:value="true" />
+            
+        </activity>
+        <activity
+            android:name="com.cyou.mrd.kdtl.web.KDTLWebView"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+        </activity>
+		
+		<activity android:name="com.chartboost.sdk.CBImpressionActivity"
+		android:excludeFromRecents="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+              
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="523289c956240b6ecd0a1a58" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="changyou" />
+            
+        
+       
+        <!-- meta-data android:name="ServerListUrl" android:value="http://files2.changyou.com/tlydand/servers.txt"  -->
+        <!--玄武岛测试间服务器 -->
+        <meta-data android:name="ServerListUrl" android:value="http://115.160.140.207:81/servers_android.txt" />
+        <!-- 渠道号标识 android_xxxx -->
+        <meta-data android:name="ChannelID" android:value="android_googleplay" />
+
+		
+		<!-- 整合SDK统计所需 -->
+		<receiver android:name="com.cyou.tlyd.tracker.ReferrerReceiver" android:exported="true">
+			<intent-filter>
+			<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+			</receiver>
+		<!-- 整合SDK统计所需 END -->
+        
+        <!-- add by liujianmin for facebook-->
+        <activity android:name="com.facebook.LoginActivity" 
+            android:screenOrientation="portrait" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>    
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="\ 576288429093325" />
+        
+        
+        <activity android:name="com.unity3d.plugin.downloader.UnityDownloaderActivity" />
+        <service android:name="com.unity3d.plugin.downloader.UnityDownloaderService" />
+        <receiver android:name="com.unity3d.plugin.downloader.UnityAlarmReceiver" />
+		
+        <activity android:name="com.prime31.GoogleIABProxyActivity" android:configChanges="orientation"></activity>
+    </application>
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="16" />
+
+    <uses-feature android:glEsVersion="0x00020000" />
+	<uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 联网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- WIFI, MAC地址 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 读写sd 卡的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 手机型号 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 地理位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    
+     <!-- 安智平台用到的权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <!-- uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /-->
+    <uses-permission android:name="android.permission.ACCESS_FIND_LOCATION" />
+    <!-- uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"  /-->
+    <!-- uses-permission android:name="android.permission.READ_PHONE_STATE"  /-->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>
