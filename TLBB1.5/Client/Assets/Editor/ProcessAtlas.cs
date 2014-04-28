@@ -250,4 +250,47 @@ public class ProcessAtlas : EditorWindow {
 		return searched!= null;
 	}
 	
+	[MenuItem("Assets/ReBuildFont",false)]
+	static public bool isFont(){
+		if(Selection.gameObjects != null){
+			return true;
+		}else{
+			return false;
+		
+		}
+		
+	
+	}
+	
+	[MenuItem("Assets/ReBuildFont",false)]
+	static public void  RebuildFont(){
+		foreach(GameObject obj in Selection.gameObjects){
+			UIFont uifont = obj.GetComponent<UIFont>();
+			if(uifont != null){
+				baseFont = uifont.dynamicFont;
+				if(baseFont != null){
+					FixBrokenWord();
+				}
+				
+				
+			}
+			
+		}
+	
+	}
+	
+static string chineseTxt = null;  
+static public UnityEngine.Font baseFont;  
+    static public void FixBrokenWord()  
+    {  
+        if (chineseTxt == null) {  
+            TextAsset txt = Resources.Load("font/chinese") as TextAsset;  
+            chineseTxt = txt.ToString();  
+        }  
+   
+        baseFont.RequestCharactersInTexture(chineseTxt);  
+        Texture texture = baseFont.material.mainTexture;    // Font的内部纹理  
+        Debug.Log(string.Format("texture:{0}   {1}", texture.width, texture.height);   // 纹理大小  
+    }	
+	
 }
